@@ -1,0 +1,21 @@
+# Custom metrics
+
+## Parent
+- [[HPA]]
+
+## Enfants
+...
+
+## Concepts liés
+- [[HPA]]
+- [[Prometheus]]
+- [[Application metrics]]
+
+## Définition
+...
+
+## Pourquoi c'est important
+...
+
+## Exemple
+...
