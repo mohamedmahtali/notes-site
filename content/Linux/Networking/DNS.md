@@ -4,6 +4,9 @@
 - [[Networking]]
 
 ## Enfants
+- [[DNS Implémentation]]
+- [[DNS Glossaire]]
+
 - [[A record]]
 - [[CNAME]]
 - [[MX]]
