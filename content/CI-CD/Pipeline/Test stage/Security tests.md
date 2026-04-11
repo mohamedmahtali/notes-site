@@ -1,3 +1,8 @@
+---
+title: Security tests
+tags:
+  - advanced
+---
 # Security tests
 
 ## Parent

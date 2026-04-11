@@ -1,3 +1,8 @@
+---
+title: traceroute
+tags:
+  - advanced
+---
 # traceroute
 
 ## Parent

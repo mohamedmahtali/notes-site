@@ -1,3 +1,8 @@
+---
+title: Automated tests
+tags:
+  - advanced
+---
 # Automated tests
 
 ## Parent

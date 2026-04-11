@@ -1,3 +1,8 @@
+---
+title: Playbooks
+tags:
+  - advanced
+---
 # Playbooks
 
 ## Parent

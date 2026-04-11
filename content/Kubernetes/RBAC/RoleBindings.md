@@ -1,3 +1,8 @@
+---
+title: RoleBindings
+tags:
+  - intermediate
+---
 # RoleBindings
 
 ## Parent

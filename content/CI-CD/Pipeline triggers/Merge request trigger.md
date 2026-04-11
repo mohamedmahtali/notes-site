@@ -1,3 +1,8 @@
+---
+title: Merge request trigger
+tags:
+  - advanced
+---
 # Merge request trigger
 
 ## Parent

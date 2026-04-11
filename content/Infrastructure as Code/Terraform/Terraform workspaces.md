@@ -1,3 +1,8 @@
+---
+title: Terraform workspaces
+tags:
+  - advanced
+---
 # Terraform workspaces
 
 ## Parent

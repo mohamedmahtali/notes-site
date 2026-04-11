@@ -1,3 +1,8 @@
+---
+title: Images
+tags:
+  - advanced
+---
 # Images
 
 ## Parent

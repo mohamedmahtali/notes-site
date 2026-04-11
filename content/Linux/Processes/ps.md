@@ -1,3 +1,8 @@
+---
+title: ps
+tags:
+  - advanced
+---
 # ps
 
 ## Parent

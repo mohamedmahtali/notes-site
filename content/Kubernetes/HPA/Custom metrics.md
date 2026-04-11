@@ -1,3 +1,8 @@
+---
+title: Custom metrics
+tags:
+  - intermediate
+---
 # Custom metrics
 
 ## Parent

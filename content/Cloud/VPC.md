@@ -1,3 +1,8 @@
+---
+title: VPC
+tags:
+  - intermediate
+---
 # VPC
 
 ## Parent

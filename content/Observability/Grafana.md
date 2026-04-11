@@ -1,3 +1,8 @@
+---
+title: Grafana
+tags:
+  - intermediate
+---
 # Grafana
 
 ## Parent

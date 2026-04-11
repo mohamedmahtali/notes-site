@@ -1,3 +1,8 @@
+---
+title: Module outputs
+tags:
+  - advanced
+---
 # Module outputs
 
 ## Parent

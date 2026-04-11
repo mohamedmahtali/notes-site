@@ -1,3 +1,8 @@
+---
+title: Fast forward merge
+tags:
+  - advanced
+---
 # Fast forward merge
 
 ## Parent

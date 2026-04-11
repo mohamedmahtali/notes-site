@@ -1,3 +1,8 @@
+---
+title: Private key
+tags:
+  - advanced
+---
 # Private key
 
 ## Parent

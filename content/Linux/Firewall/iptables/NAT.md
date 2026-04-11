@@ -1,3 +1,8 @@
+---
+title: NAT
+tags:
+  - advanced
+---
 # NAT
 
 ## Parent

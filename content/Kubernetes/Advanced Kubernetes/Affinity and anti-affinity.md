@@ -1,3 +1,8 @@
+---
+title: Affinity and anti-affinity
+tags:
+  - intermediate
+---
 # Affinity and anti-affinity
 
 ## Parent

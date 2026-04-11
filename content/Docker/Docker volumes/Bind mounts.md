@@ -1,3 +1,8 @@
+---
+title: Bind mounts
+tags:
+  - advanced
+---
 # Bind mounts
 
 ## Parent

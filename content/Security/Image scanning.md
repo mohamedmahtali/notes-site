@@ -1,3 +1,8 @@
+---
+title: Image scanning
+tags:
+  - intermediate
+---
 # Image scanning
 
 ## Parent

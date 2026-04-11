@@ -1,3 +1,8 @@
+---
+title: Monitoring
+tags:
+  - intermediate
+---
 # Monitoring
 
 ## Parent

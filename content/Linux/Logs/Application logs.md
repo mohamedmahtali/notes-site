@@ -1,3 +1,8 @@
+---
+title: Application logs
+tags:
+  - advanced
+---
 # Application logs
 
 ## Parent

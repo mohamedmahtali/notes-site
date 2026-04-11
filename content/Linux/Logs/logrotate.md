@@ -1,3 +1,8 @@
+---
+title: logrotate
+tags:
+  - advanced
+---
 # logrotate
 
 ## Parent

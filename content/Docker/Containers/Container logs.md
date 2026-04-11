@@ -1,3 +1,8 @@
+---
+title: Container logs
+tags:
+  - advanced
+---
 # Container logs
 
 ## Parent

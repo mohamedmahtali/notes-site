@@ -1,3 +1,8 @@
+---
+title: Comparaison rapide
+tags:
+  - advanced
+---
 ### Parent
 - [[DNS]]
 

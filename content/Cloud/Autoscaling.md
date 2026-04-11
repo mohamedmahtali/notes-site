@@ -1,3 +1,8 @@
+---
+title: Autoscaling
+tags:
+  - intermediate
+---
 # Autoscaling
 
 ## Parent

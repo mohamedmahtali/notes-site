@@ -1,3 +1,8 @@
+---
+title: Certificates
+tags:
+  - intermediate
+---
 # Certificates
 
 ## Parent

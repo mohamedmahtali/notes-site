@@ -1,3 +1,8 @@
+---
+title: Loops
+tags:
+  - advanced
+---
 # Loops
 
 ## Parent

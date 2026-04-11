@@ -1,3 +1,8 @@
+---
+title: Secrets management
+tags:
+  - intermediate
+---
 # Secrets management
 
 ## Parent

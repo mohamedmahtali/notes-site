@@ -1,3 +1,8 @@
+---
+title: Bare repository
+tags:
+  - advanced
+---
 # Bare repository
 
 ## Parent

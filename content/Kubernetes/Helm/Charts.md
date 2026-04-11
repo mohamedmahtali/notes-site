@@ -1,3 +1,8 @@
+---
+title: Charts
+tags:
+  - intermediate
+---
 # Charts
 
 ## Parent

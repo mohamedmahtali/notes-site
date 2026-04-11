@@ -1,3 +1,8 @@
+---
+title: SIGTERM
+tags:
+  - advanced
+---
 # SIGTERM
 
 ## Parent

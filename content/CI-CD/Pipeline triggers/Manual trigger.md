@@ -1,3 +1,8 @@
+---
+title: Manual trigger
+tags:
+  - advanced
+---
 # Manual trigger
 
 ## Parent

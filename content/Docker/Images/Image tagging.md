@@ -1,3 +1,8 @@
+---
+title: Image tagging
+tags:
+  - advanced
+---
 # Image tagging
 
 ## Parent

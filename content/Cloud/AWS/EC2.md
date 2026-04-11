@@ -1,3 +1,8 @@
+---
+title: EC2
+tags:
+  - advanced
+---
 # EC2
 
 ## Parent

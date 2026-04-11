@@ -1,3 +1,8 @@
+---
+title: SSH
+tags:
+  - intermediate
+---
 # SSH
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Hotfix branch
+tags:
+  - advanced
+---
 # Hotfix branch
 
 ## Parent

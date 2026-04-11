@@ -1,3 +1,8 @@
+---
+title: TLS secrets
+tags:
+  - intermediate
+---
 # TLS secrets
 
 ## Parent

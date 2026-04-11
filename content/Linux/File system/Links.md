@@ -1,3 +1,8 @@
+---
+title: Links
+tags:
+  - advanced
+---
 # Links
 
 ## Parent

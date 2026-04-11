@@ -1,3 +1,8 @@
+---
+title: sudo
+tags:
+  - advanced
+---
 # sudo
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Git submodules
+tags:
+  - intermediate
+---
 # Git submodules
 
 ## Parent

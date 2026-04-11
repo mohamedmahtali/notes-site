@@ -1,3 +1,8 @@
+---
+title: SCP and SFTP
+tags:
+  - advanced
+---
 # SCP and SFTP
 
 ## Parent

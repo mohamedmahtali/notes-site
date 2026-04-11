@@ -1,3 +1,8 @@
+---
+title: MX
+tags:
+  - advanced
+---
 # MX
 
 ## Parent

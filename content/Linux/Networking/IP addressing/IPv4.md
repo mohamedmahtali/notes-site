@@ -1,3 +1,8 @@
+---
+title: IPv4
+tags:
+  - advanced
+---
 # IPv4
 
 ## Parent

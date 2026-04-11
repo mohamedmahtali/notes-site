@@ -1,3 +1,8 @@
+---
+title: Path based routing
+tags:
+  - intermediate
+---
 # Path based routing
 
 ## Parent

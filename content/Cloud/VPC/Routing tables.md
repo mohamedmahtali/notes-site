@@ -1,3 +1,8 @@
+---
+title: Routing tables
+tags:
+  - advanced
+---
 # Routing tables
 
 ## Parent

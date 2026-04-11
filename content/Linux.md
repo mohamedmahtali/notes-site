@@ -1,3 +1,8 @@
+---
+title: Linux
+tags:
+  - beginner
+---
 # Linux
 
 ## Parent

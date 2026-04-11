@@ -1,3 +1,8 @@
+---
+title: SSH keys
+tags:
+  - advanced
+---
 # SSH keys
 
 ## Parent

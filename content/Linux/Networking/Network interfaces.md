@@ -1,3 +1,8 @@
+---
+title: Network interfaces
+tags:
+  - advanced
+---
 # Network interfaces
 
 ## Parent

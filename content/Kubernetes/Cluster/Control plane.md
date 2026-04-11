@@ -1,3 +1,8 @@
+---
+title: Control plane
+tags:
+  - intermediate
+---
 # Control plane
 
 ## Parent

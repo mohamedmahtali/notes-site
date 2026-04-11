@@ -1,3 +1,8 @@
+---
+title: Terraform plan
+tags:
+  - advanced
+---
 # Terraform plan
 
 ## Parent

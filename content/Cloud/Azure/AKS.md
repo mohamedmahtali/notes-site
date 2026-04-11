@@ -1,3 +1,8 @@
+---
+title: AKS
+tags:
+  - advanced
+---
 # AKS
 
 ## Parent

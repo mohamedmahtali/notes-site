@@ -1,3 +1,8 @@
+---
+title: Merge conflicts
+tags:
+  - advanced
+---
 # Merge conflicts
 
 ## Parent

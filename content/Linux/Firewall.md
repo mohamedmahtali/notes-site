@@ -1,3 +1,8 @@
+---
+title: Firewall
+tags:
+  - intermediate
+---
 # Firewall
 
 ## Parent

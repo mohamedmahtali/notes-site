@@ -1,3 +1,8 @@
+---
+title: Inbound rules
+tags:
+  - advanced
+---
 # Inbound rules
 
 ## Parent

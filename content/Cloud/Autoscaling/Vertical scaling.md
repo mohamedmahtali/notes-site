@@ -1,3 +1,8 @@
+---
+title: Vertical scaling
+tags:
+  - advanced
+---
 # Vertical scaling
 
 ## Parent

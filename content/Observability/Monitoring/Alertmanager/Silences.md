@@ -1,3 +1,8 @@
+---
+title: Silences
+tags:
+  - advanced
+---
 # Silences
 
 ## Parent

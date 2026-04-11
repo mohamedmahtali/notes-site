@@ -1,3 +1,8 @@
+---
+title: Pod disruption budgets
+tags:
+  - intermediate
+---
 # Pod disruption budgets
 
 ## Parent

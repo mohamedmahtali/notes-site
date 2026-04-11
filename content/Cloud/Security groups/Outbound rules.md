@@ -1,3 +1,8 @@
+---
+title: Outbound rules
+tags:
+  - advanced
+---
 # Outbound rules
 
 ## Parent

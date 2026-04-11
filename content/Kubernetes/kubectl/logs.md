@@ -1,3 +1,8 @@
+---
+title: logs
+tags:
+  - intermediate
+---
 # logs
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Remote repository
+tags:
+  - advanced
+---
 # Remote repository
 
 ## Parent

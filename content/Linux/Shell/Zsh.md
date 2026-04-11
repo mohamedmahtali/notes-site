@@ -1,3 +1,8 @@
+---
+title: Zsh
+tags:
+  - advanced
+---
 # Zsh
 
 ## Parent

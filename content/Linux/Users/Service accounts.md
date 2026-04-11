@@ -1,3 +1,8 @@
+---
+title: Service accounts
+tags:
+  - advanced
+---
 # Service accounts
 
 ## Parent

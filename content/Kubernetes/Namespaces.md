@@ -1,3 +1,8 @@
+---
+title: Namespaces
+tags:
+  - intermediate
+---
 # Namespaces
 
 ## Parent

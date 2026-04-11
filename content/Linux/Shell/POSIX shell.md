@@ -1,3 +1,8 @@
+---
+title: POSIX shell
+tags:
+  - advanced
+---
 # POSIX shell
 
 ## Parent

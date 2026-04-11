@@ -1,3 +1,8 @@
+---
+title: Availability target
+tags:
+  - advanced
+---
 # Availability target
 
 ## Parent

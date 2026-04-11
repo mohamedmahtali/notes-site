@@ -1,3 +1,8 @@
+---
+title: Annotated tags
+tags:
+  - advanced
+---
 # Annotated tags
 
 ## Parent

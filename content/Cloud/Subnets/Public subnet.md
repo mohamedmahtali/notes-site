@@ -1,3 +1,8 @@
+---
+title: Public subnet
+tags:
+  - advanced
+---
 # Public subnet
 
 ## Parent

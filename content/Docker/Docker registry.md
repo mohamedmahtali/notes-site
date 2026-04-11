@@ -1,3 +1,8 @@
+---
+title: Docker registry
+tags:
+  - intermediate
+---
 # Docker registry
 
 ## Parent

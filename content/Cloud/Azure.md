@@ -1,3 +1,8 @@
+---
+title: Azure
+tags:
+  - intermediate
+---
 # Azure
 
 ## Parent

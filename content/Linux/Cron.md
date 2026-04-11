@@ -1,3 +1,8 @@
+---
+title: Cron
+tags:
+  - intermediate
+---
 # Cron
 
 ## Parent

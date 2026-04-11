@@ -1,3 +1,8 @@
+---
+title: Log filtering
+tags:
+  - advanced
+---
 # Log filtering
 
 ## Parent

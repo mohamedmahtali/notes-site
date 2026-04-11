@@ -1,3 +1,8 @@
+---
+title: Apply stash
+tags:
+  - advanced
+---
 # Apply stash
 
 ## Parent

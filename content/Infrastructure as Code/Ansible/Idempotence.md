@@ -1,3 +1,8 @@
+---
+title: Idempotence
+tags:
+  - advanced
+---
 # Idempotence
 
 ## Parent

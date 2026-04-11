@@ -1,3 +1,8 @@
+---
+title: Shift left security
+tags:
+  - advanced
+---
 # Shift left security
 
 ## Parent

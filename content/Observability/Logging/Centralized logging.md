@@ -1,3 +1,8 @@
+---
+title: Centralized logging
+tags:
+  - advanced
+---
 # Centralized logging
 
 ## Parent

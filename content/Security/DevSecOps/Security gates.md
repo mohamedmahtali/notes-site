@@ -1,3 +1,8 @@
+---
+title: Security gates
+tags:
+  - advanced
+---
 # Security gates
 
 ## Parent

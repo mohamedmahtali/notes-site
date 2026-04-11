@@ -1,3 +1,8 @@
+---
+title: Private registry
+tags:
+  - advanced
+---
 # Private registry
 
 ## Parent

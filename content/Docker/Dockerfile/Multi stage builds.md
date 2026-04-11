@@ -1,3 +1,8 @@
+---
+title: Multi stage builds
+tags:
+  - advanced
+---
 # Multi stage builds
 
 ## Parent

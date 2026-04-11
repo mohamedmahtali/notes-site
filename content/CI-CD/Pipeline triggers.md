@@ -1,3 +1,8 @@
+---
+title: Pipeline triggers
+tags:
+  - intermediate
+---
 # Pipeline triggers
 
 ## Parent

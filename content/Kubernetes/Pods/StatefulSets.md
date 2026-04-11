@@ -1,3 +1,8 @@
+---
+title: StatefulSets
+tags:
+  - intermediate
+---
 # StatefulSets
 
 ## Parent

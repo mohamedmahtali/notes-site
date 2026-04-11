@@ -1,3 +1,8 @@
+---
+title: Git tags
+tags:
+  - intermediate
+---
 # Git tags
 
 ## Parent

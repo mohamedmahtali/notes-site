@@ -1,3 +1,8 @@
+---
+title: IaaS
+tags:
+  - intermediate
+---
 # IaaS
 
 ## Parent

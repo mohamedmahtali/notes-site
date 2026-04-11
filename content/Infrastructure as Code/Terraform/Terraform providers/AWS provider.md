@@ -1,3 +1,8 @@
+---
+title: AWS provider
+tags:
+  - advanced
+---
 # AWS provider
 
 ## Parent

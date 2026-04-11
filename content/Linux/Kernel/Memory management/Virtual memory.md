@@ -1,3 +1,8 @@
+---
+title: Virtual memory
+tags:
+  - advanced
+---
 # Virtual memory
 
 ## Parent

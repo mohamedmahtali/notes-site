@@ -1,3 +1,8 @@
+---
+title: Bash
+tags:
+  - advanced
+---
 # Bash
 
 ## Parent

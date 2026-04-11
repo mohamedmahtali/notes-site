@@ -1,3 +1,8 @@
+---
+title: Zero trust
+tags:
+  - intermediate
+---
 # Zero trust
 
 ## Parent

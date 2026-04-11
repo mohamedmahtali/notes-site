@@ -1,3 +1,8 @@
+---
+title: Base image vulnerabilities
+tags:
+  - advanced
+---
 # Base image vulnerabilities
 
 ## Parent

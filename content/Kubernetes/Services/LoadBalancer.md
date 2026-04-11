@@ -1,3 +1,8 @@
+---
+title: LoadBalancer
+tags:
+  - intermediate
+---
 # LoadBalancer
 
 ## Parent

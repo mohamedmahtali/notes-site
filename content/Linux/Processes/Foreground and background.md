@@ -1,3 +1,8 @@
+---
+title: Foreground and background
+tags:
+  - advanced
+---
 # Foreground and background
 
 ## Parent

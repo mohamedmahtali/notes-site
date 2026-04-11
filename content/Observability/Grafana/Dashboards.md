@@ -1,3 +1,8 @@
+---
+title: Dashboards
+tags:
+  - advanced
+---
 # Dashboards
 
 ## Parent

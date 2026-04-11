@@ -1,3 +1,8 @@
+---
+title: Continuous delivery
+tags:
+  - intermediate
+---
 # Continuous delivery
 
 ## Parent

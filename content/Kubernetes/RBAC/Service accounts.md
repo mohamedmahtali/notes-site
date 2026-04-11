@@ -1,3 +1,8 @@
+---
+title: Service accounts
+tags:
+  - intermediate
+---
 # Service accounts
 
 ## Parent

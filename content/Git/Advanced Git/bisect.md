@@ -1,3 +1,8 @@
+---
+title: bisect
+tags:
+  - advanced
+---
 # bisect
 
 ## Parent

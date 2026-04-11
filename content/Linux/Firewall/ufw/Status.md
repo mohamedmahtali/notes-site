@@ -1,3 +1,8 @@
+---
+title: Status
+tags:
+  - advanced
+---
 # Status
 
 ## Parent

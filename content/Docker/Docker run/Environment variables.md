@@ -1,3 +1,8 @@
+---
+title: Environment variables
+tags:
+  - advanced
+---
 # Environment variables
 
 ## Parent

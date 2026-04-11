@@ -1,3 +1,8 @@
+---
+title: Passphrase
+tags:
+  - advanced
+---
 # Passphrase
 
 ## Parent

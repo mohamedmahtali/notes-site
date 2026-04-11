@@ -1,3 +1,8 @@
+---
+title: Cloud controller manager
+tags:
+  - intermediate
+---
 # Cloud controller manager
 
 ## Parent

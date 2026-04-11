@@ -1,3 +1,8 @@
+---
+title: Environment secrets
+tags:
+  - advanced
+---
 # Environment secrets
 
 ## Parent

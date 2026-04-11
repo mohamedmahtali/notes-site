@@ -1,3 +1,8 @@
+---
+title: Secrets handling
+tags:
+  - advanced
+---
 # Secrets handling
 
 ## Parent

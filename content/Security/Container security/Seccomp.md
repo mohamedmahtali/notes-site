@@ -1,3 +1,8 @@
+---
+title: Seccomp
+tags:
+  - advanced
+---
 # Seccomp
 
 ## Parent

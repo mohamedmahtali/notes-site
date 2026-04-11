@@ -1,3 +1,8 @@
+---
+title: Subnets
+tags:
+  - intermediate
+---
 # Subnets
 
 ## Parent

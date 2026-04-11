@@ -1,3 +1,8 @@
+---
+title: Taints and tolerations
+tags:
+  - intermediate
+---
 # Taints and tolerations
 
 ## Parent

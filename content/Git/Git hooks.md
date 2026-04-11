@@ -1,3 +1,8 @@
+---
+title: Git hooks
+tags:
+  - intermediate
+---
 # Git hooks
 
 ## Parent

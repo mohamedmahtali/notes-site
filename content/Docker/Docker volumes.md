@@ -1,3 +1,8 @@
+---
+title: Docker volumes
+tags:
+  - intermediate
+---
 # Docker volumes
 
 ## Parent

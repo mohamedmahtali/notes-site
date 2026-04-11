@@ -1,3 +1,8 @@
+---
+title: Artifacts
+tags:
+  - intermediate
+---
 # Artifacts
 
 ## Parent

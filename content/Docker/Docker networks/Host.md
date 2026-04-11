@@ -1,3 +1,8 @@
+---
+title: Host
+tags:
+  - advanced
+---
 # Host
 
 ## Parent

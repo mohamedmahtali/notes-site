@@ -1,3 +1,8 @@
+---
+title: Secret rotation
+tags:
+  - advanced
+---
 # Secret rotation
 
 ## Parent

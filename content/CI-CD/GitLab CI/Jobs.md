@@ -1,3 +1,8 @@
+---
+title: Jobs
+tags:
+  - advanced
+---
 # Jobs
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Deploy stage
+tags:
+  - advanced
+---
 # Deploy stage
 
 ## Parent

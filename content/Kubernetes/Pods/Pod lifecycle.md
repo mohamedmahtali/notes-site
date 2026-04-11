@@ -1,3 +1,8 @@
+---
+title: Pod lifecycle
+tags:
+  - intermediate
+---
 # Pod lifecycle
 
 ## Parent

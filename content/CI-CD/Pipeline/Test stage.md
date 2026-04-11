@@ -1,3 +1,8 @@
+---
+title: Test stage
+tags:
+  - advanced
+---
 # Test stage
 
 ## Parent

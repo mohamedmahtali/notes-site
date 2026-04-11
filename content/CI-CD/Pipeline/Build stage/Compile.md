@@ -1,3 +1,8 @@
+---
+title: Compile
+tags:
+  - advanced
+---
 # Compile
 
 ## Parent

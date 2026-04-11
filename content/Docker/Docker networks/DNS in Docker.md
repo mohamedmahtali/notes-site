@@ -1,3 +1,8 @@
+---
+title: DNS in Docker
+tags:
+  - advanced
+---
 # DNS in Docker
 
 ## Parent

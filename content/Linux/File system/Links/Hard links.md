@@ -1,3 +1,8 @@
+---
+title: Hard links
+tags:
+  - advanced
+---
 # Hard links
 
 ## Parent

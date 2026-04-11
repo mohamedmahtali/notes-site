@@ -1,3 +1,8 @@
+---
+title: ping
+tags:
+  - advanced
+---
 # ping
 
 ## Parent

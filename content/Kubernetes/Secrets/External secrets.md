@@ -1,3 +1,8 @@
+---
+title: External secrets
+tags:
+  - intermediate
+---
 # External secrets
 
 ## Parent

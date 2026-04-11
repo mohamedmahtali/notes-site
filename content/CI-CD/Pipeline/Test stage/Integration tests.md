@@ -1,3 +1,8 @@
+---
+title: Integration tests
+tags:
+  - advanced
+---
 # Integration tests
 
 ## Parent

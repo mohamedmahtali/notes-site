@@ -1,3 +1,8 @@
+---
+title: Global ignore
+tags:
+  - advanced
+---
 # Global ignore
 
 ## Parent

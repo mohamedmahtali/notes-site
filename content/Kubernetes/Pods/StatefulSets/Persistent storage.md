@@ -1,3 +1,8 @@
+---
+title: Persistent storage
+tags:
+  - intermediate
+---
 # Persistent storage
 
 ## Parent

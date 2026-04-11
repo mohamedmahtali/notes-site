@@ -1,3 +1,8 @@
+---
+title: Continuous integration
+tags:
+  - intermediate
+---
 # Continuous integration
 
 ## Parent

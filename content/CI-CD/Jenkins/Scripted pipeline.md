@@ -1,3 +1,8 @@
+---
+title: Scripted pipeline
+tags:
+  - advanced
+---
 # Scripted pipeline
 
 ## Parent

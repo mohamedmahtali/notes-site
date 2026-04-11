@@ -1,3 +1,8 @@
+---
+title: Namespace isolation
+tags:
+  - advanced
+---
 # Namespace isolation
 
 ## Parent

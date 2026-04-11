@@ -1,3 +1,8 @@
+---
+title: emptyDir
+tags:
+  - intermediate
+---
 # emptyDir
 
 ## Parent

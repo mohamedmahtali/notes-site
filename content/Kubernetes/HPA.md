@@ -1,3 +1,8 @@
+---
+title: HPA
+tags:
+  - intermediate
+---
 # HPA
 
 ## Parent

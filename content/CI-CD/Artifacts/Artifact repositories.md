@@ -1,3 +1,8 @@
+---
+title: Artifact repositories
+tags:
+  - advanced
+---
 # Artifact repositories
 
 ## Parent

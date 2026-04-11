@@ -1,3 +1,8 @@
+---
+title: Rolling updates
+tags:
+  - intermediate
+---
 # Rolling updates
 
 ## Parent

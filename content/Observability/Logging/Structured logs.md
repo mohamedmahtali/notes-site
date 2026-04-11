@@ -1,3 +1,8 @@
+---
+title: Structured logs
+tags:
+  - advanced
+---
 # Structured logs
 
 ## Parent

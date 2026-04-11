@@ -1,3 +1,8 @@
+---
+title: Dynamic secrets
+tags:
+  - advanced
+---
 # Dynamic secrets
 
 ## Parent

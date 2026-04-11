@@ -1,3 +1,8 @@
+---
+title: Troubleshooting
+tags:
+  - advanced
+---
 # Troubleshooting
 
 ## Parent

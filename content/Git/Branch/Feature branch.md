@@ -1,3 +1,8 @@
+---
+title: Feature branch
+tags:
+  - advanced
+---
 # Feature branch
 
 ## Parent

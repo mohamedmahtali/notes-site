@@ -1,3 +1,8 @@
+---
+title: Custom controllers
+tags:
+  - intermediate
+---
 # Custom controllers
 
 ## Parent

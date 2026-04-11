@@ -1,3 +1,8 @@
+---
+title: exec
+tags:
+  - intermediate
+---
 # exec
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Prometheus
+tags:
+  - advanced
+---
 # Prometheus
 
 ## Parent

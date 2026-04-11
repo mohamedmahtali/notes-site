@@ -1,3 +1,8 @@
+---
+title: Opaque secrets
+tags:
+  - intermediate
+---
 # Opaque secrets
 
 ## Parent

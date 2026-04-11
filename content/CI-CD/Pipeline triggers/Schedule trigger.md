@@ -1,3 +1,8 @@
+---
+title: Schedule trigger
+tags:
+  - advanced
+---
 # Schedule trigger
 
 ## Parent

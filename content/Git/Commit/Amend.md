@@ -1,3 +1,8 @@
+---
+title: Amend
+tags:
+  - advanced
+---
 # Amend
 
 ## Parent

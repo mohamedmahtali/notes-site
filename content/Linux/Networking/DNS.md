@@ -1,3 +1,8 @@
+---
+title: DNS
+tags:
+  - advanced
+---
 # DNS
 
 ## Parent

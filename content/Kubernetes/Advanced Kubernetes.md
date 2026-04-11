@@ -1,3 +1,8 @@
+---
+title: Advanced Kubernetes
+tags:
+  - intermediate
+---
 # Advanced Kubernetes
 
 ## Parent

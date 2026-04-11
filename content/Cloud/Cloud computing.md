@@ -1,3 +1,8 @@
+---
+title: Cloud computing
+tags:
+  - beginner
+---
 # Cloud computing
 
 ## Parent

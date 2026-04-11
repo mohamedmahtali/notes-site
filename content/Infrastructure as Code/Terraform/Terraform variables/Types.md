@@ -1,3 +1,8 @@
+---
+title: Types
+tags:
+  - advanced
+---
 # Types
 
 ## Parent

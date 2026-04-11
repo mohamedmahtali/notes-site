@@ -1,3 +1,8 @@
+---
+title: Local state
+tags:
+  - advanced
+---
 # Local state
 
 ## Parent

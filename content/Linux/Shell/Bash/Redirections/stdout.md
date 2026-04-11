@@ -1,3 +1,8 @@
+---
+title: stdout
+tags:
+  - advanced
+---
 # stdout
 
 ## Parent

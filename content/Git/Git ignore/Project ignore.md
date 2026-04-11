@@ -1,3 +1,8 @@
+---
+title: Project ignore
+tags:
+  - advanced
+---
 # Project ignore
 
 ## Parent

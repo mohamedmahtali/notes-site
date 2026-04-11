@@ -1,3 +1,8 @@
+---
+title: mixed
+tags:
+  - advanced
+---
 # mixed
 
 ## Parent

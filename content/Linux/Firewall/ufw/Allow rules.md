@@ -1,3 +1,8 @@
+---
+title: Allow rules
+tags:
+  - advanced
+---
 # Allow rules
 
 ## Parent

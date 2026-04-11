@@ -1,3 +1,8 @@
+---
+title: Secret engines
+tags:
+  - advanced
+---
 # Secret engines
 
 ## Parent

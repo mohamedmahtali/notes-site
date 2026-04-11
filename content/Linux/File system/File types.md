@@ -1,3 +1,8 @@
+---
+title: File types
+tags:
+  - advanced
+---
 # File types
 
 ## Parent

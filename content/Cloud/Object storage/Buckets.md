@@ -1,3 +1,8 @@
+---
+title: Buckets
+tags:
+  - advanced
+---
 # Buckets
 
 ## Parent

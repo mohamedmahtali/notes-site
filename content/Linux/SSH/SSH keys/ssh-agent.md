@@ -1,3 +1,8 @@
+---
+title: ssh-agent
+tags:
+  - advanced
+---
 # ssh-agent
 
 ## Parent

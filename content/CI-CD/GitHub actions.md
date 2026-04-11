@@ -1,3 +1,8 @@
+---
+title: GitHub actions
+tags:
+  - intermediate
+---
 # GitHub actions
 
 ## Parent

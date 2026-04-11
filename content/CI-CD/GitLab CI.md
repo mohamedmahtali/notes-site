@@ -1,3 +1,8 @@
+---
+title: GitLab CI
+tags:
+  - intermediate
+---
 # GitLab CI
 
 ## Parent

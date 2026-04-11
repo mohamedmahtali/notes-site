@@ -1,3 +1,8 @@
+---
+title: Virtual Machines
+tags:
+  - advanced
+---
 # Virtual Machines
 
 ## Parent

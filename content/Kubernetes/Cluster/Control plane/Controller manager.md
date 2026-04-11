@@ -1,3 +1,8 @@
+---
+title: Controller manager
+tags:
+  - intermediate
+---
 # Controller manager
 
 ## Parent

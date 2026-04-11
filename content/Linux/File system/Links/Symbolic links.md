@@ -1,3 +1,8 @@
+---
+title: Symbolic links
+tags:
+  - advanced
+---
 # Symbolic links
 
 ## Parent

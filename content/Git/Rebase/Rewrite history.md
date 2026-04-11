@@ -1,3 +1,8 @@
+---
+title: Rewrite history
+tags:
+  - advanced
+---
 # Rewrite history
 
 ## Parent

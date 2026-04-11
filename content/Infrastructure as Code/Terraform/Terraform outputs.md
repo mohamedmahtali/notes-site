@@ -1,3 +1,8 @@
+---
+title: Terraform outputs
+tags:
+  - advanced
+---
 # Terraform outputs
 
 ## Parent

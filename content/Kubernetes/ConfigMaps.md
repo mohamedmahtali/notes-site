@@ -1,3 +1,8 @@
+---
+title: ConfigMaps
+tags:
+  - intermediate
+---
 # ConfigMaps
 
 ## Parent

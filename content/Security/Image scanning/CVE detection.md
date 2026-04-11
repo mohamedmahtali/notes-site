@@ -1,3 +1,8 @@
+---
+title: CVE detection
+tags:
+  - advanced
+---
 # CVE detection
 
 ## Parent

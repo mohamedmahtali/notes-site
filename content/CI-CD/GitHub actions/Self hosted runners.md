@@ -1,3 +1,8 @@
+---
+title: Self hosted runners
+tags:
+  - advanced
+---
 # Self hosted runners
 
 ## Parent

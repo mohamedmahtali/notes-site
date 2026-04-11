@@ -1,3 +1,8 @@
+---
+title: SIGHUP
+tags:
+  - advanced
+---
 # SIGHUP
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Network policies
+tags:
+  - intermediate
+---
 # Network policies
 
 ## Parent

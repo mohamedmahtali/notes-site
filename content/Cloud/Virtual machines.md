@@ -1,3 +1,8 @@
+---
+title: Virtual machines
+tags:
+  - intermediate
+---
 # Virtual machines
 
 ## Parent

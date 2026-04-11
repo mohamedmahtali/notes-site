@@ -1,3 +1,8 @@
+---
+title: Advanced Git
+tags:
+  - intermediate
+---
 # Advanced Git
 
 ## Parent

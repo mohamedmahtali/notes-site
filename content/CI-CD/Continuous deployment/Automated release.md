@@ -1,3 +1,8 @@
+---
+title: Automated release
+tags:
+  - advanced
+---
 # Automated release
 
 ## Parent

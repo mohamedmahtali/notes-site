@@ -1,3 +1,8 @@
+---
+title: Self signed certificate
+tags:
+  - advanced
+---
 # Self signed certificate
 
 ## Parent

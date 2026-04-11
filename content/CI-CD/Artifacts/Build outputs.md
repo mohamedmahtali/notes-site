@@ -1,3 +1,8 @@
+---
+title: Build outputs
+tags:
+  - advanced
+---
 # Build outputs
 
 ## Parent

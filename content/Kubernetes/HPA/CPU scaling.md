@@ -1,3 +1,8 @@
+---
+title: CPU scaling
+tags:
+  - intermediate
+---
 # CPU scaling
 
 ## Parent

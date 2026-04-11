@@ -1,3 +1,8 @@
+---
+title: EKS
+tags:
+  - advanced
+---
 # EKS
 
 ## Parent

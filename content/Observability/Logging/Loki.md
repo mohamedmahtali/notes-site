@@ -1,3 +1,8 @@
+---
+title: Loki
+tags:
+  - advanced
+---
 # Loki
 
 ## Parent

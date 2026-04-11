@@ -1,3 +1,8 @@
+---
+title: Merge checks
+tags:
+  - advanced
+---
 # Merge checks
 
 ## Parent

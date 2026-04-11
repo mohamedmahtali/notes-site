@@ -1,3 +1,8 @@
+---
+title: Base images
+tags:
+  - advanced
+---
 # Base images
 
 ## Parent

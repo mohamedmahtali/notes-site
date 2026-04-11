@@ -1,3 +1,8 @@
+---
+title: Terraform apply
+tags:
+  - advanced
+---
 # Terraform apply
 
 ## Parent

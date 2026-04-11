@@ -1,3 +1,8 @@
+---
+title: Init containers
+tags:
+  - intermediate
+---
 # Init containers
 
 ## Parent

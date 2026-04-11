@@ -1,3 +1,8 @@
+---
+title: Three way merge
+tags:
+  - advanced
+---
 # Three way merge
 
 ## Parent

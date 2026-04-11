@@ -1,3 +1,8 @@
+---
+title: Defaults
+tags:
+  - advanced
+---
 # Defaults
 
 ## Parent

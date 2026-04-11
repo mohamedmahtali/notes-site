@@ -1,3 +1,8 @@
+---
+title: Panels
+tags:
+  - advanced
+---
 # Panels
 
 ## Parent

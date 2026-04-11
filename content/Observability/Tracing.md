@@ -1,3 +1,8 @@
+---
+title: Tracing
+tags:
+  - intermediate
+---
 # Tracing
 
 ## Parent

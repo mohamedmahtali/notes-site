@@ -1,3 +1,8 @@
+---
+title: CNAME
+tags:
+  - advanced
+---
 # CNAME
 
 ## Parent

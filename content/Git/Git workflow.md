@@ -1,3 +1,8 @@
+---
+title: Git workflow
+tags:
+  - intermediate
+---
 # Git workflow
 
 ## Parent

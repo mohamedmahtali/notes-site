@@ -1,3 +1,8 @@
+---
+title: Interactive rebase
+tags:
+  - advanced
+---
 # Interactive rebase
 
 ## Parent

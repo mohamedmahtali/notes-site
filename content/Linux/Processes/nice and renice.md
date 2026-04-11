@@ -1,3 +1,8 @@
+---
+title: nice and renice
+tags:
+  - advanced
+---
 # nice and renice
 
 ## Parent

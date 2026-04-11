@@ -1,3 +1,8 @@
+---
+title: restart
+tags:
+  - advanced
+---
 # restart
 
 ## Parent

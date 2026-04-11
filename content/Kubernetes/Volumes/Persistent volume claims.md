@@ -1,3 +1,8 @@
+---
+title: Persistent volume claims
+tags:
+  - intermediate
+---
 # Persistent volume claims
 
 ## Parent

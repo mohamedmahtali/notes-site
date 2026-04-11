@@ -1,3 +1,8 @@
+---
+title: Profiles
+tags:
+  - advanced
+---
 # Profiles
 
 ## Parent

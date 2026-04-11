@@ -1,3 +1,8 @@
+---
+title: Certificate renewal
+tags:
+  - advanced
+---
 # Certificate renewal
 
 ## Parent

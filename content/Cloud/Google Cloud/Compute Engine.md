@@ -1,3 +1,8 @@
+---
+title: Compute Engine
+tags:
+  - advanced
+---
 # Compute Engine
 
 ## Parent

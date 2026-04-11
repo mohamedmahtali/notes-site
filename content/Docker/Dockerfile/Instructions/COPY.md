@@ -1,3 +1,8 @@
+---
+title: COPY
+tags:
+  - advanced
+---
 # COPY
 
 ## Parent

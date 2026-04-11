@@ -1,3 +1,8 @@
+---
+title: Multi tenancy
+tags:
+  - intermediate
+---
 # Multi tenancy
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Private subnet
+tags:
+  - advanced
+---
 # Private subnet
 
 ## Parent

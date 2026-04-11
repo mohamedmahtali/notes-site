@@ -1,3 +1,8 @@
+---
+title: Deny rules
+tags:
+  - advanced
+---
 # Deny rules
 
 ## Parent

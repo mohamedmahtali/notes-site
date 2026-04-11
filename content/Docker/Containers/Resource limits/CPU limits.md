@@ -1,3 +1,8 @@
+---
+title: CPU limits
+tags:
+  - advanced
+---
 # CPU limits
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Variables
+tags:
+  - advanced
+---
 # Variables
 
 ## Parent

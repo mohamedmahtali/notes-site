@@ -1,3 +1,8 @@
+---
+title: Paging
+tags:
+  - advanced
+---
 # Paging
 
 ## Parent

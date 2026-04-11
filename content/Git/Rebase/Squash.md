@@ -1,3 +1,8 @@
+---
+title: Squash
+tags:
+  - advanced
+---
 # Squash
 
 ## Parent

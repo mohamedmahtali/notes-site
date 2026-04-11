@@ -1,3 +1,8 @@
+---
+title: Vault
+tags:
+  - advanced
+---
 # Vault
 
 ## Parent

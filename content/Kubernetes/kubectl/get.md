@@ -1,3 +1,8 @@
+---
+title: get
+tags:
+  - intermediate
+---
 # get
 
 ## Parent

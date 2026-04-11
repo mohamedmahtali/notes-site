@@ -1,3 +1,8 @@
+---
+title: Capability dropping
+tags:
+  - advanced
+---
 # Capability dropping
 
 ## Parent

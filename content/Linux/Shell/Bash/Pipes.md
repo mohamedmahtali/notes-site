@@ -1,3 +1,8 @@
+---
+title: Pipes
+tags:
+  - advanced
+---
 # Pipes
 
 ## Parent

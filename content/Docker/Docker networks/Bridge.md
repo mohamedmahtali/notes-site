@@ -1,3 +1,8 @@
+---
+title: Bridge
+tags:
+  - advanced
+---
 # Bridge
 
 ## Parent

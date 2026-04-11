@@ -1,3 +1,8 @@
+---
+title: Container lifecycle
+tags:
+  - advanced
+---
 # Container lifecycle
 
 ## Parent

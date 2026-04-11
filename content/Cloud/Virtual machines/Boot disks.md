@@ -1,3 +1,8 @@
+---
+title: Boot disks
+tags:
+  - advanced
+---
 # Boot disks
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Boot logs
+tags:
+  - advanced
+---
 # Boot logs
 
 ## Parent

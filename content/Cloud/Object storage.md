@@ -1,3 +1,8 @@
+---
+title: Object storage
+tags:
+  - intermediate
+---
 # Object storage
 
 ## Parent

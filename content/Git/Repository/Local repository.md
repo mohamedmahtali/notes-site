@@ -1,3 +1,8 @@
+---
+title: Local repository
+tags:
+  - advanced
+---
 # Local repository
 
 ## Parent

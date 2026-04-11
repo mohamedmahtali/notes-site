@@ -1,3 +1,8 @@
+---
+title: Image caching
+tags:
+  - advanced
+---
 # Image caching
 
 ## Parent

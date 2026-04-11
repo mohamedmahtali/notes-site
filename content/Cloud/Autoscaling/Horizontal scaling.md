@@ -1,3 +1,8 @@
+---
+title: Horizontal scaling
+tags:
+  - advanced
+---
 # Horizontal scaling
 
 ## Parent

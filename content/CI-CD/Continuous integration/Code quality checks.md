@@ -1,3 +1,8 @@
+---
+title: Code quality checks
+tags:
+  - advanced
+---
 # Code quality checks
 
 ## Parent

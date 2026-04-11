@@ -1,3 +1,8 @@
+---
+title: Internet gateway
+tags:
+  - advanced
+---
 # Internet gateway
 
 ## Parent

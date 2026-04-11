@@ -1,3 +1,8 @@
+---
+title: Save stash
+tags:
+  - advanced
+---
 # Save stash
 
 ## Parent

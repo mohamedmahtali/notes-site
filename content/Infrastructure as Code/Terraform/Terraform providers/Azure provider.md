@@ -1,3 +1,8 @@
+---
+title: Azure provider
+tags:
+  - advanced
+---
 # Azure provider
 
 ## Parent

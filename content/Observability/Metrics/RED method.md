@@ -1,3 +1,8 @@
+---
+title: RED method
+tags:
+  - advanced
+---
 # RED method
 
 ## Parent

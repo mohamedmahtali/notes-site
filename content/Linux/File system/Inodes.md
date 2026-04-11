@@ -1,3 +1,8 @@
+---
+title: Inodes
+tags:
+  - advanced
+---
 # Inodes
 
 ## Parent

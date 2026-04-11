@@ -1,3 +1,8 @@
+---
+title: journalctl
+tags:
+  - advanced
+---
 # journalctl
 
 ## Parent

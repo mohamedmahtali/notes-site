@@ -1,3 +1,8 @@
+---
+title: Application metrics
+tags:
+  - advanced
+---
 # Application metrics
 
 ## Parent

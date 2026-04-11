@@ -1,3 +1,8 @@
+---
+title: Distributed tracing
+tags:
+  - advanced
+---
 # Distributed tracing
 
 ## Parent

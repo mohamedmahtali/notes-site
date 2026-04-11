@@ -1,3 +1,8 @@
+---
+title: OpenTelemetry
+tags:
+  - advanced
+---
 # OpenTelemetry
 
 ## Parent

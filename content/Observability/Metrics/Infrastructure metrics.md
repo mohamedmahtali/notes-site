@@ -1,3 +1,8 @@
+---
+title: Infrastructure metrics
+tags:
+  - advanced
+---
 # Infrastructure metrics
 
 ## Parent

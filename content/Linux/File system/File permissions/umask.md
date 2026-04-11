@@ -1,3 +1,8 @@
+---
+title: umask
+tags:
+  - advanced
+---
 # umask
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Lightweight tags
+tags:
+  - advanced
+---
 # Lightweight tags
 
 ## Parent

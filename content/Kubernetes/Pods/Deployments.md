@@ -1,3 +1,8 @@
+---
+title: Deployments
+tags:
+  - intermediate
+---
 # Deployments
 
 ## Parent

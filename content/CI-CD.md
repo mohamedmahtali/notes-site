@@ -1,3 +1,8 @@
+---
+title: CI/CD
+tags:
+  - beginner
+---
 # CI/CD
 
 ## Parent

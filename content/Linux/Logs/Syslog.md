@@ -1,3 +1,8 @@
+---
+title: Syslog
+tags:
+  - advanced
+---
 # Syslog
 
 ## Parent

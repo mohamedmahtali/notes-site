@@ -1,3 +1,8 @@
+---
+title: PromQL
+tags:
+  - advanced
+---
 # PromQL
 
 ## Parent

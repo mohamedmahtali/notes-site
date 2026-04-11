@@ -1,3 +1,8 @@
+---
+title: Rebase
+tags:
+  - intermediate
+---
 # Rebase
 
 ## Parent

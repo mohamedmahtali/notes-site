@@ -1,3 +1,8 @@
+---
+title: Stages
+tags:
+  - advanced
+---
 # Stages
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Storage classes
+tags:
+  - intermediate
+---
 # Storage classes
 
 ## Parent

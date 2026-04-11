@@ -1,3 +1,8 @@
+---
+title: Partitions
+tags:
+  - advanced
+---
 # Partitions
 
 ## Parent

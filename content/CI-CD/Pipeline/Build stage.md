@@ -1,3 +1,8 @@
+---
+title: Build stage
+tags:
+  - advanced
+---
 # Build stage
 
 ## Parent

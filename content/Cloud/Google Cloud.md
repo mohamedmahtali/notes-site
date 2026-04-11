@@ -1,3 +1,8 @@
+---
+title: Google Cloud
+tags:
+  - intermediate
+---
 # Google Cloud
 
 ## Parent

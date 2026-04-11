@@ -1,3 +1,8 @@
+---
+title: DaemonSets
+tags:
+  - intermediate
+---
 # DaemonSets
 
 ## Parent

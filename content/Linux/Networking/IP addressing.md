@@ -1,3 +1,8 @@
+---
+title: IP addressing
+tags:
+  - advanced
+---
 # IP addressing
 
 ## Parent

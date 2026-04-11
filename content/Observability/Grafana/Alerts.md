@@ -1,3 +1,8 @@
+---
+title: Alerts
+tags:
+  - advanced
+---
 # Alerts
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Templates
+tags:
+  - intermediate
+---
 # Templates
 
 ## Parent

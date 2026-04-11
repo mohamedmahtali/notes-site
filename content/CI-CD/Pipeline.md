@@ -1,3 +1,8 @@
+---
+title: Pipeline
+tags:
+  - intermediate
+---
 # Pipeline
 
 ## Parent

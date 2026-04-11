@@ -1,3 +1,8 @@
+---
+title: Declarative pipeline
+tags:
+  - advanced
+---
 # Declarative pipeline
 
 ## Parent

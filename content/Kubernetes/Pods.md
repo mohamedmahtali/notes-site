@@ -1,3 +1,8 @@
+---
+title: Pods
+tags:
+  - intermediate
+---
 # Pods
 
 ## Parent

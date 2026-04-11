@@ -1,3 +1,8 @@
+---
+title: DevSecOps
+tags:
+  - intermediate
+---
 # DevSecOps
 
 ## Parent

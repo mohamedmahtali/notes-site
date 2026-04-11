@@ -1,3 +1,8 @@
+---
+title: Blob Storage
+tags:
+  - advanced
+---
 # Blob Storage
 
 ## Parent

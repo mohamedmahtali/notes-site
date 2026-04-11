@@ -1,3 +1,8 @@
+---
+title: Commit message
+tags:
+  - advanced
+---
 # Commit message
 
 ## Parent

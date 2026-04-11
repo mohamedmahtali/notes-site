@@ -1,3 +1,8 @@
+---
+title: Cloud Storage
+tags:
+  - advanced
+---
 # Cloud Storage
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Pipeline caching
+tags:
+  - intermediate
+---
 # Pipeline caching
 
 ## Parent

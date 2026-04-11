@@ -1,3 +1,8 @@
+---
+title: AppArmor
+tags:
+  - advanced
+---
 # AppArmor
 
 ## Parent

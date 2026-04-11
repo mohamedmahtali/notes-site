@@ -1,3 +1,8 @@
+---
+title: Process scheduler
+tags:
+  - advanced
+---
 # Process scheduler
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Scaling policies
+tags:
+  - advanced
+---
 # Scaling policies
 
 ## Parent

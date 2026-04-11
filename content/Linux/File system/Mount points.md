@@ -1,3 +1,8 @@
+---
+title: Mount points
+tags:
+  - advanced
+---
 # Mount points
 
 ## Parent

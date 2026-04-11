@@ -1,3 +1,8 @@
+---
+title: Tasks
+tags:
+  - advanced
+---
 # Tasks
 
 ## Parent

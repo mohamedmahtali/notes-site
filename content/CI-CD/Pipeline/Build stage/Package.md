@@ -1,3 +1,8 @@
+---
+title: Package
+tags:
+  - advanced
+---
 # Package
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: hostPath
+tags:
+  - intermediate
+---
 # hostPath
 
 ## Parent

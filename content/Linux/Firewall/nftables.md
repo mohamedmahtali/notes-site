@@ -1,3 +1,8 @@
+---
+title: nftables
+tags:
+  - advanced
+---
 # nftables
 
 ## Parent

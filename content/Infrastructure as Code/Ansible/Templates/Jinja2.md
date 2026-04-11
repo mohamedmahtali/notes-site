@@ -1,3 +1,8 @@
+---
+title: Jinja2
+tags:
+  - advanced
+---
 # Jinja2
 
 ## Parent

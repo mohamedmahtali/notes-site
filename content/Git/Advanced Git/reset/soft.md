@@ -1,3 +1,8 @@
+---
+title: soft
+tags:
+  - advanced
+---
 # soft
 
 ## Parent

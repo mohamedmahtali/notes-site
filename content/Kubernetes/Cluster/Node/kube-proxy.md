@@ -1,3 +1,8 @@
+---
+title: kube-proxy
+tags:
+  - intermediate
+---
 # kube-proxy
 
 ## Parent

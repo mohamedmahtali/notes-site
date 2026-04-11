@@ -1,3 +1,7 @@
+---
+tags:
+  - intermediate
+---
 
 `DevOps [[Linux]] [[Git]] [[CI/CD]] [[Infrastructure as Code]] [[Cloud]] [[Observability]] [[Security]]`
 `│`

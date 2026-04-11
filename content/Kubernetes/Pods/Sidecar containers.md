@@ -1,3 +1,8 @@
+---
+title: Sidecar containers
+tags:
+  - intermediate
+---
 # Sidecar containers
 
 ## Parent

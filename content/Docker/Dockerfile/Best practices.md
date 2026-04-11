@@ -1,3 +1,8 @@
+---
+title: Best practices
+tags:
+  - advanced
+---
 # Best practices
 
 ## Parent

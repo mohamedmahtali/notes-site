@@ -1,3 +1,8 @@
+---
+title: Terraform variables
+tags:
+  - advanced
+---
 # Terraform variables
 
 ## Parent

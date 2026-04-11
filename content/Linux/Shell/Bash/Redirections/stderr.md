@@ -1,3 +1,8 @@
+---
+title: stderr
+tags:
+  - advanced
+---
 # stderr
 
 ## Parent

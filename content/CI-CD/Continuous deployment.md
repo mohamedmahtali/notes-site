@@ -1,3 +1,8 @@
+---
+title: Continuous deployment
+tags:
+  - intermediate
+---
 # Continuous deployment
 
 ## Parent

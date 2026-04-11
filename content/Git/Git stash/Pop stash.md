@@ -1,3 +1,8 @@
+---
+title: Pop stash
+tags:
+  - advanced
+---
 # Pop stash
 
 ## Parent

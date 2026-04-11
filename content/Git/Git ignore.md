@@ -1,3 +1,8 @@
+---
+title: Git ignore
+tags:
+  - intermediate
+---
 # Git ignore
 
 ## Parent

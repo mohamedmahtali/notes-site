@@ -1,3 +1,8 @@
+---
+title: Reusable modules
+tags:
+  - advanced
+---
 # Reusable modules
 
 ## Parent

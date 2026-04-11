@@ -1,3 +1,8 @@
+---
+title: Merge
+tags:
+  - intermediate
+---
 # Merge
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: kubelet
+tags:
+  - intermediate
+---
 # kubelet
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Recording rules
+tags:
+  - advanced
+---
 # Recording rules
 
 ## Parent

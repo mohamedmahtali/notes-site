@@ -1,3 +1,8 @@
+---
+title: hard
+tags:
+  - advanced
+---
 # hard
 
 ## Parent

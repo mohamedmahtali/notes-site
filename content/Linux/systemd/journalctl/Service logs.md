@@ -1,3 +1,8 @@
+---
+title: Service logs
+tags:
+  - advanced
+---
 # Service logs
 
 ## Parent

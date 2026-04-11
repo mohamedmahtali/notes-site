@@ -1,3 +1,8 @@
+---
+title: A record
+tags:
+  - advanced
+---
 # A record
 
 ## Parent

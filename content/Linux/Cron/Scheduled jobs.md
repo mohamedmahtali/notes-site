@@ -1,3 +1,8 @@
+---
+title: Scheduled jobs
+tags:
+  - advanced
+---
 # Scheduled jobs
 
 ## Parent

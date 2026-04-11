@@ -1,3 +1,8 @@
+---
+title: Shared responsibility model
+tags:
+  - beginner
+---
 # Shared responsibility model
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Push trigger
+tags:
+  - advanced
+---
 # Push trigger
 
 ## Parent

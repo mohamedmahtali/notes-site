@@ -1,3 +1,8 @@
+---
+title: Error budget
+tags:
+  - advanced
+---
 # Error budget
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Permissions
+tags:
+  - advanced
+---
 # Permissions
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Detached mode
+tags:
+  - advanced
+---
 # Detached mode
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Git stash
+tags:
+  - intermediate
+---
 # Git stash
 
 ## Parent

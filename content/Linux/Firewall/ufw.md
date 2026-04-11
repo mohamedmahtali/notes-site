@@ -1,3 +1,8 @@
+---
+title: ufw
+tags:
+  - advanced
+---
 # ufw
 
 ## Parent

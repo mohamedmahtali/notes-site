@@ -1,3 +1,8 @@
+---
+title: netstat
+tags:
+  - advanced
+---
 # netstat
 
 ## Parent

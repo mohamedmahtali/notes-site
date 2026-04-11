@@ -1,3 +1,8 @@
+---
+title: Public key
+tags:
+  - advanced
+---
 # Public key
 
 ## Parent

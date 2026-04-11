@@ -1,3 +1,8 @@
+---
+title: Targets
+tags:
+  - advanced
+---
 # Targets
 
 ## Parent

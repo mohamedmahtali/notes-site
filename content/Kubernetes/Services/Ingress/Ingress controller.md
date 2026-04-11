@@ -1,3 +1,8 @@
+---
+title: Ingress controller
+tags:
+  - intermediate
+---
 # Ingress controller
 
 ## Parent

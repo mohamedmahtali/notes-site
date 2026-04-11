@@ -1,3 +1,8 @@
+---
+title: Cron logs
+tags:
+  - advanced
+---
 # Cron logs
 
 ## Parent

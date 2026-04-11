@@ -1,3 +1,8 @@
+---
+title: Least privilege access
+tags:
+  - advanced
+---
 # Least privilege access
 
 ## Parent

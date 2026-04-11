@@ -1,3 +1,8 @@
+---
+title: NAT gateway
+tags:
+  - advanced
+---
 # NAT gateway
 
 ## Parent

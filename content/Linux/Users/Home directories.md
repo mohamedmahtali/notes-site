@@ -1,3 +1,8 @@
+---
+title: Home directories
+tags:
+  - advanced
+---
 # Home directories
 
 ## Parent

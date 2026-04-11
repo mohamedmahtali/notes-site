@@ -1,3 +1,8 @@
+---
+title: kubectl
+tags:
+  - intermediate
+---
 # kubectl
 
 ## Parent

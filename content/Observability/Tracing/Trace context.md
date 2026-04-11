@@ -1,3 +1,8 @@
+---
+title: Trace context
+tags:
+  - advanced
+---
 # Trace context
 
 ## Parent

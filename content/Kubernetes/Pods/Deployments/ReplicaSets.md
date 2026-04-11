@@ -1,3 +1,8 @@
+---
+title: ReplicaSets
+tags:
+  - intermediate
+---
 # ReplicaSets
 
 ## Parent

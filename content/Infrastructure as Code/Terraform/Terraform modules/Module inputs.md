@@ -1,3 +1,8 @@
+---
+title: Module inputs
+tags:
+  - advanced
+---
 # Module inputs
 
 ## Parent

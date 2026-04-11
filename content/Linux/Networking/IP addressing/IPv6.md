@@ -1,3 +1,8 @@
+---
+title: IPv6
+tags:
+  - advanced
+---
 # IPv6
 
 ## Parent

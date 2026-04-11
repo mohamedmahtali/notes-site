@@ -1,3 +1,8 @@
+---
+title: Instance types
+tags:
+  - advanced
+---
 # Instance types
 
 ## Parent

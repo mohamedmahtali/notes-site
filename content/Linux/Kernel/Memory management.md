@@ -1,3 +1,8 @@
+---
+title: Memory management
+tags:
+  - advanced
+---
 # Memory management
 
 ## Parent

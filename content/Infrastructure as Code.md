@@ -1,3 +1,8 @@
+---
+title: Infrastructure as Code
+tags:
+  - intermediate
+---
 # Infrastructure as Code
 
 ## Parent

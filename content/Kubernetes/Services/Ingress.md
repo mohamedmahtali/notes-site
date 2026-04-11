@@ -1,3 +1,8 @@
+---
+title: Ingress
+tags:
+  - intermediate
+---
 # Ingress
 
 ## Parent

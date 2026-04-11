@@ -1,3 +1,8 @@
+---
+title: End to end tests
+tags:
+  - advanced
+---
 # End to end tests
 
 ## Parent

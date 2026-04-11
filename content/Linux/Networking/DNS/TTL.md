@@ -1,3 +1,8 @@
+---
+title: TTL
+tags:
+  - advanced
+---
 # TTL
 
 ## Parent

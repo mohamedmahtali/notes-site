@@ -1,3 +1,8 @@
+---
+title: chmod
+tags:
+  - advanced
+---
 # chmod
 
 ## Parent

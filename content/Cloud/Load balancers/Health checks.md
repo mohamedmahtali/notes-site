@@ -1,3 +1,8 @@
+---
+title: Health checks
+tags:
+  - advanced
+---
 # Health checks
 
 ## Parent

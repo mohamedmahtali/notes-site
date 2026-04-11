@@ -1,3 +1,8 @@
+---
+title: Least privilege
+tags:
+  - advanced
+---
 # Least privilege
 
 ## Parent

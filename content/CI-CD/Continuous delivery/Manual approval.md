@@ -1,3 +1,8 @@
+---
+title: Manual approval
+tags:
+  - advanced
+---
 # Manual approval
 
 ## Parent

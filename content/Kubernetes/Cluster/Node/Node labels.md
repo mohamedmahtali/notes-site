@@ -1,3 +1,8 @@
+---
+title: Node labels
+tags:
+  - intermediate
+---
 # Node labels
 
 ## Parent

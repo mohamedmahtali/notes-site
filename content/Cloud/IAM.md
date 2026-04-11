@@ -1,3 +1,8 @@
+---
+title: IAM
+tags:
+  - intermediate
+---
 # IAM
 
 ## Parent

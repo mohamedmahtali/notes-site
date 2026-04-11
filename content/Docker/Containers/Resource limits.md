@@ -1,3 +1,8 @@
+---
+title: Resource limits
+tags:
+  - advanced
+---
 # Resource limits
 
 ## Parent

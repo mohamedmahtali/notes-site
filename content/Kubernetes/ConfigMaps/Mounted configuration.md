@@ -1,3 +1,8 @@
+---
+title: Mounted configuration
+tags:
+  - intermediate
+---
 # Mounted configuration
 
 ## Parent

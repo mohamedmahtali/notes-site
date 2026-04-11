@@ -1,3 +1,8 @@
+---
+title: Inventory
+tags:
+  - advanced
+---
 # Inventory
 
 ## Parent

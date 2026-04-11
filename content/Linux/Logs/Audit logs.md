@@ -1,3 +1,8 @@
+---
+title: Audit logs
+tags:
+  - advanced
+---
 # Audit logs
 
 ## Parent

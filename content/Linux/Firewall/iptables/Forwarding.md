@@ -1,3 +1,8 @@
+---
+title: Forwarding
+tags:
+  - advanced
+---
 # Forwarding
 
 ## Parent

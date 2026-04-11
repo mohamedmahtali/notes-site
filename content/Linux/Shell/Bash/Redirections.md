@@ -1,3 +1,8 @@
+---
+title: Redirections
+tags:
+  - advanced
+---
 # Redirections
 
 ## Parent

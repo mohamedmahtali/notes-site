@@ -1,3 +1,8 @@
+---
+title: Verify explicitly
+tags:
+  - advanced
+---
 # Verify explicitly
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: Admission controllers
+tags:
+  - intermediate
+---
 # Admission controllers
 
 ## Parent

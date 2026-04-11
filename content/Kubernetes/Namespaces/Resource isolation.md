@@ -1,3 +1,8 @@
+---
+title: Resource isolation
+tags:
+  - intermediate
+---
 # Resource isolation
 
 ## Parent

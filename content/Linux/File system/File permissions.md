@@ -1,3 +1,8 @@
+---
+title: File permissions
+tags:
+  - advanced
+---
 # File permissions
 
 ## Parent

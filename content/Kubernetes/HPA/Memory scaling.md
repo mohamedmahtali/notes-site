@@ -1,3 +1,8 @@
+---
+title: Memory scaling
+tags:
+  - intermediate
+---
 # Memory scaling
 
 ## Parent

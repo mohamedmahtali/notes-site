@@ -1,3 +1,7 @@
+---
+tags:
+  - advanced
+---
 ### DNS Glossaire
 
 ## Parent

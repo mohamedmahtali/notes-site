@@ -1,3 +1,8 @@
+---
+title: Azure AD
+tags:
+  - advanced
+---
 # Azure AD
 
 ## Parent

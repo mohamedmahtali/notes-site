@@ -1,3 +1,8 @@
+---
+title: Stable identity
+tags:
+  - intermediate
+---
 # Stable identity
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: PAM
+tags:
+  - advanced
+---
 # PAM
 
 ## Parent

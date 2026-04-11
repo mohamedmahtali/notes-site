@@ -1,3 +1,8 @@
+---
+title: CA
+tags:
+  - advanced
+---
 # CA
 
 ## Parent

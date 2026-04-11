@@ -1,3 +1,8 @@
+---
+title: Log retention
+tags:
+  - advanced
+---
 # Log retention
 
 ## Parent

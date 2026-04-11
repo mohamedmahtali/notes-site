@@ -1,3 +1,8 @@
+---
+title: Host based routing
+tags:
+  - intermediate
+---
 # Host based routing
 
 ## Parent

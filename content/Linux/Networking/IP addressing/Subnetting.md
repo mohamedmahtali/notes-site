@@ -1,3 +1,8 @@
+---
+title: Subnetting
+tags:
+  - advanced
+---
 # Subnetting
 
 ## Parent

@@ -1,3 +1,8 @@
+---
+title: SSH config
+tags:
+  - advanced
+---
 # SSH config
 
 ## Parent

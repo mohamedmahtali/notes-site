@@ -1,3 +1,8 @@
+---
+title: Persistent volumes
+tags:
+  - intermediate
+---
 # Persistent volumes
 
 ## Parent

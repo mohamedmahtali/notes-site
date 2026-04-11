@@ -1,3 +1,8 @@
+---
+title: Remote state
+tags:
+  - advanced
+---
 # Remote state
 
 ## Parent

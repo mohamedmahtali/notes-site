@@ -1,3 +1,8 @@
+---
+title: Functions
+tags:
+  - advanced
+---
 # Functions
 
 ## Parent

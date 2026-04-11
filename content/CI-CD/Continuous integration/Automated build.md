@@ -1,3 +1,8 @@
+---
+title: Automated build
+tags:
+  - advanced
+---
 # Automated build
 
 ## Parent

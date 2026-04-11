@@ -1,3 +1,8 @@
+---
+title: SaaS
+tags:
+  - intermediate
+---
 # SaaS
 
 ## Parent

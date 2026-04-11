@@ -1,3 +1,8 @@
+---
+title: Alert routing
+tags:
+  - advanced
+---
 # Alert routing
 
 ## Parent
