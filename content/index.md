@@ -6,6 +6,9 @@ title: Accueil
 
 Base de connaissances personnelle sur les pratiques et outils DevOps.
 
+> [!example] Nouveau ici ?
+> Suis la [[roadmap|Roadmap DevOps]] pour un parcours guidé du débutant au professionnel.
+
 ---
 
 > [!info] Cloud & Infrastructure
@@ -38,4 +41,4 @@ Base de connaissances personnelle sur les pratiques et outils DevOps.
 
 ---
 
-[[about|À propos de ce site]]
+[[about|À propos]]
