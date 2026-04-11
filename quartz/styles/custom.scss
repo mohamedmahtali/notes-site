@@ -1,3 +1,120 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ── Pro Slate custom styles ──────────────────────────────────────────────────
+
+// ── Sidebar toggle button ────────────────────────────────────────────────────
+.sidebar-toggle-btn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100;
+  background: var(--lightgray);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  padding: 6px 8px;
+  cursor: pointer;
+  color: var(--darkgray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background: var(--secondary);
+    color: var(--light);
+    border-color: var(--secondary);
+  }
+
+  .icon-close { display: none; }
+  .icon-open  { display: block; }
+}
+
+// État collapsed : cacher l'icône hamburger, montrer le X
+body.sidebar-collapsed .sidebar-toggle-btn {
+  .icon-open  { display: none; }
+  .icon-close { display: block; }
+}
+
+// Sidebar collapse animation
+#quartz-body .sidebar.left {
+  transition: width 0.25s ease, opacity 0.25s ease, padding 0.25s ease;
+  overflow: hidden;
+}
+
+body.sidebar-collapsed #quartz-body .sidebar.left {
+  width: 0 !important;
+  opacity: 0;
+  padding: 0;
+  pointer-events: none;
+}
+
+// Sur mobile, masquer le toggle (la sidebar est déjà en mode horizontal)
+@media (max-width: 800px) {
+  .sidebar-toggle-btn {
+    display: none;
+  }
+}
+
+// Sidebar : léger fond distinct du body
+.sidebar {
+  background-color: var(--light);
+  border-right: 1px solid var(--lightgray);
+}
+
+// Page title : accent teal
+.page-title a {
+  color: var(--secondary) !important;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+// Liens inline : soulignement teal subtil
+article a {
+  text-decoration-color: var(--secondary);
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--tertiary);
+  }
+}
+
+// Breadcrumbs : plus discrets
+.breadcrumb-container {
+  opacity: 0.65;
+  font-size: 0.85em;
+}
+
+// Table of contents : bordure teal à gauche
+.toc {
+  border-left: 2px solid var(--secondary);
+  padding-left: 0.75rem;
+}
+
+// Blocs de code : fond légèrement distinct
+pre {
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+}
+
+// Tags : style pill teal
+.tag-link {
+  border-radius: 999px;
+  background-color: var(--highlight);
+  border: 1px solid var(--secondary);
+  color: var(--secondary) !important;
+  font-size: 0.78em;
+  padding: 0.15em 0.6em;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--secondary);
+    color: var(--light) !important;
+  }
+}
+
+// Graph : nœuds teal
+.graph-outer circle {
+  fill: var(--secondary);
+}
+
