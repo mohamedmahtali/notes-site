@@ -38,7 +38,14 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Navigation",
+      filterFn: (node) =>
+        node.slugSegment !== "tags" &&
+        node.slugSegment !== "00" &&
+        node.slugSegment !== "about" &&
+        node.slugSegment !== "DevOps",
+    }),
   ],
   right: [
     Component.Graph(),
@@ -63,7 +70,14 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Navigation",
+      filterFn: (node) =>
+        node.slugSegment !== "tags" &&
+        node.slugSegment !== "00" &&
+        node.slugSegment !== "about" &&
+        node.slugSegment !== "DevOps",
+    }),
   ],
   right: [],
 }

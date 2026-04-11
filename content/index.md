@@ -1,37 +1,41 @@
+---
+title: Accueil
+---
+
 # Mohamed Mahtali – DevOps Knowledge Base
 
-Bienvenue sur mon site de notes et de documentation DevOps.
+Base de connaissances personnelle sur les pratiques et outils DevOps.
 
-## Domaines principaux
+---
 
-- [[Cloud]]
-- [[Docker]]
-- [[Kubernetes]]
-- [[CI-CD]]
-- [[Infrastructure as Code]]
-- [[Observability]]
-- [[Security]]
-- [[Linux]]
+> [!info] Cloud & Infrastructure
+> Providers cloud, IAM, réseaux, stockage, autoscaling.
+> [[Cloud]] · [[Cloud/AWS|AWS]] · [[Cloud/Azure|Azure]] · [[Cloud/Google Cloud|GCP]]
 
-## À propos
+> [!tip] Conteneurs & Orchestration
+> Docker, Kubernetes, gestion de clusters et workloads.
+> [[Docker]] · [[Kubernetes]]
 
-- [[about]]
+> [!example] CI/CD & Automatisation
+> Pipelines, intégration continue, déploiement continu.
+> [[CI-CD]] · [[CI-CD/GitHub actions|GitHub Actions]] · [[CI-CD/GitLab CI|GitLab CI]] · [[CI-CD/Jenkins|Jenkins]]
 
-## Ce que contient ce site
+> [!note] Infrastructure as Code
+> Terraform, Ansible, provisionnement déclaratif.
+> [[Infrastructure as Code]]
 
-Cette base de connaissances regroupe mes notes sur :
+> [!warning] Observabilité
+> Logging, monitoring, alerting, tracing.
+> [[Observability]]
 
-- le cloud et l'infrastructure
-- les conteneurs et l'orchestration
-- l'automatisation et le CI/CD
-- l'observabilité
-- la sécurité
-- l'administration Linux
+> [!danger] Sécurité
+> Bonnes pratiques, gestion des secrets, hardening.
+> [[Security]]
 
-## Navigation rapide
+> [!abstract] Linux & Réseau
+> Administration système, scripting, DNS, networking.
+> [[Linux]]
 
-- [[DevOps]]
-- [[Git]]
-- [[Cloud]]
-- [[Kubernetes]]
-- [[Infrastructure as Code]]
+---
+
+[[about|À propos de ce site]]
