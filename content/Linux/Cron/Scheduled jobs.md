@@ -1,160 +1,60 @@
 ---
 title: Scheduled jobs
 tags:
-  - advanced
+  - intermediate
 ---
+
 # Scheduled jobs
 
 ## Parent
 - [[Cron]]
 
-## Enfants
-...
+---
 
-## Concepts liés
-- [[Cron]]
-- [[Timers]]
-- [[Schedule trigger]]
+## Définition
 
-# Définition
+Les tâches planifiées (scheduled jobs) sont des scripts ou commandes exécutés automatiquement à des horaires définis. En Linux, Cron est le mécanisme principal, mais les [[Timers|timers systemd]] sont une alternative plus robuste.
 
-Un **scheduled job** est une **tâche configurée pour s’exécuter automatiquement à un moment précis ou selon un intervalle défini**.
+---
 
-Sous Linux, ces tâches sont généralement exécutées par :
+## Bonnes pratiques
 
-- **Cron**
-- **systemd timers**
-- parfois **at / batch** pour les tâches uniques
-
-Un scheduled job est composé de :
-
-1. **un déclencheur temporel** (schedule)
-2. **une commande ou un script**
-3. **un environnement d’exécution**
-
-Exemple :
 ```bash
-0 2 * * * /usr/local/bin/backup.sh
+# 1. Toujours rediriger les sorties
+0 2 * * * /opt/backup.sh >> /var/log/backup.log 2>&1
+
+# 2. Utiliser des chemins absolus
+0 2 * * * /usr/bin/python3 /opt/scripts/backup.py
+
+# 3. Définir l'environnement si nécessaire
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+HOME=/root
+
+0 2 * * * /opt/backup.sh
+
+# 4. Envoyer les erreurs par email
+MAILTO=admin@example.com
+0 2 * * * /opt/backup.sh
+
+# 5. Éviter les exécutions simultanées avec flock
+*/5 * * * * flock -n /tmp/script.lock /opt/script.sh
 ```
-Cette tâche exécutera le script **tous les jours à 02:00**.
 
 ---
 
-# Pourquoi c'est important
+## Tâches courantes
 
-Les scheduled jobs sont fondamentaux dans les systèmes Linux car ils permettent **d’automatiser la maintenance et les opérations répétitives**.
+```cron
+# Backup DB quotidien
+0 2 * * * pg_dump mydb > /backup/$(date +%Y%m%d).sql
 
----
+# Nettoyage des logs anciens
+0 3 * * 0 find /var/log -name "*.log" -mtime +30 -delete
 
-### Automatisation des tâches
+# Renouvellement certificat SSL
+0 0,12 * * * certbot renew --quiet
 
-Exemples typiques :
-
-- backups
-- rotation des logs
-- synchronisation de fichiers
-- nettoyage du système
-- monitoring
-
----
-
-### Maintenance système
-
-Beaucoup de systèmes utilisent des scheduled jobs pour :
-
-- mettre à jour des bases de données
-- nettoyer `/tmp`
-- renouveler des certificats SSL
-- générer des rapports
-
----
-
-### Infrastructure DevOps
-
-Dans les environnements DevOps, les scheduled jobs servent à :
-
-- lancer des pipelines
-- effectuer des backups cloud
-- synchroniser des données
-- envoyer des métriques
-
----
-
-# Types de scheduled jobs
-
-### Jobs récurrents
-
-Ils s’exécutent **à intervalles réguliers**.
-
-Exemples :
-```bash
-*/5 * * * * script.sh
+# Healthcheck
+*/5 * * * * curl -sf http://localhost/health || systemctl restart app
 ```
-Toutes les **5 minutes**.
-
----
-
-### Jobs quotidiens
-```bash
-0 3 * * * script.sh
-```
-Tous les jours à **03:00**.
-
----
-
-### Jobs hebdomadaires
-```bash
-0 2 * * 0 script.sh
-```
-Chaque **dimanche à 02:00**.
-
----
-
-### Jobs mensuels
-```bash
-0 1 1 * * script.sh
-```
-Le **1er jour du mois à 01:00**.
-
----
-
-# Commandes utiles
-
-### Voir les tâches planifiées
-```bash
-crontab -l
-```
----
-
-### Modifier les scheduled jobs
-```bash
-crontab -e
-```
----
-
-### Supprimer les tâches
-```bash
-crontab -r
-```
----
-
-# Exemple réel DevOps
-
-### Backup quotidien
-```bash
-0 2 * * * /usr/local/bin/backup.sh >> /var/log/backup.log 2>&1
-```
-Processus :
-
-1. cron vérifie les schedules chaque minute
-2. à **02:00** il déclenche le job
-3. le script backup s’exécute
-4. la sortie est enregistrée dans les logs
-
----
-
-### Nettoyage automatique des logs
-```bash
-0 4 * * 0 /usr/local/bin/cleanup_logs.sh
-```
-Chaque **dimanche à 04:00**.

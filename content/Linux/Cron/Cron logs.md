@@ -1,132 +1,59 @@
 ---
 title: Cron logs
 tags:
-  - advanced
+  - intermediate
 ---
 # Cron logs
 
 ## Parent
 - [[Cron]]
 
-## Enfants
-...
+---
 
-## Concepts liés
-- [[Cron]]
-- [[Logs]]
-- [[journalctl]]
-
-- - - 
 ## Définition
-Les **Cron logs** sont les **journaux générés par le service Cron** lorsqu'il exécute des tâches planifiées (cron jobs).
 
-Ils enregistrent notamment :
-- le moment où une tâche est exécutée
-- l’utilisateur qui exécute la tâche
-- la commande lancée
-- parfois les erreurs ou sorties du script
+Les logs cron enregistrent chaque exécution de tâche planifiée — succès, échec, et sortie standard. Sur les systèmes systemd, ils transitent par journald ; sur les systèmes syslog traditionnels, ils vont dans `/var/log/syslog` ou `/var/log/cron`.
 
-Ces logs permettent de **vérifier que les tâches planifiées fonctionnent correctement**.
+---
 
-Selon la distribution Linux, les logs Cron se trouvent généralement dans :
-
-```bash
-/var/log/syslog
-```
-ou
-```bash
-/var/log/cron
-```
-
-- - - 
 ## Pourquoi c'est important
 
-Les Cron logs sont essentiels pour :
-### 1️⃣ Vérifier qu'un job s’exécute bien
-Si une tâche ne fonctionne pas, les logs permettent de confirmer si **cron l’a réellement lancée**.
-
----
-### 2️⃣ Déboguer un script
-Beaucoup de problèmes viennent du fait que :
-- le PATH est différent
-- les permissions sont incorrectes
-- un script échoue silencieusement
-Les logs permettent de **voir exactement ce qui s'est passé**.
-
----
-### 3️⃣ Surveiller les tâches automatiques
-Dans un environnement **DevOps / production**, de nombreuses tâches sont automatisées :
-- backups
-- rotations de logs
-- synchronisations
-- scripts de maintenance
-Les logs permettent de **surveiller ces automatisations**.
-
-- - - 
-## Exemple
-### Exemple de ligne de log Cron
-Dans `/var/log/syslog` :
-```bash
-Mar  7 10:00:01 server CRON[12345]: (root) CMD (/usr/local/bin/backup.sh)
-```
-
-Signification :
-
-| Élément        | Signification     |
-| -------------- | ----------------- |
-| Mar 7 10:00:01 | date et heure     |
-| server         | nom de la machine |
-| CRON[12345]    | processus cron    |
-| (root)         | utilisateur       |
-| CMD            | commande exécutée |
+> [!tip] Déboguer sans logs = aveugle
+> Si un cron ne tourne pas comme prévu, les logs sont le premier endroit à consulter. Sans eux, impossible de savoir si la tâche a été déclenchée, si elle a échoué, ou si la sortie a été silencieusement ignorée.
 
 ---
 
-### Voir les logs Cron
+## Consulter les logs cron
 
-#### Sur Debian / Ubuntu
 ```bash
-grep CRON /var/log/syslog
-```
-ou
-```bash
-tail -f /var/log/syslog | grep CRON
-```
----
-#### Avec systemd
-```bash
+# Sur systemd (Ubuntu 20.04+, Debian 10+)
 journalctl -u cron
-```
-ou en temps réel :
-```bash
-journalctl -u cron -f
-```
----
-### Capturer la sortie d’un cron job
+journalctl -u cron --since "1 hour ago"
+journalctl -u crond -f          # follow en temps réel
 
-Par défaut, **cron ne sauvegarde pas la sortie d’un script**.
+# Sur syslog traditionnel
+grep CRON /var/log/syslog
+grep CRON /var/log/cron          # RedHat/CentOS
 
-On redirige donc la sortie :
-```bash
-* * * * * /script.sh >> /var/log/script.log 2>&1
+# Voir les N dernières lignes
+tail -100 /var/log/syslog | grep CRON
 ```
-Signification :
-
-| Partie | Signification        |
-| ------ | -------------------- |
-| `>>`   | ajoute au log        |
-| `2>&1` | redirige les erreurs |
 
 ---
-### Exemple réel DevOps
 
-Cron job pour backup quotidien :
+## Capturer la sortie d'un job
+
+Par défaut, cron envoie la sortie par email (si configuré). Pour capturer dans un fichier :
 
 ```bash
-0 2 * * * /usr/local/bin/backup.sh >> /var/log/backup.log 2>&1
-```
-Tous les jours à **02:00** :
+# Dans la crontab
+0 * * * * /opt/script.sh >> /var/log/myjob.log 2>&1
 
-1. cron lance `backup.sh`
-2. la sortie est écrite dans `/var/log/backup.log`
-3. les erreurs sont aussi enregistrées
+# Avec timestamp
+0 * * * * echo "$(date): start" >> /var/log/myjob.log && /opt/script.sh >> /var/log/myjob.log 2>&1
+```
+
+---
+
+> [!note]
+> `2>&1` redirige stderr vers stdout pour capturer les erreurs aussi. Sans cela, les erreurs sont perdues ou envoyées par email.

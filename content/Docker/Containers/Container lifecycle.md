@@ -1,8 +1,9 @@
 ---
 title: Container lifecycle
 tags:
-  - advanced
+  - beginner
 ---
+
 # Container lifecycle
 
 ## Parent
@@ -15,19 +16,46 @@ tags:
 - [[restart]]
 - [[remove]]
 
-## Concepts liés
-- [[create]]
-- [[start]]
-- [[stop]]
-- [[restart]]
-- [[remove]]
-- [[Pod lifecycle]]
+---
 
 ## Définition
-...
 
-## Pourquoi c'est important
-...
+Le cycle de vie d'un conteneur Docker suit des états bien définis : created, running, paused, stopped, removed. Comprendre ces transitions permet de gérer correctement les conteneurs.
 
-## Exemple
-...
+---
+
+## États et transitions
+
+```
+                    docker start
+        created ─────────────────→ running
+           ↑                          │
+docker create                    docker stop / docker kill
+           │                          │
+           └──── removed ←─────── stopped
+                docker rm         docker start ↔ stopped
+```
+
+| État | Description |
+|---|---|
+| `created` | Créé mais pas démarré (`docker create`) |
+| `running` | En cours d'exécution |
+| `paused` | Processus suspendu (`docker pause`) |
+| `stopped` (exited) | Processus terminé |
+| `removed` | Supprimé définitivement |
+
+---
+
+## Commandes
+
+```bash
+docker create --name app nginx    # créer sans démarrer
+docker start app                  # démarrer
+docker pause app                  # suspendre
+docker unpause app                # reprendre
+docker stop app                   # arrêt propre (SIGTERM)
+docker kill app                   # arrêt forcé (SIGKILL)
+docker restart app                # stop + start
+docker rm app                     # supprimer (doit être stopped)
+docker rm -f app                  # forcer la suppression
+```

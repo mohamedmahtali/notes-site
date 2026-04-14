@@ -1,26 +1,62 @@
 ---
 title: Detached mode
 tags:
-  - advanced
+  - beginner
 ---
+
 # Detached mode
 
 ## Parent
 - [[Docker run]]
 
-## Enfants
-...
-
-## Concepts liés
-- [[Docker run]]
-- [[Container logs]]
-- [[Restart policy]]
+---
 
 ## Définition
-...
 
-## Pourquoi c'est important
-...
+Le mode détaché (`-d` / `--detach`) lance le conteneur en arrière-plan et retourne immédiatement à la ligne de commande. C'est le mode standard pour les services (web servers, bases de données, etc.).
 
-## Exemple
-...
+---
+
+## Commandes
+
+```bash
+# Mode détaché
+docker run -d --name mon-api mon-app
+
+# Mode interactif (oppose du detach)
+docker run -it --name debug ubuntu bash
+# → reste attaché au terminal
+
+# Attacher un terminal à un conteneur détaché
+docker attach mon-api
+
+# Sortir sans stopper (Ctrl+P puis Ctrl+Q)
+```
+
+---
+
+## Vérifier qu'un conteneur tourne
+
+```bash
+docker ps
+# CONTAINER ID  IMAGE    STATUS        NAMES
+# abc123        mon-app  Up 2 minutes  mon-api
+
+docker logs mon-api
+docker logs -f mon-api   # suivi
+```
+
+---
+
+## -d vs --rm
+
+| Option | Comportement |
+|---|---|
+| `-d` | Arrière-plan, conteneur persiste après arrêt |
+| `--rm` | Suppression automatique à l'arrêt |
+| `-d --rm` | Arrière-plan + suppression automatique |
+
+```bash
+# Tâche ponctuelle en arrière-plan, auto-nettoyée
+docker run -d --rm --name backup mon-backup-task
+```

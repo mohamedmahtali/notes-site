@@ -3,6 +3,7 @@ title: Linux
 tags:
   - beginner
 ---
+
 # Linux
 
 ## Parent
@@ -10,177 +11,68 @@ tags:
 
 ## Enfants
 - [[Shell]]
-- [[Filesystem]]
-- [[Process]]
-- [[Permissions]]
-- [[Package Manager]]
-- [[Systemd]]
+- [[File system]]
+- [[Processes]]
+- [[Users]]
 - [[Networking]]
-
----
-
-## Concepts liés
-- [[DevOps]]
-- [[Docker]]
-- [[Kubernetes]]
-- [[Cloud]]
+- [[SSH]]
+- [[systemd]]
+- [[Logs]]
+- [[Cron]]
+- [[Firewall]]
+- [[Kernel]]
 
 ---
 
 ## Définition
 
-**Linux** est un **système d’exploitation open source basé sur Unix** utilisé pour faire fonctionner des serveurs, des infrastructures cloud et la majorité des plateformes DevOps modernes.
-
-Il est composé de deux éléments principaux :
-
-- **le kernel (noyau)** : qui gère le matériel (CPU, mémoire, disque, réseau)
-- **les outils système** : commandes et programmes permettant d’utiliser le système
-
-Linux est aujourd’hui **le système dominant dans l’infrastructure moderne** :
-
-- la majorité des serveurs internet
-- les plateformes cloud
-- les conteneurs Docker
-- les clusters Kubernetes
-
-fonctionnent sur Linux.
+Linux est un système d'exploitation open source basé sur le kernel Linux, créé par Linus Torvalds en 1991. C'est le système de référence pour les serveurs, le cloud, et les conteneurs — plus de 90% des serveurs web et la totalité des clouds publics tournent sur Linux.
 
 ---
 
 ## Pourquoi c'est important
 
-### 1. Base de toute l’infrastructure DevOps
+> [!tip] La fondation du DevOps
+> Docker, Kubernetes, les VMs cloud, les pipelines CI/CD — tout tourne sur Linux. Sans bases solides en Linux, on travaille à l'aveugle sur l'infrastructure.
 
-La plupart des outils DevOps tournent sur Linux :
-
-- Docker
-- Kubernetes
-- Terraform
-- Git
-- les serveurs web
-
-Comprendre Linux est donc **indispensable pour travailler avec ces technologies**.
+- **Omniprésent** : serveurs, conteneurs, cloud, IoT, Android
+- **Open source** : code source modifiable et auditable
+- **Stable** : des serveurs tournent des années sans reboot
+- **Puissant** : shell scripting, automatisation, outils en ligne de commande
 
 ---
 
-### 2. Automatisation et scripting
+## Distributions principales
 
-Linux permet d’automatiser des tâches grâce :
+| Distribution | Usage | Package manager |
+|---|---|---|
+| Ubuntu / Debian | Serveurs, développement | `apt` |
+| RHEL / CentOS / Rocky | Enterprise | `yum` / `dnf` |
+| Alpine | Conteneurs Docker | `apk` |
+| Amazon Linux 2 | AWS | `yum` |
+| Arch Linux | Desktop avancé | `pacman` |
 
-- au **shell**
-- aux **scripts bash**
-- aux **cron jobs**
+---
 
-Exemple :
+## Commandes de base
 
 ```bash
-#!/bin/bash
-docker build -t myapp .
-docker push registry/myapp
+# Navigation
+pwd          # répertoire courant
+ls -la       # lister avec détails
+cd /opt/app  # changer de répertoire
+find . -name "*.log"  # chercher des fichiers
+
+# Fichiers
+cat fichier.txt          # afficher
+tail -f /var/log/app.log # suivre en temps réel
+grep "ERROR" app.log     # chercher dans un fichier
+cp, mv, rm, mkdir        # opérations de base
+
+# Système
+uname -a      # version kernel
+df -h         # espace disque
+free -h       # mémoire
+uptime        # charge système
+whoami        # utilisateur courant
 ```
-
-### 3. Contrôle complet du système
-
-Linux permet de contrôler précisément :
-
-- les processus    
-- la mémoire
-- le réseau
-- les fichiers
-- les permissions
-
-Ce contrôle est essentiel pour :
-
-- le debugging
-- l'optimisation
-- la sécurité.
-
-### 3. Contrôle complet du système
-
-Linux permet de contrôler précisément :
-
-- les processus
-- la mémoire
-- le réseau
-- les fichiers
-- les permissions
-
-Ce contrôle est essentiel pour :
-
-- le debugging
-- l'optimisation
-- la sécurité.
-
----
-
-### 4. Environnement standard de production
-
-Dans le monde DevOps, les environnements de production sont presque toujours :
-
-- Ubuntu Server
-- Debian
-- Red Hat
-- Rocky Linux
-- Amazon Linux
-
-Apprendre Linux signifie comprendre **comment fonctionne réellement un serveur**.
-
----
-
-## Exemple concret
-
-Un développeur pousse son code sur Git.
-
-Le pipeline CI/CD :
-
-1. lance une **machine Linux**
-2. installe les dépendances
-3. construit une image **Docker**
-4. déploie l'application sur **Kubernetes**
-
-Tout cela se passe **sur des systèmes Linux**.
-
----
-
-## Commandes Linux fondamentales
-
-| Commande | Utilité                        |
-| -------- | ------------------------------ |
-| `ls`     | lister les fichiers            |
-| `cd`     | changer de dossier             |
-| `pwd`    | afficher le dossier courant    |
-| `cp`     | copier un fichier              |
-| `mv`     | déplacer ou renommer           |
-| `rm`     | supprimer                      |
-| `cat`    | afficher un fichier            |
-| `grep`   | rechercher dans un texte       |
-| `ps`     | afficher les processus         |
-| `top`    | voir l'utilisation CPU/mémoire |
-
----
-
-## Distribution Linux
-
-Linux existe sous plusieurs **distributions**.
-
-Exemples populaires :
-
-| Distribution | Utilisation         |
-| ------------ | ------------------- |
-| Ubuntu       | serveurs et cloud   |
-| Debian       | stable et minimal   |
-| Red Hat      | entreprise          |
-| Rocky Linux  | alternative Red Hat |
-| Alpine       | conteneurs Docker   |
-
----
-
-## Résumé
-
-Linux est :
-
-- le **système d’exploitation principal des serveurs**
-- la **base technique de la majorité des outils DevOps**
-- l’environnement dans lequel tournent **Docker, Kubernetes et le Cloud**
-
-Maîtriser Linux permet de **comprendre et contrôler l’infrastructure moderne**.
