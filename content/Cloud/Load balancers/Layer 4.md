@@ -39,5 +39,33 @@ aws elbv2 modify-target-group   --target-group-arn arn:aws:...   --health-check-
 
 ---
 
+## HAProxy — configuration L4
+
+```
+# haproxy.cfg — mode TCP (L4)
+frontend mysql_front
+    bind *:3306
+    mode tcp
+    default_backend mysql_back
+
+backend mysql_back
+    mode tcp
+    balance roundrobin
+    option tcp-check
+    server db1 10.0.0.1:3306 check
+    server db2 10.0.0.2:3306 check backup
+```
+
+## L4 vs L7 — choisir
+
+| Critère | L4 (NLB / HAProxy TCP) | L7 (ALB / Nginx / Traefik) |
+|---------|----------------------|---------------------------|
+| Visibilité | IP + Port | URL, headers, cookies |
+| Performances | Très élevées | Moyen (parsing HTTP) |
+| IP source client | Préservée | Perdue (X-Forwarded-For) |
+| Sticky sessions | IP-hash uniquement | Cookie-based possible |
+| TLS termination | Passthrough ou terminaison | Terminaison native |
+| Health check | TCP connect | HTTP response code |
+
 > [!note]
 > Le NLB préserve l'IP source du client (pas besoin de X-Forwarded-For). L'ALB (L7) masque l'IP source — l'application reçoit l'IP du LB, pas du client.

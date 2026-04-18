@@ -18,8 +18,8 @@ CVE (Common Vulnerabilities and Exposures) est un référentiel standardisé de 
 # Trivy : détection CVE dans une image
 trivy image --severity HIGH,CRITICAL python:3.11
 
-# Filtrer par CVE spécifique
-trivy image --format json nginx:latest   | jq '.Results[].Vulnerabilities[] | select(.VulnerabilityID == "CVE-2023-XXXX")'
+# Filtrer par CVE spécifique (ex: CVE-2023-44487 = HTTP/2 Rapid Reset Attack)
+trivy image --format json nginx:latest | jq '.Results[].Vulnerabilities[] | select(.VulnerabilityID == "CVE-2023-44487")'
 
 # Grype : alternative
 grype nginx:latest

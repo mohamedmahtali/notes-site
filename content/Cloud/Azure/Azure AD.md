@@ -41,5 +41,46 @@ az role assignment create   --assignee-object-id $(az vm identity show     --res
 
 ---
 
+## RBAC Azure
+
+```bash
+# Lister les rôles disponibles
+az role definition list --query '[].roleName' --output table
+
+# Attribuer un rôle à un utilisateur sur un resource group
+az role assignment create \
+  --assignee user@company.com \
+  --role "Contributor" \
+  --resource-group myapp-rg
+
+# Créer un rôle custom (lecture seule sur AKS)
+az role definition create --role-definition '{
+  "Name": "AKS Reader Custom",
+  "Actions": [
+    "Microsoft.ContainerService/managedClusters/read",
+    "Microsoft.ContainerService/managedClusters/listClusterUserCredential/action"
+  ],
+  "AssignableScopes": ["/subscriptions/<SUBSCRIPTION_ID>"]
+}'
+
+# Voir les accès d'un utilisateur
+az role assignment list --assignee user@company.com --output table
+```
+
+## Service Principal (pour CI/CD)
+
+```bash
+# Créer un Service Principal avec rôle Contributor sur un resource group
+SP=$(az ad sp create-for-rbac \
+  --name "github-actions-sp" \
+  --role Contributor \
+  --scopes /subscriptions/<SUB>/resourceGroups/myapp-rg \
+  --json-auth)
+
+echo $SP
+# → {clientId, clientSecret, subscriptionId, tenantId}
+# Stocker ces valeurs dans GitHub Actions Secrets
+```
+
 > [!tip]
 > Utiliser Managed Identities plutôt que Service Principals avec clés. Les Managed Identities n'ont pas de credentials à gérer — Azure les gère automatiquement et les renouvelle.

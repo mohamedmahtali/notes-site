@@ -36,6 +36,74 @@ server {
 }
 ```
 
+## Certificats Let's Encrypt avec Certbot
+
+```bash
+# Installer certbot
+apt install certbot python3-certbot-nginx
+
+# Obtenir et installer un certificat (mode automatique Nginx)
+certbot --nginx -d example.com -d www.example.com
+
+# Renouvellement manuel
+certbot renew --dry-run    # Tester
+certbot renew               # Renouveler
+
+# Renouvellement automatique (cron)
+0 3 * * * certbot renew --quiet --post-hook "systemctl reload nginx"
+```
+
+## Headers de sécurité TLS
+
+```nginx
+server {
+    listen 443 ssl;
+    ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
+
+    # Versions et ciphers recommandés
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256;
+    ssl_prefer_server_ciphers off;
+
+    # Session cache (performance)
+    ssl_session_cache shared:SSL:10m;
+    ssl_session_timeout 1d;
+
+    # OCSP Stapling (validation certificat rapide)
+    ssl_stapling on;
+    ssl_stapling_verify on;
+    resolver 8.8.8.8 valid=300s;
+
+    # HSTS — force HTTPS pendant 1 an
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
+}
+
+# Redirect HTTP → HTTPS
+server {
+    listen 80;
+    server_name example.com www.example.com;
+    return 301 https://$host$request_uri;
+}
+```
+
+## Tester la configuration TLS
+
+```bash
+# Test rapide
+curl -I https://example.com
+
+# Inspecter le certificat
+openssl s_client -connect example.com:443 -servername example.com
+
+# Vérifier la date d'expiration
+echo | openssl s_client -connect example.com:443 2>/dev/null \
+  | openssl x509 -noout -dates
+
+# Score SSL Labs (via CLI)
+curl "https://api.ssllabs.com/api/v3/analyze?host=example.com" | jq '.grade'
+```
+
 ## Liens
 
 - [[Handshake]]

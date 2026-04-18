@@ -41,5 +41,41 @@ aws rds modify-db-instance   --db-instance-identifier mydb   --db-instance-class
 
 ---
 
+## Kubernetes — VPA (Vertical Pod Autoscaler)
+
+Le VPA ajuste automatiquement les `requests` et `limits` des conteneurs selon la consommation réelle.
+
+```yaml
+apiVersion: autoscaling.k8s.io/v1
+kind: VerticalPodAutoscaler
+metadata:
+  name: myapp-vpa
+spec:
+  targetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: myapp
+  updatePolicy:
+    updateMode: "Auto"    # Off | Initial | Recreate | Auto
+  resourcePolicy:
+    containerPolicies:
+    - containerName: myapp
+      minAllowed:
+        cpu: 100m
+        memory: 128Mi
+      maxAllowed:
+        cpu: 4
+        memory: 4Gi
+```
+
+```bash
+# Voir les recommandations VPA (sans les appliquer)
+kubectl describe vpa myapp-vpa
+# → Recommends: cpu=250m, memory=512Mi
+```
+
+> [!warning] VPA et HPA ne se combinent pas sur CPU/mémoire
+> HPA scale le nombre de replicas sur CPU. VPA ajuste les requests CPU. Les utiliser ensemble sur la même métrique crée des conflits. Solution : HPA sur métriques custom (RPS), VPA pour CPU/mémoire.
+
 > [!tip]
 > Pour RDS, le scaling vertical est l'approche principale. Un Multi-AZ RDS effectue le resize avec failover automatique — downtime de ~1-2 minutes.

@@ -39,3 +39,39 @@ aws iam simulate-principal-policy   --policy-source-arn arn:aws:iam::ACCOUNT:use
 
 > [!warning]
 > En production, préférer les **rôles IAM** aux users IAM pour les services et applications. Les rôles utilisent des credentials temporaires (STS) — plus sécurisés que les access keys longue durée qui peuvent être leakées.
+
+## Bonnes pratiques
+
+```bash
+# Activer MFA sur un user
+aws iam enable-mfa-device \
+  --user-name alice \
+  --serial-number arn:aws:iam::ACCOUNT:mfa/alice \
+  --authentication-code1 123456 \
+  --authentication-code2 789012
+
+# Auditer les access keys (trouver les clés non utilisées)
+aws iam generate-credential-report
+aws iam get-credential-report --query 'Content' --output text | base64 -d
+
+# Désactiver une clé compromise immédiatement
+aws iam update-access-key \
+  --user-name alice \
+  --access-key-id AKIAIOSFODNN7EXAMPLE \
+  --status Inactive
+
+# Supprimer une clé
+aws iam delete-access-key \
+  --user-name alice \
+  --access-key-id AKIAIOSFODNN7EXAMPLE
+```
+
+## Règles d'or
+
+| Règle | Pourquoi |
+|-------|---------|
+| Pas d'access keys sur le compte root | La clé root a des droits illimités |
+| MFA obligatoire pour la console | Protège contre le vol de mot de passe |
+| Rotation des access keys tous les 90j | Limite la fenêtre d'exploitation |
+| Pas d'access keys pour les services AWS | Utiliser les rôles IAM + instance profile |
+| Principe du moindre privilège | Une clé compromise = dommages limités |

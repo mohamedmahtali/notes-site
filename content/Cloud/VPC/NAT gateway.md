@@ -39,3 +39,33 @@ aws ec2 create-route   --route-table-id rtb-private-abc123   --destination-cidr-
 
 > [!warning] Le NAT Gateway coûte cher
 > NAT Gateway : ~$0.045/heure + $0.045/GB de données traitées. Pour réduire les coûts : utiliser des VPC Endpoints pour S3/DynamoDB (gratuits), et minimiser les données qui passent par le NAT.
+
+## VPC Endpoints — alternative sans NAT pour les services AWS
+
+Pour accéder à S3, DynamoDB, SSM, Secrets Manager depuis un subnet privé, un **VPC Endpoint** est gratuit et plus rapide (trafic reste dans AWS).
+
+```bash
+# Créer un Gateway Endpoint pour S3 (gratuit)
+aws ec2 create-vpc-endpoint \
+  --vpc-id vpc-abc123 \
+  --service-name com.amazonaws.eu-west-1.s3 \
+  --route-table-ids rtb-private-abc123
+
+# Créer un Interface Endpoint pour Secrets Manager
+aws ec2 create-vpc-endpoint \
+  --vpc-id vpc-abc123 \
+  --vpc-endpoint-type Interface \
+  --service-name com.amazonaws.eu-west-1.secretsmanager \
+  --subnet-ids subnet-private-abc123 \
+  --security-group-ids sg-abc123
+```
+
+| Accès | Via NAT Gateway | Via VPC Endpoint |
+|-------|----------------|-----------------|
+| S3 | ~$0.045/GB | Gratuit (Gateway) |
+| DynamoDB | ~$0.045/GB | Gratuit (Gateway) |
+| Secrets Manager | ~$0.045/GB | ~$0.01/heure (Interface) |
+| Internet (npm, apt...) | Via NAT (obligatoire) | — |
+
+> [!tip] Audit du trafic NAT
+> Utiliser VPC Flow Logs pour identifier les destinations les plus coûteuses et voir lesquelles pourraient être remplacées par des VPC Endpoints.

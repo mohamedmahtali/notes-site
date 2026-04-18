@@ -16,8 +16,8 @@ Base de connaissances personnelle sur les pratiques et outils DevOps.
 > [[Cloud]] · [[Cloud/AWS|AWS]] · [[Cloud/Azure|Azure]] · [[Cloud/Google Cloud|GCP]]
 
 > [!tip] Conteneurs & Orchestration
-> Docker, Kubernetes, gestion de clusters et workloads.
-> [[Docker]] · [[Kubernetes]]
+> Docker, Kubernetes, service mesh et gestion de clusters.
+> [[Docker]] · [[Kubernetes]] · [[Service Mesh]]
 
 > [!example] CI/CD & Automatisation
 > Pipelines, intégration continue, déploiement continu.
@@ -35,9 +35,17 @@ Base de connaissances personnelle sur les pratiques et outils DevOps.
 > Bonnes pratiques, gestion des secrets, hardening.
 > [[Security]]
 
-> [!abstract] Linux & Réseau
-> Administration système, scripting, DNS, networking.
+> [!abstract] Linux & Système
+> Administration système, scripting Bash, processus, SSH.
 > [[Linux]]
+
+> [!note] Networking
+> DNS, reverse proxy, load balancing, VPN, TCP/IP.
+> [[Networking]] · [[Networking/DNS|DNS]] · [[Networking/Reverse proxy|Reverse proxy]] · [[Networking/VPN|VPN]]
+
+> [!example] GitOps
+> ArgoCD, Flux, réconciliation continue, déploiements GitOps.
+> [[GitOps]] · [[GitOps/ArgoCD|ArgoCD]] · [[GitOps/Flux|Flux]]
 
 ---
 
