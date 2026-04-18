@@ -28,12 +28,7 @@ jobs:
           args: >
             --verbose
             --no-progress
-            --exclude-mail
-            --exclude "^https?://localhost"
-            --exclude "^https?://127\\.0\\.0\\.1"
-            --exclude "^https?://example\\.com"
-            --timeout 30
-            --max-retries 3
+            --offline
             './content/**/*.md'
           fail: true
         env:
