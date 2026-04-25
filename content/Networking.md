@@ -57,11 +57,20 @@ curl -I https://example.com
 curl -w "\nTime: %{time_total}s\n" https://example.com
 ```
 
-## Liens
+## Prérequis
 
-- [[DNS]]
-- [[TCP IP]]
-- [[OSI model]]
-- [[Load balancing]]
-- [[Reverse proxy]]
-- [[VPN]]
+Avant Networking, avoir des bases en [[Linux]] (commandes réseau : `ping`, `ss`, `curl`) et comprendre ce qu'est une adresse IP.
+
+## Explorer Networking
+
+### Protocoles de base
+- **[[DNS]]** — résolution de noms, A record, CNAME, TTL
+- **[[TCP IP]]** — protocoles fondamentaux, handshake TCP
+- **[[OSI model]]** — modèle en couches, où opère chaque protocole
+
+### Trafic & Équilibrage
+- **[[Load balancing]]** — round robin, least connections, répartition de charge
+- **[[Reverse proxy]]** — Nginx, HAProxy, Traefik, terminaison TLS
+
+### Sécurité réseau
+- **[[VPN]]** — tunnels sécurisés, WireGuard, OpenVPN

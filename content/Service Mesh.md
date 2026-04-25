@@ -56,12 +56,17 @@ Le sidecar intercepte tout le trafic entrant et sortant du pod. L'application ne
 > [!note] Choisir son service mesh
 > Pour commencer : **Linkerd** (moins de configuration, mTLS automatique out-of-the-box). Pour des besoins avancés (traffic [[Policies]] complexes, ext-authz, WASM) : **Istio**.
 
-## Liens
+## Prérequis
 
-- [[Istio]]
-- [[Linkerd]]
-- [[mTLS]]
-- [[Traffic management]]
-- [[Circuit breaker]]
-- [[Kubernetes]]
-- [[Networking]]
+Avant Service Mesh, maîtriser : [[Kubernetes]] (pods, namespaces, sidecars), [[Networking]] (TLS, DNS, load balancing), [[Security]] (certificats, mTLS).
+
+## Explorer Service Mesh
+
+### Concepts clés
+- **[[mTLS]]** — authentification mutuelle, chiffrement automatique entre services
+- **[[Traffic management]]** — canary releases, A/B testing, traffic splitting
+- **[[Circuit breaker]]** — coupure automatique sur service défaillant
+
+### Implémentations
+- **[[Istio]]** — control plane complet, VirtualService, DestinationRule, Gateway
+- **[[Linkerd]]** — léger, Rust, mTLS out-of-the-box, moins de configuration

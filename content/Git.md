@@ -91,5 +91,29 @@ git push origin feature/nouvelle-fonctionnalite
 # Ensuite : ouvrir une Pull Request sur GitHub
 ```
 
-> [!note] Par où commencer ?
-> Commence par maîtriser [[Commit]], [[Branch]] et [[Merge]] — ces trois concepts couvrent 90% des besoins quotidiens.
+## Prérequis
+
+Git est le point de départ — pas de prérequis stricts. Savoir utiliser un terminal ([[Linux]]) aide pour les commandes.
+
+## Explorer Git
+
+### Bases
+- **[[Commit]]** — snapshot de l'état du code, messages conventionnels
+- **[[Branch]]** — branches feature, hotfix, main, release
+- **[[Merge]]** — fast-forward, three-way, résolution de conflits
+- **[[Repository]]** — local, remote, bare repository
+
+### Collaboration
+- **[[Pull request]]** — code review, approvals, merge checks
+- **[[Git workflow]]** — Git flow, GitHub flow, trunk-based development
+- **[[Rebase]]** — rebase interactif, squash, réécriture d'historique
+
+### Outils & Avancé
+- **[[Git hooks]]** — pre-commit, commit-msg, pre-push
+- **[[Git stash]]** — sauvegarder du travail en cours
+- **[[Git tags]]** — annotated vs lightweight tags, versioning
+- **[[Git submodules]]** — dépôts imbriqués, nested repositories
+- **[[Advanced Git]]** — bisect, cherry-pick, reflog, reset
+
+> [!tip] Lab pratique
+> → [[Cheat sheet Git]]

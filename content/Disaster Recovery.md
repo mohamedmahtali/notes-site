@@ -34,11 +34,20 @@ Exemple : RTO = 4h, RPO = 1h
 | Warm standby | Replica réduit toujours actif | 30min-2h | Minutes |
 | Multi-site active/active | Deux sites en production | Secondes | Zéro |
 
-## Liens
+## Prérequis
 
-- [[RTO RPO]]
-- [[Backup strategies]]
-- [[Chaos engineering]]
-- [[Runbooks]]
-- [[Incident response]]
-- [[Incident Management]]
+Avant Disaster Recovery, avoir des bases en : [[Cloud]] (régions, availability zones), [[Kubernetes]] (réplication, persistent volumes), [[Observability]] (alertes, monitoring).
+
+## Explorer Disaster Recovery
+
+### Métriques & Stratégies
+- **[[RTO RPO]]** — Recovery Time Objective, Recovery Point Objective, calcul du coût d'un incident
+- **[[Backup strategies]]** — règle 3-2-1, full backup, incremental backup
+
+### Résilience & Tests
+- **[[Chaos engineering]]** — Chaos Monkey, failure injection, game days — tester la résilience en conditions réelles
+
+### Opérations
+- **[[Runbooks]]** — procédures opérationnelles documentées, playbooks d'incident
+- **[[Incident response]]** — détection, triage, résolution, post-mortem
+- **[[Incident Management]]** — coordination pendant un incident, communication, escalade
