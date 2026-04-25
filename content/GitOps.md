@@ -39,11 +39,13 @@ Synchronisation ponctuelle    Réconciliation continue
 - **[[ArgoCD]]** — UI riche, GitOps pour Kubernetes, très populaire
 - **[[Flux]]** — Natif CNCF, plus léger, intégration [[Helm]]/Kustomize
 
-## Liens
+## Prérequis
 
-- [[GitOps principles]]
-- [[ArgoCD]]
-- [[Flux]]
-- [[Environments]]
-- [[CI-CD]]
-- [[Kubernetes]]
+Avant GitOps, maîtriser : [[Kubernetes]] (déploiements, manifests YAML), [[Git]] (branches, PR, merge), [[CI-CD]] (pipelines, artifacts).
+
+## Explorer GitOps
+
+- **[[GitOps principles]]** — source de vérité unique, réconciliation, déclaratif
+- **[[ArgoCD]]** — UI riche, Application CRD, health checks, sync policies
+- **[[Flux]]** — natif CNCF, Kustomize/Helm intégrés, plus léger
+- **[[Environments]]** — stratégies multi-environnements (dev/staging/prod)

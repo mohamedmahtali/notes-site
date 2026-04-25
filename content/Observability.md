@@ -44,11 +44,25 @@ Traces ───────── Comment une requête a traversé le système 
 | **Errors** | Taux d'erreurs (4xx, 5xx) |
 | **Saturation** | Utilisation des ressources (CPU, RAM) |
 
-## Liens
+## Prérequis
 
-- [[Monitoring]]
-- [[Logging]]
-- [[Metrics]]
-- [[Tracing]]
-- [[Grafana]]
-- [[SLO SLA SLI]]
+Avant Observabilité, avoir des bases en : [[Kubernetes]] ou [[Cloud]] (où tournent les apps), [[Linux]] (logs système), [[Networking]] (métriques réseau).
+
+## Explorer Observabilité
+
+### Métriques & Monitoring
+- **[[Monitoring]]** — collecte, agrégation, dashboards
+- **[[Monitoring/Prometheus|Prometheus]]** — collecte de métriques, PromQL, alerting
+- **[[Metrics]]** — types de métriques (counter, gauge, histogram)
+- **[[Grafana]]** — visualisation unifiée, dashboards, alerting
+
+### Logs
+- **[[Logging]]** — centralisation, structured logging
+- **[[Observability/Monitoring/Alertmanager|Alertmanager]]** — routage et gestion des alertes
+
+### Traces & SLO
+- **[[Tracing]]** — distributed tracing, spans, Jaeger, OpenTelemetry
+- **[[SLO SLA SLI]]** — définir et mesurer la fiabilité
+
+> [!tip] Lab pratique
+> → [[Lab Observability — Stack Prometheus Grafana]]

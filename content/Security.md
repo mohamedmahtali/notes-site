@@ -44,14 +44,29 @@ La sécurité [[DevOps]] (DevSecOps) intègre les pratiques de sécurité à cha
 | **D**enial of Service | Interruption de service |
 | **E**levation of Privilege | Escalade de privilèges |
 
-## Liens
+## Prérequis
 
-- [[DevSecOps]]
-- [[Secrets management]]
-- [[TLS]]
-- [[Certificates]]
-- [[Container security]]
-- [[Image scanning]]
-- [[Vulnerability scanning]]
-- [[RBAC]]
-- [[Zero trust]]
+La sécurité DevOps s'appuie sur : [[Linux]] (permissions, firewall), [[Kubernetes]] (RBAC, Secrets), [[CI-CD]] (pipelines pour intégrer les contrôles), [[Networking]] (TLS, VPN).
+
+## Explorer Sécurité
+
+### Chiffrement & Identité
+- **[[TLS]]** — handshake, certificats, HTTPS, mTLS
+- **[[Certificates]]** — X.509, CA, PKI, Let's Encrypt
+- **[[RBAC]]** — rôles, bindings, least privilege
+
+### Secrets & Confiance
+- **[[Secrets management]]** — HashiCorp Vault, rotation, dynamic secrets
+- **[[Zero trust]]** — never trust, always verify, microsegmentation
+
+### Conteneurs & Images
+- **[[Container security]]** — AppArmor, Seccomp, non-root, namespaces
+- **[[Image scanning]]** — Trivy, CVE detection, policy enforcement
+- **[[Docker security]]** — capability dropping, rootless containers
+
+### Tests & Pipelines
+- **[[Vulnerability scanning]]** — SAST, DAST, dependency scanning
+- **[[DevSecOps]]** — shift left, security gates, Secure SDLC
+
+> [!tip] Lab pratique
+> → [[Lab Sécurité — DevSecOps pipeline]]

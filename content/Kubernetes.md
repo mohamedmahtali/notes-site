@@ -7,6 +7,12 @@ tags:
 
 # Kubernetes
 
+## Prérequis
+
+Avant Kubernetes, maîtriser : [[Docker]] (conteneurs, images, registres), [[Linux]] (processus, réseau), [[Networking]] (DNS, load balancing, TCP/IP).
+
+---
+
 ## Définition
 
 Kubernetes (K8s) est un orchestrateur de conteneurs open-source créé par Google. Il automatise le déploiement, la mise à l'échelle et la gestion des applications conteneurisées sur un cluster de machines.
@@ -55,19 +61,36 @@ Control Plane                    Worker Nodes
 - **[[DaemonSets]]** → un pod par node ([[Monitoring]], [[Logging]])
 - **Jobs / CronJobs** → tâches ponctuelles ou planifiées
 
-## Liens
+## Explorer Kubernetes
 
-- [[Cluster]]
-- [[Pods]]
-- [[Services]]
-- [[ConfigMaps]]
-- [[Secrets]]
-- [[Volumes]]
-- [[Namespaces]]
-- [[RBAC]]
-- [[Helm]]
-- [[Operators]]
-- [[HPA]]
-- [[kubectl]]
-- [[Advanced Kubernetes]]
-- [[Service Mesh]]
+### Le cluster
+- **[[Cluster]]** — architecture générale, composants
+- **[[Control plane]]** — API server, scheduler, etcd, controller manager
+- **[[Node]]** — kubelet, kube-proxy, container runtime
+
+### Workloads
+- **[[Pods]]** — unité de base, multi-conteneurs, lifecycle
+- **[[Deployments]]** — apps stateless, rolling updates, rollback
+- **[[StatefulSets]]** — apps stateful (bases de données, caches)
+- **[[DaemonSets]]** — un pod par node (monitoring, logging)
+
+### Réseau & Exposition
+- **[[Services]]** — ClusterIP, NodePort, LoadBalancer
+- **[[Ingress]]** — reverse proxy HTTP/HTTPS, TLS termination
+- **[[Namespaces]]** — isolation logique, quotas
+
+### Configuration & Stockage
+- **[[ConfigMaps]]** — configuration non-sensible injectée dans les pods
+- **[[Secrets]]** — données sensibles chiffrées
+- **[[Volumes]]** — stockage persistant (PVC, PV, StorageClass)
+
+### Opérations & Avancé
+- **[[kubectl]]** — CLI : get, describe, apply, exec, logs, port-forward
+- **[[Helm]]** — package manager, charts, releases
+- **[[RBAC]]** — contrôle d'accès, roles, bindings
+- **[[HPA]]** — autoscaling horizontal basé sur les métriques
+- **[[Operators]]** — extensions pour applications stateful complexes
+- **[[Advanced Kubernetes]]** — admission controllers, affinity, taints
+
+> [!tip] Lab pratique
+> → [[Lab Kubernetes — App avec HPA et Ingress]]

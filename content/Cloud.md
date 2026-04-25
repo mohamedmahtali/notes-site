@@ -42,20 +42,31 @@ Le cloud computing est la fourniture de ressources informatiques (serveurs, stoc
 - [[Azure]] — Microsoft Azure, fort ancrage enterprise ([[AKS]], Blob, AD...)
 - [[Google Cloud]] — GCP, excellence en data/ML ([[GKE]], BigQuery, Cloud Run...)
 
-## Liens
+## Prérequis
 
-- [[Cloud computing]]
-- [[IaaS]]
-- [[PaaS]]
-- [[SaaS]]
-- [[Virtual machines]]
-- [[AWS]]
-- [[Azure]]
-- [[Google Cloud]]
-- [[VPC]]
-- [[Subnets]]
-- [[Security groups]]
-- [[Load balancers]]
-- [[Object storage]]
-- [[IAM]]
-- [[Autoscaling]]
+Avant Cloud, avoir des bases en : [[Linux]] (administration système), [[Networking]] (VPC, DNS, load balancing), [[SSH]] (accès aux VMs).
+
+## Explorer Cloud
+
+### Concepts fondamentaux
+- **[[Cloud computing]]** — modèles IaaS/PaaS/SaaS, capex vs opex
+- **[[Virtual machines]]** — EC2, GCE, Azure VM, sizing
+- **[[IAM]]** — gestion des identités et permissions
+
+### Réseau cloud
+- **[[VPC]]** — réseau virtuel privé, isolation
+- **[[Subnets]]** — segmentation, public vs private
+- **[[Security groups]]** — firewall au niveau instance
+- **[[Load balancers]]** — ALB, NLB, répartition de charge
+- **[[Autoscaling]]** — scaling horizontal automatique
+
+### Stockage
+- **[[Object storage]]** — S3, GCS, Blob Storage
+
+### Providers
+- **[[AWS]]** — EC2, S3, RDS, EKS, Lambda, IAM…
+- **[[Azure]]** — AKS, Blob, Active Directory, Functions…
+- **[[Google Cloud]]** — GKE, BigQuery, Cloud Run, Pub/Sub…
+
+> [!tip] Lab pratique
+> → [[Lab Cloud — Infra AWS avec Terraform]]

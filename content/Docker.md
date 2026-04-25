@@ -74,3 +74,34 @@ docker exec -it mon-app bash
 # Stopper et supprimer
 docker stop mon-app && docker rm mon-app
 ```
+
+---
+
+## Explorer Docker
+
+### Construire des images
+- **[[Dockerfile]]** — écrire la recette de construction d'une image
+- **[[Instructions]]** — référence complète (FROM, RUN, COPY, ENV, EXPOSE…)
+- **[[Multi stage builds]]** — images légères pour la production
+- **[[Docker build]]** — builder, tagger, gérer le cache
+
+### Gérer les images
+- **[[Images]]** — couches, tagging, base images, image caching
+- **[[Docker registry]]** — [[Docker hub]], ECR, registre privé
+
+### Gérer les conteneurs
+- **[[Containers]]** — cycle de vie complet (create, start, stop, remove)
+- **[[Docker run]]** — lancer avec options (ports, variables d'env, restart policy)
+- **[[Resource limits]]** — limiter CPU et mémoire
+
+### Données & Réseau
+- **[[Docker volumes]]** — named volumes, bind mounts, volume drivers
+- **[[Docker networks]]** — bridge, overlay, host, DNS interne
+
+### Composition & Sécurité
+- **[[Docker compose]]** — orchestrer des services multi-conteneurs en local
+- **[[Docker security]]** — non-root, capability dropping, secrets handling
+- **[[Container runtime]]** — containerd, runc, OCI
+
+> [!tip] Lab pratique
+> → [[Lab Docker — App Python conteneurisée]]

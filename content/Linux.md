@@ -60,3 +60,29 @@ free -h       # mémoire
 uptime        # charge système
 whoami        # utilisateur courant
 ```
+
+---
+
+## Explorer Linux
+
+### Bases du système
+- **[[Shell]]** / **[[Bash]]** — scripting, variables, conditions, boucles, pipes, redirections
+- **[[Processes]]** — gestion, signaux, priorités (ps, top, htop, nice)
+- **[[systemd]]** — init system, services, unit files, timers
+- **[[Kernel]]** — system calls, modules, scheduler, gestion mémoire
+
+### Fichiers & Identité
+- **[[File system]]** — arborescence, inodes, permissions (chmod, chown), liens
+- **[[Users]]** — comptes, groupes, sudo, PAM, service accounts
+- **[[SSH]]** — accès distant, clés, ssh-agent, port forwarding, SCP
+
+### Réseau & Sécurité
+- **[[Networking]]** (Linux) — interfaces, TCP/UDP, routing, diagnostics (ping, ss, traceroute)
+- **[[Firewall]]** — iptables (chains, rules, NAT), ufw
+- **[[Logs]]** — syslog, journalctl, logrotate, audit logs
+
+### Automatisation
+- **[[Cron]]** — tâches planifiées, crontab syntax, logs
+
+> [!tip] Lab pratique
+> → [[Lab Linux — Administration système]]

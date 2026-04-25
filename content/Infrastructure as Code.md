@@ -39,9 +39,27 @@ Outil déclaratif de HashiCorp pour créer et gérer des ressources cloud ([[AWS
 ### [[Ansible]] (configuration)
 Outil de gestion de configuration et d'automatisation. Ansible se connecte via [[SSH]] aux machines et applique des **[[Playbooks]]** (recettes) pour configurer les systèmes, déployer des applications, gérer les utilisateurs...
 
-## Liens
+## Prérequis
 
-- [[Terraform]]
-- [[Ansible]]
-- [[Cloud]]
-- [[CI-CD]]
+Avant IaC, avoir des bases en : [[Cloud]] (ressources, providers), [[Linux]] (SSH, ligne de commande), [[Git]] (versioning, PR).
+
+## Explorer IaC
+
+### Terraform
+- **[[Terraform]]** — présentation, workflow plan/apply/destroy
+- **[[Terraform providers]]** — AWS, Azure, GCP, Kubernetes
+- **[[Terraform state]]** — état de l'infra, backend distant, locking
+- **[[Terraform variables]]** — variables, outputs, locals
+- **[[Terraform modules]]** — réutilisabilité, modules publics
+- **[[Terraform workspaces]]** — environnements multiples
+
+### Ansible
+- **[[Ansible]]** — présentation, inventaire, architecture agentless
+- **[[Playbooks]]** — structure, play, tasks, handlers
+- **[[Roles]]** — organiser les playbooks en rôles réutilisables
+- **[[Inventory]]** — fichiers statiques et dynamiques
+- **[[Variables]]** (Ansible) — group vars, host vars, facts
+- **[[Templates]]** — Jinja2, fichiers de configuration dynamiques
+
+> [!tip] Lab pratique
+> → [[Lab IaC — Provisionner un serveur]]
