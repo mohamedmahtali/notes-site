@@ -6,14 +6,11 @@ tags:
 
 # ssh-agent
 
-## Parent
-- [[SSH keys]]
-
 ---
 
 ## Définition
 
-`ssh-agent` est un daemon qui mémorise les clés SSH déchiffrées en mémoire. Une fois la clé ajoutée à l'agent (avec la passphrase), tu peux te connecter à autant de serveurs que tu veux sans ressaisir la passphrase.
+`ssh-agent` est un daemon qui mémorise les clés [[SSH]] déchiffrées en mémoire. Une fois la clé ajoutée à l'agent (avec la [[Passphrase]]), tu peux te connecter à autant de serveurs que tu veux sans ressaisir la passphrase.
 
 ---
 
@@ -62,4 +59,4 @@ git clone git@github.com:org/repo.git  # utilise ton agent local
 ---
 
 > [!warning]
-> Agent forwarding sur des serveurs non fiables présente un risque — un admin du serveur peut utiliser ton agent. Utiliser uniquement sur des machines de confiance.
+> Agent [[Forwarding]] sur des serveurs non fiables présente un risque — un admin du serveur peut utiliser ton agent. Utiliser uniquement sur des machines de confiance.

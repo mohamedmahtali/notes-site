@@ -5,14 +5,11 @@ tags:
 ---
 # Notification channels
 
-## Parent
-- [[Alertmanager]]
-
 ---
 
 ## Définition
 
-Les canaux de notification (receivers) sont les destinations où Alertmanager envoie les alertes : Slack, PagerDuty, email, webhook, OpsGenie, etc.
+Les canaux de notification (receivers) sont les destinations où [[Alertmanager]] envoie les alertes : Slack, PagerDuty, email, webhook, OpsGenie, etc.
 
 ---
 

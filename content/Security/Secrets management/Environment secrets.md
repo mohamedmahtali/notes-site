@@ -1,16 +1,18 @@
 ---
 title: Environment secrets
-tags: [security, beginner]
+tags:
+  - security
+  - beginner
 ---
 
 # Environment secrets
 
 ## Définition
 
-Les secrets d'environnement sont des valeurs sensibles injectées dans les processus via des variables d'environnement. C'est la méthode la plus simple, mais aussi la plus risquée si mal utilisée.
+Les [[Secrets]] d'environnement sont des valeurs sensibles injectées dans les processus via des [[Variables]] d'environnement. C'est la méthode la plus simple, mais aussi la plus risquée si mal utilisée.
 
 > [!warning] Risques des variables d'environnement
-> Les variables d'env sont visibles via `/proc/<pid>/environ`, dans les logs d'erreur, et dans les outils de debug. Préférer des secrets montés en fichiers pour les données très sensibles.
+> Les variables d'[[ENV]] sont visibles via `/proc/<pid>/environ`, dans les logs d'erreur, et dans les outils de debug. Préférer des secrets montés en fichiers pour les données très sensibles.
 
 ## Bonnes pratiques
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Images
 
-## Parent
-- [[Virtual machines]]
-
 ---
 
 ## Définition
 
-Les images de VM (AMI sur AWS, Machine Image sur GCP) sont des snapshots du disque d'une instance qui servent de modèle pour créer de nouvelles VMs. Elles incluent l'OS, les logiciels installés, et la configuration.
+Les images de VM (AMI sur [[AWS]], Machine Image sur GCP) sont des snapshots du disque d'une instance qui servent de modèle pour créer de nouvelles VMs. Elles incluent l'OS, les logiciels installés, et la configuration.
 
 ---
 
@@ -20,8 +17,8 @@ Les images de VM (AMI sur AWS, Machine Image sur GCP) sont des snapshots du disq
 
 | Type | Description |
 |---|---|
-| Images officielles AWS/GCP | Ubuntu, Amazon Linux, Windows — maintenues par les providers |
-| Images marketplace | Logiciels préinstallés (Nginx, Jenkins, GitLab) |
+| Images officielles AWS/GCP | Ubuntu, Amazon [[Linux]], Windows — maintenues par les providers |
+| Images marketplace | Logiciels préinstallés ([[Nginx]], [[Jenkins]], GitLab) |
 | Custom images | Images créées depuis une instance configurée |
 | Golden images | Images de référence de l'entreprise avec sécurité baseline |
 

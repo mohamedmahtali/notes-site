@@ -1,13 +1,15 @@
 ---
 title: Declarative config
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # Declarative config
 
 ## Définition
 
-La configuration déclarative décrit **ce que l'on veut** (l'état final), non **comment y arriver** (les étapes). Kubernetes et les outils GitOps utilisent YAML déclaratif : l'orchestrateur détermine comment atteindre l'état décrit.
+La configuration déclarative décrit **ce que l'on veut** (l'état final), non **comment y arriver** (les étapes). [[Kubernetes]] et les outils GitOps utilisent YAML déclaratif : l'orchestrateur détermine comment atteindre l'état décrit.
 
 > [!tip] Avantage clé
 > La configuration déclarative est idempotente : appliquer le même YAML 10 fois produit le même résultat. Elle est aussi auto-documentée : le fichier décrit l'état actuel du système.
@@ -36,8 +38,8 @@ kubectl set image deployment/myapp app=myapp:1.2.0
 
 | Outil | Usage |
 |-------|-------|
-| Kustomize | Patches par environnement, natif kubectl |
-| Helm | Templates paramétrables, packages |
+| Kustomize | Patches par environnement, natif [[kubectl]] |
+| [[Helm]] | [[Templates]] paramétrables, [[Package]] |
 | jsonnet | Templating puissant, plus complexe |
 
 ## Liens

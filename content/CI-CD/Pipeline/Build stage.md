@@ -5,26 +5,18 @@ tags:
 ---
 # Build stage
 
-## Parent
-- [[Pipeline]]
-
-## Enfants
-- [[Compile]]
-- [[Containerize]]
-- [[Package]]
-
 ---
 
 ## Définition
 
-Le build stage compile le code source, résout les dépendances, et produit un artefact déployable (binaire, image Docker, package). C'est la première étape d'un pipeline — si le build échoue, rien d'autre ne s'exécute.
+Le build stage compile le code source, résout les dépendances, et produit un artefact déployable (binaire, image [[Docker]], package). C'est la première étape d'un [[Pipeline]] — si le build échoue, rien d'autre ne s'exécute.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!tip] Artefact immuable
-> Le build stage produit un artefact unique (identifié par un SHA ou tag de version) qui sera promu à travers les environnements. Le même artefact va en staging et en prod — pas de rebuild entre les environnements.
+> Le build stage produit un artefact unique (identifié par un SHA ou tag de version) qui sera promu à travers les environnements. Le même artefact va en [[Staging]] et en prod — pas de rebuild entre les environnements.
 
 ---
 

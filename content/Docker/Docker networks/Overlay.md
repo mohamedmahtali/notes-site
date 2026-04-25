@@ -6,14 +6,11 @@ tags:
 
 # Overlay
 
-## Parent
-- [[Docker networks]]
-
 ---
 
 ## Définition
 
-Le driver `overlay` crée un réseau distribué qui s'étend sur plusieurs hôtes Docker (Swarm). Il encapsule le trafic réseau entre hôtes via VXLAN, permettant aux conteneurs sur des machines différentes de communiquer comme s'ils étaient sur le même réseau local.
+Le driver `overlay` crée un réseau distribué qui s'étend sur plusieurs hôtes [[Docker]] (Swarm). Il encapsule le trafic réseau entre hôtes via VXLAN, permettant aux conteneurs sur des machines différentes de communiquer comme s'ils étaient sur le même réseau local.
 
 ---
 
@@ -63,4 +60,4 @@ services:
 ---
 
 > [!note]
-> Les réseaux overlay sont spécifiques à Docker Swarm. Pour Kubernetes, les réseaux inter-pods sont gérés par des plugins CNI (Calico, Flannel, Cilium).
+> Les réseaux overlay sont spécifiques à Docker Swarm. Pour [[Kubernetes]], les réseaux inter-[[Pods]] sont gérés par des plugins CNI (Calico, Flannel, Cilium).

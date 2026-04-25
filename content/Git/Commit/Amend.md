@@ -6,26 +6,18 @@ tags:
 
 # Amend
 
-## Parent
-- [[Commit]]
-
-## Concepts liés
-- [[Commit]]
-- [[Commit message]]
-- [[Rebase]]
-
 ---
 
 ## Définition
 
-`git commit --amend` modifie le **dernier commit** : il permet de corriger le message, d'ajouter des fichiers oubliés, ou de modifier des changements, sans créer un nouveau commit. Il réécrit l'historique local.
+`git commit --amend` modifie le **dernier [[Commit]]** : il permet de corriger le message, d'ajouter des fichiers oubliés, ou de modifier des changements, sans créer un nouveau commit. Il réécrit l'historique local.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!warning] Uniquement sur des commits non poussés
-> `--amend` réécrit le hash du commit. Sur un commit déjà pushé sur le remote, ça crée une divergence d'historique et force les autres contributeurs à rebase.
+> `--amend` réécrit le hash du commit. Sur un commit déjà pushé sur le remote, ça crée une divergence d'historique et force les autres contributeurs à [[Rebase]].
 
 ---
 

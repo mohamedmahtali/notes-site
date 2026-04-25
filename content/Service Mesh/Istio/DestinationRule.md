@@ -1,13 +1,16 @@
 ---
 title: DestinationRule
-tags: [kubernetes, networking, advanced]
+tags:
+  - kubernetes
+  - networking
+  - advanced
 ---
 
 # DestinationRule
 
 ## Définition
 
-Une `DestinationRule` définit les **politiques appliquées côté destination** : comment se connecter au service (TLS, load balancing), quelles versions existent (subsets), et les limites de connexion (circuit breaker).
+Une `DestinationRule` définit les **politiques appliquées côté destination** : comment se connecter au service ([[TLS]], [[Load balancing]]), quelles versions existent (subsets), et les limites de connexion (circuit breaker).
 
 > [!note] VirtualService + DestinationRule = tandem
 > Le VirtualService dit "où envoyer le trafic". La DestinationRule dit "comment se comporter une fois arrivé". Ils fonctionnent toujours en pair.

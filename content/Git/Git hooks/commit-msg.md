@@ -6,19 +6,11 @@ tags:
 
 # commit-msg
 
-## Parent
-- [[Git hooks]]
-
-## Concepts liés
-- [[Git hooks]]
-- [[pre-commit]]
-- [[Commit message]]
-
 ---
 
 ## Définition
 
-Le hook `commit-msg` valide le **message de commit** avant de finaliser le commit. Git lui passe le chemin vers un fichier temporaire contenant le message. Si le script retourne un code d'erreur, le commit est annulé avec une indication de l'erreur.
+Le hook `commit-msg` valide le **message de [[Commit]]** avant de finaliser le commit. [[Git]] lui passe le chemin vers un fichier temporaire contenant le message. Si le script retourne un code d'erreur, le commit est annulé avec une indication de l'erreur.
 
 ---
 

@@ -6,14 +6,11 @@ tags:
 
 # Image tagging
 
-## Parent
-- [[Images]]
-
 ---
 
 ## Définition
 
-Le tag d'une image est le suffixe après `:` dans le nom (`mon-app:1.2.0`). Il identifie une version spécifique d'une image. Si omis, Docker utilise `latest` par convention — mais `latest` n'est qu'un tag comme un autre, pas automatiquement la dernière version.
+Le tag d'une image est le suffixe après `:` dans le nom (`mon-app:1.2.0`). Il identifie une version spécifique d'une image. Si omis, [[Docker]] utilise `latest` par convention — mais `latest` n'est qu'un tag comme un autre, pas automatiquement la dernière version.
 
 ---
 
@@ -56,4 +53,4 @@ docker build   -t ghcr.io/org/app:${VERSION}   -t ghcr.io/org/app:${COMMIT}   -t
 ```
 
 > [!warning]
-> Ne jamais déployer `:latest` en production — le tag peut pointer vers une image différente selon l'hôte. Utiliser un tag de version ou de commit immuable.
+> Ne jamais déployer `:latest` en production — le tag peut pointer vers une image différente selon l'hôte. Utiliser un tag de version ou de [[Commit]] immuable.

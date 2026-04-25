@@ -5,27 +5,18 @@ tags:
 ---
 # Jenkins
 
-## Parent
-- [[CI-CD]]
-
-## Enfants
-- [[Jenkinsfile]]
-- [[Declarative pipeline]]
-- [[Scripted pipeline]]
-- [[Agents]]
-
 ---
 
 ## Définition
 
-Jenkins est le serveur d'automatisation open-source le plus répandu. Auto-hébergé, extensible par plus de 1800 plugins, il orchestre les pipelines CI/CD pour des centaines de milliers d'organisations.
+Jenkins est le serveur d'automatisation open-source le plus répandu. Auto-hébergé, extensible par plus de 1800 plugins, il orchestre les [[Pipeline]] CI/CD pour des centaines de milliers d'organisations.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!note] Le vétéran du CI/CD
-> Jenkins est partout dans les entreprises. Créé en 2011, il est mature, stable, et hautement configurable. Sa flexibilité totale a un coût : configuration et maintenance plus complexes que GitHub Actions ou GitLab CI.
+> Jenkins est partout dans les entreprises. Créé en 2011, il est mature, stable, et hautement configurable. Sa flexibilité totale a un coût : configuration et maintenance plus complexes que [[GitHub actions]] ou GitLab CI.
 
 ---
 

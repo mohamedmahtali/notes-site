@@ -5,25 +5,11 @@ tags:
 ---
 # Repository
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Local repository]]
-- [[Remote repository]]
-- [[Bare repository]]
-
-## Concepts liés
-- [[Local repository]]
-- [[Remote repository]]
-- [[Bare repository]]
-- [[Git submodules]]
-
 ---
 
 ## Définition
 
-Un dépôt Git (repository) est un répertoire versionné qui contient l'intégralité de l'historique d'un projet sous forme d'objets Git. Il existe en deux formes : **local** (sur ta machine, avec working directory) et **distant** (sur un serveur, point de synchronisation).
+Un dépôt [[Git]] (repository) est un répertoire versionné qui contient l'intégralité de l'historique d'un projet sous forme d'objets Git. Il existe en deux formes : **local** (sur ta machine, avec working directory) et **distant** (sur un serveur, point de synchronisation).
 
 ---
 

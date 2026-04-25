@@ -5,14 +5,11 @@ tags:
 ---
 # Roles
 
-## Parent
-- [[RBAC]]
-
 ---
 
 ## Définition
 
-Un Role définit un ensemble de permissions dans un namespace spécifique. Il spécifie les ressources sur lesquelles les actions sont autorisées et les verbs (get, create, delete...) permis. Contrairement au ClusterRole, un Role est limité à un namespace.
+Un Role définit un ensemble de [[Permissions]] dans un namespace spécifique. Il spécifie les ressources sur lesquelles les actions sont autorisées et les verbs ([[get]], [[create]], delete...) permis. Contrairement au ClusterRole, un Role est limité à un namespace.
 
 ---
 

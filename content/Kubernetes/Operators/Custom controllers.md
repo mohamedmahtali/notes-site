@@ -5,14 +5,11 @@ tags:
 ---
 # Custom controllers
 
-## Parent
-- [[Operators]]
-
 ---
 
 ## Définition
 
-Un custom controller surveille des ressources Kubernetes (natives ou CRDs) et prend des actions pour aligner l'état réel sur l'état désiré. C'est le composant actif d'un Operator.
+Un custom controller surveille des ressources [[Kubernetes]] (natives ou [[CRD]]) et prend des actions pour aligner l'état réel sur l'état désiré. C'est le composant actif d'un Operator.
 
 ---
 

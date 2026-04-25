@@ -5,9 +5,6 @@ tags:
 ---
 # Health checks
 
-## Parent
-- [[Load balancers]]
-
 ---
 
 ## Définition

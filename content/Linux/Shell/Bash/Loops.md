@@ -5,14 +5,11 @@ tags:
 ---
 # Loops
 
-## Parent
-- [[Bash]]
-
 ---
 
 ## Définition
 
-Les boucles Bash permettent de répéter des commandes sur une séquence de valeurs, tant qu'une condition est vraie, ou indéfiniment avec contrôle manuel. Les trois types principaux : `for`, `while`, et `until`.
+Les boucles [[Bash]] permettent de répéter des commandes sur une séquence de valeurs, tant qu'une condition est vraie, ou indéfiniment avec contrôle manuel. Les trois [[Types]] principaux : `for`, `while`, et `until`.
 
 ---
 

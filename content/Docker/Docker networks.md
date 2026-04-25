@@ -6,20 +6,11 @@ tags:
 
 # Docker networks
 
-## Parent
-- [[Docker]]
-
-## Enfants
-- [[Bridge]]
-- [[Host]]
-- [[Overlay]]
-- [[DNS in Docker]]
-
 ---
 
 ## Définition
 
-Docker crée des réseaux virtuels isolés pour permettre la communication entre conteneurs. Chaque réseau a son propre espace d'adressage IP. Par défaut, les conteneurs sur le même réseau peuvent se contacter par nom (DNS automatique).
+[[Docker]] crée des réseaux virtuels isolés pour permettre la communication entre conteneurs. Chaque réseau a son propre espace d'adressage IP. Par défaut, les conteneurs sur le même réseau peuvent se contacter par nom ([[DNS]] automatique).
 
 ---
 

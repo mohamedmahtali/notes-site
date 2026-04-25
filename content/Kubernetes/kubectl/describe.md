@@ -5,14 +5,11 @@ tags:
 ---
 # describe
 
-## Parent
-- [[kubectl]]
-
 ---
 
 ## Définition
 
-`kubectl describe` affiche une description détaillée d'une ressource : métadonnées, spec, status, et surtout les **Events** — qui sont le premier endroit à regarder pour diagnostiquer un problème.
+`kubectl describe` affiche une description détaillée d'une ressource : métadonnées, spec, [[Status]], et surtout les **Events** — qui sont le premier endroit à regarder pour diagnostiquer un problème.
 
 ---
 

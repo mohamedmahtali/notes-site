@@ -5,14 +5,11 @@ tags:
 ---
 # Defaults
 
-## Parent
-- [[Terraform variables]]
-
 ---
 
 ## Définition
 
-Les valeurs par défaut dans les variables Terraform permettent à un module d'être utilisé sans que l'appelant ne spécifie toutes les valeurs. Les variables sans default sont requises.
+Les valeurs par défaut dans les [[Variables]] [[Terraform]] permettent à un module d'être utilisé sans que l'appelant ne spécifie toutes les valeurs. Les variables sans default sont requises.
 
 ---
 

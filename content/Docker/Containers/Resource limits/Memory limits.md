@@ -6,14 +6,11 @@ tags:
 
 # Memory limits
 
-## Parent
-- [[Resource limits]]
-
 ---
 
 ## Définition
 
-Les memory limits définissent la quantité maximale de RAM qu'un conteneur peut utiliser. Quand cette limite est dépassée, le kernel Linux tue le processus le plus gourmand du conteneur (OOM Killer).
+Les memory limits définissent la quantité maximale de RAM qu'un conteneur peut utiliser. Quand cette limite est dépassée, le [[Kernel]] [[Linux]] tue le processus le plus gourmand du conteneur (OOM Killer).
 
 ---
 
@@ -70,4 +67,4 @@ dmesg | grep "Killed process"
 ```
 
 > [!warning]
-> Sans `--memory-swap`, le swap disponible est 2x la limite mémoire par défaut. Toujours définir `--memory-swap=--memory` pour désactiver le swap et avoir un comportement prévisible.
+> Sans `--memory-swap`, le [[Swap]] disponible est 2x la limite mémoire par défaut. Toujours définir `--memory-swap=--memory` pour désactiver le swap et avoir un comportement prévisible.

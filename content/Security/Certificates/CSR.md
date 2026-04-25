@@ -1,6 +1,8 @@
 ---
 title: CSR (Certificate Signing Request)
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # CSR (Certificate Signing Request)

@@ -1,6 +1,8 @@
 ---
 title: RTO et RPO
-tags: [reliability, intermediate]
+tags:
+  - reliability
+  - intermediate
 ---
 
 # RTO et RPO

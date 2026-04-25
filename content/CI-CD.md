@@ -5,22 +5,6 @@ tags:
 ---
 # CI/CD
 
-## Parent
-- [[DevOps]]
-
-## Enfants
-- [[Pipeline]]
-- [[Continuous integration]]
-- [[Continuous delivery]]
-- [[Continuous deployment]]
-- [[GitHub actions]]
-- [[GitLab CI]]
-- [[Jenkins]]
-- [[Runners]]
-- [[Artifacts]]
-- [[Pipeline triggers]]
-- [[Pipeline caching]]
-
 ---
 
 ## Définition
@@ -33,8 +17,8 @@ CI/CD (Continuous Integration / Continuous Delivery ou Deployment) est un ensemb
 
 | Pratique | Objectif | Fréquence |
 |---|---|---|
-| [[Continuous integration]] | Intégrer et tester chaque changement | À chaque commit |
-| [[Continuous delivery]] | Rendre chaque build deployable | À chaque merge |
+| [[Continuous integration]] | Intégrer et tester chaque changement | À chaque [[Commit]] |
+| [[Continuous delivery]] | Rendre chaque build deployable | À chaque [[Merge]] |
 | [[Continuous deployment]] | Déployer automatiquement en prod | À chaque merge validé |
 
 ---

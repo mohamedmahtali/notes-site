@@ -6,14 +6,11 @@ tags:
 
 # Environment variables
 
-## Parent
-- [[Docker run]]
-
 ---
 
 ## Définition
 
-Les variables d'environnement permettent de configurer le comportement d'un conteneur au lancement sans modifier l'image. C'est le mécanisme standard pour injecter de la configuration (URLs, ports, mode de l'app) et des secrets (tokens, passwords).
+Les [[Variables]] d'environnement permettent de configurer le comportement d'un conteneur au lancement sans modifier l'image. C'est le mécanisme standard pour injecter de la configuration (URLs, [[Ports]], mode de l'app) et des [[Secrets]] ([[Tokens]], passwords).
 
 ---
 
@@ -59,4 +56,4 @@ docker inspect mon-app | grep -A20 '"Env"'
 ---
 
 > [!warning] Sécurité
-> Les variables d'environnement sont visibles via `docker inspect`. Pour les secrets sensibles, utiliser Docker Secrets (Swarm) ou un outil externe (Vault, AWS Secrets Manager).
+> Les variables d'environnement sont visibles via `docker inspect`. Pour les secrets sensibles, utiliser [[Docker]] Secrets (Swarm) ou un outil externe ([[Vault]], [[AWS]] Secrets Manager).

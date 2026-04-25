@@ -1,17 +1,19 @@
 ---
 title: "Lab GitOps — ArgoCD sur K8s"
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # Lab GitOps — ArgoCD sur K8s
 
 ## Objectif
 
-Installer ArgoCD sur un cluster Kubernetes local, déployer une application depuis Git, tester la réconciliation automatique et le rollback GitOps.
+Installer ArgoCD sur un [[Cluster]] Kubernetes local, déployer une application depuis [[Git]], tester la réconciliation automatique et le [[Rollback]] GitOps.
 
 > [!note] Prérequis
 > - Cluster Kubernetes local (kind, k3d, minikube)
-> - kubectl configuré
+> - [[kubectl]] configuré
 > - Compte GitHub avec un repo public ou privé
 
 ---

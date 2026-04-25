@@ -5,19 +5,11 @@ tags:
 ---
 # Virtual machines
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[Instance types]]
-- [[Images]]
-- [[Boot disks]]
-
 ---
 
 ## Définition
 
-Les machines virtuelles cloud (EC2/Compute Engine/Azure VMs) sont des serveurs virtuels provisionnés à la demande. Ils émulent du matériel physique via un hyperviseur et offrent une isolation complète entre tenants.
+Les machines virtuelles [[Cloud]] ([[EC2]]/[[Compute Engine]]/[[Azure]] VMs) sont des serveurs virtuels provisionnés à la demande. Ils émulent du matériel physique via un hyperviseur et offrent une isolation complète entre tenants.
 
 ---
 

@@ -1,15 +1,17 @@
 ---
 title: ArgoCD Applications
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # ArgoCD Applications
 
 ## Définition
 
-Une Application ArgoCD est un objet Kubernetes qui définit la source (repo Git + path) et la destination (cluster + namespace) d'une application à déployer. C'est l'unité de base d'ArgoCD.
+Une Application ArgoCD est un objet [[Kubernetes]] qui définit la source (repo [[Git]] + path) et la destination ([[Cluster]] + namespace) d'une application à déployer. C'est l'unité de base d'ArgoCD.
 
-> [!note] CRD ArgoCD
+> [!note] [[CRD]] ArgoCD
 > `Application` est une Custom Resource Definition (CRD) d'ArgoCD. Elle est stockée dans le namespace `argocd` et réconciliée par les controllers ArgoCD.
 
 ## Créer une Application

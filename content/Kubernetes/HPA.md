@@ -5,14 +5,6 @@ tags:
 ---
 # HPA
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[CPU scaling]]
-- [[Memory scaling]]
-- [[Custom metrics]]
-
 ---
 
 ## Définition
@@ -24,7 +16,7 @@ Le Horizontal Pod Autoscaler (HPA) ajuste automatiquement le nombre de réplicas
 ## Pourquoi c'est important
 
 > [!tip] Élasticité sans intervention manuelle
-> Sans HPA : surprovisionnement coûteux en permanence, ou sous-provisionnement avec dégradation lors des pics. Avec HPA : le nombre de pods s'adapte automatiquement à la charge réelle.
+> Sans HPA : surprovisionnement coûteux en permanence, ou sous-provisionnement avec dégradation lors des pics. Avec HPA : le nombre de [[Pods]] s'adapte automatiquement à la charge réelle.
 
 ---
 
@@ -73,4 +65,4 @@ spec:
 ---
 
 > [!warning]
-> L'HPA nécessite que les pods aient des `resources.requests` définis — sans requests, le HPA ne peut pas calculer l'utilisation en pourcentage. Installer metrics-server pour les métriques CPU/mémoire.
+> L'HPA nécessite que les pods aient des `resources.requests` définis — sans requests, le HPA ne peut pas calculer l'utilisation en pourcentage. Installer [[Metrics]]-server pour les métriques CPU/mémoire.

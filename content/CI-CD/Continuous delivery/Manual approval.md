@@ -5,21 +5,18 @@ tags:
 ---
 # Manual approval
 
-## Parent
-- [[Continuous delivery]]
-
 ---
 
 ## Définition
 
-L'approbation manuelle est une étape humaine dans le pipeline CD qui bloque le déploiement en production jusqu'à validation explicite d'un reviewer désigné. Elle permet de contrôler le moment du déploiement sans compromettre l'automatisation.
+L'approbation manuelle est une étape humaine dans le [[Pipeline]] CD qui bloque le déploiement en production jusqu'à validation explicite d'un reviewer désigné. Elle permet de contrôler le moment du déploiement sans compromettre l'automatisation.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!note] Contrôle humain sur les risques
-> Même avec un pipeline entièrement automatisé, certains déploiements nécessitent un regard humain : releases majeures, changements de schéma DB, déploiements en période de fort trafic. L'approbation manuelle est ce contrôle.
+> Même avec un pipeline entièrement automatisé, certains déploiements nécessitent un regard humain : [[Releases]] majeures, changements de schéma DB, déploiements en période de fort trafic. L'approbation manuelle est ce contrôle.
 
 ---
 

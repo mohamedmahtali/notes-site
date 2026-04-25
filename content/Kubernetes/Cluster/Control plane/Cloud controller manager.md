@@ -5,14 +5,11 @@ tags:
 ---
 # Cloud controller manager
 
-## Parent
-- [[Control plane]]
-
 ---
 
 ## Définition
 
-Le Cloud Controller Manager (CCM) est le composant qui intègre Kubernetes avec l'API du cloud provider (AWS, GCP, Azure). Il gère les ressources cloud spécifiques : load balancers, disques persistants, routes réseau.
+Le [[Cloud]] [[Controller manager]] (CCM) est le composant qui intègre [[Kubernetes]] avec l'API du cloud provider ([[AWS]], GCP, [[Azure]]). Il gère les ressources cloud spécifiques : [[Load balancers]], disques persistants, routes réseau.
 
 ---
 
@@ -36,15 +33,15 @@ Node joins cluster
 
 | Controller | Fonction |
 |---|---|
-| Node controller | Synchronise l'état des nodes avec l'API cloud |
-| Route controller | Configure les routes réseau dans le VPC |
+| [[Node]] controller | Synchronise l'état des nodes avec l'API cloud |
+| Route controller | Configure les routes réseau dans le [[VPC]] |
 | Service controller | Crée/supprime les load balancers cloud |
 
 ---
 
 ## Sans CCM (cluster on-premise)
 
-Sur des clusters bare-metal ou on-premise, le CCM est absent. Pour avoir des LoadBalancers, utiliser MetalLB. Pour du stockage dynamique, utiliser les CSI drivers appropriés.
+Sur des [[Cluster]] bare-metal ou on-premise, le CCM est absent. Pour avoir des [[LoadBalancer]], utiliser MetalLB. Pour du stockage dynamique, utiliser les CSI drivers appropriés.
 
 ```bash
 # Voir si le CCM tourne
@@ -57,4 +54,4 @@ kubectl get node worker-1 -o jsonpath='{.metadata.labels}' | jq .
 ---
 
 > [!note]
-> Depuis Kubernetes 1.11, le CCM est un binaire séparé du kube-controller-manager. Chaque cloud provider maintient son propre CCM (aws-cloud-controller-manager, gke-cloud-controller-manager, etc.).
+> Depuis Kubernetes 1.11, le CCM est un binaire séparé du kube-controller-manager. Chaque cloud provider maintient son propre CCM (aws-cloud-controller-manager, [[GKE]]-cloud-controller-manager, etc.).

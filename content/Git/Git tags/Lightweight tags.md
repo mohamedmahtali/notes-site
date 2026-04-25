@@ -6,18 +6,11 @@ tags:
 
 # Lightweight tags
 
-## Parent
-- [[Git tags]]
-
-## Concepts liés
-- [[Git tags]]
-- [[Annotated tags]]
-
 ---
 
 ## Définition
 
-Un tag léger (lightweight tag) est simplement un pointeur vers un commit spécifique, sans métadonnées supplémentaires (pas de message, pas de date de tag, pas de tagger). C'est l'équivalent d'un marque-page sur un commit.
+Un tag léger (lightweight tag) est simplement un pointeur vers un [[Commit]] spécifique, sans métadonnées supplémentaires (pas de message, pas de date de tag, pas de tagger). C'est l'équivalent d'un marque-page sur un commit.
 
 ---
 
@@ -54,4 +47,4 @@ git push origin --delete debug-point
 > Les tags légers sont utiles pour des marquages de courte durée : point de sauvegarde pendant un débogage, référence rapide à un état particulier, release candidate interne.
 
 > [!note]
-> Pour les releases officielles publiées à des utilisateurs, toujours utiliser [[Annotated tags|des tags annotés]] — ils contiennent les métadonnées nécessaires aux outils de release et à `git describe`.
+> Pour les [[Releases]] officielles publiées à des utilisateurs, toujours utiliser [[Annotated tags|des tags annotés]] — ils contiennent les métadonnées nécessaires aux outils de release et à `git describe`.

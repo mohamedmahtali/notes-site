@@ -6,14 +6,11 @@ tags:
 
 # PAM
 
-## Parent
-- [[Users]]
-
 ---
 
 ## Définition
 
-PAM (Pluggable Authentication Modules) est un framework qui abstrait l'authentification sur Linux. Les applications (SSH, sudo, login) délèguent l'authentification à PAM, qui applique des règles configurables : mots de passe, clés, LDAP, 2FA, etc.
+PAM (Pluggable Authentication [[Modules]]) est un framework qui abstrait l'authentification sur [[Linux]]. Les applications ([[SSH]], [[sudo]], login) délèguent l'authentification à PAM, qui applique des règles configurables : mots de passe, clés, LDAP, 2FA, etc.
 
 ---
 

@@ -1,16 +1,18 @@
 ---
 title: Image automation
-tags: [gitops, advanced]
+tags:
+  - gitops
+  - advanced
 ---
 
 # Image automation (Flux)
 
 ## Définition
 
-L'image automation Flux surveille un container registry et met à jour automatiquement les manifests Git quand une nouvelle image correspondant à une politique de version est publiée. C'est du vrai CD continu.
+L'image automation Flux surveille un container registry et met à jour automatiquement les manifests [[Git]] quand une nouvelle image correspondant à une politique de version est publiée. C'est du vrai CD continu.
 
 > [!warning] À utiliser avec précaution
-> L'image automation peut déclencher des déploiements en production automatiquement. Limiter aux environnements de dev/staging, ou exiger une politique de version stricte (ex: semver patch only).
+> L'image automation peut déclencher des déploiements en production automatiquement. Limiter aux environnements de dev/[[Staging]], ou exiger une politique de version stricte (ex: semver patch only).
 
 ## Flux d'image automation
 

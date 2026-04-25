@@ -5,14 +5,11 @@ tags:
 ---
 # Compile
 
-## Parent
-- [[Build stage]]
-
 ---
 
 ## Définition
 
-La compilation transforme le code source en code machine ou bytecode exécutable. Dans un pipeline CI/CD, cette étape valide que le code est syntaxiquement correct et produit un binaire avant les tests.
+La compilation transforme le code source en code machine ou bytecode exécutable. Dans un [[Pipeline]] CI/CD, cette étape valide que le code est syntaxiquement correct et produit un binaire avant les tests.
 
 ---
 

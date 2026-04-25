@@ -5,9 +5,6 @@ tags:
 ---
 # SIGTERM
 
-## Parent
-- [[Signals]]
-
 ---
 
 ## Définition
@@ -19,7 +16,7 @@ SIGTERM (signal 15) est le signal d'arrêt poli de Unix. Il demande au processus
 ## Pourquoi c'est important
 
 > [!tip] Le signal d'arrêt par défaut
-> `kill PID` envoie SIGTERM par défaut. C'est la façon correcte d'arrêter un service — il laisse le processus faire son cleanup. Kubernetes envoie SIGTERM avant SIGKILL lors d'un pod termination (grace period 30s par défaut).
+> `kill PID` envoie SIGTERM par défaut. C'est la façon correcte d'arrêter un service — il laisse le processus faire son cleanup. [[Kubernetes]] envoie SIGTERM avant SIGKILL lors d'un pod termination (grace period 30s par défaut).
 
 ---
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Internet gateway
 
-## Parent
-- [[VPC]]
-
 ---
 
 ## Définition
 
-L'Internet Gateway est la passerelle qui connecte un VPC à internet. Les instances dans les subnets publics avec une route vers l'IGW peuvent recevoir du trafic entrant et sortant depuis internet.
+L'Internet [[Gateway]] est la passerelle qui connecte un [[VPC]] à internet. Les instances dans les [[Subnets]] publics avec une route vers l'IGW peuvent recevoir du trafic entrant et sortant depuis internet.
 
 ---
 
@@ -43,4 +40,4 @@ Public Subnet (avec route 0.0.0.0/0 → IGW)
 ---
 
 > [!note]
-> Pour qu'une instance reçoive du trafic entrant, elle doit avoir : 1) une IP publique ou Elastic IP, 2) une route vers l'IGW dans sa subnet route table, 3) un security group qui autorise le trafic.
+> Pour qu'une instance reçoive du trafic entrant, elle doit avoir : 1) une IP publique ou Elastic IP, 2) une route vers l'IGW dans sa subnet route table, 3) un [[Security]] group qui autorise le trafic.

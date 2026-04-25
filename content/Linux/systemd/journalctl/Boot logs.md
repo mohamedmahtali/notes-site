@@ -5,14 +5,11 @@ tags:
 ---
 # Boot logs
 
-## Parent
-- [[journalctl]]
-
 ---
 
 ## Définition
 
-Les boot logs sont les messages enregistrés par journald depuis le démarrage du système. Ils couvrent l'initialisation du kernel, le démarrage de systemd, et le lancement de chaque service — indispensables pour diagnostiquer les problèmes au boot.
+Les boot logs sont les messages enregistrés par journald depuis le démarrage du système. Ils couvrent l'initialisation du [[Kernel]], le démarrage de [[systemd]], et le lancement de chaque service — indispensables pour diagnostiquer les problèmes au boot.
 
 ---
 

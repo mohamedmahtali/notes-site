@@ -5,9 +5,6 @@ tags:
 ---
 # IAM
 
-## Parent
-- [[Google Cloud]]
-
 ---
 
 ## Définition
@@ -52,4 +49,4 @@ gcloud iam service-accounts keys create key.json   --iam-account=myapp-sa@my-pro
 ---
 
 > [!tip]
-> Utiliser Workload Identity plutôt que les clés JSON pour les applications GKE. Ça associe un Service Account Kubernetes à un Service Account GCP sans clé à gérer.
+> Utiliser Workload Identity plutôt que les clés JSON pour les applications [[GKE]]. Ça associe un Service Account [[Kubernetes]] à un Service Account GCP sans clé à gérer.

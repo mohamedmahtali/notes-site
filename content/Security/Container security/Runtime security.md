@@ -1,6 +1,8 @@
 ---
 title: Runtime security
-tags: [security, advanced]
+tags:
+  - security
+  - advanced
 ---
 
 # Runtime security
@@ -10,7 +12,7 @@ tags: [security, advanced]
 La sécurité runtime surveille et protège les conteneurs pendant leur exécution. Elle détecte les comportements anormaux (appels système suspects, connexions réseau inattendues) en temps réel.
 
 > [!tip] Pourquoi c'est important
-> Les scanners d'images vérifient avant le déploiement, mais la runtime security protège contre les attaques qui surviennent après. Elle est essentielle pour la détection d'intrusion.
+> Les scanners d'images vérifient avant le déploiement, mais la runtime [[Security]] protège contre les attaques qui surviennent après. Elle est essentielle pour la détection d'intrusion.
 
 ## Falco
 
@@ -42,7 +44,7 @@ kubectl logs -n falco -l app=falco -f
 
 | Outil | Approche |
 |-------|---------|
-| Falco | Règles syscalls/kernel |
+| Falco | Règles syscalls/[[Kernel]] |
 | Tetragon (Cilium) | eBPF, observabilité kernel |
 | Sysdig | Forensics + détection |
 | Aqua Security | Plateforme complète |

@@ -5,14 +5,11 @@ tags:
 ---
 # Declarative pipeline
 
-## Parent
-- [[Jenkins]]
-
 ---
 
 ## Définition
 
-La syntaxe Declarative Pipeline est la façon moderne et recommandée d'écrire des Jenkinsfiles. Elle impose une structure prédéfinie (pipeline → stages → stage → steps) qui est plus lisible et moins sujette aux erreurs que le Scripted Pipeline.
+La syntaxe Declarative [[Pipeline]] est la façon moderne et recommandée d'écrire des [[Jenkinsfile]]. Elle impose une structure prédéfinie (pipeline → stages → stage → steps) qui est plus lisible et moins sujette aux erreurs que le [[Scripted pipeline]].
 
 ---
 

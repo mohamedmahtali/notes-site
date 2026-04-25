@@ -5,30 +5,14 @@ tags:
 ---
 # Cluster
 
-## Parent  
-- [[Kubernetes]]  
-  
-## Enfants  
-- [[Node]]  
-- [[Control plane]]  
-  
-## Concepts liés  
-- [[Node]]  
-- [[Control plane]]  
-- [[Pod]]  
-- [[Overlay]]  
-- [[VPC]]  
-  
----  
-  
 ## Définition  
   
-Un **Cluster Kubernetes** est un ensemble de machines (physiques ou virtuelles) qui exécutent et gèrent des applications conteneurisées.  
+Un **Cluster [[Kubernetes]]** est un ensemble de machines (physiques ou virtuelles) qui exécutent et gèrent des applications conteneurisées.  
   
 Le cluster est composé de deux parties principales :  
   
-- **Control Plane** → le cerveau qui gère l’état du cluster  
-- **Nodes** → les machines qui exécutent les applications  
+- **[[Control plane]]** → le cerveau qui gère l’état du cluster  
+- **[[Node]]** → les machines qui exécutent les applications  
   
 Le cluster permet de :  
 
@@ -61,7 +45,7 @@ Kubernetes Cluster
 
 Le **Control Plane** prend les décisions globales du cluster :
 
-- planification des pods
+- planification des [[Pods]]
 - gestion de l’état du cluster
 - orchestration des ressources
 
@@ -71,9 +55,9 @@ Les **Nodes** exécutent les workloads (pods).
 
 Chaque node contient :
 
-- kubelet
-- container runtime
-- kube-proxy
+- [[kubelet]]
+- [[Container runtime]]
+- [[kube-proxy]]
 
 ---
 ## Pourquoi c'est important
@@ -117,7 +101,7 @@ Si un node tombe en panne, Kubernetes peut recréer les pods sur un autre node.
 ---
 ## Exemple réel (Cloud)
 
-Un cluster Kubernetes dans le cloud peut ressembler à :
+Un cluster Kubernetes dans le [[Cloud]] peut ressembler à :
 ```bash
 AWS / GCP / Azure  
 │  
@@ -129,11 +113,11 @@ AWS / GCP / Azure
 └── VM 3
 ```
 
-Services managés :
+[[Services]] managés :
 
-- EKS (AWS)
-- GKE (Google)
-- AKS (Azure)
+- [[EKS]] ([[AWS]])
+- [[GKE]] (Google)
+- [[AKS]] ([[Azure]])
 
 ---
 ## Commandes utiles
@@ -148,7 +132,7 @@ Voir les informations du cluster :
 kubectl cluster-info
 ```
 
-Voir les pods dans tous les namespaces :
+Voir les pods dans tous les [[Namespaces]] :
 ```bash
 kubectl get pods -A
 ```

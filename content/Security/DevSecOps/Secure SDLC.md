@@ -1,6 +1,8 @@
 ---
 title: Secure SDLC
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Secure SDLC
@@ -17,10 +19,10 @@ Le Secure Software Development Lifecycle (SSDLC) intègre des activités de séc
 | Phase | Activités sécurité |
 |-------|-------------------|
 | Conception | Threat modeling, revue d'architecture |
-| Développement | Coding standards, SAST, peer review |
-| Test | DAST, pen test, fuzzing |
-| Déploiement | Hardening, secrets scan, SBOM |
-| Maintenance | Patch management, monitoring, IR |
+| Développement | Coding standards, [[SAST]], peer review |
+| Test | [[DAST]], pen test, fuzzing |
+| Déploiement | Hardening, [[Secrets]] scan, SBOM |
+| Maintenance | Patch management, [[Monitoring]], IR |
 
 ## Threat modeling (STRIDE)
 

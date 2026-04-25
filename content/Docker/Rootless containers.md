@@ -6,14 +6,11 @@ tags:
 
 # Rootless containers
 
-## Parent
-- [[Docker]]
-
 ---
 
 ## Définition
 
-Les conteneurs rootless permettent d'exécuter le daemon Docker et les conteneurs sans privilèges root sur l'hôte. Le daemon s'exécute sous un utilisateur normal, réduisant drastiquement la surface d'attaque en cas d'évasion de conteneur.
+Les conteneurs rootless permettent d'exécuter le daemon [[Docker]] et les conteneurs sans privilèges root sur l'hôte. Le daemon s'exécute sous un utilisateur normal, réduisant drastiquement la surface d'attaque en cas d'évasion de conteneur.
 
 ---
 
@@ -60,9 +57,9 @@ alias docker=podman
 | Limitation | Détail |
 |---|---|
 | Réseau | Certains drivers réseau non disponibles |
-| Performance | Légèrement inférieure (user namespaces) |
-| Ports < 1024 | Non exposables sans configuration supplémentaire |
-| Overlay FS | Peut nécessiter une configuration kernel |
+| Performance | Légèrement inférieure (user [[Namespaces]]) |
+| [[Ports]] < 1024 | Non exposables sans configuration supplémentaire |
+| [[Overlay]] FS | Peut nécessiter une configuration [[Kernel]] |
 
 ---
 

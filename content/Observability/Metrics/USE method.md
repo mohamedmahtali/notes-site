@@ -5,9 +5,6 @@ tags:
 ---
 # USE method
 
-## Parent
-- [[Metrics]]
-
 ---
 
 ## Définition

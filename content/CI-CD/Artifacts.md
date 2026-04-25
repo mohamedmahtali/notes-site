@@ -5,26 +5,18 @@ tags:
 ---
 # Artifacts
 
-## Parent
-- [[CI-CD]]
-
-## Enfants
-- [[Build outputs]]
-- [[Versioning]]
-- [[Artifact repositories]]
-
 ---
 
 ## Définition
 
-Les artifacts CI/CD sont les fichiers produits par le pipeline (binaires compilés, images Docker, packages, rapports de tests) et conservés pour utilisation dans les stages suivants ou pour déploiement.
+Les artifacts CI/CD sont les fichiers produits par le [[Pipeline]] (binaires compilés, images [[Docker]], [[Package]], rapports de tests) et conservés pour utilisation dans les stages suivants ou pour déploiement.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!tip] Build once, deploy many
-> Un artefact est construit une seule fois et promu à travers les environnements (staging → production). Jamais rebuilt. Ça garantit que ce qui est testé est exactement ce qui est déployé.
+> Un artefact est construit une seule fois et promu à travers les environnements ([[Staging]] → production). Jamais rebuilt. Ça garantit que ce qui est testé est exactement ce qui est déployé.
 
 ---
 

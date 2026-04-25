@@ -5,25 +5,11 @@ tags:
 ---
 # Git stash
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Save stash]]
-- [[Pop stash]]
-- [[Apply stash]]
-
-## Concepts liés
-- [[Save stash]]
-- [[Pop stash]]
-- [[Apply stash]]
-- [[Branch]]
-
 ---
 
 ## Définition
 
-`git stash` met de côté temporairement les modifications non committées (working directory et staging area) dans une pile locale. Le working directory revient à l'état du dernier commit. Les modifications sont récupérables à tout moment.
+`git stash` met de côté temporairement les modifications non committées (working directory et [[Staging]] area) dans une pile locale. Le working directory revient à l'état du dernier [[Commit]]. Les modifications sont récupérables à tout moment.
 
 ---
 

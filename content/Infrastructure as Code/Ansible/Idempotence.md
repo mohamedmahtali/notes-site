@@ -5,14 +5,11 @@ tags:
 ---
 # Idempotence
 
-## Parent
-- [[Ansible]]
-
 ---
 
 ## Définition
 
-L'idempotence signifie que re-exécuter un playbook Ansible produit le même résultat qu'une première exécution — si le serveur est déjà dans l'état désiré, aucune modification n'est faite. C'est une propriété fondamentale d'Ansible.
+L'idempotence signifie que re-exécuter un playbook [[Ansible]] produit le même résultat qu'une première exécution — si le serveur est déjà dans l'état désiré, aucune modification n'est faite. C'est une propriété fondamentale d'Ansible.
 
 ---
 
@@ -63,4 +60,4 @@ ansible-playbook playbook.yml --check
 ---
 
 > [!warning]
-> Les modules `command` et `shell` ne sont pas idempotents par défaut. Toujours utiliser `creates:`, `removes:`, ou `changed_when:` pour les rendre idempotents, ou préférer les modules dédiés (apt, copy, template).
+> Les [[Modules]] `command` et `shell` ne sont pas idempotents par défaut. Toujours utiliser `creates:`, `removes:`, ou `changed_when:` pour les rendre idempotents, ou préférer les modules dédiés (apt, [[COPY]], template).

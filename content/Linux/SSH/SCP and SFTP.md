@@ -6,14 +6,11 @@ tags:
 
 # SCP and SFTP
 
-## Parent
-- [[SSH]]
-
 ---
 
 ## Définition
 
-SCP (Secure Copy) et SFTP (SSH File Transfer Protocol) permettent le transfert de fichiers chiffré via SSH. SCP est simple et scriptable ; SFTP est plus interactif et supporte les opérations de navigation/gestion de fichiers.
+SCP (Secure [[COPY]]) et SFTP ([[SSH]] File Transfer Protocol) permettent le transfert de fichiers chiffré via SSH. SCP est simple et scriptable ; SFTP est plus interactif et supporte les opérations de navigation/gestion de fichiers.
 
 ---
 

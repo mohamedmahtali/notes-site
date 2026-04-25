@@ -5,14 +5,11 @@ tags:
 ---
 # Init containers
 
-## Parent
-- [[Pods]]
-
 ---
 
 ## Définition
 
-Les init containers sont des containers qui s'exécutent séquentiellement avant les containers principaux du pod. Ils doivent tous réussir (code de sortie 0) avant que les containers applicatifs démarrent. Utilisés pour la configuration initiale et les checks de dépendances.
+Les init [[Containers]] sont des containers qui s'exécutent séquentiellement avant les containers principaux du pod. Ils doivent tous réussir (code de sortie 0) avant que les containers applicatifs démarrent. Utilisés pour la configuration initiale et les checks de dépendances.
 
 ---
 
@@ -22,7 +19,7 @@ Les init containers sont des containers qui s'exécutent séquentiellement avant
 - Copier des fichiers de configuration
 - Initialiser un volume partagé
 - Migrer un schéma de base de données
-- Récupérer des secrets depuis un vault
+- Récupérer des [[Secrets]] depuis un [[Vault]]
 
 ---
 

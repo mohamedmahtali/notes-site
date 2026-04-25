@@ -6,22 +6,6 @@ tags:
 
 # Docker
 
-## Parent
-- [[DevOps]]
-
-## Enfants
-- [[Dockerfile]]
-- [[Containers]]
-- [[Images]]
-- [[Docker volumes]]
-- [[Docker networks]]
-- [[Docker compose]]
-- [[Docker registry]]
-- [[Docker run]]
-- [[Docker security]]
-- [[Container runtime]]
-- [[Rootless containers]]
-
 ---
 
 ## Définition
@@ -36,8 +20,8 @@ Docker est une plateforme de **conteneurisation** qui permet d'empaqueter une ap
 > Docker résout le problème classique "ça marche sur ma machine". L'image Docker garantit que l'environnement d'exécution est identique en développement, en test, et en production.
 
 - **Isolation** : chaque conteneur a son propre filesystem, réseau, et processus
-- **Légèreté** : partage le kernel de l'hôte — démarrage en millisecondes vs minutes pour une VM
-- **Portabilité** : même image sur Linux, macOS, Windows, cloud
+- **Légèreté** : partage le [[Kernel]] de l'hôte — démarrage en millisecondes vs minutes pour une VM
+- **Portabilité** : même image sur [[Linux]], macOS, Windows, [[Cloud]]
 - **CI/CD** : chaque build produit une image immutable et versionnée
 
 ---
@@ -55,8 +39,8 @@ Dockerfile  →  docker build  →  Image  →  docker run  →  Conteneur
 |---|---|
 | **Image** | Template immuable en couches (read-only) |
 | **Conteneur** | Instance en cours d'exécution d'une image |
-| **Dockerfile** | Fichier de recette pour construire une image |
-| **Registry** | Dépôt d'images (Docker Hub, ECR…) |
+| **[[Dockerfile]]** | Fichier de recette pour construire une image |
+| **Registry** | Dépôt d'images ([[Docker hub]], ECR…) |
 | **Volume** | Stockage persistant en dehors du conteneur |
 | **Network** | Réseau virtuel entre conteneurs |
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Release readiness
 
-## Parent
-- [[Continuous delivery]]
-
 ---
 
 ## Définition
 
-La release readiness est l'ensemble des critères qu'un build doit satisfaire pour être considéré "prêt pour la production". Ces critères sont codifiés dans le pipeline pour garantir qu'aucune étape n'est oubliée.
+La release readiness est l'ensemble des critères qu'un build doit satisfaire pour être considéré "prêt pour la production". Ces critères sont codifiés dans le [[Pipeline]] pour garantir qu'aucune étape n'est oubliée.
 
 ---
 
@@ -49,5 +46,5 @@ readiness-check:
 | Couverture de tests | ≥ 80% |
 | Vulnérabilités critiques | 0 |
 | Temps de réponse p95 | < 500ms |
-| Error rate staging | < 0.1% |
+| Error rate [[Staging]] | < 0.1% |
 | Build time | < 15 min |

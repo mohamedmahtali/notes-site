@@ -5,18 +5,11 @@ tags:
 ---
 # StatefulSets
 
-## Parent
-- [[Pods]]
-
-## Enfants
-- [[Stable identity]]
-- [[Persistent storage]]
-
 ---
 
 ## Définition
 
-Un StatefulSet gère des applications stateful (bases de données, caches, systèmes distribués) où chaque pod a une identité stable et un stockage persistant dédié. Contrairement aux Deployments, les pods ne sont pas interchangeables.
+Un StatefulSet gère des applications stateful (bases de données, caches, systèmes distribués) où chaque pod a une identité stable et un stockage persistant dédié. Contrairement aux [[Deployments]], les [[Pods]] ne sont pas interchangeables.
 
 ---
 
@@ -28,7 +21,7 @@ Un StatefulSet gère des applications stateful (bases de données, caches, syst�
 | Stockage | Partagé | Dédié par pod |
 | Démarrage | Parallèle | Ordonné (0, puis 1, puis 2) |
 | Suppression | Aléatoire | Inverse (2, puis 1, puis 0) |
-| DNS | Non stable | Stable (myapp-0.myapp.ns.svc) |
+| [[DNS]] | Non stable | Stable (myapp-0.myapp.ns.svc) |
 
 ---
 
@@ -69,4 +62,4 @@ spec:
 ---
 
 > [!note]
-> Pour les BDD en production sur K8s, évaluer des solutions comme CloudNative PG (PostgreSQL), Strimzi (Kafka), ou utiliser des services managés (RDS, Cloud SQL) plutôt que de gérer le StatefulSet manuellement.
+> Pour les BDD en production sur K8s, évaluer des solutions comme CloudNative PG (PostgreSQL), Strimzi (Kafka), ou utiliser des [[Services]] managés (RDS, [[Cloud]] SQL) plutôt que de gérer le StatefulSet manuellement.

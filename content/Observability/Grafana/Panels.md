@@ -5,14 +5,11 @@ tags:
 ---
 # Panels
 
-## Parent
-- [[Grafana]]
-
 ---
 
 ## Définition
 
-Les panels sont les éléments de visualisation dans un dashboard Grafana. Chaque panel affiche des données d'une datasource avec un type de visualisation spécifique : graphique, jauge, tableau, heatmap.
+Les panels sont les éléments de visualisation dans un dashboard [[Grafana]]. Chaque panel affiche des données d'une datasource avec un type de visualisation spécifique : graphique, jauge, tableau, heatmap.
 
 ---
 
@@ -24,9 +21,9 @@ Les panels sont les éléments de visualisation dans un dashboard Grafana. Chaqu
 | Gauge | Valeur instantanée avec seuils (SLO compliance, disk usage) |
 | Stat | Valeur unique avec tendance |
 | Bar chart | Comparaison entre catégories |
-| Table | Données tabulaires (top pods, liste d'alertes) |
+| Table | Données tabulaires ([[top]] [[Pods]], liste d'alertes) |
 | Heatmap | Distribution au fil du temps |
-| Logs | Logs depuis Loki/Elasticsearch |
+| Logs | Logs depuis [[Loki]]/Elasticsearch |
 | Alert list | Alertes Grafana actives |
 
 ---

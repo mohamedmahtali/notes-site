@@ -6,14 +6,11 @@ tags:
 
 # Unit files
 
-## Parent
-- [[Services]]
-
 ---
 
 ## Définition
 
-Un unit file est un fichier de configuration INI qui définit une unité systemd (service, timer, socket, etc.). Les unit files système sont dans `/lib/systemd/system/` ; les custom sont dans `/etc/systemd/system/` (priorité plus haute).
+Un unit file est un fichier de configuration INI qui définit une unité [[systemd]] (service, timer, socket, etc.). Les unit files système sont dans `/lib/systemd/system/` ; les custom sont dans `/etc/systemd/system/` (priorité plus haute).
 
 ---
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Scripted pipeline
 
-## Parent
-- [[Jenkins]]
-
 ---
 
 ## Définition
 
-Le Scripted Pipeline est la syntaxe Groovy pure pour Jenkins. Plus flexible que le Declarative Pipeline, il permet des constructions arbitraires (boucles, conditions complexes, fonctions), mais est plus difficile à lire et maintenir.
+Le Scripted [[Pipeline]] est la syntaxe Groovy pure pour [[Jenkins]]. Plus flexible que le [[Declarative pipeline]], il permet des constructions arbitraires (boucles, [[Conditions]] complexes, fonctions), mais est plus difficile à lire et maintenir.
 
 ---
 

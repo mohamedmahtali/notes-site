@@ -5,20 +5,11 @@ tags:
 ---
 # Grafana
 
-## Parent
-- [[Observability]]
-
-## Enfants
-- [[Datasources]]
-- [[Dashboards]]
-- [[Panels]]
-- [[Alerts]]
-
 ---
 
 ## Définition
 
-Grafana est la plateforme de visualisation open-source standard pour les métriques, logs, et traces. Il se connecte à de nombreuses sources de données (Prometheus, Loki, Elasticsearch, CloudWatch) et permet de créer des dashboards interactifs.
+Grafana est la plateforme de visualisation open-source standard pour les métriques, logs, et traces. Il se connecte à de nombreuses sources de données ([[Prometheus]], [[Loki]], Elasticsearch, CloudWatch) et permet de créer des dashboards interactifs.
 
 ---
 

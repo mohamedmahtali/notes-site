@@ -1,13 +1,15 @@
 ---
 title: Sync policies
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # Sync policies (ArgoCD)
 
 ## Définition
 
-Les sync policies définissent comment et quand ArgoCD synchronise un cluster avec Git. On peut choisir entre sync manuel (approbation humaine) ou sync automatique (réconciliation continue).
+Les sync [[Policies]] définissent comment et quand ArgoCD synchronise un [[Cluster]] avec [[Git]]. On peut choisir entre sync manuel (approbation humaine) ou sync automatique (réconciliation continue).
 
 > [!warning] Sync automatique en production
 > Le sync auto avec `prune: true` supprime automatiquement les ressources absentes de Git. À utiliser avec prudence en production — s'assurer que les manifests sont complets et corrects.

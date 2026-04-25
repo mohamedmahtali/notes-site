@@ -6,9 +6,6 @@ tags:
 
 # MX
 
-## Parent
-- [[DNS]]
-
 ---
 
 ## Définition
@@ -50,4 +47,4 @@ telnet mail1.example.com 25
 | Mailgun | Records spécifiques à chaque domaine |
 
 > [!note]
-> Les MX doivent pointer vers des A records, jamais vers des CNAME. Le serveur SMTP résout le MX puis l'A record pour se connecter.
+> Les MX doivent pointer vers des A records, jamais vers des [[CNAME]]. Le serveur SMTP résout le MX puis l'[[A record]] pour se connecter.

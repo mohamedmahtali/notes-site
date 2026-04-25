@@ -5,17 +5,11 @@ tags:
 ---
 # Templates
 
-## Parent
-- [[Ansible]]
-
-## Enfants
-- [[Jinja2]]
-
 ---
 
 ## Définition
 
-Les templates Ansible utilisent le moteur Jinja2 pour générer des fichiers de configuration dynamiques. Ils permettent de créer des configs personnalisées par host ou environnement à partir d'un seul template.
+Les templates [[Ansible]] utilisent le moteur Jinja2 pour générer des fichiers de configuration dynamiques. Ils permettent de créer des configs personnalisées par [[Host]] ou environnement à partir d'un seul template.
 
 ---
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Dashboards
 
-## Parent
-- [[Grafana]]
-
 ---
 
 ## Définition
 
-Un dashboard Grafana est une collection de panels (graphiques, jauges, tableaux) qui visualisent l'état d'un système. Les dashboards sont stockés en JSON et peuvent être versionnés dans Git.
+Un dashboard [[Grafana]] est une collection de [[Panels]] (graphiques, jauges, tableaux) qui visualisent l'état d'un système. Les dashboards sont stockés en JSON et peuvent être versionnés dans [[Git]].
 
 ---
 

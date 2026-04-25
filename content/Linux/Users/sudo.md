@@ -6,14 +6,11 @@ tags:
 
 # sudo
 
-## Parent
-- [[Users]]
-
 ---
 
 ## Définition
 
-`sudo` (superuser do) permet d'exécuter des commandes avec les privilèges d'un autre utilisateur (généralement root), après authentification. C'est le mécanisme standard pour l'élévation de privilèges sur Linux, plus sûr qu'un accès root direct.
+`sudo` (superuser do) permet d'exécuter des commandes avec les privilèges d'un autre utilisateur (généralement root), après authentification. C'est le mécanisme standard pour l'élévation de privilèges sur [[Linux]], plus sûr qu'un accès root direct.
 
 ---
 

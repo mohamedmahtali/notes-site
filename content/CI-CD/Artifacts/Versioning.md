@@ -5,14 +5,11 @@ tags:
 ---
 # Versioning
 
-## Parent
-- [[Artifacts]]
-
 ---
 
 ## Définition
 
-Le versioning des artefacts attribue un identifiant unique à chaque build pour permettre le tracking, le rollback, et la traçabilité. Les stratégies courantes : SemVer, SHA du commit, numéro de build séquentiel.
+Le versioning des artefacts attribue un identifiant unique à chaque build pour permettre le tracking, le [[Rollback]], et la traçabilité. Les stratégies courantes : SemVer, SHA du [[Commit]], numéro de build séquentiel.
 
 ---
 
@@ -64,4 +61,4 @@ on:
 ---
 
 > [!tip]
-> Utiliser le SHA court du commit pour les images Docker internes (non-publiques). Utiliser SemVer pour les packages publics et les releases.
+> Utiliser le SHA court du commit pour les images [[Docker]] internes (non-publiques). Utiliser SemVer pour les [[Package]] publics et les [[Releases]].

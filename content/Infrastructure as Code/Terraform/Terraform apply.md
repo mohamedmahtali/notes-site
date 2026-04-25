@@ -5,9 +5,6 @@ tags:
 ---
 # Terraform apply
 
-## Parent
-- [[Terraform]]
-
 ---
 
 ## Définition

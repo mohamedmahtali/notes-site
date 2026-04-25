@@ -1,6 +1,8 @@
 ---
 title: Game days
-tags: [reliability, intermediate]
+tags:
+  - reliability
+  - intermediate
 ---
 
 # Game days
@@ -30,9 +32,9 @@ Un "game day" est un exercice planifié où une équipe simule intentionnellemen
 | Perte d'une zone de disponibilité | Failover automatique |
 | Base de données primaire down | Basculement replica, RTO |
 | Disque plein sur les workers | Alertes, remédiation |
-| Certificat TLS expiré | Détection, rotation |
-| Déploiement raté en production | Rollback, communication |
-| Clé SSH compromise | Rotation d'accès, audit |
+| Certificat [[TLS]] expiré | Détection, rotation |
+| Déploiement raté en production | [[Rollback]], communication |
+| Clé [[SSH]] compromise | Rotation d'accès, audit |
 
 ## Liens
 

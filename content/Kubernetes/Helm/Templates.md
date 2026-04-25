@@ -5,14 +5,11 @@ tags:
 ---
 # Templates
 
-## Parent
-- [[Helm]]
-
 ---
 
 ## Définition
 
-Les templates Helm sont des fichiers YAML utilisant la syntaxe Go template. Ils permettent de paramétrer les manifests Kubernetes avec des valeurs dynamiques, des conditions, et des boucles.
+Les templates [[Helm]] sont des fichiers YAML utilisant la syntaxe Go template. Ils permettent de paramétrer les manifests [[Kubernetes]] avec des valeurs dynamiques, des [[Conditions]], et des boucles.
 
 ---
 

@@ -5,27 +5,18 @@ tags:
 ---
 # GitLab CI
 
-## Parent
-- [[CI-CD]]
-
-## Enfants
-- [[.gitlab-ci.yml]]
-- [[Stages]]
-- [[Jobs]]
-- [[Runners]]
-
 ---
 
 ## Définition
 
-GitLab CI/CD est la plateforme intégrée dans GitLab pour l'intégration et le déploiement continus. Les pipelines sont définis dans `.gitlab-ci.yml` à la racine du repo. GitLab CI est particulièrement puissant pour les environnements self-hosted avec GitLab Community Edition.
+GitLab CI/CD est la plateforme intégrée dans GitLab pour l'intégration et le déploiement continus. Les [[Pipeline]] sont définis dans `.gitlab-ci.yml` à la racine du repo. GitLab CI est particulièrement puissant pour les environnements self-hosted avec GitLab Community Edition.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!tip] Tout dans une seule plateforme
-> GitLab intègre le code, les issues, les pipelines, le registry Docker, les environnements, et le monitoring dans une seule interface. Pas besoin de GitHub + Jenkins + registry séparés.
+> GitLab intègre le code, les issues, les pipelines, le registry [[Docker]], les environnements, et le [[Monitoring]] dans une seule interface. Pas besoin de GitHub + [[Jenkins]] + registry séparés.
 
 ---
 

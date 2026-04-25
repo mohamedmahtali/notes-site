@@ -5,14 +5,11 @@ tags:
 ---
 # Users
 
-## Parent
-- [[IAM]]
-
 ---
 
 ## Définition
 
-Les IAM users sont des identités permanentes associées à des personnes (ou des applications qui ont besoin d'accès long-terme). Ils ont des credentials (mot de passe, access keys) et des permissions via des politiques attachées.
+Les [[IAM]] users sont des identités permanentes associées à des personnes (ou des applications qui ont besoin d'accès long-terme). Ils ont des credentials (mot de passe, access keys) et des [[Permissions]] via des politiques attachées.
 
 ---
 
@@ -38,7 +35,7 @@ aws iam simulate-principal-policy   --policy-source-arn arn:aws:iam::ACCOUNT:use
 ---
 
 > [!warning]
-> En production, préférer les **rôles IAM** aux users IAM pour les services et applications. Les rôles utilisent des credentials temporaires (STS) — plus sécurisés que les access keys longue durée qui peuvent être leakées.
+> En production, préférer les **rôles IAM** aux users IAM pour les [[Services]] et applications. Les rôles utilisent des credentials temporaires (STS) — plus sécurisés que les access keys longue durée qui peuvent être leakées.
 
 ## Bonnes pratiques
 
@@ -73,5 +70,5 @@ aws iam delete-access-key \
 | Pas d'access keys sur le compte root | La clé root a des droits illimités |
 | MFA obligatoire pour la console | Protège contre le vol de mot de passe |
 | Rotation des access keys tous les 90j | Limite la fenêtre d'exploitation |
-| Pas d'access keys pour les services AWS | Utiliser les rôles IAM + instance profile |
+| Pas d'access keys pour les services [[AWS]] | Utiliser les rôles IAM + instance profile |
 | Principe du moindre privilège | Une clé compromise = dommages limités |

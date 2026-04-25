@@ -6,19 +6,11 @@ tags:
 
 # systemd
 
-## Parent
-- [[Linux]]
-
-## Enfants
-- [[Services]]
-- [[journalctl]]
-- [[Timers]]
-
 ---
 
 ## Définition
 
-systemd est le système d'init et de gestion des services de la plupart des distributions Linux modernes (Ubuntu, Debian, RHEL, CentOS…). Il démarre les services au boot, les surveille, les redémarre en cas de crash, et centralise les logs via journald.
+systemd est le système d'init et de gestion des [[Services]] de la plupart des distributions [[Linux]] modernes (Ubuntu, Debian, RHEL, CentOS…). Il démarre les services au boot, les surveille, les redémarre en cas de crash, et centralise les logs via journald.
 
 ---
 

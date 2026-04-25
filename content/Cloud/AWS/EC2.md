@@ -5,14 +5,11 @@ tags:
 ---
 # EC2
 
-## Parent
-- [[AWS]]
-
 ---
 
 ## Définition
 
-Amazon EC2 (Elastic Compute Cloud) fournit des machines virtuelles redimensionnables dans le cloud AWS. Chaque instance tourne sur un hyperviseur Xen ou Nitro avec des caractéristiques configurables (CPU, RAM, réseau, stockage).
+Amazon EC2 (Elastic Compute [[Cloud]]) fournit des machines virtuelles redimensionnables dans le cloud [[AWS]]. Chaque instance tourne sur un hyperviseur Xen ou Nitro avec des caractéristiques configurables (CPU, RAM, réseau, stockage).
 
 ---
 
@@ -46,4 +43,4 @@ aws ec2 terminate-instances --instance-ids i-1234567890abcdef0
 ---
 
 > [!tip]
-> Toujours utiliser des instances Spot pour les workloads tolérants aux interruptions (batch, CI/CD runners, dev) — jusqu'à 90% moins cher que les instances On-Demand.
+> Toujours utiliser des instances Spot pour les workloads tolérants aux interruptions (batch, CI/CD [[Runners]], dev) — jusqu'à 90% moins cher que les instances On-Demand.

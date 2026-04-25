@@ -5,14 +5,11 @@ tags:
 ---
 # Service accounts
 
-## Parent
-- [[RBAC]]
-
 ---
 
 ## Définition
 
-Les Service Accounts sont des identités pour les pods dans Kubernetes. Quand une application dans un pod a besoin d'appeler l'API Kubernetes (lister des pods, lire des secrets), elle utilise un Service Account pour s'authentifier.
+Les Service Accounts sont des identités pour les [[Pods]] dans [[Kubernetes]]. Quand une application dans un pod a besoin d'appeler l'API Kubernetes (lister des pods, lire des [[Secrets]]), elle utilise un Service Account pour s'authentifier.
 
 ---
 

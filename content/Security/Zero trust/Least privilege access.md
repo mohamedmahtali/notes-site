@@ -1,6 +1,8 @@
 ---
 title: Least privilege access
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Least privilege access

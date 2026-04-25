@@ -5,30 +5,12 @@ tags:
 ---
 # Node
 
-## Parent
-- [[Cluster]]
-
-## Enfants
-- [[kubelet]]
-- [[kube-proxy]]
-- [[Container runtime]]
-- [[Node labels]]
-
-## Concepts liés
-- [[kubelet]]
-- [[kube-proxy]]
-- [[Container runtime]]
-- [[Node labels]]
-- [[DaemonSets]]
-
----  
-  
 ## Définition  
   
-Un **Node** est une machine (physique ou virtuelle) dans un **Cluster Kubernetes** qui exécute les applications conteneurisées.  
+Un **Node** est une machine (physique ou virtuelle) dans un **[[Cluster]] [[Kubernetes]]** qui exécute les applications conteneurisées.  
   
 Les Nodes sont les **machines de travail du cluster**.  
-Ils exécutent les **Pods** qui contiennent les containers des applications.  
+Ils exécutent les **[[Pods]]** qui contiennent les [[Containers]] des applications.  
   
 Un cluster Kubernetes peut contenir **plusieurs nodes**, permettant :  
   
@@ -36,7 +18,7 @@ Un cluster Kubernetes peut contenir **plusieurs nodes**, permettant :
 - la répartition de charge  
 - la tolérance aux pannes  
   
-Chaque Node est géré par le **Control Plane** du cluster.  
+Chaque Node est géré par le **[[Control plane]]** du cluster.  
   
 ---  
   
@@ -55,7 +37,7 @@ Node
 
 ### kubelet
 
-Le **kubelet** est un agent qui tourne sur chaque node.
+Le **[[kubelet]]** est un agent qui tourne sur chaque node.
 
 Son rôle :
 
@@ -67,13 +49,13 @@ Son rôle :
 
 ### container runtime
 
-Le **container runtime** est le logiciel qui exécute les containers.
+Le **[[Container runtime]]** est le logiciel qui exécute les containers.
 
 Exemples :
 
-- containerd
+- [[containerd]]
 - CRI-O
-- Docker (anciennement)
+- [[Docker]] (anciennement)
 
 Il est responsable de :
 
@@ -85,7 +67,7 @@ Il est responsable de :
 
 ### kube-proxy
 
-Le **kube-proxy** gère le **réseau des services Kubernetes**.
+Le **[[kube-proxy]]** gère le **réseau des [[Services]] Kubernetes**.
 
 Il permet :
 
@@ -131,7 +113,7 @@ Cluster
 └── Pod : database
 ```
 
-Le scheduler Kubernetes décide **sur quel node chaque pod doit être exécuté**.
+Le [[Scheduler]] Kubernetes décide **sur quel node chaque pod doit être exécuté**.
 
 ---
 
@@ -151,5 +133,4 @@ Voir l'utilisation des ressources :
 ```bash
 kubectl top nodes
 ```
-
 

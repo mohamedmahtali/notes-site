@@ -5,14 +5,11 @@ tags:
 ---
 # GKE
 
-## Parent
-- [[Google Cloud]]
-
 ---
 
 ## Définition
 
-Google Kubernetes Engine (GKE) est le service Kubernetes managé de GCP. C'est le plus mature des K8s managés (Google est l'inventeur de Kubernetes). GKE propose Autopilot (serverless nodes) et Standard (nodes gérés par l'utilisateur).
+Google [[Kubernetes]] Engine (GKE) est le service Kubernetes managé de GCP. C'est le plus mature des K8s managés (Google est l'inventeur de Kubernetes). GKE propose Autopilot (serverless [[Node]]) et Standard (nodes gérés par l'utilisateur).
 
 ---
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Automated release
 
-## Parent
-- [[Continuous deployment]]
-
 ---
 
 ## Définition
 
-L'automated release génère automatiquement les notes de release, les changelogs, et les tags de version à partir des commits (Conventional Commits). Élimine la maintenance manuelle des changelogs.
+L'automated release génère automatiquement les notes de release, les changelogs, et les tags de version à partir des [[Commit]] (Conventional Commits). Élimine la maintenance manuelle des changelogs.
 
 ---
 
@@ -60,4 +57,4 @@ feat!: redesign API             → v2.0.0 (major bump, breaking change)
 ---
 
 > [!tip]
-> Combine avec [[Conventional Commits]] pour un versioning sémantique entièrement automatisé.
+> Combine avec [[Conventional Commits]] pour un [[Versioning]] sémantique entièrement automatisé.

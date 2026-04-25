@@ -5,14 +5,11 @@ tags:
 ---
 # Node labels
 
-## Parent
-- [[Node]]
-
 ---
 
 ## Définition
 
-Les node labels sont des paires clé-valeur attachées aux nodes Kubernetes. Ils permettent de cibler des nodes spécifiques pour le scheduling (nodeSelector, nodeAffinity) et sont utilisés par le scheduler pour placer les pods.
+Les [[Node]] labels sont des paires clé-valeur attachées aux nodes [[Kubernetes]]. Ils permettent de cibler des nodes spécifiques pour le scheduling (nodeSelector, nodeAffinity) et sont utilisés par le [[Scheduler]] pour placer les [[Pods]].
 
 ---
 

@@ -6,9 +6,6 @@ tags:
 
 # ADD
 
-## Parent
-- [[Instructions]]
-
 ---
 
 ## Définition
@@ -49,7 +46,7 @@ COPY . .
 ## Pourquoi éviter ADD pour les URLs
 
 > [!warning]
-> `ADD https://...` ne peut pas être mis en cache correctement par Docker — le conteneur doit refaire le téléchargement à chaque build invalidé. Préférer :
-> ```dockerfile
+> `ADD https://...` ne peut pas être mis en cache correctement par [[Docker]] — le conteneur doit refaire le téléchargement à chaque build invalidé. Préférer :
+> ```[[Dockerfile]]
 > RUN curl -fsSL https://example.com/file.tar.gz | tar -xz -C /opt/
 > ```

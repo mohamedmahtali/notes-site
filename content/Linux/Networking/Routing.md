@@ -6,14 +6,11 @@ tags:
 
 # Routing
 
-## Parent
-- [[Networking]]
-
 ---
 
 ## Définition
 
-Le routage détermine le chemin qu'un paquet emprunte pour atteindre sa destination. Chaque hôte Linux a une table de routage qui indique via quelle interface et quelle gateway envoyer les paquets.
+Le routage détermine le chemin qu'un paquet emprunte pour atteindre sa destination. Chaque hôte [[Linux]] a une table de routage qui indique via quelle interface et quelle [[Gateway]] envoyer les paquets.
 
 ---
 

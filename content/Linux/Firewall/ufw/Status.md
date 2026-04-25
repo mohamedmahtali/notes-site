@@ -6,14 +6,11 @@ tags:
 
 # Status
 
-## Parent
-- [[ufw]]
-
 ---
 
 ## Définition
 
-`ufw status` affiche l'état du firewall (actif/inactif) et la liste des règles actives.
+`ufw status` affiche l'état du [[Firewall]] (actif/inactif) et la liste des règles actives.
 
 ---
 

@@ -6,9 +6,6 @@ tags:
 
 # DNS Implémentation
 
-## Parent
-- [[DNS]]
-
 ---
 
 ## Serveurs DNS courants
@@ -18,7 +15,7 @@ tags:
 | BIND (named) | Standard historique, très configurable |
 | Unbound | Résolveur récursif sécurisé |
 | PowerDNS | API-driven, moderne |
-| CoreDNS | Kubernetes DNS natif |
+| CoreDNS | [[Kubernetes]] [[DNS]] natif |
 | dnsmasq | Légère résolution locale + DHCP |
 
 ---

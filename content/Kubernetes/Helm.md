@@ -5,27 +5,18 @@ tags:
 ---
 # Helm
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[Charts]]
-- [[Templates]]
-- [[Values]]
-- [[Releases]]
-
 ---
 
 ## Définition
 
-Helm est le gestionnaire de packages pour Kubernetes. Un chart Helm est un ensemble de templates YAML paramétrables qui décrit une application Kubernetes complète. Helm simplifie le déploiement, la mise à jour, et le rollback d'applications complexes.
+Helm est le gestionnaire de [[Package]] pour [[Kubernetes]]. Un chart Helm est un ensemble de templates YAML paramétrables qui décrit une application Kubernetes complète. Helm simplifie le déploiement, la mise à jour, et le [[Rollback]] d'applications complexes.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!tip] npm pour Kubernetes
-> Sans Helm, déployer une stack complète (Deployment + Service + Ingress + ConfigMap + Secret + RBAC) requiert d'appliquer et maintenir des dizaines de fichiers YAML. Helm les regroupe en un package versionné.
+> Sans Helm, déployer une stack complète (Deployment + Service + [[Ingress]] + ConfigMap + Secret + [[RBAC]]) requiert d'appliquer et maintenir des dizaines de fichiers YAML. Helm les regroupe en un package versionné.
 
 ---
 

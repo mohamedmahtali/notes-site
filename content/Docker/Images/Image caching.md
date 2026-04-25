@@ -6,14 +6,11 @@ tags:
 
 # Image caching
 
-## Parent
-- [[Images]]
-
 ---
 
 ## Définition
 
-Docker met en cache chaque layer d'image localement. Lors d'un `docker pull`, seuls les layers manquants sont téléchargés. Lors d'un `docker build`, les layers non modifiés sont réutilisés depuis le cache local (ou un registry cache).
+[[Docker]] met en cache chaque layer d'image localement. Lors d'un `docker pull`, seuls les [[Layers]] manquants sont téléchargés. Lors d'un `docker build`, les layers non modifiés sont réutilisés depuis le cache local (ou un registry cache).
 
 ---
 

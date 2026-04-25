@@ -5,9 +5,6 @@ tags:
 ---
 # Unit tests
 
-## Parent
-- [[Test stage]]
-
 ---
 
 ## Définition

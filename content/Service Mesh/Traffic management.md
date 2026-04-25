@@ -1,13 +1,16 @@
 ---
 title: Traffic management
-tags: [kubernetes, networking, advanced]
+tags:
+  - kubernetes
+  - networking
+  - advanced
 ---
 
 # Traffic management
 
 ## Définition
 
-Le traffic management dans un service mesh permet de contrôler précisément comment les requêtes sont routées entre les services : canary deployments, A/B testing, traffic mirroring, fault injection — sans modifier le code ou les Deployments.
+Le traffic management dans un service mesh permet de contrôler précisément comment les requêtes sont routées entre les [[Services]] : canary [[Deployments]], A/B testing, traffic mirroring, fault injection — sans modifier le code ou les Deployments.
 
 ## Canary deployment avec Istio
 

@@ -6,19 +6,11 @@ tags:
 
 # Add submodule
 
-## Parent
-- [[Git submodules]]
-
-## Concepts liés
-- [[Git submodules]]
-- [[Update submodule]]
-- [[Nested repositories]]
-
 ---
 
 ## Définition
 
-`git submodule add` intègre un dépôt Git externe comme sous-répertoire d'un dépôt parent. Le dépôt parent enregistre un pointeur vers un commit précis du sous-module, pas une copie du code.
+`git submodule add` intègre un dépôt [[Git]] externe comme sous-répertoire d'un dépôt parent. Le dépôt parent enregistre un pointeur vers un [[Commit]] précis du sous-module, pas une copie du code.
 
 ---
 
@@ -68,4 +60,4 @@ git commit -m "chore: add shared-utils as submodule"
 ```
 
 > [!warning] Complexité accrue
-> Les sous-modules ajoutent de la friction (clone, update, sync). Évalue si une dépendance de package manager (npm, pip, go mod) ne ferait pas mieux le travail.
+> Les sous-[[Modules]] ajoutent de la friction (clone, update, sync). Évalue si une dépendance de [[Package]] manager (npm, pip, go mod) ne ferait pas mieux le travail.

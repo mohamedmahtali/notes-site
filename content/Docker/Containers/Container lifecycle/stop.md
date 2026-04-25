@@ -6,14 +6,11 @@ tags:
 
 # stop
 
-## Parent
-- [[Container lifecycle]]
-
 ---
 
 ## Définition
 
-`docker stop` envoie un signal `SIGTERM` au processus principal du conteneur pour lui permettre de s'arrêter proprement. Si le processus ne s'arrête pas dans le délai imparti (10s par défaut), Docker envoie `SIGKILL`.
+`docker stop` envoie un signal `SIGTERM` au processus principal du conteneur pour lui permettre de s'arrêter proprement. Si le processus ne s'arrête pas dans le délai imparti (10s par défaut), [[Docker]] envoie `SIGKILL`.
 
 ---
 
@@ -39,7 +36,7 @@ docker stop $(docker ps -q)
 
 | Commande | Signal | Arrêt propre |
 |---|---|---|
-| `docker stop` | SIGTERM → SIGKILL | ✅ Oui (si le process le gère) |
+| `docker stop` | [[SIGTERM]] → [[SIGKILL]] | ✅ Oui (si le process le gère) |
 | `docker kill` | SIGKILL direct | ❌ Non |
 
 > [!tip]

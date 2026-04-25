@@ -6,20 +6,11 @@ tags:
 
 # pre-push
 
-## Parent
-- [[Git hooks]]
-
-## Concepts liés
-- [[Git hooks]]
-- [[pre-commit]]
-- [[commit-msg]]
-- [[CI-CD]]
-
 ---
 
 ## Définition
 
-Le hook `pre-push` s'exécute juste avant un `git push`. Il reçoit sur stdin les références qui vont être poussées. Si le script retourne un code d'erreur, le push est annulé. C'est le dernier filet avant que le code parte vers le remote et déclenche la CI.
+Le hook `pre-push` s'exécute juste avant un `git push`. Il reçoit sur [[stdin]] les références qui vont être poussées. Si le script retourne un code d'erreur, le push est annulé. C'est le dernier filet avant que le code parte vers le remote et déclenche la CI.
 
 ---
 

@@ -6,14 +6,11 @@ tags:
 
 # Service logs
 
-## Parent
-- [[journalctl]]
-
 ---
 
 ## Définition
 
-journalctl permet de consulter les logs d'un service systemd spécifique grâce au flag `-u` (unit). Les logs incluent les sorties stdout/stderr du service et les événements systemd (démarrage, arrêt, redémarrage).
+[[journalctl]] permet de consulter les logs d'un service [[systemd]] spécifique grâce au flag `-u` (unit). Les logs incluent les sorties [[stdout]]/[[stderr]] du service et les événements systemd (démarrage, arrêt, redémarrage).
 
 ---
 

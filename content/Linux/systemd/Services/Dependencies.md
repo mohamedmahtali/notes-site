@@ -6,14 +6,11 @@ tags:
 
 # Dependencies
 
-## Parent
-- [[Services]]
-
 ---
 
 ## Définition
 
-systemd gère les dépendances entre services pour garantir l'ordre de démarrage correct. Un service peut déclarer qu'il a besoin d'autres services avant de démarrer.
+[[systemd]] gère les dépendances entre [[Services]] pour garantir l'ordre de démarrage correct. Un service peut déclarer qu'il a besoin d'autres services avant de démarrer.
 
 ---
 

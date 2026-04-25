@@ -6,14 +6,11 @@ tags:
 
 # Mount points
 
-## Parent
-- [[File system]]
-
 ---
 
 ## Définition
 
-Un point de montage est un répertoire sur lequel un filesystem est "monté" — rendu accessible dans l'arborescence Linux. Tout le stockage supplémentaire (disques, partitions, NFS, tmpfs) est monté sur des répertoires existants.
+Un point de montage est un répertoire sur lequel un filesystem est "monté" — rendu accessible dans l'arborescence [[Linux]]. Tout le stockage supplémentaire (disques, [[Partitions]], NFS, tmpfs) est monté sur des répertoires existants.
 
 ---
 

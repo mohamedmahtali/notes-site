@@ -1,16 +1,18 @@
 ---
 title: Networking
-tags: [networking, intermediate]
+tags:
+  - networking
+  - intermediate
 ---
 
 # Networking (Réseau)
 
 ## Définition
 
-Le networking couvre l'ensemble des concepts, protocoles et outils permettant la communication entre systèmes. En DevOps, la compréhension du réseau est essentielle pour diagnostiquer des pannes, configurer des load balancers, sécuriser des communications et architecturer des systèmes distribués.
+Le networking couvre l'ensemble des concepts, protocoles et outils permettant la communication entre systèmes. En [[DevOps]], la compréhension du réseau est essentielle pour diagnostiquer des pannes, configurer des [[Load balancers]], sécuriser des communications et architecturer des systèmes distribués.
 
 > [!tip] Pourquoi c'est important
-> La plupart des incidents en production ont une composante réseau : latence, DNS mal configuré, firewall bloquant un port, certificat expiré. Maîtriser le réseau permet de diagnostiquer et résoudre ces problèmes rapidement.
+> La plupart des incidents en production ont une composante réseau : latence, DNS mal configuré, [[Firewall]] bloquant un port, certificat expiré. Maîtriser le réseau permet de diagnostiquer et résoudre ces problèmes rapidement.
 
 ## Modèle OSI simplifié
 
@@ -28,7 +30,7 @@ Couche 1 — Physique      (câbles, Wi-Fi)
 - **[[TCP IP]]** — Protocoles de communication fondamentaux
 - **[[OSI model]]** — Modèle de référence en couches
 - **[[Load balancing]]** — Distribution du trafic entre serveurs
-- **[[Reverse proxy]]** — Nginx, HAProxy, Traefik
+- **[[Reverse proxy]]** — [[Nginx]], [[HAProxy]], [[Traefik]]
 - **[[VPN]]** — Tunnels sécurisés entre réseaux
 
 ## Commandes de diagnostic

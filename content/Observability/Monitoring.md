@@ -5,13 +5,6 @@ tags:
 ---
 # Monitoring
 
-## Parent
-- [[Observability]]
-
-## Enfants
-- [[Prometheus]]
-- [[Alertmanager]]
-
 ---
 
 ## Définition
@@ -22,14 +15,33 @@ Le monitoring est la collecte, le stockage, et l'analyse de métriques pour surv
 
 ## Stack de monitoring standard
 
-```
-Application → expose /metrics (Prometheus format)
-               ↓
-Prometheus scrape → stockage TSDB
-               ↓
-Alertmanager → routing des alertes → PagerDuty, Slack, email
-               ↓
-Grafana → dashboards → visualisation
+```mermaid
+flowchart TD
+    subgraph Apps["Applications"]
+        A1["🖥️ Service A\n/metrics"]
+        A2["🖥️ Service B\n/metrics"]
+        A3["🖥️ Node Exporter\n/metrics"]
+    end
+
+    subgraph Prometheus["Prometheus"]
+        P["Scraping + TSDB\nstockage métriques"]
+        R["Recording rules\n& Alert rules"]
+        P --> R
+    end
+
+    AM["📬 Alertmanager\nrouting · silences"]
+    GF["📊 Grafana\ndashboards · panels"]
+
+    subgraph Notifs["Notifications"]
+        S["Slack"]
+        PD["PagerDuty"]
+        EM["Email"]
+    end
+
+    A1 & A2 & A3 -->|"scrape /metrics"| P
+    R -->|"FIRING alert"| AM
+    AM --> S & PD & EM
+    P -->|"PromQL queries"| GF
 ```
 
 ---
@@ -53,4 +65,4 @@ Grafana → dashboards → visualisation
 ---
 
 > [!note]
-> Voir [[Prometheus]] pour la collecte de métriques, [[Alertmanager]] pour le routing des alertes, [[Grafana]] pour la visualisation.
+> Voir [[Prometheus]] pour la collecte de métriques, [[Alertmanager]] pour le [[Routing]] des alertes, [[Grafana]] pour la visualisation.

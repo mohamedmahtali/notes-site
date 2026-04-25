@@ -5,13 +5,6 @@ tags:
 ---
 # Continuous delivery
 
-## Parent
-- [[CI-CD]]
-
-## Enfants
-- [[Manual approval]]
-- [[Release readiness]]
-
 ---
 
 ## Définition
@@ -50,7 +43,7 @@ release:
 ## Critères de "release readiness"
 
 - ✅ Tous les tests passent (unit, intégration, e2e)
-- ✅ Staging déployé et smoke tests verts
+- ✅ [[Staging]] déployé et smoke tests verts
 - ✅ Pas de vulnérabilités critiques
 - ✅ Documentation à jour
 - ✅ Métriques de performance dans les seuils

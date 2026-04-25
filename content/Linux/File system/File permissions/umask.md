@@ -6,14 +6,11 @@ tags:
 
 # umask
 
-## Parent
-- [[File permissions]]
-
 ---
 
 ## Définition
 
-`umask` (user file creation mask) définit les permissions par défaut retirées lors de la création de nouveaux fichiers et répertoires. C'est un masque de bits soustrait des permissions maximales.
+`umask` (user file creation mask) définit les [[Permissions]] par défaut retirées lors de la création de nouveaux fichiers et répertoires. C'est un masque de bits soustrait des permissions maximales.
 
 ---
 

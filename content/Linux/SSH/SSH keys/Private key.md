@@ -5,21 +5,18 @@ tags:
 ---
 # Private key
 
-## Parent
-- [[SSH keys]]
-
 ---
 
 ## Définition
 
-La clé privée est la moitié secrète d'une paire de clés SSH. Elle reste toujours sur ta machine locale et ne doit jamais être partagée. Elle est utilisée pour prouver ton identité lors d'une connexion SSH.
+La clé privée est la moitié secrète d'une paire de clés [[SSH]]. Elle reste toujours sur ta machine locale et ne doit jamais être partagée. Elle est utilisée pour prouver ton identité lors d'une connexion SSH.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!warning] Ne jamais partager la clé privée
-> Si quelqu'un obtient ta clé privée (sans passphrase), il peut se connecter à tous les serveurs où ta clé publique est autorisée. Protège-la avec une passphrase forte et des permissions restrictives.
+> Si quelqu'un obtient ta clé privée (sans [[Passphrase]]), il peut se connecter à tous les serveurs où ta clé publique est autorisée. Protège-la avec une passphrase forte et des [[Permissions]] restrictives.
 
 ---
 

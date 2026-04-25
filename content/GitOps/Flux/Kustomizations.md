@@ -1,15 +1,17 @@
 ---
 title: Flux Kustomizations
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # Flux Kustomizations
 
 ## Définition
 
-Une `Kustomization` Flux est une CRD qui définit un ensemble de manifests Kubernetes à appliquer depuis une source Git. Elle orchestre l'ordre d'application et surveille la santé des ressources.
+Une `Kustomization` Flux est une [[CRD]] qui définit un ensemble de manifests [[Kubernetes]] à appliquer depuis une source [[Git]]. Elle orchestre l'ordre d'application et surveille la santé des ressources.
 
-> [!note] Flux Kustomization ≠ kubectl Kustomize
+> [!note] Flux Kustomization ≠ [[kubectl]] Kustomize
 > La `Kustomization` Flux (flux.cd/v1) est différente de la `Kustomization` kubectl (kustomize.config.k8s.io). La première pilote Flux, la seconde est le tool de templating.
 
 ## Exemple

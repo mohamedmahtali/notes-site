@@ -5,14 +5,11 @@ tags:
 ---
 # Horizontal scaling
 
-## Parent
-- [[Autoscaling]]
-
 ---
 
 ## Définition
 
-Le scaling horizontal (scale out/in) ajoute ou retire des instances identiques pour gérer la charge. C'est la forme d'autoscaling la plus courante en cloud car elle permet une disponibilité continue sans interruption.
+Le scaling horizontal (scale out/in) ajoute ou retire des instances identiques pour gérer la charge. C'est la forme d'[[Autoscaling]] la plus courante en [[Cloud]] car elle permet une disponibilité continue sans interruption.
 
 ---
 
@@ -82,7 +79,7 @@ kubectl scale deployment myapp --replicas=5
 
 ## KEDA — scaling sur métriques externes
 
-KEDA (Kubernetes Event Driven Autoscaler) permet de scaler sur des sources externes : longueur d'une queue SQS, nombre de messages Kafka, requêtes en attente...
+KEDA ([[Kubernetes]] Event Driven Autoscaler) permet de scaler sur des sources externes : longueur d'une queue SQS, nombre de messages Kafka, requêtes en attente...
 
 ```yaml
 apiVersion: keda.sh/v1alpha1
@@ -107,6 +104,6 @@ spec:
 | Aspect | Horizontal | Vertical |
 |---|---|---|
 | Disponibilité | Pas d'interruption | Redémarrage requis |
-| Scalabilité | Quasi-illimitée | Limité par les types d'instance |
+| Scalabilité | Quasi-illimitée | Limité par les [[Types]] d'instance |
 | Coût | Linéaire | Non-linéaire |
 | Complexité app | Doit être stateless | Peut être stateful |

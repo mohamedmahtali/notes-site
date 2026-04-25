@@ -6,20 +6,17 @@ tags:
 
 # DNS Glossaire
 
-## Parent
-- [[DNS]]
-
 ---
 
 ## Termes essentiels
 
 | Terme | Définition |
 |---|---|
-| **Zone** | Portion de l'espace de noms DNS sous la responsabilité d'un serveur |
+| **Zone** | Portion de l'espace de noms [[DNS]] sous la responsabilité d'un serveur |
 | **Authoritative server** | Serveur faisant autorité sur une zone (source de vérité) |
 | **Recursive resolver** | Serveur qui interroge en cascade pour trouver la réponse |
 | **Root servers** | 13 serveurs racines (. ) gérant les TLDs |
-| **TLD** | Top Level Domain (.com, .org, .fr) |
+| **TLD** | [[top]] Level Domain (.com, .org, .fr) |
 | **FQDN** | Fully Qualified Domain Name : `www.example.com.` (avec le point final) |
 | **Forward lookup** | Nom → IP |
 | **Reverse lookup** | IP → Nom (via PTR records) |

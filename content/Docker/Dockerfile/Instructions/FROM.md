@@ -6,14 +6,11 @@ tags:
 
 # FROM
 
-## Parent
-- [[Instructions]]
-
 ---
 
 ## Définition
 
-`FROM` est la première instruction de tout Dockerfile. Elle définit l'image de base à partir de laquelle l'image sera construite. Tout ce qui suit est appliqué par-dessus cette base.
+`FROM` est la première instruction de tout [[Dockerfile]]. Elle définit l'image de base à partir de laquelle l'image sera construite. Tout ce qui suit est appliqué par-dessus cette base.
 
 ---
 
@@ -39,7 +36,7 @@ FROM node:20 AS builder   # multi-stage build
 | `ubuntu:22.04` | ~77MB | Usage général, outils disponibles |
 | `debian:bookworm-slim` | ~74MB | Slim, APT disponible |
 | `alpine:3.19` | ~7MB | Ultra-léger, musl libc |
-| `distroless` | ~20MB | Sécurité maximale, pas de shell |
+| `distroless` | ~20MB | Sécurité maximale, pas de [[Shell]] |
 | `scratch` | 0MB | Binaires Go/Rust statiques |
 
 ---

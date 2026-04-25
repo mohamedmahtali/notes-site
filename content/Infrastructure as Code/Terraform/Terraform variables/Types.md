@@ -5,14 +5,11 @@ tags:
 ---
 # Types
 
-## Parent
-- [[Terraform variables]]
-
 ---
 
 ## Définition
 
-Terraform supporte plusieurs types de variables : primitifs (string, number, bool) et complexes (list, set, map, object, tuple).
+[[Terraform]] supporte plusieurs types de [[Variables]] : primitifs (string, number, bool) et complexes (list, set, map, object, tuple).
 
 ---
 

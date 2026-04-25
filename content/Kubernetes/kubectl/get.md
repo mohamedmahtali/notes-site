@@ -5,14 +5,11 @@ tags:
 ---
 # get
 
-## Parent
-- [[kubectl]]
-
 ---
 
 ## Définition
 
-`kubectl get` liste les ressources Kubernetes avec leur statut. C'est la commande la plus utilisée pour observer l'état du cluster.
+`kubectl get` liste les ressources [[Kubernetes]] avec leur statut. C'est la commande la plus utilisée pour observer l'état du [[Cluster]].
 
 ---
 

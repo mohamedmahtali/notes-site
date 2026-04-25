@@ -5,9 +5,6 @@ tags:
 ---
 # Application metrics
 
-## Parent
-- [[Metrics]]
-
 ---
 
 ## Définition

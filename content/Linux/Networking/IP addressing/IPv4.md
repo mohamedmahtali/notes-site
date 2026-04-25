@@ -6,9 +6,6 @@ tags:
 
 # IPv4
 
-## Parent
-- [[IP addressing]]
-
 ---
 
 ## Définition

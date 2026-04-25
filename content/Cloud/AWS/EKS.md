@@ -5,14 +5,11 @@ tags:
 ---
 # EKS
 
-## Parent
-- [[AWS]]
-
 ---
 
 ## Définition
 
-Amazon EKS (Elastic Kubernetes Service) est le service Kubernetes managé d'AWS. AWS gère le control plane (API server, etcd, scheduler), toi tu gères les nodes workers et les workloads.
+Amazon EKS (Elastic [[Kubernetes]] Service) est le service Kubernetes managé d'[[AWS]]. AWS gère le [[Control plane]] ([[API server]], [[etcd]], [[Scheduler]]), toi tu gères les [[Node]] workers et les workloads.
 
 ---
 
@@ -53,4 +50,4 @@ eksctl create iamserviceaccount   --cluster my-cluster   --namespace production 
 ---
 
 > [!tip]
-> Utiliser Karpenter plutôt que Cluster Autoscaler pour l'autoscaling des nodes — plus rapide, plus économique (sélection optimale des types d'instances).
+> Utiliser Karpenter plutôt que [[Cluster]] Autoscaler pour l'[[Autoscaling]] des nodes — plus rapide, plus économique (sélection optimale des [[Types]] d'instances).

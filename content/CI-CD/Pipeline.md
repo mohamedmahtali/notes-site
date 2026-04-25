@@ -5,14 +5,6 @@ tags:
 ---
 # Pipeline
 
-## Parent
-- [[CI-CD]]
-
-## Enfants
-- [[Build stage]]
-- [[Test stage]]
-- [[Deploy stage]]
-
 ---
 
 ## Définition
@@ -27,6 +19,33 @@ Un pipeline CI/CD est une séquence automatisée d'étapes (stages) qui transfor
 > Un pipeline bien conçu est un garde-fou : il est impossible de déployer du code qui ne compile pas, ne passe pas les tests, ou ne respecte pas les standards de qualité. Il remplace les procédures manuelles oubliables par des étapes répétables.
 
 ---
+
+## Flux d'un pipeline
+
+```mermaid
+flowchart LR
+    A([📝 Code push]) --> B
+
+    subgraph CI["Intégration Continue"]
+        B["🔨 Build\nCompilation\nImage Docker"]
+        C["🧪 Test\nUnit · Intégration\nSécurité · Lint"]
+        B --> C
+    end
+
+    subgraph CD["Déploiement Continu"]
+        D["🚀 Deploy Staging\nValidation\nSmoke tests"]
+        E["✅ Deploy Prod\nBlue/Green\nCanary"]
+        D --> E
+    end
+
+    C -->|"✅ Tests OK"| D
+    C -->|"❌ Échec"| F(["🔔 Notification\néquipe"])
+    E --> G(["📊 Monitoring"])
+
+    style A fill:#3b82f6,color:#fff,stroke:none
+    style G fill:#10b981,color:#fff,stroke:none
+    style F fill:#ef4444,color:#fff,stroke:none
+```
 
 ## Structure d'un pipeline
 

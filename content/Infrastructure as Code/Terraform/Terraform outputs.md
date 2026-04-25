@@ -5,14 +5,11 @@ tags:
 ---
 # Terraform outputs
 
-## Parent
-- [[Terraform]]
-
 ---
 
 ## Définition
 
-Les outputs Terraform exposent des valeurs de l'infrastructure déployée : IPs, ARNs, URLs, IDs. Ils permettent de partager des informations entre modules et de les utiliser dans des scripts.
+Les outputs [[Terraform]] exposent des valeurs de l'infrastructure déployée : IPs, ARNs, URLs, IDs. Ils permettent de partager des informations entre [[Modules]] et de les utiliser dans des scripts.
 
 ---
 

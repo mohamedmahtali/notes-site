@@ -6,14 +6,11 @@ tags:
 
 # Forwarding
 
-## Parent
-- [[iptables]]
-
 ---
 
 ## Définition
 
-Le forwarding IP permet à une machine Linux d'agir comme routeur — retransmettre des paquets d'une interface réseau à une autre. Utilisé pour les VPN, NAT, containers, et la mise en réseau avancée.
+Le forwarding IP permet à une machine [[Linux]] d'agir comme routeur — retransmettre des paquets d'une interface réseau à une autre. Utilisé pour les [[VPN]], [[NAT]], [[Containers]], et la mise en réseau avancée.
 
 ---
 
@@ -48,4 +45,4 @@ iptables -A FORWARD -i eth1 -o eth0 -m state --state NEW -j ACCEPT
 ---
 
 > [!note]
-> Docker active automatiquement le forwarding IP et crée des règles iptables pour ses réseaux. Kubernetes fait de même. Ne pas désactiver accidentellement le forwarding sur des serveurs qui font tourner des containers.
+> [[Docker]] active automatiquement le forwarding IP et crée des règles [[iptables]] pour ses réseaux. [[Kubernetes]] fait de même. Ne pas désactiver accidentellement le forwarding sur des serveurs qui font tourner des containers.

@@ -1,13 +1,15 @@
 ---
 title: Nginx (reverse proxy)
-tags: [networking, intermediate]
+tags:
+  - networking
+  - intermediate
 ---
 
 # Nginx (Reverse Proxy)
 
 ## Définition
 
-Nginx est un serveur web et reverse proxy haute performance. Il est utilisé comme reverse proxy devant des applications Node.js, Python, Java pour gérer TLS, la compression, le cache et le load balancing.
+Nginx est un serveur web et reverse proxy haute performance. Il est utilisé comme reverse proxy devant des applications [[Node]].js, Python, Java pour gérer TLS, la compression, le cache et le load balancing.
 
 > [!tip] Nginx vs Apache
 > Nginx utilise une architecture event-driven asynchrone (un thread gère des milliers de connexions). Apache utilise un thread par connexion. Nginx est plus performant pour les charges élevées.

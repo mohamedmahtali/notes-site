@@ -6,14 +6,11 @@ tags:
 
 # Capability dropping
 
-## Parent
-- [[Docker security]]
-
 ---
 
 ## Définition
 
-Les Linux capabilities divisent les privilèges root en unités distinctes. Docker permet de supprimer des capabilities spécifiques (ou toutes) pour réduire la surface d'attaque d'un conteneur, même s'il tourne en root.
+Les [[Linux]] capabilities divisent les privilèges root en unités distinctes. [[Docker]] permet de supprimer des capabilities spécifiques (ou toutes) pour réduire la surface d'attaque d'un conteneur, même s'il tourne en root.
 
 ---
 
@@ -25,7 +22,7 @@ Les Linux capabilities divisent les privilèges root en unités distinctes. Dock
 | `SYS_PTRACE` | Déboguer des processus |
 | `SYS_ADMIN` | Appels système avancés |
 | `CHOWN` | Changer les propriétaires de fichiers |
-| `NET_BIND_SERVICE` | Écouter sur les ports < 1024 |
+| `NET_BIND_SERVICE` | Écouter sur les [[Ports]] < 1024 |
 
 ---
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Values
 
-## Parent
-- [[Helm]]
-
 ---
 
 ## Définition
 
-Les values sont les paramètres configurables d'un chart Helm. Définies dans `values.yaml` avec des valeurs par défaut, elles peuvent être surchargées à l'installation pour adapter le déploiement à chaque environnement.
+Les values sont les paramètres configurables d'un chart [[Helm]]. Définies dans `values.yaml` avec des valeurs par défaut, elles peuvent être surchargées à l'installation pour adapter le déploiement à chaque environnement.
 
 ---
 
@@ -85,4 +82,4 @@ helm install myapp ./chart   -f values.yaml   -f values.prod.yaml
 ---
 
 > [!tip]
-> Garder un fichier `values.yaml` avec les défauts sensibles, et des fichiers `values.staging.yaml`, `values.production.yaml` pour les overrides spécifiques. Ne jamais hardcoder les secrets — utiliser des references à des Secrets K8s ou un vault.
+> Garder un fichier `values.yaml` avec les défauts sensibles, et des fichiers `values.staging.yaml`, `values.production.yaml` pour les overrides spécifiques. Ne jamais hardcoder les [[Secrets]] — utiliser des references à des Secrets K8s ou un [[Vault]].

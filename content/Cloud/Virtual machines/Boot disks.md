@@ -5,14 +5,11 @@ tags:
 ---
 # Boot disks
 
-## Parent
-- [[Virtual machines]]
-
 ---
 
 ## Définition
 
-Le boot disk est le disque principal d'une VM contenant l'OS et les applications. Sur AWS c'est un EBS volume ; sur GCP c'est un Persistent Disk. Sa taille, son type (SSD/HDD), et ses performances ont un impact direct sur le démarrage et les I/O.
+Le boot disk est le disque principal d'une VM contenant l'OS et les applications. Sur [[AWS]] c'est un EBS volume ; sur GCP c'est un Persistent Disk. Sa taille, son type (SSD/HDD), et ses performances ont un impact direct sur le démarrage et les I/O.
 
 ---
 

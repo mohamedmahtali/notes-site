@@ -6,27 +6,18 @@ tags:
 
 # Main branch
 
-## Parent
-- [[Branch]]
-
-## Concepts liés
-- [[Branch]]
-- [[Feature branch]]
-- [[GitHub flow]]
-- [[CI-CD]]
-
 ---
 
 ## Définition
 
-`main` (anciennement `master`) est la branche principale d'un dépôt Git. Dans tous les workflows modernes, elle représente le code **stable et déployable** en production. C'est la source de vérité du projet.
+`main` (anciennement `master`) est la branche principale d'un dépôt [[Git]]. Dans tous les [[Workflows]] modernes, elle représente le code **stable et déployable** en production. C'est la source de vérité du projet.
 
 ---
 
 ## Règle fondamentale
 
 > [!warning] main doit toujours être déployable
-> Aucun commit cassé, aucun test en échec. Si `main` est cassée, c'est une urgence. Tout le workflow CI/CD repose sur cette invariant.
+> Aucun [[Commit]] cassé, aucun test en échec. Si `main` est cassée, c'est une urgence. Tout le workflow CI/CD repose sur cette invariant.
 
 ---
 

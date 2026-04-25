@@ -5,14 +5,11 @@ tags:
 ---
 # Scaling policies
 
-## Parent
-- [[Autoscaling]]
-
 ---
 
 ## Définition
 
-Les scaling policies définissent quand et comment l'autoscaling doit ajouter ou retirer des instances. Trois types principaux : Target Tracking (le plus simple), Step Scaling, et Scheduled Actions.
+Les scaling [[Policies]] définissent quand et comment l'[[Autoscaling]] doit ajouter ou retirer des instances. Trois [[Types]] principaux : Target Tracking (le plus simple), Step Scaling, et Scheduled Actions.
 
 ---
 

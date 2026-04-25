@@ -6,20 +6,11 @@ tags:
 
 # Interactive rebase
 
-## Parent
-- [[Rebase]]
-
-## Concepts liés
-- [[Rebase]]
-- [[Squash]]
-- [[Rewrite history]]
-- [[Amend]]
-
 ---
 
 ## Définition
 
-Le rebase interactif (`git rebase -i`) permet de réécrire l'historique d'une branche commit par commit : modifier des messages, fusionner des commits, réordonner, supprimer ou diviser des commits. C'est l'outil de nettoyage d'historique le plus puissant de Git.
+Le [[Rebase]] interactif (`git rebase -i`) permet de réécrire l'historique d'une branche [[Commit]] par commit : modifier des messages, fusionner des commits, réordonner, supprimer ou diviser des commits. C'est l'outil de nettoyage d'historique le plus puissant de [[Git]].
 
 ---
 
@@ -28,8 +19,8 @@ Le rebase interactif (`git rebase -i`) permet de réécrire l'historique d'une b
 > [!warning] Jamais sur des commits déjà poussés sur main
 > Le rebase interactif réécrit les hashes SHA-1. L'utiliser sur une branche partagée casse l'historique des autres.
 
-> [!tip] Nettoyer avant de merge
-> Un historique propre sur la PR (squash des "WIP", correction des typos) facilite les reviews et rend le `git log` de `main` lisible.
+> [!tip] Nettoyer avant de [[Merge]]
+> Un historique propre sur la PR ([[Squash]] des "WIP", correction des typos) facilite les reviews et rend le `git log` de `main` lisible.
 
 ---
 

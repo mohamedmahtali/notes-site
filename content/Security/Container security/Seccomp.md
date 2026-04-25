@@ -1,6 +1,8 @@
 ---
 title: Seccomp
-tags: [security, advanced]
+tags:
+  - security
+  - advanced
 ---
 
 # Seccomp (Secure Computing Mode)
@@ -14,7 +16,7 @@ Seccomp filtre les appels système (syscalls) qu'un processus peut effectuer. Il
 
 ## Profil seccomp Docker par défaut
 
-Docker applique automatiquement un profil seccomp qui bloque ~44 syscalls dangereux (ex: `ptrace`, `reboot`, `kexec_load`).
+[[Docker]] applique automatiquement un profil seccomp qui bloque ~44 syscalls dangereux (ex: `ptrace`, `reboot`, `kexec_load`).
 
 ```bash
 # Vérifier le profil actif

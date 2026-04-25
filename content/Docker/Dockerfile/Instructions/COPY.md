@@ -6,9 +6,6 @@ tags:
 
 # COPY
 
-## Parent
-- [[Instructions]]
-
 ---
 
 ## Définition
@@ -48,7 +45,7 @@ RUN npm ci
 COPY . .
 ```
 
-> [!tip] Pourquoi copier package.json en premier ?
+> [!tip] Pourquoi copier [[Package]].json en premier ?
 > Si tu copies tout avec `COPY . .` d'un coup, chaque changement de code source invalide le cache du `npm ci` — même si `package.json` n'a pas changé. En séparant, le layer `npm ci` est mis en cache tant que `package.json` ne change pas.
 
 ---

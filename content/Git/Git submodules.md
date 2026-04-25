@@ -5,25 +5,11 @@ tags:
 ---
 # Git submodules
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Add submodule]]
-- [[Update submodule]]
-- [[Nested repositories]]
-
-## Concepts liés
-- [[Add submodule]]
-- [[Update submodule]]
-- [[Nested repositories]]
-- [[Repository]]
-
 ---
 
 ## Définition
 
-Les submodules Git permettent d'inclure un dépôt Git à l'intérieur d'un autre. Le dépôt parent enregistre un pointeur vers un **commit précis** du sous-module — pas une copie du code. C'est utile pour partager des bibliothèques internes entre projets.
+Les submodules [[Git]] permettent d'inclure un dépôt Git à l'intérieur d'un autre. Le dépôt parent enregistre un pointeur vers un **[[Commit]] précis** du sous-module — pas une copie du code. C'est utile pour partager des bibliothèques internes entre projets.
 
 ---
 
@@ -76,4 +62,4 @@ git submodule status
 ---
 
 > [!tip]
-> Après chaque `git pull` qui change les pointeurs de sous-modules, lancer `git submodule update --init --recursive`.
+> Après chaque `git pull` qui change les pointeurs de sous-[[Modules]], lancer `git submodule update --init --recursive`.

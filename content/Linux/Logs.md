@@ -6,20 +6,11 @@ tags:
 
 # Logs
 
-## Parent
-- [[Linux]]
-
-## Enfants
-- [[Syslog]]
-- [[Application logs]]
-- [[Audit logs]]
-- [[logrotate]]
-
 ---
 
 ## Définition
 
-Les logs Linux sont des fichiers texte ou des entrées de journal qui enregistrent les événements système, applicatifs, et de sécurité. Ils sont essentiels pour le diagnostic, l'audit, et la surveillance.
+Les logs [[Linux]] sont des fichiers texte ou des entrées de journal qui enregistrent les événements système, applicatifs, et de sécurité. Ils sont essentiels pour le diagnostic, l'audit, et la surveillance.
 
 ---
 

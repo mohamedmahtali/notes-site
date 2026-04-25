@@ -5,13 +5,6 @@ tags:
 ---
 # ConfigMaps
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[Environment injection]]
-- [[Mounted configuration]]
-
 ---
 
 ## Définition

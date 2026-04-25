@@ -5,9 +5,6 @@ tags:
 ---
 # Silences
 
-## Parent
-- [[Alertmanager]]
-
 ---
 
 ## Définition

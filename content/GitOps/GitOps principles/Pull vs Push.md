@@ -1,16 +1,18 @@
 ---
 title: Pull vs Push
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # Pull vs Push (modèles de déploiement)
 
 ## Définition
 
-Il existe deux modèles pour synchroniser l'état d'un cluster avec Git. GitOps privilégie le modèle **pull** pour des raisons de sécurité.
+Il existe deux modèles pour synchroniser l'état d'un [[Cluster]] avec [[Git]]. [[GitOps]] privilégie le modèle **pull** pour des raisons de sécurité.
 
 > [!tip] Pourquoi le pull est plus sûr
-> Avec le pull, le pipeline CI n'a jamais accès au cluster de production. Seul l'agent qui tourne DANS le cluster peut modifier le cluster. Moins de credentials à gérer, moins de surface d'attaque.
+> Avec le pull, le [[Pipeline]] CI n'a jamais accès au cluster de production. Seul l'agent qui tourne DANS le cluster peut modifier le cluster. Moins de credentials à gérer, moins de surface d'attaque.
 
 ## Comparaison
 
@@ -21,7 +23,7 @@ Il existe deux modèles pour synchroniser l'état d'un cluster avec Git. GitOps 
 | Synchronisation | Ponctuelle (à chaque deploy) | Continue (polling/webhook) |
 | Dérive détectée | Non | Oui (auto-corrected) |
 | Audit trail | Dans le CI | Dans Git |
-| Exemples | GitHub Actions + kubectl | ArgoCD, Flux |
+| Exemples | [[GitHub actions]] + [[kubectl]] | ArgoCD, Flux |
 
 ## Architecture Pull (GitOps)
 

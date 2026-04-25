@@ -5,21 +5,18 @@ tags:
 ---
 # Terraform plan
 
-## Parent
-- [[Terraform]]
-
 ---
 
 ## Définition
 
-`terraform plan` génère un plan d'exécution qui montre exactement ce que Terraform va créer, modifier, ou détruire. C'est l'étape de prévisualisation — aucune modification n'est appliquée.
+`terraform plan` génère un plan d'exécution qui montre exactement ce que [[Terraform]] va créer, modifier, ou détruire. C'est l'étape de prévisualisation — aucune modification n'est appliquée.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!tip] Review avant d'agir
-> Toujours exécuter `plan` avant `apply`. Un plan détaille chaque changement avec le signe `+` (create), `~` (update), `-` (destroy). Relire attentivement avant de valider.
+> Toujours exécuter `plan` avant `apply`. Un plan détaille chaque changement avec le signe `+` ([[create]]), `~` (update), `-` (destroy). Relire attentivement avant de valider.
 
 ---
 

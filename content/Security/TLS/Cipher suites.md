@@ -1,6 +1,8 @@
 ---
 title: Cipher suites
-tags: [security, advanced]
+tags:
+  - security
+  - advanced
 ---
 
 # Cipher suites

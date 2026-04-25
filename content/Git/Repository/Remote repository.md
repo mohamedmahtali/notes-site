@@ -6,20 +6,11 @@ tags:
 
 # Remote repository
 
-## Parent
-- [[Repository]]
-
-## Concepts liés
-- [[Repository]]
-- [[Local repository]]
-- [[Branch]]
-- [[Pull request]]
-
 ---
 
 ## Définition
 
-Un dépôt distant (remote repository) est une version du dépôt hébergée sur un serveur (GitHub, GitLab, Bitbucket, serveur privé). Il sert de point de synchronisation entre les membres de l'équipe. Par convention, le remote principal s'appelle `origin`.
+Un dépôt distant (remote [[Repository]]) est une version du dépôt hébergée sur un serveur (GitHub, GitLab, Bitbucket, serveur privé). Il sert de point de synchronisation entre les membres de l'équipe. Par convention, le remote principal s'appelle `origin`.
 
 ---
 
@@ -73,7 +64,7 @@ Local Repository  ←──── git fetch ────── Remote Repository
 | Protocole | Format | Auth |
 |---|---|---|
 | HTTPS | `https://github.com/user/repo.git` | Token ou password |
-| SSH | `git@github.com:user/repo.git` | Clé SSH |
+| [[SSH]] | `git@github.com:user/repo.git` | Clé SSH |
 
 > [!tip]
 > Préfère SSH pour le développement quotidien : pas de saisie de token à chaque push.

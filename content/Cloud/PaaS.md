@@ -5,9 +5,6 @@ tags:
 ---
 # PaaS
 
-## Parent
-- [[Cloud]]
-
 ---
 
 ## Définition
@@ -20,16 +17,16 @@ Platform as a Service : le provider gère l'infrastructure ET le runtime (OS, se
 
 | Provider | Service |
 |---|---|
-| AWS | Elastic Beanstalk, RDS, Lambda |
-| GCP | App Engine, Cloud SQL, Cloud Run |
-| Azure | App Service, Azure SQL, Azure Functions |
+| [[AWS]] | Elastic Beanstalk, RDS, Lambda |
+| GCP | App Engine, [[Cloud]] SQL, Cloud Run |
+| [[Azure]] | App Service, Azure SQL, Azure [[Functions]] |
 | Heroku | Heroku Dynos |
 
 ---
 
 ## Avantages vs IaaS
 
-| Aspect | IaaS | PaaS |
+| Aspect | [[IaaS]] | PaaS |
 |---|---|---|
 | Gestion OS | Toi | Provider |
 | Scaling | Manuel/ASG | Automatique |
@@ -48,4 +45,4 @@ gcloud run deploy myapp   --image gcr.io/my-project/myapp:latest   --platform ma
 ---
 
 > [!tip]
-> Le PaaS est idéal pour les applications stateless. Pour les applications stateful ou avec des dépendances système spécifiques, IaaS ou containers sont préférables.
+> Le PaaS est idéal pour les applications stateless. Pour les applications stateful ou avec des dépendances système spécifiques, IaaS ou [[Containers]] sont préférables.

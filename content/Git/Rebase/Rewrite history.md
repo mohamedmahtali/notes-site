@@ -6,20 +6,11 @@ tags:
 
 # Rewrite history
 
-## Parent
-- [[Rebase]]
-
-## Concepts liés
-- [[Rebase]]
-- [[Interactive rebase]]
-- [[Squash]]
-- [[Amend]]
-
 ---
 
 ## Définition
 
-Réécrire l'historique Git signifie modifier des commits existants — leur message, leur contenu, leur ordre, ou leur existence. Les outils principaux sont `git commit --amend`, `git rebase -i`, et `git filter-branch` / `git filter-repo`.
+Réécrire l'historique [[Git]] signifie modifier des [[Commit]] existants — leur message, leur contenu, leur ordre, ou leur existence. Les outils principaux sont `git commit --amend`, `git rebase -i`, et `git filter-branch` / `git filter-repo`.
 
 ---
 

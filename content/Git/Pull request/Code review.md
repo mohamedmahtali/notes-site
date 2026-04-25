@@ -6,20 +6,11 @@ tags:
 
 # Code review
 
-## Parent
-- [[Pull request]]
-
-## Concepts liés
-- [[Pull request]]
-- [[Merge checks]]
-- [[Approvals]]
-- [[Commit message]]
-
 ---
 
 ## Définition
 
-La code review est le processus par lequel un ou plusieurs développeurs examinent les changements proposés dans une Pull Request avant le merge. C'est un filet de sécurité qualité et un vecteur de partage de connaissance.
+La code review est le processus par lequel un ou plusieurs développeurs examinent les changements proposés dans une [[Pull request]] avant le [[Merge]]. C'est un filet de sécurité qualité et un vecteur de partage de connaissance.
 
 ---
 

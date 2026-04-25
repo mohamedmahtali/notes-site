@@ -1,16 +1,19 @@
 ---
 title: Linkerd
-tags: [kubernetes, networking, advanced]
+tags:
+  - kubernetes
+  - networking
+  - advanced
 ---
 
 # Linkerd
 
 ## Définition
 
-Linkerd est un service mesh open-source léger pour Kubernetes, développé par Buoyant. Son proxy sidecar est écrit en Rust (ultra-performant, faible empreinte mémoire) et son installation est volontairement minimaliste — mTLS et observabilité fonctionnent out-of-the-box sans configuration.
+Linkerd est un service mesh open-source léger pour [[Kubernetes]], développé par Buoyant. Son proxy sidecar est écrit en Rust (ultra-performant, faible empreinte mémoire) et son installation est volontairement minimaliste — mTLS et observabilité fonctionnent out-of-the-box sans configuration.
 
 > [!tip] Linkerd vs Istio
-> Linkerd est l'option "simplicité d'abord" : installation en 5 minutes, mTLS automatique sur tous les services, overhead minimal (~2ms vs ~10ms pour Istio). Istio offre plus de fonctionnalités (WASM, ext-authz, traffic mirroring fin), mais au prix d'une complexité bien supérieure.
+> Linkerd est l'option "simplicité d'abord" : installation en 5 minutes, mTLS automatique sur tous les [[Services]], overhead minimal (~2ms vs ~10ms pour Istio). Istio offre plus de fonctionnalités (WASM, ext-authz, traffic mirroring fin), mais au prix d'une complexité bien supérieure.
 
 ## Installation
 
@@ -49,7 +52,7 @@ linkerd check --proxy -n production
 
 ## mTLS automatique
 
-Contrairement à Istio, Linkerd active mTLS par défaut sur toutes les connexions entre pods injectés — aucune configuration requise.
+Contrairement à Istio, Linkerd active mTLS par défaut sur toutes les connexions entre [[Pods]] injectés — aucune configuration requise.
 
 ```bash
 # Vérifier que mTLS est actif entre deux services

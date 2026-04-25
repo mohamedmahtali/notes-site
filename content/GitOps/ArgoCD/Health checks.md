@@ -1,13 +1,15 @@
 ---
 title: Health checks
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # Health checks (ArgoCD)
 
 ## Définition
 
-ArgoCD évalue automatiquement la santé de chaque ressource Kubernetes déployée. Les health checks permettent de savoir si un déploiement s'est bien passé, sans monitorer manuellement.
+ArgoCD évalue automatiquement la santé de chaque ressource [[Kubernetes]] déployée. Les health checks permettent de savoir si un déploiement s'est bien passé, sans monitorer manuellement.
 
 > [!tip] Déploiements progressifs
 > ArgoCD attend que les ressources soient `Healthy` avant de marquer le sync comme réussi. Si un Deployment ne devient pas healthy (ex: ImagePullBackOff), ArgoCD le signale immédiatement.
@@ -20,7 +22,7 @@ ArgoCD évalue automatiquement la santé de chaque ressource Kubernetes déploy�
 | `Progressing` | Ressource en cours de démarrage |
 | `Degraded` | Ressource en erreur |
 | `Suspended` | Ressource en pause (ex: CronJob) |
-| `Missing` | Ressource absente du cluster |
+| `Missing` | Ressource absente du [[Cluster]] |
 | `Unknown` | Pas de health check disponible |
 
 ## Health check personnalisé (Lua)

@@ -5,14 +5,11 @@ tags:
 ---
 # Virtual Machines
 
-## Parent
-- [[Azure]]
-
 ---
 
 ## Définition
 
-Les Azure Virtual Machines sont l'équivalent Azure d'EC2. Elles s'intègrent nativement avec Azure AD, Azure Disk Encryption, et les services réseau Azure.
+Les [[Azure]] Virtual Machines sont l'équivalent Azure d'[[EC2]]. Elles s'intègrent nativement avec [[Azure AD]], Azure Disk Encryption, et les [[Services]] réseau Azure.
 
 ---
 

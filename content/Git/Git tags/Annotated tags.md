@@ -6,18 +6,11 @@ tags:
 
 # Annotated tags
 
-## Parent
-- [[Git tags]]
-
-## Concepts liés
-- [[Git tags]]
-- [[Lightweight tags]]
-
 ---
 
 ## Définition
 
-Un tag annoté (`git tag -a`) est un objet Git complet qui stocke : le nom du tag, la date, le tagger, un message, et peut être signé GPG. C'est le type recommandé pour les releases officielles.
+Un tag annoté (`git tag -a`) est un objet [[Git]] complet qui stocke : le nom du tag, la date, le tagger, un message, et peut être signé GPG. C'est le type recommandé pour les [[Releases]] officielles.
 
 ---
 
@@ -63,7 +56,7 @@ commit a3f2c1e...
 
 | Critère | Annotated | Lightweight |
 |---|---|---|
-| Objet Git | Oui (hash propre) | Non (alias de commit) |
+| Objet Git | Oui (hash propre) | Non (alias de [[Commit]]) |
 | Message | Oui | Non |
 | Date du tag | Oui | Date du commit |
 | Signature GPG | Possible | Non |

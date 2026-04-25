@@ -1,16 +1,18 @@
 ---
 title: Dev staging prod
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # Dev / Staging / Production
 
 ## Définition
 
-Les trois environnements standard d'une pipeline de déploiement : développement, recette/staging et production. Dans une architecture GitOps, chacun correspond à un path ou une branche dans le repo Git.
+Les trois environnements standard d'une [[Pipeline]] de déploiement : développement, recette/[[Staging]] et production. Dans une architecture [[GitOps]], chacun correspond à un path ou une branche dans le repo [[Git]].
 
 > [!note] Parité des environnements
-> L'objectif GitOps est d'avoir des environnements aussi similaires que possible. Les différences (replicas, domaines, resources) sont isolées dans des values ou overlays par environnement.
+> L'objectif GitOps est d'avoir des environnements aussi similaires que possible. Les différences (replicas, domaines, resources) sont isolées dans des [[Values]] ou [[Overlay]] par environnement.
 
 ## Structure GitOps par dossier
 

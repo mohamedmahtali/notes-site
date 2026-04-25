@@ -5,14 +5,11 @@ tags:
 ---
 # Custom metrics
 
-## Parent
-- [[HPA]]
-
 ---
 
 ## Définition
 
-Le HPA peut scaler sur des métriques custom applicatives (requêtes par seconde, longueur de queue, latence) via l'API Custom Metrics ou External Metrics. Nécessite un adapter (Prometheus Adapter, KEDA).
+Le [[HPA]] peut scaler sur des métriques custom applicatives (requêtes par seconde, longueur de queue, latence) via l'API Custom [[Metrics]] ou External Metrics. Nécessite un adapter ([[Prometheus]] Adapter, KEDA).
 
 ---
 

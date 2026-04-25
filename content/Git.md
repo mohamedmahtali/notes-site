@@ -6,33 +6,6 @@ tags:
 
 # Git
 
-## Parent
-- [[DevOps]]
-
-## Enfants
-- [[Repository]]
-- [[Commit]]
-- [[Branch]]
-- [[Merge]]
-- [[Rebase]]
-- [[Pull request]]
-- [[Git workflow]]
-- [[Git hooks]]
-- [[Git tags]]
-- [[Git ignore]]
-- [[Git stash]]
-- [[Git submodules]]
-- [[Advanced Git]]
-
-## Concepts liés
-- [[Repository]]
-- [[Commit]]
-- [[Branch]]
-- [[Merge]]
-- [[Rebase]]
-- [[Pull request]]
-- [[Git workflow]]
-
 ---
 
 ## Définition
@@ -45,8 +18,8 @@ Contrairement aux systèmes centralisés (SVN, CVS), chaque développeur possèd
 
 ## Pourquoi c'est important
 
-> [!tip] Indispensable en DevOps
-> Git est la fondation de tout pipeline CI/CD. Sans maîtrise de Git, impossible de comprendre comment le code passe du développeur à la production.
+> [!tip] Indispensable en [[DevOps]]
+> Git est la fondation de tout [[Pipeline]] CI/CD. Sans maîtrise de Git, impossible de comprendre comment le code passe du développeur à la production.
 
 - **Traçabilité** : chaque modification est enregistrée avec son auteur, sa date et son message
 - **Collaboration** : plusieurs personnes travaillent en parallèle sans écraser le travail des autres
@@ -96,8 +69,8 @@ Working Directory  →  Staging Area (Index)  →  Repository
 | Zone | Description |
 |---|---|
 | **Working Directory** | Tes fichiers locaux — modifiés mais pas encore suivis |
-| **Staging Area** | Fichiers prêts à être committés (`git add`) |
-| **Repository** | Historique des commits sauvegardé localement |
+| **[[Staging]] Area** | Fichiers prêts à être committés (`git add`) |
+| **[[Repository]]** | Historique des commits sauvegardé localement |
 
 ---
 

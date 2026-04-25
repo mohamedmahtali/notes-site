@@ -6,14 +6,11 @@ tags:
 
 # stdin
 
-## Parent
-- [[Redirections]]
-
 ---
 
 ## Définition
 
-`stdin` (standard input, fd 0) est le flux d'entrée d'une commande. Par défaut, il vient du clavier. Il peut être redirigé depuis un fichier ou depuis la sortie d'une commande précédente.
+`stdin` (standard input, fd 0) est le [[Flux]] d'entrée d'une commande. Par défaut, il vient du clavier. Il peut être redirigé depuis un fichier ou depuis la sortie d'une commande précédente.
 
 ---
 

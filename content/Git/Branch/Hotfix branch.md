@@ -6,20 +6,11 @@ tags:
 
 # Hotfix branch
 
-## Parent
-- [[Branch]]
-
-## Concepts liés
-- [[Branch]]
-- [[Main branch]]
-- [[Release branch]]
-- [[Git flow]]
-
 ---
 
 ## Définition
 
-Une hotfix branch est créée directement depuis `main` pour corriger un bug critique en production. C'est la seule branche qui ne part pas de `develop`. Elle doit être mergée **à la fois dans `main` et dans `develop`** pour que le fix ne soit pas perdu à la prochaine release.
+Une hotfix [[Branch]] est créée directement depuis `main` pour corriger un bug critique en production. C'est la seule branche qui ne part pas de `develop`. Elle doit être mergée **à la fois dans `main` et dans `develop`** pour que le fix ne soit pas perdu à la prochaine release.
 
 ---
 

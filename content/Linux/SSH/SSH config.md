@@ -6,14 +6,11 @@ tags:
 
 # SSH config
 
-## Parent
-- [[SSH]]
-
 ---
 
 ## Définition
 
-Le fichier `~/.ssh/config` permet de définir des raccourcis et configurations pour les connexions SSH. Au lieu de mémoriser IP, port, clé, et utilisateur pour chaque serveur, on définit un alias.
+Le fichier `~/.ssh/config` permet de définir des raccourcis et configurations pour les connexions [[SSH]]. Au lieu de mémoriser IP, port, clé, et utilisateur pour chaque serveur, on définit un alias.
 
 ---
 

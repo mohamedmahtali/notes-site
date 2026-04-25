@@ -5,14 +5,11 @@ tags:
 ---
 # LoadBalancer
 
-## Parent
-- [[Services]]
-
 ---
 
 ## Définition
 
-Un Service LoadBalancer provisionne automatiquement un load balancer externe via le cloud provider (AWS ELB, GCP Load Balancer, Azure LB). Il expose le service avec une IP publique et gère la distribution du trafic.
+Un Service LoadBalancer provisionne automatiquement un load balancer externe via le [[Cloud]] provider ([[AWS]] ELB, GCP Load Balancer, [[Azure]] LB). Il [[EXPOSE]] le service avec une IP publique et gère la distribution du trafic.
 
 ---
 
@@ -53,4 +50,4 @@ kubectl get svc myapp-lb -w
 ## Inconvénient
 
 > [!warning] Un LoadBalancer = un LB cloud = coût
-> Chaque Service de type LoadBalancer crée un load balancer cloud séparé (et facturé). Pour exposer plusieurs services HTTP/HTTPS, utiliser [[Ingress]] — un seul LB, routing basé sur les paths/hostnames.
+> Chaque Service de type LoadBalancer crée un load balancer cloud séparé (et facturé). Pour exposer plusieurs [[Services]] HTTP/HTTPS, utiliser [[Ingress]] — un seul LB, [[Routing]] basé sur les paths/hostnames.

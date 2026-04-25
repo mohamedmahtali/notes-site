@@ -5,14 +5,11 @@ tags:
 ---
 # Variables
 
-## Parent
-- [[Ansible]]
-
 ---
 
 ## Définition
 
-Les variables Ansible permettent de paramétrer les playbooks et rôles. Elles peuvent être définies à plusieurs niveaux avec des priorités différentes (host_vars > group_vars > defaults).
+Les variables [[Ansible]] permettent de paramétrer les [[Playbooks]] et rôles. Elles peuvent être définies à plusieurs niveaux avec des priorités différentes (host_vars > group_vars > [[Defaults]]).
 
 ---
 

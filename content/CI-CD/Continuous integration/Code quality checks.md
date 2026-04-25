@@ -5,14 +5,11 @@ tags:
 ---
 # Code quality checks
 
-## Parent
-- [[Continuous integration]]
-
 ---
 
 ## Définition
 
-Les code quality checks automatisés vérifient le style (linting), les types statiques, la couverture de tests, et la complexité cyclomatique. Ils maintiennent la qualité du code sans revue manuelle exhaustive.
+Les code quality checks automatisés vérifient le style (linting), les [[Types]] statiques, la couverture de tests, et la complexité cyclomatique. Ils maintiennent la qualité du code sans revue manuelle exhaustive.
 
 ---
 
@@ -55,4 +52,4 @@ quality:
 ---
 
 > [!tip]
-> Configurer des gates de qualité (quality gates) : le pipeline échoue si la couverture descend sous 70%, ou si ESLint trouve des erreurs. Pas d'exceptions — ça crée une dette technique invisible.
+> Configurer des gates de qualité (quality gates) : le [[Pipeline]] échoue si la couverture descend sous 70%, ou si ESLint trouve des erreurs. Pas d'exceptions — ça crée une dette technique invisible.

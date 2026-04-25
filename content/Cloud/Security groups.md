@@ -5,18 +5,11 @@ tags:
 ---
 # Security groups
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[Inbound rules]]
-- [[Outbound rules]]
-
 ---
 
 ## Définition
 
-Les Security Groups sont des firewalls virtuels au niveau des instances dans le cloud. Ils filtrent le trafic entrant (inbound) et sortant (outbound) basé sur les protocoles, ports, et sources/destinations. Ils sont stateful : si le trafic entrant est autorisé, la réponse est automatiquement autorisée.
+Les [[Security]] [[Groups]] sont des [[Firewall]] virtuels au niveau des instances dans le [[Cloud]]. Ils filtrent le trafic entrant (inbound) et sortant (outbound) basé sur les protocoles, [[Ports]], et sources/destinations. Ils sont stateful : si le trafic entrant est autorisé, la réponse est automatiquement autorisée.
 
 ---
 

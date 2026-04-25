@@ -6,19 +6,11 @@ tags:
 
 # Project ignore
 
-## Parent
-- [[Git ignore]]
-
-## Concepts liés
-- [[Git ignore]]
-- [[Global ignore]]
-- [[Repository]]
-
 ---
 
 ## Définition
 
-Le fichier `.gitignore` à la racine d'un projet définit les fichiers et dossiers que Git doit ignorer pour ce projet spécifique. Il est versionné avec le projet et partagé entre tous les contributeurs.
+Le fichier `.gitignore` à la racine d'un projet définit les fichiers et dossiers que [[Git]] doit ignorer pour ce projet spécifique. Il est versionné avec le projet et partagé entre tous les contributeurs.
 
 ---
 
@@ -94,4 +86,4 @@ git commit -m "chore: stop tracking .env"
 ```
 
 > [!warning]
-> `.gitignore` ne protège pas les secrets déjà committés. Utilise `git filter-repo` pour les retirer de l'historique et invalide les secrets exposés immédiatement.
+> `.gitignore` ne protège pas les [[Secrets]] déjà committés. Utilise `git filter-repo` pour les retirer de l'historique et invalide les secrets exposés immédiatement.

@@ -5,9 +5,6 @@ tags:
 ---
 # Structured logs
 
-## Parent
-- [[Logging]]
-
 ---
 
 ## Définition

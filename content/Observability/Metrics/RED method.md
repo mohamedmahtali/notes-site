@@ -5,14 +5,11 @@ tags:
 ---
 # RED method
 
-## Parent
-- [[Metrics]]
-
 ---
 
 ## Définition
 
-La méthode RED (Rate, Errors, Duration) de Tom Wilkie est une framework pour surveiller les services et microservices. Elle se concentre sur les métriques orientées utilisateur plutôt que sur les ressources.
+La méthode RED (Rate, Errors, Duration) de Tom Wilkie est une framework pour surveiller les [[Services]] et microservices. Elle se concentre sur les métriques orientées utilisateur plutôt que sur les ressources.
 
 ---
 

@@ -6,19 +6,11 @@ tags:
 
 # reflog
 
-## Parent
-- [[Advanced Git]]
-
-## Concepts liés
-- [[Advanced Git]]
-- [[Commit history]]
-- [[reset]]
-
 ---
 
 ## Définition
 
-`git reflog` (reference log) est un journal local de tous les mouvements de HEAD : chaque checkout, commit, reset, merge, rebase y est enregistré. C'est le **filet de sécurité ultime** de Git — il permet de récupérer des commits "perdus" après un reset --hard ou un rebase mal tourné.
+`git reflog` (reference log) est un journal local de tous les mouvements de HEAD : chaque checkout, [[Commit]], [[reset]], [[Merge]], [[Rebase]] y est enregistré. C'est le **filet de sécurité ultime** de [[Git]] — il permet de récupérer des commits "perdus" après un reset --[[hard]] ou un rebase mal tourné.
 
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: TCP/IP
-tags: [networking, beginner]
+tags:
+  - networking
+  - beginner
 ---
 
 # TCP/IP
@@ -45,7 +47,7 @@ Client          Serveur
 
 | Port | Protocole | Service |
 |------|-----------|---------|
-| 22 | TCP | SSH |
+| 22 | TCP | [[SSH]] |
 | 25 | TCP | SMTP |
 | 53 | TCP/UDP | DNS |
 | 80 | TCP | HTTP |

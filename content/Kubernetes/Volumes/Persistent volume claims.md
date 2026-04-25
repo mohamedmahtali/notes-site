@@ -5,14 +5,11 @@ tags:
 ---
 # Persistent volume claims
 
-## Parent
-- [[Volumes]]
-
 ---
 
 ## Définition
 
-Un PersistentVolumeClaim (PVC) est une demande de stockage par un pod. Il spécifie la taille et le mode d'accès requis. Kubernetes lie le PVC à un PV disponible (statique ou dynamiquement provisionné).
+Un PersistentVolumeClaim (PVC) est une demande de stockage par un pod. Il spécifie la taille et le mode d'accès requis. [[Kubernetes]] lie le PVC à un PV disponible (statique ou dynamiquement provisionné).
 
 ---
 

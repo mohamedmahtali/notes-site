@@ -1,13 +1,15 @@
 ---
 title: AppArmor
-tags: [security, advanced]
+tags:
+  - security
+  - advanced
 ---
 
 # AppArmor
 
 ## Définition
 
-AppArmor (Application Armor) est un module de sécurité Linux (LSM) qui confine les programmes en leur assignant des profils définissant leurs accès autorisés au système de fichiers, réseau et capabilities.
+AppArmor (Application Armor) est un module de sécurité [[Linux]] (LSM) qui confine les programmes en leur assignant des profils définissant leurs accès autorisés au système de fichiers, réseau et capabilities.
 
 > [!tip] Pourquoi c'est important
 > AppArmor ajoute une couche de défense en profondeur. Même si un attaquant compromet un conteneur, le profil AppArmor limite ce qu'il peut faire sur le système hôte.

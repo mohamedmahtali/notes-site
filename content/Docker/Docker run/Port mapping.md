@@ -6,14 +6,11 @@ tags:
 
 # Port mapping
 
-## Parent
-- [[Docker run]]
-
 ---
 
 ## Définition
 
-Le port mapping (`-p`) crée une règle iptables qui redirige le trafic d'un port de l'hôte vers un port du conteneur. Sans mapping, le conteneur est isolé réseau et inaccessible depuis l'extérieur.
+Le port mapping (`-p`) crée une règle [[iptables]] qui redirige le trafic d'un port de l'hôte vers un port du conteneur. Sans mapping, le conteneur est isolé réseau et inaccessible depuis l'extérieur.
 
 ---
 
@@ -59,7 +56,7 @@ Hôte (port 8080) ──→ iptables ──→ Conteneur (port 80)
 ---
 
 > [!tip]
-> En développement, utiliser des ports différents par service :
+> En développement, utiliser des [[Ports]] différents par service :
 > - API → 8080
 > - Frontend → 3000
 > - DB → 5432 (ne pas exposer en production !)

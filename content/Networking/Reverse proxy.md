@@ -1,6 +1,8 @@
 ---
 title: Reverse proxy
-tags: [networking, intermediate]
+tags:
+  - networking
+  - intermediate
 ---
 
 # Reverse proxy
@@ -10,7 +12,7 @@ tags: [networking, intermediate]
 Un reverse proxy est un serveur intermédiaire qui reçoit les requêtes des clients et les transmet aux serveurs backend. Contrairement au proxy forward (qui protège les clients), le reverse proxy protège et optimise les serveurs.
 
 > [!tip] Pourquoi c'est important
-> Le reverse proxy est un composant fondamental de toute architecture web : terminaison TLS, load balancing, cache, compression, rate limiting, et routage par path ou host — le tout en un seul point d'entrée.
+> Le reverse proxy est un composant fondamental de toute architecture web : terminaison TLS, load balancing, cache, compression, rate limiting, et routage par path ou [[Host]] — le tout en un seul point d'entrée.
 
 ## Fonctions principales
 
@@ -109,7 +111,7 @@ services:
 
 - **[[Nginx]]** — Le plus utilisé, performant, configuration simple
 - **[[HAProxy]]** — Spécialisé load balancing, haute disponibilité
-- **[[Traefik]]** — Cloud-native, auto-découverte Docker/K8s
+- **[[Traefik]]** — [[Cloud]]-native, auto-découverte [[Docker]]/K8s
 
 ## Liens
 

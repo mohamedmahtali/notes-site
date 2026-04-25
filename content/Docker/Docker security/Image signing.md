@@ -6,14 +6,11 @@ tags:
 
 # Image signing
 
-## Parent
-- [[Docker security]]
-
 ---
 
 ## Définition
 
-La signature d'images Docker garantit l'**authenticité et l'intégrité** d'une image — elle certifie que l'image vient bien de la source attendue et n'a pas été modifiée. C'est un contrôle de supply chain essentiel.
+La signature d'images [[Docker]] garantit l'**authenticité et l'intégrité** d'une image — elle certifie que l'image vient bien de la source attendue et n'a pas été modifiée. C'est un contrôle de supply chain essentiel.
 
 ---
 
@@ -62,4 +59,4 @@ docker pull nginx:latest
 ---
 
 > [!tip]
-> Cosign avec signature keyless (Sigstore/Rekor) est l'approche moderne recommandée. La signature est liée à l'identité OIDC du pipeline CI (GitHub Actions, GitLab CI) sans gestion de clés manuelles.
+> Cosign avec signature keyless (Sigstore/Rekor) est l'approche moderne recommandée. La signature est liée à l'identité OIDC du [[Pipeline]] CI ([[GitHub actions]], GitLab CI) sans gestion de clés manuelles.

@@ -6,14 +6,11 @@ tags:
 
 # File types
 
-## Parent
-- [[File system]]
-
 ---
 
 ## Définition
 
-Linux distingue plusieurs types de fichiers, tous accessibles via le même système de fichiers. Le type est visible dans `ls -la` via le premier caractère.
+[[Linux]] distingue plusieurs [[Types]] de fichiers, tous accessibles via le même système de fichiers. Le type est visible dans `ls -la` via le premier caractère.
 
 ---
 

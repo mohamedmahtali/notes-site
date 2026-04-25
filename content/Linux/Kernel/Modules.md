@@ -6,14 +6,11 @@ tags:
 
 # Modules
 
-## Parent
-- [[Kernel]]
-
 ---
 
 ## Définition
 
-Les modules kernel sont des morceaux de code qui peuvent être chargés et déchargés du kernel sans redémarrage. Ils ajoutent des fonctionnalités : drivers de périphériques, filesystems, protocoles réseau.
+Les modules [[Kernel]] sont des morceaux de code qui peuvent être chargés et déchargés du kernel sans redémarrage. Ils ajoutent des fonctionnalités : drivers de périphériques, filesystems, protocoles réseau.
 
 ---
 

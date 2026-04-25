@@ -5,14 +5,11 @@ tags:
 ---
 # Production
 
-## Parent
-- [[Deploy stage]]
-
 ---
 
 ## Définition
 
-L'environnement de production est l'environnement live où les utilisateurs finaux accèdent à l'application. Les déploiements en production nécessitent généralement une approbation manuelle ou des critères stricts (tests passés, staging validé).
+L'environnement de production est l'environnement live où les utilisateurs finaux accèdent à l'application. Les déploiements en production nécessitent généralement une approbation manuelle ou des critères stricts (tests passés, [[Staging]] validé).
 
 ---
 

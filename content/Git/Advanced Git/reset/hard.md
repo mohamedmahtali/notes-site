@@ -6,20 +6,11 @@ tags:
 
 # hard
 
-## Parent
-- [[reset]]
-
-## Concepts liés
-- [[reset]]
-- [[soft]]
-- [[mixed]]
-- [[reflog]]
-
 ---
 
 ## Définition
 
-`git reset --hard` déplace HEAD et réinitialise **à la fois le staging area et le working directory** vers l'état du commit cible. Toutes les modifications non committées sont **définitivement supprimées**.
+`git reset --hard` déplace HEAD et réinitialise **à la fois le [[Staging]] area et le working directory** vers l'état du [[Commit]] cible. Toutes les modifications non committées sont **définitivement supprimées**.
 
 ---
 
@@ -64,5 +55,5 @@ git reflog
 git reset --hard abc1234   # ou git checkout -b recovery abc1234
 ```
 
-> [!danger] Irréversible sans reflog
-> `git reset --hard` est l'une des rares commandes Git qui peut causer une vraie perte de données — uniquement pour les modifications **jamais committées**. Les commits eux-mêmes sont récupérables via `git reflog` pendant ~90 jours.
+> [!danger] Irréversible sans [[reflog]]
+> `git reset --hard` est l'une des rares commandes [[Git]] qui peut causer une vraie perte de données — uniquement pour les modifications **jamais committées**. Les commits eux-mêmes sont récupérables via `git reflog` pendant ~90 jours.

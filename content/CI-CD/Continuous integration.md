@@ -5,14 +5,6 @@ tags:
 ---
 # Continuous integration
 
-## Parent
-- [[CI-CD]]
-
-## Enfants
-- [[Automated build]]
-- [[Automated tests]]
-- [[Code quality checks]]
-
 ---
 
 ## Définition
@@ -24,7 +16,7 @@ L'intégration continue (CI) est la pratique d'intégrer fréquemment le code de
 ## Pourquoi c'est important
 
 > [!tip] Intégrer tôt, intégrer souvent
-> Sans CI : les branches vivent des semaines séparément, les merge conflicts deviennent des cauchemars, et les bugs sont découverts tardivement. Avec CI : chaque commit est validé en quelques minutes, les problèmes sont détectés immédiatement.
+> Sans CI : les branches vivent des semaines séparément, les [[Merge conflicts]] deviennent des cauchemars, et les bugs sont découverts tardivement. Avec CI : chaque [[Commit]] est validé en quelques minutes, les problèmes sont détectés immédiatement.
 
 ---
 

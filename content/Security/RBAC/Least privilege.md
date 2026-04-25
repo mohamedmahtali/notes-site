@@ -1,6 +1,8 @@
 ---
 title: Least privilege
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Least privilege (Moindre privilège)

@@ -5,14 +5,11 @@ tags:
 ---
 # Build outputs
 
-## Parent
-- [[Artifacts]]
-
 ---
 
 ## Définition
 
-Les build outputs sont les fichiers générés par l'étape de compilation/build : binaires, archives, images Docker, packages. Ils sont les livrables concrets du pipeline.
+Les build outputs sont les fichiers générés par l'étape de compilation/build : binaires, archives, images [[Docker]], [[Package]]. Ils sont les livrables concrets du [[Pipeline]].
 
 ---
 
@@ -20,12 +17,12 @@ Les build outputs sont les fichiers générés par l'étape de compilation/build
 
 | Technologie | Output | Extension |
 |---|---|---|
-| Node.js | Bundle webpack/vite | `.js`, `dist/` |
+| [[Node]].js | Bundle webpack/vite | `.js`, `dist/` |
 | Python | Package | `.whl`, `.tar.gz` |
 | Go | Binaire statique | aucune |
 | Java | Archive exécutable | `.jar`, `.war` |
 | Docker | Image | registry tag |
-| Helm | Chart | `.tgz` |
+| [[Helm]] | Chart | `.tgz` |
 
 ---
 
@@ -50,4 +47,4 @@ Les build outputs sont les fichiers générés par l'étape de compilation/build
 ---
 
 > [!tip]
-> Toujours inclure le SHA du commit dans le nom de l'artefact. Ça permet de tracer exactement quel code a produit quel artefact, et de rollback vers n'importe quelle version précédente.
+> Toujours inclure le SHA du [[Commit]] dans le nom de l'artefact. Ça permet de tracer exactement quel code a produit quel artefact, et de [[Rollback]] vers n'importe quelle version précédente.

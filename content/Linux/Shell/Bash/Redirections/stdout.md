@@ -6,14 +6,11 @@ tags:
 
 # stdout
 
-## Parent
-- [[Redirections]]
-
 ---
 
 ## Définition
 
-`stdout` (standard output, fd 1) est le flux de sortie normale d'une commande. Par défaut, il s'affiche dans le terminal. Il peut être redirigé vers un fichier ou vers l'entrée d'une autre commande.
+`stdout` (standard output, fd 1) est le [[Flux]] de sortie normale d'une commande. Par défaut, il s'affiche dans le terminal. Il peut être redirigé vers un fichier ou vers l'entrée d'une autre commande.
 
 ---
 

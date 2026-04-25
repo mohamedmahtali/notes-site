@@ -5,14 +5,11 @@ tags:
 ---
 # Automated tests
 
-## Parent
-- [[Continuous integration]]
-
 ---
 
 ## Définition
 
-Les automated tests s'exécutent à chaque commit dans le pipeline CI pour valider le comportement du code. Ils couvrent plusieurs niveaux : unit, intégration, et end-to-end — chacun avec un ratio coût/valeur différent.
+Les automated tests s'exécutent à chaque [[Commit]] dans le [[Pipeline]] CI pour valider le comportement du code. Ils couvrent plusieurs niveaux : unit, intégration, et end-to-end — chacun avec un ratio coût/valeur différent.
 
 ---
 
@@ -33,7 +30,7 @@ test:
   runs-on: ubuntu-latest
   strategy:
     matrix:
-      node-version: ['18', '20', '22']   # tester sur plusieurs versions
+      [[Node]]-version: ['18', '20', '22']   # tester sur plusieurs versions
 
   steps:
     - uses: actions/checkout@v4

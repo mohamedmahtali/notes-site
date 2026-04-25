@@ -6,9 +6,6 @@ tags:
 
 # RUN
 
-## Parent
-- [[Instructions]]
-
 ---
 
 ## Définition

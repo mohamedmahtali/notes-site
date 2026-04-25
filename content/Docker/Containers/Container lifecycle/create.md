@@ -6,9 +6,6 @@ tags:
 
 # create
 
-## Parent
-- [[Container lifecycle]]
-
 ---
 
 ## Définition

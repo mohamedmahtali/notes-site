@@ -5,25 +5,18 @@ tags:
 ---
 # Pipeline caching
 
-## Parent
-- [[CI-CD]]
-
-## Enfants
-- [[Dependency cache]]
-- [[Docker layer cache]]
-
 ---
 
 ## Définition
 
-Le pipeline caching conserve les résultats d'étapes coûteuses (installation de dépendances, compilation) entre les runs du pipeline pour accélérer les builds. Un bon cache peut réduire le temps de build de 10 minutes à 2 minutes.
+Le [[Pipeline]] caching conserve les résultats d'étapes coûteuses (installation de dépendances, compilation) entre les runs du pipeline pour accélérer les builds. Un bon cache peut réduire le temps de build de 10 minutes à 2 minutes.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!tip] npm install ne devrait prendre que quelques secondes
-> Sans cache, chaque run installe toutes les dépendances from scratch. Avec cache : si `package-lock.json` n'a pas changé, les `node_modules` sont restaurés en secondes depuis le cache.
+> Sans cache, chaque run installe toutes les dépendances [[FROM]] scratch. Avec cache : si `package-lock.json` n'a pas changé, les `node_modules` sont restaurés en secondes depuis le cache.
 
 ---
 
@@ -59,4 +52,4 @@ key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
 ---
 
 > [!note]
-> Voir [[Dependency cache]] pour les détails par gestionnaire de packages, [[Docker layer cache]] pour le cache des builds Docker.
+> Voir [[Dependency cache]] pour les détails par gestionnaire de [[Package]], [[Docker layer cache]] pour le cache des builds [[Docker]].

@@ -5,20 +5,11 @@ tags:
 ---
 # Tracing
 
-## Parent
-- [[Observability]]
-
-## Enfants
-- [[Distributed tracing]]
-- [[Spans]]
-- [[Trace context]]
-- [[OpenTelemetry]]
-
 ---
 
 ## Définition
 
-Le tracing distribué suit le chemin d'une requête à travers plusieurs services dans une architecture microservices. Il permet de mesurer la latence de chaque composant et d'identifier où se situe un goulot d'étranglement.
+Le tracing distribué suit le chemin d'une requête à travers plusieurs [[Services]] dans une architecture microservices. Il permet de mesurer la latence de chaque composant et d'identifier où se situe un goulot d'étranglement.
 
 ---
 
@@ -35,9 +26,9 @@ Le tracing distribué suit le chemin d'une requête à travers plusieurs service
 |---|---|
 | Jaeger | Tracing distribué open-source (CNCF) |
 | Zipkin | Tracing open-source (Twitter) |
-| Tempo | Tracing scalable par Grafana |
+| Tempo | Tracing scalable par [[Grafana]] |
 | Datadog APM | Solution commerciale intégrée |
-| AWS X-Ray | Solution AWS native |
+| [[AWS]] X-Ray | Solution AWS native |
 
 ---
 

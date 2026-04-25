@@ -1,6 +1,8 @@
 ---
 title: Verify explicitly
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Verify explicitly

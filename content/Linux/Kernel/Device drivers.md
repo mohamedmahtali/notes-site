@@ -6,14 +6,11 @@ tags:
 
 # Device drivers
 
-## Parent
-- [[Kernel]]
-
 ---
 
 ## Définition
 
-Les drivers de périphériques (device drivers) sont des modules kernel qui permettent au système de communiquer avec le matériel : disques, cartes réseau, GPU, cartes son. Sans driver approprié, le matériel est inaccessible.
+Les drivers de périphériques (device drivers) sont des [[Modules]] [[Kernel]] qui permettent au système de communiquer avec le matériel : disques, cartes réseau, GPU, cartes son. Sans driver approprié, le matériel est inaccessible.
 
 ---
 
@@ -59,4 +56,4 @@ udevadm info /dev/sda
 ---
 
 > [!note]
-> En DevOps cloud, les drivers sont rarement un problème — les AMIs/images cloud incluent les drivers appropriés. La gestion des drivers est plus pertinente pour du bare metal ou des hyperviseurs.
+> En [[DevOps]] [[Cloud]], les drivers sont rarement un problème — les AMIs/images cloud incluent les drivers appropriés. La gestion des drivers est plus pertinente pour du bare metal ou des hyperviseurs.

@@ -6,14 +6,11 @@ tags:
 
 # Port forwarding
 
-## Parent
-- [[SSH]]
-
 ---
 
 ## Définition
 
-Le port forwarding SSH crée un tunnel crypté qui redirige le trafic d'un port local vers un port distant (ou l'inverse). Permet d'accéder à des services non exposés publiquement comme si ils étaient locaux.
+Le port [[Forwarding]] [[SSH]] crée un tunnel crypté qui redirige le trafic d'un port local vers un port distant (ou l'inverse). Permet d'accéder à des [[Services]] non exposés publiquement comme si ils étaient locaux.
 
 ---
 
@@ -36,7 +33,7 @@ ssh -L 8080:internal-api:80 user@bastion
 
 ## Remote forwarding (-R)
 
-Expose un service local sur un port du serveur distant.
+[[EXPOSE]] un service local sur un port du serveur distant.
 
 ```bash
 # Exposer un serveur local (port 3000) sur le port 8080 du serveur

@@ -5,9 +5,6 @@ tags:
 ---
 # Lifecycle rules
 
-## Parent
-- [[Object storage]]
-
 ---
 
 ## Définition

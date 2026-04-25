@@ -1,6 +1,8 @@
 ---
 title: TTL (DNS)
-tags: [networking, beginner]
+tags:
+  - networking
+  - beginner
 ---
 
 # TTL (Time To Live) — DNS

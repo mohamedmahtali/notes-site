@@ -6,14 +6,11 @@ tags:
 
 # nftables
 
-## Parent
-- [[Firewall]]
-
 ---
 
 ## Définition
 
-nftables est le successeur moderne de iptables/ip6tables/arptables. Plus performant, plus expressif, et avec une syntaxe unifiée pour IPv4/IPv6. C'est l'outil par défaut dans Debian 10+, RHEL 8+.
+nftables est le successeur moderne de [[iptables]]/ip6tables/arptables. Plus performant, plus expressif, et avec une syntaxe unifiée pour [[IPv4]]/[[IPv6]]. C'est l'outil par défaut dans Debian 10+, RHEL 8+.
 
 ---
 

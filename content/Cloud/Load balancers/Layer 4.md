@@ -5,14 +5,11 @@ tags:
 ---
 # Layer 4
 
-## Parent
-- [[Load balancers]]
-
 ---
 
 ## Définition
 
-Un load balancer Layer 4 (transport) route le trafic basé sur les adresses IP et les ports TCP/UDP, sans inspecter le contenu des paquets. Plus rapide qu'un L7 LB car pas de déchiffrement/réassemblage des paquets.
+Un load balancer Layer 4 (transport) route le trafic basé sur les adresses IP et les [[Ports]] TCP/UDP, sans inspecter le contenu des paquets. Plus rapide qu'un L7 LB car pas de déchiffrement/réassemblage des paquets.
 
 ---
 
@@ -20,7 +17,7 @@ Un load balancer Layer 4 (transport) route le trafic basé sur les adresses IP e
 
 - Haute performance (millions de connexions)
 - Protocoles non-HTTP (MQTT, gRPC raw, gaming)
-- IP statique requise (NLB AWS a des IPs statics)
+- IP statique requise (NLB [[AWS]] a des IPs statics)
 - Latence ultra-faible
 
 ---
@@ -58,13 +55,13 @@ backend mysql_back
 
 ## L4 vs L7 — choisir
 
-| Critère | L4 (NLB / HAProxy TCP) | L7 (ALB / Nginx / Traefik) |
+| Critère | L4 (NLB / [[HAProxy]] TCP) | L7 (ALB / [[Nginx]] / [[Traefik]]) |
 |---------|----------------------|---------------------------|
 | Visibilité | IP + Port | URL, headers, cookies |
 | Performances | Très élevées | Moyen (parsing HTTP) |
 | IP source client | Préservée | Perdue (X-Forwarded-For) |
 | Sticky sessions | IP-hash uniquement | Cookie-based possible |
-| TLS termination | Passthrough ou terminaison | Terminaison native |
+| [[TLS]] termination | Passthrough ou terminaison | Terminaison native |
 | Health check | TCP connect | HTTP response code |
 
 > [!note]

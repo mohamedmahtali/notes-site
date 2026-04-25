@@ -5,18 +5,11 @@ tags:
 ---
 # Namespaces
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[Resource isolation]]
-- [[Multi tenancy]]
-
 ---
 
 ## Définition
 
-Les namespaces sont des partitions virtuelles d'un cluster Kubernetes. Ils isolent les ressources (pods, services, configmaps) entre équipes ou environnements. Par défaut, Kubernetes crée 4 namespaces.
+Les namespaces sont des [[Partitions]] virtuelles d'un [[Cluster]] [[Kubernetes]]. Ils isolent les ressources ([[Pods]], [[Services]], [[ConfigMaps]]) entre équipes ou environnements. Par défaut, Kubernetes crée 4 namespaces.
 
 ---
 
@@ -25,9 +18,9 @@ Les namespaces sont des partitions virtuelles d'un cluster Kubernetes. Ils isole
 | Namespace | Usage |
 |---|---|
 | `default` | Ressources créées sans namespace explicite |
-| `kube-system` | Composants Kubernetes (API server, scheduler, DNS) |
+| `kube-system` | Composants Kubernetes ([[API server]], [[Scheduler]], [[DNS]]) |
 | `kube-public` | Données accessibles sans authentification |
-| `kube-node-lease` | Heartbeats des nodes |
+| `kube-node-lease` | Heartbeats des [[Node]] |
 
 ---
 

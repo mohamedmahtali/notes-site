@@ -6,21 +6,11 @@ tags:
 
 # Users
 
-## Parent
-- [[Linux]]
-
-## Enfants
-- [[Groups]]
-- [[sudo]]
-- [[Home directories]]
-- [[Service accounts]]
-- [[PAM]]
-
 ---
 
 ## Définition
 
-Linux est un système multi-utilisateurs. Chaque utilisateur a un UID unique, appartient à des groupes, et a des permissions sur les fichiers. La gestion des utilisateurs est centrale pour la sécurité du système.
+[[Linux]] est un système multi-utilisateurs. Chaque utilisateur a un UID unique, appartient à des groupes, et a des [[Permissions]] sur les fichiers. La gestion des utilisateurs est centrale pour la sécurité du système.
 
 ---
 

@@ -6,14 +6,11 @@ tags:
 
 # Secrets handling
 
-## Parent
-- [[Docker security]]
-
 ---
 
 ## Définition
 
-La gestion des secrets dans Docker concerne l'injection de données sensibles (passwords, tokens, clés API) dans les conteneurs sans les exposer dans les images, les variables d'environnement visibles, ou les logs.
+La gestion des [[Secrets]] dans [[Docker]] concerne l'injection de données sensibles (passwords, [[Tokens]], clés API) dans les conteneurs sans les exposer dans les images, les [[Variables]] d'environnement visibles, ou les logs.
 
 ---
 
@@ -63,4 +60,4 @@ docker buildx build --secret id=npm_token,env=NPM_TOKEN .
 ---
 
 > [!tip]
-> En production, utiliser un gestionnaire de secrets externe : HashiCorp Vault, AWS Secrets Manager, GCP Secret Manager. L'injection au démarrage du conteneur depuis ces systèmes est la meilleure approche.
+> En production, utiliser un gestionnaire de secrets externe : HashiCorp [[Vault]], [[AWS]] Secrets Manager, GCP Secret Manager. L'injection au démarrage du conteneur depuis ces systèmes est la meilleure approche.

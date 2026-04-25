@@ -1,16 +1,19 @@
 ---
 title: Gateway (Istio)
-tags: [kubernetes, networking, advanced]
+tags:
+  - kubernetes
+  - networking
+  - advanced
 ---
 
 # Gateway (Istio)
 
 ## Définition
 
-Une `Gateway` Istio configure le **point d'entrée du trafic externe** dans le mesh. Elle s'exécute sur l'Istio Ingress Gateway (un pod Envoy dédié) et remplace l'Ingress Controller Kubernetes pour les architectures service mesh.
+Une `Gateway` Istio configure le **point d'entrée du trafic externe** dans le mesh. Elle s'exécute sur l'Istio [[Ingress]] Gateway (un pod Envoy dédié) et remplace l'[[Ingress controller]] [[Kubernetes]] pour les architectures [[Service Mesh]].
 
 > [!note] Gateway vs Ingress K8s
-> L'Ingress Kubernetes route le trafic mais ne comprend pas le mesh. La Gateway Istio s'intègre nativement avec les VirtualServices, supportant TLS, mTLS, SNI, et des règles avancées qu'un Ingress standard ne peut pas exprimer.
+> L'Ingress Kubernetes route le trafic mais ne comprend pas le mesh. La Gateway Istio s'intègre nativement avec les VirtualServices, supportant [[TLS]], mTLS, SNI, et des règles avancées qu'un Ingress standard ne peut pas exprimer.
 
 ## Architecture
 

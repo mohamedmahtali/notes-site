@@ -6,22 +6,11 @@ tags:
 
 # File system
 
-## Parent
-- [[Linux]]
-
-## Enfants
-- [[File permissions]]
-- [[File types]]
-- [[Inodes]]
-- [[Links]]
-- [[Mount points]]
-- [[Partitions]]
-
 ---
 
 ## Définition
 
-Le filesystem Linux est une hiérarchie de fichiers et répertoires commençant à la racine `/`. Tout est un fichier : les données, les périphériques, les sockets, les processus (via /proc). C'est la philosophie Unix.
+Le filesystem [[Linux]] est une hiérarchie de fichiers et répertoires commençant à la racine `/`. Tout est un fichier : les données, les périphériques, les sockets, les processus (via /proc). C'est la philosophie Unix.
 
 ---
 

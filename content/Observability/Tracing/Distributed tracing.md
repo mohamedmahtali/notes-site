@@ -5,14 +5,11 @@ tags:
 ---
 # Distributed tracing
 
-## Parent
-- [[Tracing]]
-
 ---
 
 ## Définition
 
-Le tracing distribué relie les spans de plusieurs services en une trace unique pour reconstituer le parcours complet d'une requête. Chaque service propage le contexte de trace dans les headers HTTP.
+Le [[Tracing]] distribué relie les [[Spans]] de plusieurs [[Services]] en une trace unique pour reconstituer le parcours complet d'une requête. Chaque service propage le contexte de trace dans les headers HTTP.
 
 ---
 

@@ -1,13 +1,15 @@
 ---
 title: Failure injection
-tags: [reliability, advanced]
+tags:
+  - reliability
+  - advanced
 ---
 
 # Failure injection
 
 ## Définition
 
-La failure injection (injection de pannes) est la technique consistant à introduire délibérément des défaillances dans un système : latence réseau, erreurs CPU, perte de paquets, remplissage du disque. Elle teste la résilience du système face à des conditions dégradées.
+La failure injection (injection de pannes) est la technique consistant à introduire délibérément des défaillances dans un système : latence réseau, erreurs CPU, perte de paquets, remplissage du disque. Elle teste la résilience du système face à des [[Conditions]] dégradées.
 
 > [!tip] Différence avec Chaos Monkey
 > Chaos Monkey tue des instances. La failure injection est plus fine : elle simule une dégradation partielle (latence de 500ms, 5% de perte de paquets) plutôt qu'une panne totale.

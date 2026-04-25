@@ -1,16 +1,18 @@
 ---
 title: GitOps
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # GitOps
 
 ## Définition
 
-GitOps est une approche opérationnelle qui utilise Git comme source de vérité unique pour l'infrastructure et les applications. Tout changement d'état du système passe par un commit git, et un agent automatique (ArgoCD, Flux) réconcilie l'état réel vers l'état déclaré dans Git.
+GitOps est une approche opérationnelle qui utilise [[Git]] comme source de vérité unique pour l'infrastructure et les applications. Tout changement d'état du système passe par un [[Commit]] git, et un agent automatique (ArgoCD, Flux) réconcilie l'état réel vers l'état déclaré dans Git.
 
 > [!tip] Pourquoi c'est important
-> GitOps donne à l'infrastructure les mêmes garanties que le code : historique complet, rollback en un commit, revue via PR, audit trail automatique. Il élimine les "apply manuel en prod" et réduit les erreurs humaines.
+> GitOps donne à l'infrastructure les mêmes garanties que le code : historique complet, [[Rollback]] en un commit, revue via PR, audit trail automatique. Il élimine les "apply manuel en prod" et réduit les erreurs humaines.
 
 ## Principes fondamentaux
 
@@ -35,7 +37,7 @@ Synchronisation ponctuelle    Réconciliation continue
 ## Outils principaux
 
 - **[[ArgoCD]]** — UI riche, GitOps pour Kubernetes, très populaire
-- **[[Flux]]** — Natif CNCF, plus léger, intégration Helm/Kustomize
+- **[[Flux]]** — Natif CNCF, plus léger, intégration [[Helm]]/Kustomize
 
 ## Liens
 

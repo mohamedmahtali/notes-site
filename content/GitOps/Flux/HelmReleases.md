@@ -1,13 +1,15 @@
 ---
 title: Flux HelmReleases
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # Flux HelmReleases
 
 ## Définition
 
-Une `HelmRelease` Flux est une CRD qui pilote le déploiement et la mise à jour d'un Helm chart de façon GitOps. Flux télécharge le chart et applique les values définies dans Git.
+Une `HelmRelease` Flux est une [[CRD]] qui pilote le déploiement et la mise à jour d'un Helm chart de façon [[GitOps]]. Flux télécharge le chart et applique les [[Values]] définies dans [[Git]].
 
 > [!tip] Pourquoi c'est utile
 > Plutôt que de faire `helm upgrade` manuellement, définir une HelmRelease dans Git garantit que le chart est toujours à la bonne version avec les bonnes values — et se réconcilie automatiquement.

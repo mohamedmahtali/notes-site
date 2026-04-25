@@ -5,14 +5,11 @@ tags:
 ---
 # AWS provider
 
-## Parent
-- [[Terraform providers]]
-
 ---
 
 ## Définition
 
-Le provider AWS est le plus utilisé dans l'écosystème Terraform. Il expose plus de 1000 ressources et data sources pour gérer l'ensemble des services AWS.
+Le provider [[AWS]] est le plus utilisé dans l'écosystème [[Terraform]]. Il [[EXPOSE]] plus de 1000 ressources et data sources pour gérer l'ensemble des [[Services]] AWS.
 
 ---
 

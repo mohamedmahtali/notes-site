@@ -6,20 +6,11 @@ tags:
 
 # cherry-pick
 
-## Parent
-- [[Advanced Git]]
-
-## Concepts liés
-- [[Advanced Git]]
-- [[Rebase]]
-- [[Commit]]
-- [[Hotfix branch]]
-
 ---
 
 ## Définition
 
-`git cherry-pick` copie un ou plusieurs commits spécifiques d'une branche vers une autre, en créant de nouveaux commits avec le même diff mais un nouveau hash SHA-1. C'est un "couper-coller" de commits.
+`git cherry-pick` copie un ou plusieurs [[Commit]] spécifiques d'une branche vers une autre, en créant de nouveaux commits avec le même diff mais un nouveau hash SHA-1. C'est un "couper-coller" de commits.
 
 ---
 
@@ -82,4 +73,4 @@ git cherry-pick --abort
 ```
 
 > [!warning]
-> Cherry-pick duplique les commits (nouveau hash). Si la branche source est plus tard mergée, Git peut voir les mêmes changements deux fois. Préférer le merge ou le rebase quand c'est possible.
+> Cherry-pick duplique les commits (nouveau hash). Si la branche source est plus tard mergée, [[Git]] peut voir les mêmes changements deux fois. Préférer le [[Merge]] ou le [[Rebase]] quand c'est possible.

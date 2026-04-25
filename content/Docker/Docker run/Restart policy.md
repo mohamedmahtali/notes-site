@@ -6,14 +6,11 @@ tags:
 
 # Restart policy
 
-## Parent
-- [[Docker run]]
-
 ---
 
 ## Définition
 
-La restart policy définit le comportement de Docker quand un conteneur s'arrête (crash, OOM, reboot du daemon). Elle est configurée avec `--restart` au lancement.
+La [[restart]] policy définit le comportement de [[Docker]] quand un conteneur s'arrête (crash, OOM, reboot du daemon). Elle est configurée avec `--restart` au lancement.
 
 ---
 
@@ -59,4 +56,4 @@ services:
 ---
 
 > [!tip]
-> Pour les services de production, `unless-stopped` est le meilleur compromis : redémarre automatiquement après un crash ou un reboot, mais s'arrête proprement quand tu fais `docker stop`.
+> Pour les [[Services]] de production, `unless-stopped` est le meilleur compromis : redémarre automatiquement après un crash ou un reboot, mais s'arrête proprement quand tu fais `docker stop`.

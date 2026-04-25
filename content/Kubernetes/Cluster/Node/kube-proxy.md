@@ -5,14 +5,11 @@ tags:
 ---
 # kube-proxy
 
-## Parent
-- [[Node]]
-
 ---
 
 ## Définition
 
-kube-proxy tourne sur chaque node et maintient les règles réseau (iptables ou IPVS) pour implémenter les Services Kubernetes. Il fait le lien entre les ClusterIPs virtuelles et les IPs réelles des pods.
+kube-proxy tourne sur chaque [[Node]] et maintient les règles réseau ([[iptables]] ou IPVS) pour implémenter les [[Services]] [[Kubernetes]]. Il fait le lien entre les [[ClusterIP]] virtuelles et les IPs réelles des [[Pods]].
 
 ---
 
@@ -33,8 +30,8 @@ Requête vers 10.96.0.1:80
 | Mode | Mécanisme | Performance |
 |---|---|---|
 | iptables (défaut) | Règles iptables PREROUTING | Bon jusqu'à ~1000 services |
-| IPVS | Kernel load balancer | Meilleur pour gros clusters |
-| nftables | Successeur iptables (K8s 1.29+) | Moderne et performant |
+| IPVS | [[Kernel]] load balancer | Meilleur pour gros [[Cluster]] |
+| [[nftables]] | Successeur iptables (K8s 1.29+) | Moderne et performant |
 
 ---
 

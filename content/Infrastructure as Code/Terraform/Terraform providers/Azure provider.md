@@ -5,14 +5,11 @@ tags:
 ---
 # Azure provider
 
-## Parent
-- [[Terraform providers]]
-
 ---
 
 ## Définition
 
-Le provider AzureRM gère les ressources Azure. Il supporte l'authentification via Service Principal, Managed Identity, ou Azure CLI.
+Le provider AzureRM gère les ressources [[Azure]]. Il supporte l'authentification via Service Principal, Managed Identity, ou Azure CLI.
 
 ---
 

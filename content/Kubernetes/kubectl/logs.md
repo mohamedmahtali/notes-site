@@ -5,14 +5,11 @@ tags:
 ---
 # logs
 
-## Parent
-- [[kubectl]]
-
 ---
 
 ## Définition
 
-`kubectl logs` récupère les logs stdout/stderr d'un container dans un pod. C'est le premier outil de débogage pour comprendre pourquoi une application échoue.
+`kubectl logs` récupère les logs [[stdout]]/[[stderr]] d'un container dans un pod. C'est le premier outil de débogage pour comprendre pourquoi une application échoue.
 
 ---
 
@@ -51,7 +48,7 @@ kubectl logs myapp-abc12 --timestamps
 
 ## Rétention des logs
 
-Les logs kubectl ne sont disponibles que si le pod existe encore. Pour un historique long terme, utiliser un stack de logging centralisé : EFK (Elasticsearch + Fluentd + Kibana) ou Loki + Grafana.
+Les logs [[kubectl]] ne sont disponibles que si le pod existe encore. Pour un historique long terme, utiliser un stack de [[Logging]] centralisé : EFK (Elasticsearch + Fluentd + Kibana) ou [[Loki]] + [[Grafana]].
 
 ---
 

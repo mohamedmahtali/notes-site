@@ -5,14 +5,11 @@ tags:
 ---
 # Push trigger
 
-## Parent
-- [[Pipeline triggers]]
-
 ---
 
 ## Définition
 
-Le push trigger déclenche un pipeline à chaque `git push` vers les branches configurées. C'est le trigger le plus courant pour le CI — chaque commit sur une branche de feature ou sur main déclenche la validation automatique.
+Le push trigger déclenche un [[Pipeline]] à chaque `git push` vers les branches configurées. C'est le trigger le plus courant pour le CI — chaque [[Commit]] sur une branche de feature ou sur main déclenche la validation automatique.
 
 ---
 

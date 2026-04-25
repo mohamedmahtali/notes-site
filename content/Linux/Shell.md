@@ -6,19 +6,11 @@ tags:
 
 # Shell
 
-## Parent
-- [[Linux]]
-
-## Enfants
-- [[Bash]]
-- [[Zsh]]
-- [[POSIX shell]]
-
 ---
 
 ## Définition
 
-Un shell est l'interface de ligne de commande qui interprète les commandes saisies par l'utilisateur et les exécute via le kernel. C'est l'outil central du travail en Linux — scripts d'automatisation, administration système, et pipelines CI/CD en dépendent.
+Un shell est l'interface de ligne de commande qui interprète les commandes saisies par l'utilisateur et les exécute via le [[Kernel]]. C'est l'outil central du travail en [[Linux]] — scripts d'automatisation, administration système, et [[Pipeline]] CI/CD en dépendent.
 
 ---
 
@@ -65,6 +57,6 @@ ls /noexist || echo "KO"  # || : seulement si échec
 > Shebang line : la première ligne d'un script indique quel interpréteur utiliser :
 > ```bash
 > #!/bin/bash     # Bash explicite
-> #!/usr/bin/env bash   # Bash via PATH (plus portable)
+> #!/usr/bin/[[ENV]] bash   # Bash via PATH (plus portable)
 > #!/bin/sh       # POSIX sh
 > ```

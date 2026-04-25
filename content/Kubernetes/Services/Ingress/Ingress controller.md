@@ -5,14 +5,11 @@ tags:
 ---
 # Ingress controller
 
-## Parent
-- [[Ingress]]
-
 ---
 
 ## Définition
 
-L'Ingress controller est le composant qui implémente les règles définies dans les objets Ingress. Kubernetes fournit l'API Ingress, mais c'est le controller qui fait réellement le proxy, la terminaison TLS et le routing.
+L'[[Ingress]] controller est le composant qui implémente les règles définies dans les objets Ingress. [[Kubernetes]] fournit l'API Ingress, mais c'est le controller qui fait réellement le proxy, la terminaison [[TLS]] et le [[Routing]].
 
 ---
 
@@ -20,12 +17,12 @@ L'Ingress controller est le composant qui implémente les règles définies dans
 
 | Controller | Points forts |
 |---|---|
-| nginx-ingress (officiel K8s) | Standard, stable, bien documenté |
+| [[Nginx]]-ingress (officiel K8s) | Standard, stable, bien documenté |
 | ingress-nginx (community) | Le plus répandu |
-| Traefik | Auto-discovery, dashboard, Let's Encrypt natif |
-| HAProxy Ingress | Hautes performances |
-| AWS ALB Controller | Intégration native AWS |
-| Istio Gateway | Service mesh complet |
+| [[Traefik]] | Auto-discovery, dashboard, Let's Encrypt natif |
+| [[HAProxy]] Ingress | Hautes performances |
+| [[AWS]] ALB Controller | Intégration native AWS |
+| [[Istio]] [[Gateway]] | [[Service Mesh]] complet |
 
 ---
 
@@ -62,4 +59,4 @@ metadata:
 ---
 
 > [!tip]
-> Sur un cloud provider, l'Ingress controller crée automatiquement un LoadBalancer cloud avec l'IP externe. Sur bare-metal, utiliser MetalLB pour obtenir une IP externe.
+> Sur un [[Cloud]] provider, l'Ingress controller crée automatiquement un [[LoadBalancer]] cloud avec l'IP externe. Sur bare-metal, utiliser MetalLB pour obtenir une IP externe.

@@ -5,30 +5,7 @@ tags:
 ---
 # DevOps
 
-## Parent
-...
-
-## Enfants
-- [[Linux]]
-- [[Git]]
-- [[Docker]]
-- [[Kubernetes]]
-- [[CI/CD]]
-- [[Infrastructure as Code]]
-- [[Cloud]]
-- [[Observability]]
-- [[Security]]
-
 ---
-
-## Concepts liés
-- [[Linux]]
-- [[Git]]
-- [[CI/CD]]
-- [[Infrastructure as Code]]
-- [[Cloud]]
-- [[Observability]]
-- [[Security]]
 
 ---
 
@@ -68,7 +45,7 @@ Exemple :
 Avec :
 
 - des **tests automatisés**
-- des **pipelines CI/CD**
+- des **[[Pipeline]] CI/CD**
 - des **environnements reproductibles**
 
 les erreurs humaines sont fortement réduites.
@@ -81,7 +58,7 @@ DevOps casse les silos entre :
 
 - développeurs
 - administrateurs systèmes
-- ingénieurs cloud
+- ingénieurs [[Cloud]]
 - sécurité
 
 Tout le monde partage la responsabilité du produit.
@@ -90,13 +67,13 @@ Tout le monde partage la responsabilité du produit.
 
 ### 4. Rendre l'infrastructure programmable
 
-Avec **Infrastructure as Code**, l’infrastructure devient :
+Avec **[[Infrastructure as Code]]**, l’infrastructure devient :
 
 - versionnée
 - reproductible
 - automatisable
 
-Exemple : créer un serveur avec **Terraform** plutôt que manuellement.
+Exemple : créer un serveur avec **[[Terraform]]** plutôt que manuellement.
 
 ---
 
@@ -106,7 +83,7 @@ Avec les outils d’**observabilité** :
 
 - logs
 - métriques
-- monitoring
+- [[Monitoring]]
 - alertes
 
 les équipes détectent et corrigent les problèmes plus rapidement.
@@ -125,11 +102,11 @@ Sans DevOps :
 
 Avec DevOps :
 
-1. Le développeur pousse le code sur **Git**
+1. Le développeur pousse le code sur **[[Git]]**
 2. Un **pipeline CI/CD** démarre automatiquement
 3. Les tests sont exécutés
-4. L’image **Docker** est construite
-5. L’application est déployée automatiquement sur **Kubernetes**
+4. L’image **[[Docker]]** est construite
+5. L’application est déployée automatiquement sur **[[Kubernetes]]**
 
 Tout cela peut se produire **en quelques minutes**.
 
@@ -183,13 +160,13 @@ Documenter et partager :
 
 | Domaine        | Outils                             |
 | -------------- | ---------------------------------- |
-| Versioning     | Git                                |
-| CI/CD          | GitHub Actions, GitLab CI, Jenkins |
+| [[Versioning]]     | Git                                |
+| CI/CD          | [[GitHub actions]], GitLab CI, [[Jenkins]] |
 | Conteneurs     | Docker                             |
 | Orchestration  | Kubernetes                         |
 | Infrastructure | Terraform                          |
-| Cloud          | AWS, GCP, Azure                    |
-| Monitoring     | Prometheus, Grafana                |
+| Cloud          | [[AWS]], GCP, [[Azure]]                    |
+| Monitoring     | [[Prometheus]], [[Grafana]]                |
 
 ---
 

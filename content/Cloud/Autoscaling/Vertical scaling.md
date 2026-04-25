@@ -5,9 +5,6 @@ tags:
 ---
 # Vertical scaling
 
-## Parent
-- [[Autoscaling]]
-
 ---
 
 ## Définition
@@ -74,7 +71,7 @@ kubectl describe vpa myapp-vpa
 # → Recommends: cpu=250m, memory=512Mi
 ```
 
-> [!warning] VPA et HPA ne se combinent pas sur CPU/mémoire
+> [!warning] VPA et [[HPA]] ne se combinent pas sur CPU/mémoire
 > HPA scale le nombre de replicas sur CPU. VPA ajuste les requests CPU. Les utiliser ensemble sur la même métrique crée des conflits. Solution : HPA sur métriques custom (RPS), VPA pour CPU/mémoire.
 
 > [!tip]

@@ -5,9 +5,6 @@ tags:
 ---
 # Log retention
 
-## Parent
-- [[Logging]]
-
 ---
 
 ## Définition

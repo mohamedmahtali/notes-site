@@ -6,14 +6,11 @@ tags:
 
 # WORKDIR
 
-## Parent
-- [[Instructions]]
-
 ---
 
 ## Définition
 
-`WORKDIR` définit le répertoire de travail courant pour les instructions `RUN`, `CMD`, `ENTRYPOINT`, `COPY`, et `ADD` qui suivent dans le Dockerfile. Il crée le répertoire s'il n'existe pas.
+`WORKDIR` définit le répertoire de travail courant pour les [[Instructions]] `RUN`, `CMD`, `ENTRYPOINT`, `COPY`, et `ADD` qui suivent dans le [[Dockerfile]]. Il crée le répertoire s'il n'existe pas.
 
 ---
 
@@ -61,4 +58,4 @@ CMD ["node", "index.js"]
 ---
 
 > [!tip]
-> Toujours utiliser `/app` comme convention pour les applications. C'est un standard de facto dans les images Docker.
+> Toujours utiliser `/app` comme convention pour les applications. C'est un standard de facto dans les images [[Docker]].

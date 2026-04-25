@@ -5,14 +5,11 @@ tags:
 ---
 # CRD
 
-## Parent
-- [[Operators]]
-
 ---
 
 ## Définition
 
-Une Custom Resource Definition (CRD) étend l'API Kubernetes en définissant de nouveaux types de ressources. Après création d'un CRD, les utilisateurs peuvent créer des instances (Custom Resources) avec `kubectl apply` comme pour n'importe quelle ressource native.
+Une Custom Resource Definition (CRD) étend l'API [[Kubernetes]] en définissant de nouveaux [[Types]] de ressources. Après création d'un CRD, les utilisateurs peuvent créer des instances (Custom Resources) avec `kubectl apply` comme pour n'importe quelle ressource native.
 
 ---
 

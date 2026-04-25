@@ -6,14 +6,11 @@ tags:
 
 # Log filtering
 
-## Parent
-- [[journalctl]]
-
 ---
 
 ## Définition
 
-journalctl offre des capacités de filtrage puissantes sur les logs structurés : par priorité, par service, par temps, par champ, ou par expression. C'est l'outil idéal pour diagnostiquer des incidents.
+[[journalctl]] offre des capacités de filtrage puissantes sur les logs structurés : par priorité, par service, par temps, par champ, ou par expression. C'est l'outil idéal pour diagnostiquer des incidents.
 
 ---
 

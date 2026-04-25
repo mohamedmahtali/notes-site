@@ -5,14 +5,11 @@ tags:
 ---
 # Containerize
 
-## Parent
-- [[Build stage]]
-
 ---
 
 ## Définition
 
-Containeriser = construire une image Docker à partir du code et la pousser dans un registry. L'image résultante est l'artefact qui sera déployé dans les environnements suivants.
+Containeriser = construire une image [[Docker]] à partir du code et la pousser dans un registry. L'image résultante est l'artefact qui sera déployé dans les environnements suivants.
 
 ---
 
@@ -57,4 +54,4 @@ Containeriser = construire une image Docker à partir du code et la pousser dans
 ---
 
 > [!tip]
-> Toujours taguer avec le SHA du commit en plus de `latest`. Ça permet de rollback facilement vers une version précise.
+> Toujours taguer avec le SHA du [[Commit]] en plus de `latest`. Ça permet de [[Rollback]] facilement vers une version précise.

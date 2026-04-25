@@ -5,14 +5,11 @@ tags:
 ---
 # Persistent storage
 
-## Parent
-- [[StatefulSets]]
-
 ---
 
 ## Définition
 
-Les StatefulSets créent automatiquement un PersistentVolumeClaim dédié pour chaque pod via les `volumeClaimTemplates`. Ce PVC persiste même si le pod est supprimé ou redémarré — les données survivent au pod.
+Les [[StatefulSets]] créent automatiquement un PersistentVolumeClaim dédié pour chaque pod via les `volumeClaimTemplates`. Ce PVC persiste même si le pod est supprimé ou redémarré — les données survivent au pod.
 
 ---
 

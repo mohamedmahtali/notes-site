@@ -6,14 +6,11 @@ tags:
 
 # Private registry
 
-## Parent
-- [[Docker registry]]
-
 ---
 
 ## Définition
 
-Un registry privé est un registry accessible uniquement à une organisation ou équipe. Il peut être hébergé dans le cloud (ECR, GCR, GHCR) ou auto-hébergé avec des outils comme Harbor ou le registry officiel Docker.
+Un registry privé est un registry accessible uniquement à une organisation ou équipe. Il peut être hébergé dans le [[Cloud]] (ECR, GCR, GHCR) ou auto-hébergé avec des outils comme Harbor ou le registry officiel [[Docker]].
 
 ---
 
@@ -35,7 +32,7 @@ docker pull localhost:5000/mon-app:1.0
 
 ## Harbor (registry enterprise)
 
-Harbor est un registry open source avec interface web, RBAC, scanning de vulnérabilités, et réplication.
+Harbor est un registry open source avec interface web, [[RBAC]], scanning de vulnérabilités, et réplication.
 
 ```bash
 # Installation via Helm

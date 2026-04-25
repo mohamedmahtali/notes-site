@@ -5,19 +5,11 @@ tags:
 ---
 # Object storage
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[Buckets]]
-- [[Versioning]]
-- [[Lifecycle rules]]
-
 ---
 
 ## Définition
 
-L'object storage est un paradigme de stockage qui stocke les données comme des objets (fichier + métadonnées + identifiant unique). Contrairement au block storage, il est accessible via HTTP REST. Exemples : AWS S3, GCP Cloud Storage, Azure Blob Storage.
+L'object storage est un paradigme de stockage qui stocke les données comme des objets (fichier + métadonnées + identifiant unique). Contrairement au block storage, il est accessible via HTTP REST. Exemples : [[AWS]] S3, GCP [[Cloud Storage]], [[Azure]] [[Blob Storage]].
 
 ---
 
@@ -27,7 +19,7 @@ L'object storage est un paradigme de stockage qui stocke les données comme des 
 |---|---|
 | Scalabilité | Pratiquement illimitée |
 | Durabilité | 99.999999999% (11 neuf) sur S3 |
-| Accès | HTTP REST (GET, PUT, DELETE) |
+| Accès | HTTP REST ([[get]], PUT, DELETE) |
 | Prix | ~$0.023/GB/mois (S3 Standard) |
 | Latence | ms à secondes (pas pour BDD) |
 
@@ -37,10 +29,10 @@ L'object storage est un paradigme de stockage qui stocke les données comme des 
 
 - Assets statiques (images, CSS, JS)
 - Backups et archives
-- Artefacts de build / images Docker layers
+- Artefacts de build / images [[Docker]] [[Layers]]
 - Datasets ML
 - Logs centralisés
-- State Terraform
+- State [[Terraform]]
 
 ---
 

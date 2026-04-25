@@ -6,14 +6,11 @@ tags:
 
 # TTL
 
-## Parent
-- [[DNS]]
-
 ---
 
 ## Définition
 
-TTL (Time To Live) est la durée en secondes pendant laquelle un enregistrement DNS peut être mis en cache par les résolveurs. Après expiration, le résolveur doit requêter à nouveau le serveur autoritatif.
+TTL (Time To Live) est la durée en secondes pendant laquelle un enregistrement [[DNS]] peut être mis en cache par les résolveurs. Après expiration, le résolveur doit requêter à nouveau le serveur autoritatif.
 
 ---
 

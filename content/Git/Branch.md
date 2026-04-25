@@ -6,26 +6,11 @@ tags:
 
 # Branch
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Feature branch]]
-- [[Main branch]]
-- [[Release branch]]
-- [[Hotfix branch]]
-
-## Concepts liés
-- [[Merge]]
-- [[Rebase]]
-- [[Pull request]]
-- [[Git workflow]]
-
 ---
 
 ## Définition
 
-Une branche Git est un **pointeur léger vers un commit**. Elle permet de travailler sur une fonctionnalité, un bug ou une expérimentation en **isolation**, sans affecter le reste du code.
+Une branche [[Git]] est un **pointeur léger vers un [[Commit]]**. Elle permet de travailler sur une fonctionnalité, un bug ou une expérimentation en **isolation**, sans affecter le reste du code.
 
 Par défaut, un dépôt Git contient une branche principale appelée `main` (ou `master` dans les anciens projets).
 
@@ -38,7 +23,7 @@ Par défaut, un dépôt Git contient une branche principale appelée `main` (ou 
 
 - **Isolation** : les modifications d'une branche n'affectent pas les autres
 - **Expérimentation** : tester une idée sans risquer le code stable
-- **Déclencheur CI/CD** : chaque branche peut avoir son propre pipeline
+- **Déclencheur CI/CD** : chaque branche peut avoir son propre [[Pipeline]]
 
 ---
 
@@ -105,7 +90,7 @@ git push origin feature/ajout-authentification
 ```
 
 > [!note] Convention de nommage
-> Adopte un préfixe cohérent : `feature/`, `fix/`, `hotfix/`, `release/`. C'est lisible dans le `git log` et compatible avec la plupart des workflows CI/CD.
+> Adopte un préfixe cohérent : `feature/`, `fix/`, `hotfix/`, `release/`. C'est lisible dans le `git log` et compatible avec la plupart des [[Workflows]] CI/CD.
 
 ---
 

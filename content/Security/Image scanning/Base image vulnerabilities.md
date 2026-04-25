@@ -1,13 +1,15 @@
 ---
 title: Base image vulnerabilities
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Base image vulnerabilities
 
 ## Définition
 
-Les vulnérabilités d'image de base sont les CVEs présents dans l'OS et les paquets système de l'image Docker parent (FROM). Elles représentent souvent la majorité des vulnérabilités détectées.
+Les vulnérabilités d'image de base sont les CVEs présents dans l'OS et les paquets système de l'image [[Docker]] parent ([[FROM]]). Elles représentent souvent la majorité des vulnérabilités détectées.
 
 > [!tip] Stratégie minimale
 > Utiliser des images distroless ou Alpine minimise drastiquement la surface d'attaque. `FROM scratch` donne zéro paquet OS (pour les binaires statiques).

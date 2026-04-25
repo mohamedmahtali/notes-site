@@ -6,19 +6,11 @@ tags:
 
 # Update submodule
 
-## Parent
-- [[Git submodules]]
-
-## Concepts liés
-- [[Git submodules]]
-- [[Add submodule]]
-- [[Nested repositories]]
-
 ---
 
 ## Définition
 
-Mettre à jour un sous-module signifie pointer le dépôt parent vers un commit plus récent du sous-module. Le sous-module est un dépôt Git indépendant : il faut explicitement aller y puller les nouveautés.
+Mettre à jour un sous-module signifie pointer le dépôt parent vers un [[Commit]] plus récent du sous-module. Le sous-module est un dépôt [[Git]] indépendant : il faut explicitement aller y puller les nouveautés.
 
 ---
 
@@ -59,4 +51,4 @@ git push
 ```
 
 > [!tip]
-> Chaque collaborateur doit lancer `git submodule update --init --recursive` après un `git pull` qui change les pointeurs de sous-modules.
+> Chaque collaborateur doit lancer `git submodule update --init --recursive` après un `git pull` qui change les pointeurs de sous-[[Modules]].

@@ -5,28 +5,21 @@ tags:
 ---
 # Subnets
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[Public subnet]]
-- [[Private subnet]]
-
 ---
 
 ## Définition
 
-Les subnets (sous-réseaux) sont des subdivisions d'un VPC. Chaque subnet est dans une seule Availability Zone. Les subnets publics ont accès à internet via un Internet Gateway ; les subnets privés n'ont pas d'IP publique.
+Les subnets (sous-réseaux) sont des subdivisions d'un [[VPC]]. Chaque subnet est dans une seule Availability Zone. Les subnets publics ont accès à internet via un [[Internet [[Gateway]]]] ; les subnets privés n'ont pas d'IP publique.
 
 ---
 
 ## Public vs Private
 
-| | Public Subnet | Private Subnet |
+| | [[Public subnet]] | [[Private subnet]] |
 |---|---|---|
 | Accès internet entrant | ✅ Via IGW | ❌ |
-| Accès internet sortant | ✅ Via IGW | ✅ Via NAT GW |
-| Ressources typiques | LB, Bastion, NAT GW | EC2, RDS, EKS nodes |
+| Accès internet sortant | ✅ Via IGW | ✅ Via [[NAT]] GW |
+| Ressources typiques | LB, Bastion, NAT GW | [[EC2]], RDS, [[EKS]] [[Node]] |
 | IP publique | Possible | ❌ Non |
 
 ---
@@ -77,7 +70,7 @@ aws ec2 create-subnet \
 
 ## Planifier ses CIDRs
 
-| Taille CIDR | Nb d'IPs utilisables | Usage |
+| Taille [[CIDR]] | Nb d'IPs utilisables | Usage |
 |-------------|---------------------|-------|
 | /28 | 11 | Petit subnet isolé (bastion) |
 | /24 | 251 | Subnet standard |

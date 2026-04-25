@@ -1,16 +1,18 @@
 ---
 title: RBAC
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # RBAC (Role-Based Access Control)
 
 ## Définition
 
-Le RBAC est un modèle de contrôle d'accès où les permissions sont accordées à des rôles, et les utilisateurs ou services sont assignés à ces rôles. C'est le standard pour gérer les accès dans Kubernetes, AWS IAM, et la plupart des systèmes cloud.
+Le RBAC est un modèle de contrôle d'accès où les permissions sont accordées à des rôles, et les utilisateurs ou [[Services]] sont assignés à ces rôles. C'est le standard pour gérer les accès dans [[Kubernetes]], [[AWS]] [[IAM]], et la plupart des systèmes [[Cloud]].
 
 > [!tip] Pourquoi c'est important
-> RBAC est la principale défense contre l'escalade de privilèges. Un système sans RBAC correctement configuré expose tous ses utilisateurs avec des permissions trop larges.
+> RBAC est la principale défense contre l'escalade de privilèges. Un système sans RBAC correctement configuré [[EXPOSE]] tous ses utilisateurs avec des permissions trop larges.
 
 ## Modèle RBAC
 

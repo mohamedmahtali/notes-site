@@ -5,14 +5,11 @@ tags:
 ---
 # Manual trigger
 
-## Parent
-- [[Pipeline triggers]]
-
 ---
 
 ## Définition
 
-Le manual trigger permet de déclencher un pipeline (ou un stage spécifique) par une action humaine explicite, sans événement Git. Utilisé pour les déploiements en production, les rollbacks, ou les opérations ponctuelles.
+Le manual trigger permet de déclencher un [[Pipeline]] (ou un stage spécifique) par une action humaine explicite, sans événement [[Git]]. Utilisé pour les déploiements en production, les [[Rollbacks]], ou les opérations ponctuelles.
 
 ---
 

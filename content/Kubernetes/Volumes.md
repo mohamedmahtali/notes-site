@@ -5,20 +5,11 @@ tags:
 ---
 # Volumes
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[emptyDir]]
-- [[hostPath]]
-- [[Persistent volumes]]
-- [[Persistent volume claims]]
-
 ---
 
 ## Définition
 
-Les volumes Kubernetes permettent aux containers de persister des données et de les partager entre containers d'un même pod. Contrairement aux layers Docker, les volumes survivent aux redémarrages du container (mais pas forcément à la suppression du pod).
+Les volumes [[Kubernetes]] permettent aux [[Containers]] de persister des données et de les partager entre containers d'un même pod. Contrairement aux [[Layers]] [[Docker]], les volumes survivent aux redémarrages du container (mais pas forcément à la suppression du pod).
 
 ---
 
@@ -27,7 +18,7 @@ Les volumes Kubernetes permettent aux containers de persister des données et de
 | Type | Durée de vie | Usage |
 |---|---|---|
 | `emptyDir` | Durée du pod | Partage inter-containers, cache temporaire |
-| `hostPath` | Permanente (node) | Accès au filesystem du node |
+| `hostPath` | Permanente ([[Node]]) | Accès au filesystem du node |
 | `configMap` / `secret` | Durée du pod | Injecter de la configuration |
 | `persistentVolumeClaim` | Indépendante du pod | Stockage persistant production |
 | `emptyDir (Memory)` | Durée du pod | tmpfs en mémoire (très rapide) |

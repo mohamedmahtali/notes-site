@@ -5,20 +5,11 @@ tags:
 ---
 # Services
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[ClusterIP]]
-- [[NodePort]]
-- [[LoadBalancer]]
-- [[Ingress]]
-
 ---
 
 ## Définition
 
-Un Service Kubernetes expose un ensemble de pods sous une adresse IP stable et un nom DNS. Les pods étant éphémères (IPs qui changent), les Services fournissent une abstraction réseau stable qui fait du load balancing vers les pods correspondants.
+Un Service [[Kubernetes]] [[EXPOSE]] un ensemble de [[Pods]] sous une adresse IP stable et un nom [[DNS]]. Les pods étant éphémères (IPs qui changent), les Services fournissent une abstraction réseau stable qui fait du [[Load balancing]] vers les pods correspondants.
 
 ---
 
@@ -33,9 +24,9 @@ Un Service Kubernetes expose un ensemble de pods sous une adresse IP stable et u
 
 | Type | Accessibilité | Usage |
 |---|---|---|
-| ClusterIP | Interne cluster | Communication inter-services |
-| NodePort | Externe via port node | Dev/test |
-| LoadBalancer | Externe via LB cloud | Production (cloud) |
+| [[ClusterIP]] | Interne [[Cluster]] | Communication inter-services |
+| [[NodePort]] | Externe via port [[Node]] | Dev/test |
+| [[LoadBalancer]] | Externe via LB [[Cloud]] | Production (cloud) |
 | ExternalName | Alias DNS externe | Intégrer des services externes |
 
 ---
@@ -72,4 +63,4 @@ kubectl run test --image=busybox --rm -it -- wget -qO- http://myapp/health
 ---
 
 > [!note]
-> Voir [[Ingress]] pour exposer plusieurs services HTTP/HTTPS via un seul point d'entrée avec routing par path/hostname.
+> Voir [[Ingress]] pour exposer plusieurs services HTTP/HTTPS via un seul point d'entrée avec [[Routing]] par path/hostname.

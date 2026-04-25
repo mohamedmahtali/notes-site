@@ -6,14 +6,11 @@ tags:
 
 # Non root user
 
-## Parent
-- [[Docker security]]
-
 ---
 
 ## Définition
 
-Par défaut, le processus dans un conteneur Docker s'exécute en tant que `root` (UID 0). Cela représente un risque de sécurité : en cas d'évasion du conteneur, l'attaquant a les droits root sur l'hôte. Exécuter en utilisateur non-root est une pratique de sécurité fondamentale.
+Par défaut, le processus dans un conteneur [[Docker]] s'exécute en tant que `root` (UID 0). Cela représente un risque de sécurité : en cas d'évasion du conteneur, l'attaquant a les droits root sur l'hôte. Exécuter en utilisateur non-root est une pratique de sécurité fondamentale.
 
 ---
 
@@ -56,7 +53,7 @@ USER appuser
 ---
 
 > [!tip]
-> Les images officielles récentes (node, python, nginx) fournissent souvent un utilisateur dédié (`node`, `www-data`). Utilise-le plutôt que de créer le tien :
-> ```dockerfile
+> Les images officielles récentes ([[Node]], python, [[Nginx]]) fournissent souvent un utilisateur dédié (`node`, `www-data`). Utilise-le plutôt que de créer le tien :
+> ```[[Dockerfile]]
 > USER node   # dans l'image node:20
 > ```

@@ -6,14 +6,11 @@ tags:
 
 # Deny rules
 
-## Parent
-- [[ufw]]
-
 ---
 
 ## Définition
 
-Les règles `deny` dans UFW bloquent le trafic réseau. Avec `ufw default deny incoming`, tout le trafic entrant est bloqué par défaut — les règles `allow` définissent les exceptions.
+Les règles `deny` dans [[ufw]] bloquent le trafic réseau. Avec `ufw default deny incoming`, tout le trafic entrant est bloqué par défaut — les règles `allow` définissent les exceptions.
 
 ---
 

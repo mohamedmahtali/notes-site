@@ -6,14 +6,11 @@ tags:
 
 # Paging
 
-## Parent
-- [[Memory management]]
-
 ---
 
 ## Définition
 
-La pagination divise la mémoire en pages de taille fixe (généralement 4 KB). Le kernel maintient des tables de pages qui mapent les adresses virtuelles vers les adresses physiques. Les pages peuvent être en RAM ou sur disque (swap).
+La pagination divise la mémoire en pages de taille fixe (généralement 4 KB). Le [[Kernel]] maintient des tables de pages qui mapent les adresses virtuelles vers les adresses physiques. Les pages peuvent être en RAM ou sur disque ([[Swap]]).
 
 ---
 

@@ -5,19 +5,11 @@ tags:
 ---
 # Cloud computing
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[On demand resources]]
-- [[Elasticity]]
-- [[Shared responsibility model]]
-
 ---
 
 ## Définition
 
-Le cloud computing est la fourniture de ressources informatiques (serveurs, stockage, bases de données, réseau) via internet à la demande, avec facturation à l'usage. Les grands providers : AWS, GCP, Azure.
+Le [[Cloud]] computing est la fourniture de ressources informatiques (serveurs, stockage, bases de données, réseau) via internet à la demande, avec facturation à l'usage. Les grands providers : [[AWS]], GCP, [[Azure]].
 
 ---
 
@@ -25,7 +17,7 @@ Le cloud computing est la fourniture de ressources informatiques (serveurs, stoc
 
 | Modèle | Géré par le provider | Exemple |
 |---|---|---|
-| [[IaaS]] | Infra physique, réseau, virtualisation | EC2, GCE, Azure VMs |
+| [[IaaS]] | Infra physique, réseau, virtualisation | [[EC2]], GCE, Azure VMs |
 | [[PaaS]] | + OS, runtime, middleware | App Engine, Heroku |
 | [[SaaS]] | Tout | Gmail, Salesforce, GitHub |
 
@@ -34,7 +26,7 @@ Le cloud computing est la fourniture de ressources informatiques (serveurs, stoc
 ## Pourquoi c'est important
 
 > [!tip] Payer ce qu'on utilise
-> Le cloud élimine l'investissement initial en matériel (CapEx) et le remplace par des coûts opérationnels variables (OpEx). Une startup peut démarrer avec un seul serveur et scaler à des milliers en quelques minutes.
+> Le cloud élimine l'investissement initial en matériel (CapEx) et le remplace par des coûts opérationnels [[Variables]] (OpEx). Une startup peut démarrer avec un seul serveur et scaler à des milliers en quelques minutes.
 
 ---
 

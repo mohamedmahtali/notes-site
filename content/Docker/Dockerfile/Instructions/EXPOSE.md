@@ -6,9 +6,6 @@ tags:
 
 # EXPOSE
 
-## Parent
-- [[Instructions]]
-
 ---
 
 ## Définition
@@ -43,9 +40,9 @@ docker run -p 8080:3000 mon-app
 |---|---|
 | `EXPOSE` seul | Visible avec `docker inspect`, utilisé par `--publish-all` |
 | `-p 8080:3000` | Mappe le port 3000 du conteneur sur 8080 de l'hôte |
-| `-P` | Mappe automatiquement tous les ports `EXPOSE` |
+| `-P` | Mappe automatiquement tous les [[Ports]] `EXPOSE` |
 
 ---
 
 > [!note]
-> `EXPOSE` est utile pour la documentation et pour les outils qui lisent les métadonnées de l'image (Docker Compose, Kubernetes). C'est une bonne pratique de toujours le mettre même si ce n'est pas obligatoire.
+> `EXPOSE` est utile pour la documentation et pour les outils qui lisent les métadonnées de l'image ([[Docker compose]], [[Kubernetes]]). C'est une bonne pratique de toujours le mettre même si ce n'est pas obligatoire.

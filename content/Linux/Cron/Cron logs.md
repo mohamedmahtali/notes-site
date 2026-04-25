@@ -5,14 +5,11 @@ tags:
 ---
 # Cron logs
 
-## Parent
-- [[Cron]]
-
 ---
 
 ## Définition
 
-Les logs cron enregistrent chaque exécution de tâche planifiée — succès, échec, et sortie standard. Sur les systèmes systemd, ils transitent par journald ; sur les systèmes syslog traditionnels, ils vont dans `/var/log/syslog` ou `/var/log/cron`.
+Les logs [[Cron]] enregistrent chaque exécution de tâche planifiée — succès, échec, et sortie standard. Sur les systèmes [[systemd]], ils transitent par journald ; sur les systèmes [[Syslog]] traditionnels, ils vont dans `/var/log/syslog` ou `/var/log/cron`.
 
 ---
 
@@ -56,4 +53,4 @@ Par défaut, cron envoie la sortie par email (si configuré). Pour capturer dans
 ---
 
 > [!note]
-> `2>&1` redirige stderr vers stdout pour capturer les erreurs aussi. Sans cela, les erreurs sont perdues ou envoyées par email.
+> `2>&1` redirige [[stderr]] vers [[stdout]] pour capturer les erreurs aussi. Sans cela, les erreurs sont perdues ou envoyées par email.

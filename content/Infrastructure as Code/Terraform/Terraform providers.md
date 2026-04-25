@@ -5,19 +5,11 @@ tags:
 ---
 # Terraform providers
 
-## Parent
-- [[Terraform]]
-
-## Enfants
-- [[AWS provider]]
-- [[Azure provider]]
-- [[Google provider]]
-
 ---
 
 ## Définition
 
-Les providers sont des plugins Terraform qui gèrent les interactions avec les APIs de services externes (AWS, GCP, Azure, Kubernetes, GitHub, etc.). Chaque ressource appartient à un provider.
+Les providers sont des plugins [[Terraform]] qui gèrent les interactions avec les APIs de [[Services]] externes ([[AWS]], GCP, [[Azure]], [[Kubernetes]], GitHub, etc.). Chaque ressource appartient à un provider.
 
 ---
 

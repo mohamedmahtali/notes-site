@@ -5,27 +5,18 @@ tags:
 ---
 # Test stage
 
-## Parent
-- [[Pipeline]]
-
-## Enfants
-- [[Unit tests]]
-- [[Integration tests]]
-- [[End to end tests]]
-- [[Security tests]]
-
 ---
 
 ## Définition
 
-Le test stage exécute l'ensemble des suites de tests automatisés pour valider que le code fonctionne correctement avant tout déploiement. C'est le principal filet de sécurité du pipeline CI/CD.
+Le test stage exécute l'ensemble des suites de tests automatisés pour valider que le code fonctionne correctement avant tout déploiement. C'est le principal filet de sécurité du [[Pipeline]] CI/CD.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!warning] Sans tests automatisés, pas de CI/CD
-> Le test stage est ce qui distingue le CI/CD du simple déploiement automatisé. Sans tests, on automatise le déploiement de bugs. Viser au minimum : unit tests + smoke test en staging.
+> Le test stage est ce qui distingue le CI/CD du simple déploiement automatisé. Sans tests, on automatise le déploiement de bugs. Viser au minimum : [[Unit tests]] + smoke test en [[Staging]].
 
 ---
 
@@ -64,4 +55,4 @@ test:
 ---
 
 > [!tip]
-> Toujours lancer les tests les plus rapides en premier (fail fast). Paralléliser les suites longues avec `matrix` dans GitHub Actions ou `parallel` dans GitLab CI.
+> Toujours lancer les tests les plus rapides en premier (fail fast). Paralléliser les suites longues avec `matrix` dans [[GitHub actions]] ou `parallel` dans GitLab CI.

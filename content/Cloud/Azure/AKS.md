@@ -5,14 +5,11 @@ tags:
 ---
 # AKS
 
-## Parent
-- [[Azure]]
-
 ---
 
 ## Définition
 
-Azure Kubernetes Service (AKS) est le service Kubernetes managé d'Azure. Il s'intègre nativement avec Azure AD (RBAC), Azure Container Registry, et Azure Monitor.
+[[Azure]] [[Kubernetes]] Service (AKS) est le service Kubernetes managé d'Azure. Il s'intègre nativement avec [[Azure AD]] ([[RBAC]]), Azure Container Registry, et Azure Monitor.
 
 ---
 
@@ -99,4 +96,4 @@ az aks check-acr \
 ```
 
 > [!tip]
-> Utiliser Azure CNI avec Cilium sur AKS pour des NetworkPolicies avancées et de meilleures performances réseau. Le CNI kubenet par défaut a des limitations pour les gros clusters.
+> Utiliser Azure CNI avec Cilium sur AKS pour des NetworkPolicies avancées et de meilleures performances réseau. Le CNI kubenet par défaut a des limitations pour les gros [[Cluster]].

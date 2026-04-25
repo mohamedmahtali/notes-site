@@ -1,6 +1,8 @@
 ---
 title: Backup strategies
-tags: [reliability, intermediate]
+tags:
+  - reliability
+  - intermediate
 ---
 
 # Backup strategies
@@ -10,7 +12,7 @@ tags: [reliability, intermediate]
 Une stratégie de backup définit comment, quand et où les données sont sauvegardées pour permettre une restauration en cas de sinistre. Elle est dimensionnée par le RPO cible.
 
 > [!tip] La règle 3-2-1
-> 3 copies des données, sur 2 types de supports différents, dont 1 hors site (ou hors ligne). C'est la règle d'or des backups.
+> 3 copies des données, sur 2 [[Types]] de supports différents, dont 1 hors site (ou hors ligne). C'est la règle d'or des backups.
 
 ## Types de sauvegardes
 
@@ -24,12 +26,12 @@ Une stratégie de backup définit comment, quand et où les données sont sauveg
 
 | Outil | Usage | Forces |
 |-------|-------|--------|
-| `rsync` | Fichiers Linux, scripts cron | Simple, universel |
+| `rsync` | Fichiers [[Linux]], scripts [[Cron]] | Simple, universel |
 | `pg_dump` / `pg_basebackup` | PostgreSQL | Natif, PITR |
 | `mysqldump` / `xtrabackup` | MySQL | xtrabackup = online sans lock |
-| Velero | Kubernetes (pods + PVCs) | Backup/restore complet de namespace |
-| Restic | Fichiers + cloud (S3, B2, GCS...) | Déduplication, chiffrement natif |
-| AWS Backup | Services AWS (RDS, EFS, EC2...) | Centralisé, cross-région |
+| Velero | [[Kubernetes]] ([[Pods]] + PVCs) | Backup/restore complet de namespace |
+| Restic | Fichiers + [[Cloud]] (S3, B2, GCS...) | Déduplication, chiffrement natif |
+| [[AWS]] Backup | [[Services]] AWS (RDS, EFS, [[EC2]]...) | Centralisé, cross-région |
 
 ## Backup PostgreSQL
 

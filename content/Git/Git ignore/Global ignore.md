@@ -6,18 +6,11 @@ tags:
 
 # Global ignore
 
-## Parent
-- [[Git ignore]]
-
-## Concepts liés
-- [[Git ignore]]
-- [[Project ignore]]
-
 ---
 
 ## Définition
 
-Le fichier d'ignore global (`~/.gitignore_global`) définit les patterns à ignorer sur **tous les dépôts Git** de ta machine, sans les committer. Idéal pour les fichiers liés à ton environnement (IDE, OS) que tu ne veux pas imposer aux autres contributeurs.
+Le fichier d'ignore global (`~/.gitignore_global`) définit les patterns à ignorer sur **tous les dépôts [[Git]]** de ta machine, sans les committer. Idéal pour les fichiers liés à ton environnement (IDE, OS) que tu ne veux pas imposer aux autres contributeurs.
 
 ---
 
@@ -70,7 +63,7 @@ Desktop.ini
 | Scope | Toute la machine | Projet uniquement |
 | Versionné | ❌ Non | ✅ Oui |
 | Partagé avec l'équipe | ❌ Non | ✅ Oui |
-| Idéal pour | IDE, OS, outils perso | Dépendances, build, secrets |
+| Idéal pour | IDE, OS, outils perso | Dépendances, build, [[Secrets]] |
 
 > [!tip]
 > Règle simple : tout ce qui est lié à **ton environnement de travail** va dans le global. Tout ce qui est lié au **projet** va dans le `.gitignore` du projet.

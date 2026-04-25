@@ -5,14 +5,11 @@ tags:
 ---
 # Actions marketplace
 
-## Parent
-- [[GitHub actions]]
-
 ---
 
 ## Définition
 
-Le GitHub Actions Marketplace est un catalogue d'actions réutilisables créées par GitHub et la communauté. Ces actions encapsulent des tâches courantes (checkout, setup langages, déploiement) pour éviter d'écrire des scripts from scratch.
+Le [[GitHub actions]] Marketplace est un catalogue d'actions réutilisables créées par GitHub et la communauté. Ces actions encapsulent des tâches courantes (checkout, setup langages, déploiement) pour éviter d'écrire des scripts [[FROM]] scratch.
 
 ---
 

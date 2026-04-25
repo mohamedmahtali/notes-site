@@ -5,21 +5,11 @@ tags:
 ---
 # Advanced Kubernetes
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[Taints and tolerations]]
-- [[Affinity and anti-affinity]]
-- [[Network policies]]
-- [[Pod disruption budgets]]
-- [[Admission controllers]]
-
 ---
 
 ## Définition
 
-Les fonctionnalités avancées de Kubernetes permettent de contrôler finement le placement des pods, l'isolation réseau, la disponibilité lors des maintenances, et la validation des ressources à la création.
+Les fonctionnalités avancées de [[Kubernetes]] permettent de contrôler finement le placement des [[Pods]], l'isolation réseau, la disponibilité lors des maintenances, et la validation des ressources à la création.
 
 ---
 
@@ -27,7 +17,7 @@ Les fonctionnalités avancées de Kubernetes permettent de contrôler finement l
 
 | Fonctionnalité | Objectif |
 |---|---|
-| [[Taints and tolerations]] | Réserver des nodes pour certains workloads |
+| [[Taints and tolerations]] | Réserver des [[Node]] pour certains workloads |
 | [[Affinity and anti-affinity]] | Colocaliser ou séparer les pods |
 | [[Network policies]] | Micro-segmentation réseau |
 | [[Pod disruption budgets]] | Garantir la disponibilité lors des maintenances |

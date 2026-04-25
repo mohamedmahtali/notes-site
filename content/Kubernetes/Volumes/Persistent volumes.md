@@ -5,18 +5,11 @@ tags:
 ---
 # Persistent volumes
 
-## Parent
-- [[Volumes]]
-
-## Enfants
-- [[Storage classes]]
-- [[Reclaim policies]]
-
 ---
 
 ## Définition
 
-Un PersistentVolume (PV) est un morceau de stockage dans le cluster provisionné par un administrateur ou dynamiquement via une StorageClass. C'est une ressource cluster-wide, indépendante du cycle de vie des pods.
+Un PersistentVolume (PV) est un morceau de stockage dans le [[Cluster]] provisionné par un administrateur ou dynamiquement via une StorageClass. C'est une ressource cluster-wide, indépendante du cycle de vie des [[Pods]].
 
 ---
 
@@ -24,7 +17,7 @@ Un PersistentVolume (PV) est un morceau de stockage dans le cluster provisionné
 
 | Mode | Description |
 |---|---|
-| `ReadWriteOnce` | Lecture/écriture par un seul node |
+| `ReadWriteOnce` | Lecture/écriture par un seul [[Node]] |
 | `ReadOnlyMany` | Lecture seule par plusieurs nodes |
 | `ReadWriteMany` | Lecture/écriture par plusieurs nodes (NFS, EFS) |
 | `ReadWriteOncePod` | R/W par un seul pod (K8s 1.22+) |
@@ -63,4 +56,4 @@ kubectl describe pv pv-data-1
 ---
 
 > [!tip]
-> En production cloud, utiliser le provisionnement dynamique via [[Storage classes]] plutôt que des PVs statiques. Le CSI driver crée automatiquement les disques cloud à la demande.
+> En production [[Cloud]], utiliser le provisionnement dynamique via [[Storage classes]] plutôt que des PVs statiques. Le CSI driver crée automatiquement les disques cloud à la demande.

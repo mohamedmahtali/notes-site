@@ -6,19 +6,11 @@ tags:
 
 # Redirections
 
-## Parent
-- [[Bash]]
-
-## Enfants
-- [[stdin]]
-- [[stdout]]
-- [[stderr]]
-
 ---
 
 ## Définition
 
-Les redirections Bash dirigent les flux d'entrée/sortie des commandes vers des fichiers ou d'autres commandes. Trois flux standard : stdin (0), stdout (1), stderr (2).
+Les redirections [[Bash]] dirigent les [[Flux]] d'entrée/sortie des commandes vers des fichiers ou d'autres commandes. Trois flux standard : [[stdin]] (0), [[stdout]] (1), [[stderr]] (2).
 
 ---
 

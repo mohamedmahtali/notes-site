@@ -6,24 +6,11 @@ tags:
 
 # Rebase
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Interactive rebase]]
-- [[Squash]]
-- [[Rewrite history]]
-
-## Concepts liés
-- [[Merge]]
-- [[Branch]]
-- [[Commit history]]
-
 ---
 
 ## Définition
 
-`git rebase` déplace ou "rejoue" une série de commits sur une nouvelle base. Au lieu de créer un commit de merge, il reconstruit l'historique comme si les commits avaient été créés directement depuis la nouvelle base. Le résultat est un historique **linéaire et propre**.
+`git rebase` déplace ou "rejoue" une série de [[Commit]] sur une nouvelle base. Au lieu de créer un commit de [[Merge]], il reconstruit l'historique comme si les commits avaient été créés directement depuis la nouvelle base. Le résultat est un historique **linéaire et propre**.
 
 ---
 

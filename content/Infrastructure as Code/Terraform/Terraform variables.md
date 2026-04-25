@@ -5,19 +5,11 @@ tags:
 ---
 # Terraform variables
 
-## Parent
-- [[Terraform]]
-
-## Enfants
-- [[Types]]
-- [[Defaults]]
-- [[tfvars]]
-
 ---
 
 ## Définition
 
-Les variables Terraform permettent de paramétrer les configurations pour les rendre réutilisables entre environnements. Elles remplacent les valeurs hardcodées par des paramètres configurables.
+Les [[Variables]] [[Terraform]] permettent de paramétrer les configurations pour les rendre réutilisables entre environnements. Elles remplacent les valeurs hardcodées par des paramètres configurables.
 
 ---
 

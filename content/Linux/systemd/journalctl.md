@@ -6,19 +6,11 @@ tags:
 
 # journalctl
 
-## Parent
-- [[systemd]]
-
-## Enfants
-- [[Service logs]]
-- [[Boot logs]]
-- [[Log filtering]]
-
 ---
 
 ## Définition
 
-`journalctl` est l'outil de consultation du journal systemd (journald). Journald centralise tous les logs du système (kernel, services systemd, applications) dans un format binaire structuré, interrogeable et filtrable.
+`journalctl` est l'outil de consultation du journal [[systemd]] (journald). Journald centralise tous les logs du système ([[Kernel]], [[Services]] systemd, applications) dans un format binaire structuré, interrogeable et filtrable.
 
 ---
 

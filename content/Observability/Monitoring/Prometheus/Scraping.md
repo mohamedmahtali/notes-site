@@ -5,14 +5,11 @@ tags:
 ---
 # Scraping
 
-## Parent
-- [[Prometheus]]
-
 ---
 
 ## Définition
 
-Le scraping est le mécanisme par lequel Prometheus collecte les métriques. Il fait des requêtes HTTP GET vers les endpoints `/metrics` des cibles à intervalles réguliers (scrape_interval). Les cibles exposent leurs métriques au format texte Prometheus.
+Le scraping est le mécanisme par lequel [[Prometheus]] collecte les métriques. Il fait des requêtes HTTP [[get]] vers les endpoints `/metrics` des cibles à intervalles réguliers (scrape_interval). Les cibles exposent leurs métriques au format texte Prometheus.
 
 ---
 

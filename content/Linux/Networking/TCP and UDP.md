@@ -6,9 +6,6 @@ tags:
 
 # TCP and UDP
 
-## Parent
-- [[Networking]]
-
 ---
 
 ## Définition
@@ -26,7 +23,7 @@ TCP et UDP sont les deux protocoles de transport principaux au-dessus d'IP. TCP 
 - Plus lent mais fiable
 ```
 
-**Usages** : HTTP/HTTPS, SSH, FTP, emails, bases de données
+**Usages** : HTTP/HTTPS, [[SSH]], FTP, emails, bases de données
 
 ---
 
@@ -39,7 +36,7 @@ TCP et UDP sont les deux protocoles de transport principaux au-dessus d'IP. TCP 
 - L'application gère la fiabilité si besoin
 ```
 
-**Usages** : DNS, streaming vidéo, jeux en ligne, VoIP, DHCP
+**Usages** : [[DNS]], streaming vidéo, jeux en ligne, VoIP, DHCP
 
 ---
 

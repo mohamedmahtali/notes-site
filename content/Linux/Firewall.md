@@ -6,19 +6,11 @@ tags:
 
 # Firewall
 
-## Parent
-- [[Linux]]
-
-## Enfants
-- [[ufw]]
-- [[iptables]]
-- [[nftables]]
-
 ---
 
 ## Définition
 
-Le firewall Linux filtre le trafic réseau entrant et sortant selon des règles. Le kernel Linux utilise Netfilter comme framework de filtrage. Les outils utilisateur (iptables, nftables, ufw) créent des règles dans Netfilter.
+Le firewall [[Linux]] filtre le trafic réseau entrant et sortant selon des règles. Le [[Kernel]] Linux utilise Netfilter comme framework de filtrage. Les outils utilisateur (iptables, nftables, ufw) créent des règles dans Netfilter.
 
 ---
 

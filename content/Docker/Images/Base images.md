@@ -6,14 +6,11 @@ tags:
 
 # Base images
 
-## Parent
-- [[Images]]
-
 ---
 
 ## Définition
 
-Une image de base est l'image de départ référencée dans `FROM`. Elle définit l'OS, les outils disponibles, et le point de départ des layers de ton application.
+Une image de base est l'image de départ référencée dans `FROM`. Elle définit l'OS, les outils disponibles, et le point de départ des [[Layers]] de ton application.
 
 ---
 
@@ -24,7 +21,7 @@ Une image de base est l'image de départ référencée dans `FROM`. Elle défini
 | `ubuntu:22.04` | 77MB | Familier, apt, outils courants | Lourd |
 | `debian:bookworm-slim` | 74MB | Slim, APT, bonne compat | Moyen |
 | `alpine:3.19` | 7MB | Ultra léger | musl libc, ash par défaut |
-| `distroless/base` | ~20MB | Sécurisé, pas de shell | Debug difficile |
+| `distroless/base` | ~20MB | Sécurisé, pas de [[Shell]] | Debug difficile |
 | `scratch` | 0MB | Minimal absolu | Binaires statiques seulement |
 
 ---
@@ -55,4 +52,4 @@ FROM openjdk:21-slim         # Java
 > `FROM node:20.11.0-alpine3.19` est reproductible.
 
 > [!warning]
-> `alpine` peut causer des problèmes de compatibilité avec des packages Python qui nécessitent glibc (ex: `numpy`, `scipy`). Préférer `slim` pour les apps Python.
+> `alpine` peut causer des problèmes de compatibilité avec des [[Package]] Python qui nécessitent glibc (ex: `numpy`, `scipy`). Préférer `slim` pour les apps Python.

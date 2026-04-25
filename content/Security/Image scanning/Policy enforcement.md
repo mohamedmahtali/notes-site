@@ -1,6 +1,8 @@
 ---
 title: Policy enforcement
-tags: [security, advanced]
+tags:
+  - security
+  - advanced
 ---
 
 # Policy enforcement
@@ -10,7 +12,7 @@ tags: [security, advanced]
 L'enforcement de politique automatise le blocage des images qui ne respectent pas les règles de sécurité définies (vulnérabilités critiques, images non signées, images non approuvées).
 
 > [!tip] Pourquoi c'est important
-> Sans enforcement, les développeurs peuvent ignorer les alertes de sécurité. L'enforcement rend les règles non-contournables dans le pipeline et au niveau Kubernetes.
+> Sans enforcement, les développeurs peuvent ignorer les alertes de sécurité. L'enforcement rend les règles non-contournables dans le [[Pipeline]] et au niveau [[Kubernetes]].
 
 ## Admission controllers Kubernetes
 

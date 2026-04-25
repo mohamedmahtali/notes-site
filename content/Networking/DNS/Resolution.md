@@ -1,6 +1,8 @@
 ---
 title: DNS Resolution
-tags: [networking, intermediate]
+tags:
+  - networking
+  - intermediate
 ---
 
 # DNS Resolution

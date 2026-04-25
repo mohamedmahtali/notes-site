@@ -6,14 +6,11 @@ tags:
 
 # Pipes
 
-## Parent
-- [[Bash]]
-
 ---
 
 ## Définition
 
-Un pipe (`|`) connecte la sortie standard (stdout) d'une commande à l'entrée standard (stdin) de la suivante. C'est la philosophie Unix : des outils simples qui font une seule chose bien, chaînés pour accomplir des tâches complexes.
+Un pipe (`|`) connecte la sortie standard ([[stdout]]) d'une commande à l'entrée standard ([[stdin]]) de la suivante. C'est la philosophie Unix : des outils simples qui font une seule chose bien, chaînés pour accomplir des tâches complexes.
 
 ---
 

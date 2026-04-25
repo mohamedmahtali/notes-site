@@ -6,14 +6,11 @@ tags:
 
 # Inodes
 
-## Parent
-- [[File system]]
-
 ---
 
 ## Définition
 
-Un inode (index node) est une structure de données du filesystem qui stocke les métadonnées d'un fichier : permissions, propriétaire, timestamps, taille, et les pointeurs vers les blocs de données. Chaque fichier a un inode unique ; le nom du fichier est stocké dans le répertoire, pas dans l'inode.
+Un inode (index [[Node]]) est une structure de données du filesystem qui stocke les métadonnées d'un fichier : [[Permissions]], propriétaire, timestamps, taille, et les pointeurs vers les blocs de données. Chaque fichier a un inode unique ; le nom du fichier est stocké dans le répertoire, pas dans l'inode.
 
 ---
 

@@ -6,22 +6,11 @@ tags:
 
 # Processes
 
-## Parent
-- [[Linux]]
-
-## Enfants
-- [[ps]]
-- [[top]]
-- [[htop]]
-- [[Signals]]
-- [[nice and renice]]
-- [[Foreground and background]]
-
 ---
 
 ## Définition
 
-Un processus est un programme en cours d'exécution. Chaque processus a un PID (Process ID) unique, un PPID (Parent PID), un utilisateur propriétaire, et consomme des ressources CPU/mémoire. Le kernel Linux orchestre leur exécution via le scheduler.
+Un processus est un programme en cours d'exécution. Chaque processus a un PID (Process ID) unique, un PPID (Parent PID), un utilisateur propriétaire, et consomme des ressources CPU/mémoire. Le [[Kernel]] [[Linux]] orchestre leur exécution via le [[Scheduler]].
 
 ---
 

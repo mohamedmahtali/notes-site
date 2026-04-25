@@ -5,14 +5,11 @@ tags:
 ---
 # Loki
 
-## Parent
-- [[Logging]]
-
 ---
 
 ## Définition
 
-Grafana Loki est un système de stockage de logs horizontalement scalable inspiré de Prometheus. Contrairement à Elasticsearch, il indexe uniquement les labels (pas le contenu des logs), ce qui le rend beaucoup plus économique.
+[[Grafana]] Loki est un système de stockage de logs horizontalement scalable inspiré de [[Prometheus]]. Contrairement à Elasticsearch, il indexe uniquement les labels (pas le contenu des logs), ce qui le rend beaucoup plus économique.
 
 ---
 
@@ -58,4 +55,4 @@ sum(rate({namespace="production", level="error"}[5m])) by (app)
 ---
 
 > [!tip]
-> Loki est 10x moins cher qu'Elasticsearch pour les logs cloud-native. L'inconvénient : pas de full-text search rapide (il scanne les logs bruts). Pour des recherches complexes sur de gros volumes, Elasticsearch reste plus adapté.
+> Loki est 10x moins cher qu'Elasticsearch pour les logs [[Cloud]]-native. L'inconvénient : pas de full-text search rapide (il scanne les logs bruts). Pour des recherches complexes sur de gros [[Volumes]], Elasticsearch reste plus adapté.

@@ -6,9 +6,6 @@ tags:
 
 # chown
 
-## Parent
-- [[File permissions]]
-
 ---
 
 ## Définition

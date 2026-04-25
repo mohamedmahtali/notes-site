@@ -5,14 +5,11 @@ tags:
 ---
 # Remote state
 
-## Parent
-- [[Terraform state]]
-
 ---
 
 ## Définition
 
-Le remote state stocke `terraform.tfstate` dans un backend distant (S3, GCS, Azure Blob, Terraform Cloud). Indispensable en équipe pour partager l'état et éviter les conflits.
+Le remote state stocke `terraform.tfstate` dans un backend distant (S3, GCS, [[Azure]] Blob, [[Terraform]] [[Cloud]]). Indispensable en équipe pour partager l'état et éviter les conflits.
 
 ---
 

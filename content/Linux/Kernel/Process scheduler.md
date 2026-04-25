@@ -6,14 +6,11 @@ tags:
 
 # Process scheduler
 
-## Parent
-- [[Kernel]]
-
 ---
 
 ## Définition
 
-Le scheduler (ordonnanceur) du kernel Linux décide quel processus s'exécute sur quel CPU à chaque instant. Linux utilise le CFS (Completely Fair Scheduler) depuis 2.6.23, qui garantit une répartition équitable du CPU entre les processus.
+Le [[Scheduler]] (ordonnanceur) du [[Kernel]] [[Linux]] décide quel processus s'exécute sur quel CPU à chaque instant. Linux utilise le CFS (Completely Fair Scheduler) depuis 2.6.23, qui garantit une répartition équitable du CPU entre les processus.
 
 ---
 

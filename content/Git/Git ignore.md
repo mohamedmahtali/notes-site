@@ -5,23 +5,11 @@ tags:
 ---
 # Git ignore
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Global ignore]]
-- [[Project ignore]]
-
-## Concepts liés
-- [[Global ignore]]
-- [[Project ignore]]
-- [[Artifacts]]
-
 ---
 
 ## Définition
 
-`.gitignore` est un fichier de configuration qui indique à Git quels fichiers et dossiers **ne pas tracker**. Les fichiers ignorés n'apparaissent pas dans `git status` et ne sont jamais committés accidentellement.
+`.gitignore` est un fichier de configuration qui indique à [[Git]] quels fichiers et dossiers **ne pas tracker**. Les fichiers ignorés n'apparaissent pas dans `git status` et ne sont jamais committés accidentellement.
 
 ---
 
@@ -29,7 +17,7 @@ tags:
 
 > [!warning] Ne jamais committer
 > - `node_modules/`, `.venv/` → dépendances reconstituables
-> - `.env`, `*.key` → secrets et credentials
+> - `.env`, `*.key` → [[Secrets]] et credentials
 > - `dist/`, `build/` → artefacts générés
 > - `.DS_Store`, `.idea/` → fichiers d'OS/IDE
 
@@ -69,4 +57,4 @@ git commit -m "chore: untrack .env file"
 ---
 
 > [!tip]
-> [gitignore.io](https://www.toptal.com/developers/gitignore) génère automatiquement un `.gitignore` adapté à ton stack (Node, Python, Java, etc.).
+> [gitignore.io](https://www.toptal.com/developers/gitignore) génère automatiquement un `.gitignore` adapté à ton stack ([[Node]], Python, Java, etc.).

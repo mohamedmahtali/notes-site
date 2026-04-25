@@ -1,6 +1,8 @@
 ---
 title: OSI model
-tags: [networking, beginner]
+tags:
+  - networking
+  - beginner
 ---
 
 # Modèle OSI
@@ -17,9 +19,9 @@ Le modèle OSI (Open Systems Interconnection) est un cadre conceptuel qui standa
 | # | Couche | Protocoles | Équipements |
 |---|--------|-----------|-------------|
 | 7 | Application | HTTP, DNS, SMTP, FTP | — |
-| 6 | Présentation | TLS/SSL, JPEG, UTF-8 | — |
+| 6 | Présentation | [[TLS]]/SSL, JPEG, UTF-8 | — |
 | 5 | Session | NetBIOS, RPC | — |
-| 4 | Transport | TCP, UDP | Firewall stateful |
+| 4 | Transport | TCP, UDP | [[Firewall]] stateful |
 | 3 | Réseau | IP, ICMP, BGP | Routeur |
 | 2 | Liaison | Ethernet, Wi-Fi, ARP | Switch |
 | 1 | Physique | Câbles, fibre, Wi-Fi | Hub, câble |

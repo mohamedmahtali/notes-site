@@ -5,9 +5,6 @@ tags:
 ---
 # Opaque secrets
 
-## Parent
-- [[Secrets]]
-
 ---
 
 ## Définition

@@ -6,20 +6,11 @@ tags:
 
 # pre-commit
 
-## Parent
-- [[Git hooks]]
-
-## Concepts liés
-- [[Git hooks]]
-- [[commit-msg]]
-- [[pre-push]]
-- [[CI-CD]]
-
 ---
 
 ## Définition
 
-Le hook `pre-commit` est un script exécuté automatiquement par Git **juste avant la création d'un commit**. Si le script retourne un code d'erreur (≠ 0), le commit est annulé. C'est la première ligne de défense pour la qualité du code.
+Le hook `pre-commit` est un script exécuté automatiquement par [[Git]] **juste avant la création d'un [[Commit]]**. Si le script retourne un code d'erreur (≠ 0), le commit est annulé. C'est la première ligne de défense pour la qualité du code.
 
 ---
 
@@ -30,7 +21,7 @@ Le hook `pre-commit` est un script exécuté automatiquement par Git **juste ava
 | Lint du code | ESLint, flake8, golangci-lint |
 | Formatage | Prettier, black, gofmt |
 | Tests rapides | `npm test -- --watch=false` |
-| Secrets exposés | detect-secrets, gitleaks |
+| [[Secrets]] exposés | detect-secrets, gitleaks |
 | Taille des fichiers | vérification custom |
 
 ---

@@ -6,14 +6,11 @@ tags:
 
 # Well known ports
 
-## Parent
-- [[Ports]]
-
 ---
 
 ## Définition
 
-Les well-known ports (0-1023) sont assignés aux services standards par l'IANA. Ils nécessitent des privilèges root pour être utilisés (ou `CAP_NET_BIND_SERVICE`).
+Les well-known [[Ports]] (0-1023) sont assignés aux [[Services]] standards par l'IANA. Ils nécessitent des privilèges root pour être utilisés (ou `CAP_NET_BIND_SERVICE`).
 
 ---
 
@@ -21,9 +18,9 @@ Les well-known ports (0-1023) sont assignés aux services standards par l'IANA. 
 
 | Port | Protocole | Service |
 |---|---|---|
-| 22 | TCP | SSH |
+| 22 | TCP | [[SSH]] |
 | 25 | TCP | SMTP |
-| 53 | TCP/UDP | DNS |
+| 53 | TCP/UDP | [[DNS]] |
 | 80 | TCP | HTTP |
 | 443 | TCP | HTTPS |
 | 3306 | TCP | MySQL |
@@ -39,12 +36,12 @@ Les well-known ports (0-1023) sont assignés aux services standards par l'IANA. 
 | Port | Service |
 |---|---|
 | 2222 | SSH alternatif |
-| 3000 | Node.js dev |
+| 3000 | [[Node]].js dev |
 | 5000 | Flask dev |
 | 8443 | HTTPS alternatif |
-| 9090 | Prometheus |
+| 9090 | [[Prometheus]] |
 | 9100 | Node exporter |
-| 16443 | Kubernetes API |
+| 16443 | [[Kubernetes]] API |
 
 ---
 

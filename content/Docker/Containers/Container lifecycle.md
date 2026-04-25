@@ -6,21 +6,11 @@ tags:
 
 # Container lifecycle
 
-## Parent
-- [[Containers]]
-
-## Enfants
-- [[create]]
-- [[start]]
-- [[stop]]
-- [[restart]]
-- [[remove]]
-
 ---
 
 ## Définition
 
-Le cycle de vie d'un conteneur Docker suit des états bien définis : created, running, paused, stopped, removed. Comprendre ces transitions permet de gérer correctement les conteneurs.
+Le cycle de vie d'un conteneur [[Docker]] suit des états bien définis : created, running, paused, stopped, removed. Comprendre ces transitions permet de gérer correctement les conteneurs.
 
 ---
 

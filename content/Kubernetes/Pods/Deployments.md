@@ -5,19 +5,11 @@ tags:
 ---
 # Deployments
 
-## Parent
-- [[Pods]]
-
-## Enfants
-- [[ReplicaSets]]
-- [[Rolling updates]]
-- [[Rollbacks]]
-
 ---
 
 ## Définition
 
-Un Deployment est l'objet Kubernetes pour déployer des applications stateless. Il gère les ReplicaSets, garantit le nombre de réplicas désiré, et orchestre les mises à jour progressives avec possibilité de rollback.
+Un Deployment est l'objet [[Kubernetes]] pour déployer des applications stateless. Il gère les [[ReplicaSets]], garantit le nombre de réplicas désiré, et orchestre les mises à jour progressives avec possibilité de [[Rollback]].
 
 ---
 

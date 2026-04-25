@@ -5,14 +5,11 @@ tags:
 ---
 # kubelet
 
-## Parent
-- [[Node]]
-
 ---
 
 ## Définition
 
-Le kubelet est l'agent Kubernetes qui tourne sur chaque node worker. Il reçoit les PodSpecs de l'API server et s'assure que les containers décrits tournent et sont en bonne santé. C'est lui qui parle au container runtime (containerd/CRI-O).
+Le kubelet est l'agent [[Kubernetes]] qui tourne sur chaque [[Node]] worker. Il reçoit les PodSpecs de l'[[API server]] et s'assure que les [[Containers]] décrits tournent et sont en bonne santé. C'est lui qui parle au [[Container runtime]] ([[containerd]]/CRI-O).
 
 ---
 
@@ -69,4 +66,4 @@ spec:
 ---
 
 > [!tip]
-> Les static pods (dans `/etc/kubernetes/manifests/`) sont gérés directement par le kubelet sans passer par l'API server — c'est comme ça que les composants du control plane (apiserver, etcd) sont démarrés.
+> Les static [[Pods]] (dans `/etc/kubernetes/manifests/`) sont gérés directement par le kubelet sans passer par l'API server — c'est comme ça que les composants du [[Control plane]] (apiserver, [[etcd]]) sont démarrés.

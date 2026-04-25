@@ -5,14 +5,11 @@ tags:
 ---
 # State locking
 
-## Parent
-- [[Terraform state]]
-
 ---
 
 ## Définition
 
-Le state locking empêche plusieurs opérations Terraform concurrentes de modifier le state simultanément. Sans locking, deux `terraform apply` en parallèle peuvent corrompre le state.
+Le state locking empêche plusieurs opérations [[Terraform]] concurrentes de modifier le state simultanément. Sans locking, deux `terraform apply` en parallèle peuvent corrompre le state.
 
 ---
 

@@ -1,16 +1,18 @@
 ---
 title: Promotion strategy
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # Promotion strategy
 
 ## Définition
 
-La stratégie de promotion définit comment une version d'application progresse de dev vers staging puis production dans une pipeline GitOps. Chaque promotion est un événement Git (PR, merge, tag).
+La stratégie de promotion définit comment une version d'application progresse de dev vers [[Staging]] puis production dans une [[Pipeline]] [[GitOps]]. Chaque promotion est un événement [[Git]] (PR, [[Merge]], tag).
 
 > [!tip] Pourquoi Git pour les promotions
-> La promotion via PR permet une revue humaine, un audit trail complet et un rollback immédiat. C'est le cœur de la valeur GitOps pour les équipes en production.
+> La promotion via PR permet une revue humaine, un audit trail complet et un [[Rollback]] immédiat. C'est le cœur de la valeur GitOps pour les équipes en production.
 
 ## Stratégies courantes
 

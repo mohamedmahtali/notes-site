@@ -5,9 +5,6 @@ tags:
 ---
 # IaaS
 
-## Parent
-- [[Cloud]]
-
 ---
 
 ## Définition
@@ -20,9 +17,9 @@ Infrastructure as a Service : le provider fournit les ressources informatiques v
 
 | Provider | Service |
 |---|---|
-| AWS | EC2, EBS, VPC |
-| GCP | Compute Engine, Persistent Disk, VPC |
-| Azure | Virtual Machines, Managed Disks, VNet |
+| [[AWS]] | [[EC2]], EBS, [[VPC]] |
+| GCP | [[Compute Engine]], Persistent Disk, VPC |
+| [[Azure]] | [[Virtual Machines]], Managed Disks, VNet |
 
 ---
 
@@ -50,4 +47,4 @@ sudo apt update && sudo apt upgrade -y
 ---
 
 > [!note]
-> Avec IaaS, tu es responsable de patcher l'OS, configurer le firewall, gérer les utilisateurs, etc. Pour moins de gestion, envisager PaaS ou containers.
+> Avec IaaS, tu es responsable de patcher l'OS, configurer le [[Firewall]], gérer les utilisateurs, etc. Pour moins de gestion, envisager [[PaaS]] ou [[Containers]].

@@ -5,24 +5,11 @@ tags:
 ---
 # Ansible
 
-## Parent
-- [[Infrastructure as Code]]
-
-## Enfants
-- [[Playbooks]]
-- [[Inventory]]
-- [[Tasks]]
-- [[Roles]]
-- [[Variables]]
-- [[Templates]]
-- [[Handlers]]
-- [[Idempotence]]
-
 ---
 
 ## Définition
 
-Ansible est un outil d'automatisation de configuration et de déploiement. Il fonctionne en SSH sans agent, utilise YAML pour les playbooks, et est idempotent — re-exécuter un playbook n'a pas d'effet si la cible est déjà dans l'état désiré.
+Ansible est un outil d'automatisation de configuration et de déploiement. Il fonctionne en [[SSH]] sans agent, utilise YAML pour les [[Playbooks]], et est idempotent — re-exécuter un playbook n'a pas d'effet si la cible est déjà dans l'état désiré.
 
 ---
 

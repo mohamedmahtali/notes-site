@@ -6,19 +6,11 @@ tags:
 
 # Memory management
 
-## Parent
-- [[Kernel]]
-
-## Enfants
-- [[Virtual memory]]
-- [[Paging]]
-- [[Swap]]
-
 ---
 
 ## Définition
 
-La gestion mémoire du kernel Linux alloue et gère la RAM entre les processus. Elle utilise la mémoire virtuelle (chaque processus a son propre espace d'adressage), la pagination, et le swap pour gérer plus de mémoire que la RAM physique disponible.
+La gestion mémoire du [[Kernel]] [[Linux]] alloue et gère la RAM entre les processus. Elle utilise la mémoire virtuelle (chaque processus a son propre espace d'adressage), la pagination, et le [[Swap]] pour gérer plus de mémoire que la RAM physique disponible.
 
 ---
 

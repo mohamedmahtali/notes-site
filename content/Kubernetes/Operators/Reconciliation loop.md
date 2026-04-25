@@ -5,14 +5,11 @@ tags:
 ---
 # Reconciliation loop
 
-## Parent
-- [[Operators]]
-
 ---
 
 ## Définition
 
-La reconciliation loop est le pattern fondamental des controllers Kubernetes. Elle compare continuellement l'état désiré (spec) avec l'état réel (status) et prend les actions nécessaires pour les aligner. C'est le cœur de la philosophie Kubernetes "desired state".
+La reconciliation loop est le pattern fondamental des controllers [[Kubernetes]]. Elle compare continuellement l'état désiré (spec) avec l'état réel ([[Status]]) et prend les actions nécessaires pour les aligner. C'est le cœur de la philosophie Kubernetes "desired state".
 
 ---
 

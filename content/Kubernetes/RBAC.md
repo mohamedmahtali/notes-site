@@ -5,27 +5,18 @@ tags:
 ---
 # RBAC
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[Roles]]
-- [[ClusterRoles]]
-- [[RoleBindings]]
-- [[Service accounts]]
-
 ---
 
 ## Définition
 
-RBAC (Role-Based Access Control) est le système d'autorisation de Kubernetes. Il contrôle quelles actions (verbs) un utilisateur ou une application peut effectuer sur quelles ressources (pods, services, secrets) dans quels namespaces.
+RBAC (Role-Based Access Control) est le système d'autorisation de [[Kubernetes]]. Il contrôle quelles actions (verbs) un utilisateur ou une application peut effectuer sur quelles ressources ([[Pods]], [[Services]], [[Secrets]]) dans quels [[Namespaces]].
 
 ---
 
 ## Pourquoi c'est important
 
 > [!warning] Principe du moindre privilège
-> Par défaut, les service accounts ont peu de droits. Toujours accorder le minimum nécessaire. Un pod compromis avec trop de droits RBAC peut lire tous les secrets du cluster, créer des pods privilégiés, ou escalader ses privilèges.
+> Par défaut, les [[Service accounts]] ont peu de droits. Toujours accorder le minimum nécessaire. Un pod compromis avec trop de droits RBAC peut lire tous les secrets du [[Cluster]], créer des pods privilégiés, ou escalader ses privilèges.
 
 ---
 
@@ -64,4 +55,4 @@ kubectl auth can-i --list --as system:serviceaccount:default:myapp
 ---
 
 > [!note]
-> Voir [[Roles]] et [[ClusterRoles]] pour les objets de permissions, [[RoleBindings]] pour les attributions.
+> Voir [[Roles]] et [[ClusterRoles]] pour les objets de [[Permissions]], [[RoleBindings]] pour les attributions.

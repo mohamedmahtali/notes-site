@@ -5,14 +5,11 @@ tags:
 ---
 # Blob Storage
 
-## Parent
-- [[Azure]]
-
 ---
 
 ## Définition
 
-Azure Blob Storage est l'équivalent Azure de S3. Il stocke des objets non-structurés dans des conteneurs (l'équivalent des buckets S3). Les blobs sont organisés dans des Storage Accounts.
+[[Azure]] Blob Storage est l'équivalent Azure de S3. Il stocke des objets non-structurés dans des conteneurs (l'équivalent des [[Buckets]] S3). Les blobs sont organisés dans des Storage Accounts.
 
 ---
 

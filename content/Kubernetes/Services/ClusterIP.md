@@ -5,14 +5,11 @@ tags:
 ---
 # ClusterIP
 
-## Parent
-- [[Services]]
-
 ---
 
 ## Définition
 
-ClusterIP est le type de Service par défaut. Il expose le service sur une IP interne au cluster uniquement — inaccessible depuis l'extérieur. C'est le type à utiliser pour la communication entre microservices à l'intérieur du cluster.
+ClusterIP est le type de Service par défaut. Il [[EXPOSE]] le service sur une IP interne au [[Cluster]] uniquement — inaccessible depuis l'extérieur. C'est le type à utiliser pour la communication entre microservices à l'intérieur du cluster.
 
 ---
 

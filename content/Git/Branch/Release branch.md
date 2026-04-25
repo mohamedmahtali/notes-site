@@ -6,20 +6,11 @@ tags:
 
 # Release branch
 
-## Parent
-- [[Branch]]
-
-## Concepts liés
-- [[Branch]]
-- [[Main branch]]
-- [[Hotfix branch]]
-- [[Git flow]]
-
 ---
 
 ## Définition
 
-Une release branch est une branche créée à partir de `develop` (dans Git flow) ou `main` pour préparer une release. Elle accueille uniquement des corrections de bugs, la mise à jour des numéros de version, et la documentation — aucune nouvelle feature.
+Une release [[Branch]] est une branche créée à partir de `develop` (dans [[Git flow]]) ou `main` pour préparer une release. Elle accueille uniquement des corrections de bugs, la mise à jour des numéros de version, et la documentation — aucune nouvelle feature.
 
 ---
 
@@ -61,4 +52,4 @@ git branch -d release/1.3.0
 | Documentation | Toute autre modification |
 
 > [!note]
-> Les release branches n'existent que dans Git flow. Dans GitHub flow et TBD, on déploie directement depuis `main`.
+> Les release branches n'existent que dans [[Git]] flow. Dans [[GitHub flow]] et TBD, on déploie directement depuis `main`.

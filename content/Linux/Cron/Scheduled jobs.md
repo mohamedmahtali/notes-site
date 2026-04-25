@@ -6,14 +6,11 @@ tags:
 
 # Scheduled jobs
 
-## Parent
-- [[Cron]]
-
 ---
 
 ## Définition
 
-Les tâches planifiées (scheduled jobs) sont des scripts ou commandes exécutés automatiquement à des horaires définis. En Linux, Cron est le mécanisme principal, mais les [[Timers|timers systemd]] sont une alternative plus robuste.
+Les tâches planifiées (scheduled jobs) sont des scripts ou commandes exécutés automatiquement à des horaires définis. En [[Linux]], [[Cron]] est le mécanisme principal, mais les [[Timers|timers systemd]] sont une alternative plus robuste.
 
 ---
 

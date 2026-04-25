@@ -6,20 +6,11 @@ tags:
 
 # soft
 
-## Parent
-- [[reset]]
-
-## Concepts liés
-- [[reset]]
-- [[mixed]]
-- [[hard]]
-- [[Amend]]
-
 ---
 
 ## Définition
 
-`git reset --soft` déplace HEAD vers un commit précédent tout en laissant **le staging area et le working directory intacts**. Les modifications des commits annulés se retrouvent en staging, prêtes à être recommittées.
+`git reset --soft` déplace HEAD vers un [[Commit]] précédent tout en laissant **le [[Staging]] area et le working directory intacts**. Les modifications des commits annulés se retrouvent en staging, prêtes à être recommittées.
 
 ---
 

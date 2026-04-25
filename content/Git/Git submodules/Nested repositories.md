@@ -6,19 +6,11 @@ tags:
 
 # Nested repositories
 
-## Parent
-- [[Git submodules]]
-
-## Concepts liés
-- [[Git submodules]]
-- [[Add submodule]]
-- [[Update submodule]]
-
 ---
 
 ## Définition
 
-Un dépôt imbriqué (nested repository) est un dépôt Git situé à l'intérieur d'un autre dépôt Git. Git les gère via le mécanisme de **submodules**, qui maintient un pointeur vers un commit précis du dépôt enfant.
+Un dépôt imbriqué (nested [[Repository]]) est un dépôt [[Git]] situé à l'intérieur d'un autre dépôt Git. Git les gère via le mécanisme de **submodules**, qui maintient un pointeur vers un [[Commit]] précis du dépôt enfant.
 
 ---
 
@@ -39,7 +31,7 @@ projet-principal/          ← dépôt Git A
 
 ## Bonnes pratiques
 
-> [!tip] Quand utiliser les sous-modules
+> [!tip] Quand utiliser les sous-[[Modules]]
 > - Partager du code entre plusieurs projets (bibliothèque interne)
 > - Fixer une dépendance à un commit précis pour garantir la reproductibilité
 > - Intégrer un projet tiers sans le fork

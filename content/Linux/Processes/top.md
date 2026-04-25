@@ -6,14 +6,11 @@ tags:
 
 # top
 
-## Parent
-- [[Processes]]
-
 ---
 
 ## Définition
 
-`top` est un outil de monitoring des processus en temps réel. Il affiche les processus triés par consommation CPU, et se rafraîchit toutes les 3 secondes par défaut.
+`top` est un outil de [[Monitoring]] des processus en temps réel. Il affiche les processus triés par consommation CPU, et se rafraîchit toutes les 3 secondes par défaut.
 
 ---
 
@@ -60,6 +57,6 @@ MiB Mem:  7952.0 total,  1234.5 free,  4521.3 used
 |---|---|
 | load average | Charge moyenne sur 1/5/15 min |
 | us | CPU user space |
-| sy | CPU kernel |
+| sy | CPU [[Kernel]] |
 | wa | Attente I/O disque |
 | id | CPU idle |

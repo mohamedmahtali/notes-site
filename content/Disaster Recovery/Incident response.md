@@ -1,6 +1,8 @@
 ---
 title: Incident response
-tags: [reliability, intermediate]
+tags:
+  - reliability
+  - intermediate
 ---
 
 # Incident response (Réponse aux incidents)

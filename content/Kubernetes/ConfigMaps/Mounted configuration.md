@@ -5,9 +5,6 @@ tags:
 ---
 # Mounted configuration
 
-## Parent
-- [[ConfigMaps]]
-
 ---
 
 ## Définition
@@ -69,4 +66,4 @@ kubectl exec -it nginx-pod -- cat /etc/nginx/conf.d/default.conf
 ---
 
 > [!tip]
-> nginx se recharge sur SIGHUP. Configurer un sidecar qui surveille les changements de fichiers et envoie SIGHUP au container principal — c'est le pattern "configmap reload".
+> [[Nginx]] se recharge sur [[SIGHUP]]. Configurer un sidecar qui surveille les changements de fichiers et envoie SIGHUP au container principal — c'est le pattern "configmap reload".

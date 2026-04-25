@@ -5,14 +5,11 @@ tags:
 ---
 # Cloud Storage
 
-## Parent
-- [[Google Cloud]]
-
 ---
 
 ## Définition
 
-Google Cloud Storage est l'équivalent GCP de S3. Il stocke des objets dans des buckets avec une durabilité de 99.999999999%. Accessible via gsutil CLI, le SDK Cloud Storage, ou l'API REST.
+[[Google [[Cloud]]]] Storage est l'équivalent GCP de S3. Il stocke des objets dans des [[Buckets]] avec une durabilité de 99.999999999%. Accessible via gsutil CLI, le SDK Cloud Storage, ou l'API REST.
 
 ---
 

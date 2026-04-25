@@ -5,9 +5,6 @@ tags:
 ---
 # Layer 7
 
-## Parent
-- [[Load balancers]]
-
 ---
 
 ## Définition
@@ -18,11 +15,11 @@ Un load balancer Layer 7 (application) inspecte le contenu des requêtes HTTP/HT
 
 ## Fonctionnalités L7
 
-- **Routing basé sur le path** : `/api/*` → service API, `/` → frontend
+- **[[Routing]] basé sur le path** : `/api/*` → service API, `/` → frontend
 - **Routing basé sur le hostname** : `api.myapp.com` → service API
 - **SSL termination** : déchiffre HTTPS au LB, HTTP en interne
 - **Sticky sessions** : même client → même backend
-- **WAF** : Web Application Firewall intégré
+- **WAF** : Web Application [[Firewall]] intégré
 - **Authentication** : Cognito, OIDC
 
 ---

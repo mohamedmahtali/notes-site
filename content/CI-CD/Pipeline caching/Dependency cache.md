@@ -5,14 +5,11 @@ tags:
 ---
 # Dependency cache
 
-## Parent
-- [[Pipeline caching]]
-
 ---
 
 ## Définition
 
-Le dependency cache conserve les packages installés (node_modules, pip packages, Maven artifacts, Go modules) entre les runs CI pour éviter de les télécharger à chaque build.
+Le dependency cache conserve les [[Package]] installés (node_modules, pip packages, Maven [[Artifacts]], Go [[Modules]]) entre les runs CI pour éviter de les télécharger à chaque build.
 
 ---
 

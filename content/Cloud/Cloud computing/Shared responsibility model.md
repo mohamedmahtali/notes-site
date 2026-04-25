@@ -5,14 +5,11 @@ tags:
 ---
 # Shared responsibility model
 
-## Parent
-- [[Cloud computing]]
-
 ---
 
 ## Définition
 
-Le modèle de responsabilité partagée définit ce que le cloud provider gère versus ce que le client doit gérer. La frontière dépend du modèle de service (IaaS/PaaS/SaaS).
+Le modèle de responsabilité partagée définit ce que le [[Cloud]] provider gère versus ce que le client doit gérer. La frontière dépend du modèle de service ([[IaaS]]/[[PaaS]]/[[SaaS]]).
 
 ---
 
@@ -32,8 +29,8 @@ Identité/accès     CLIENT      CLIENT      CLIENT
 
 ## Pourquoi c'est important
 
-> [!warning] "Security OF the cloud" vs "Security IN the cloud"
-> AWS/GCP/Azure sécurisent l'infrastructure physique et la virtualisation. Mais toi tu es responsable de : configurer les security groups, chiffrer les données, gérer les permissions IAM, patcher les OS (IaaS), et protéger tes applications.
+> [!warning] "[[Security]] OF the cloud" vs "Security IN the cloud"
+> [[AWS]]/GCP/[[Azure]] sécurisent l'infrastructure physique et la virtualisation. Mais toi tu es responsable de : configurer les [[Security [[Groups]]]], chiffrer les données, gérer les [[Permissions]] [[IAM]], patcher les OS (IaaS), et protéger tes applications.
 
 ---
 

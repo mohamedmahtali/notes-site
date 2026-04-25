@@ -5,14 +5,11 @@ tags:
 ---
 # Drift
 
-## Parent
-- [[Terraform state]]
-
 ---
 
 ## Définition
 
-Le drift est la divergence entre l'infrastructure réelle (dans le cloud) et l'état Terraform (dans le state). Il se produit quand des modifications sont faites manuellement dans la console cloud sans passer par Terraform.
+Le drift est la divergence entre l'infrastructure réelle (dans le [[Cloud]]) et l'état [[Terraform]] (dans le state). Il se produit quand des modifications sont faites manuellement dans la console cloud sans passer par Terraform.
 
 ---
 

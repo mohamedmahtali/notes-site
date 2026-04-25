@@ -1,6 +1,8 @@
 ---
 title: Container security
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Container security
@@ -10,7 +12,7 @@ tags: [security, intermediate]
 La sécurité des conteneurs couvre les pratiques de durcissement des images, d'isolation des processus et de protection du runtime pour minimiser la surface d'attaque dans les environnements conteneurisés.
 
 > [!tip] Pourquoi c'est important
-> Les conteneurs partagent le kernel de l'hôte. Une mauvaise configuration peut permettre une évasion de conteneur (container escape) compromettant tout le nœud.
+> Les conteneurs partagent le [[Kernel]] de l'hôte. Une mauvaise configuration peut permettre une évasion de conteneur (container escape) compromettant tout le nœud.
 
 ## Bonnes pratiques
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Memory scaling
 
-## Parent
-- [[HPA]]
-
 ---
 
 ## Définition
 
-Le memory scaling avec HPA ajuste le nombre de pods en fonction de l'utilisation mémoire. Moins courant que le CPU scaling car la mémoire est moins élastique — les pods ne libèrent pas facilement la mémoire.
+Le memory scaling avec [[HPA]] ajuste le nombre de [[Pods]] en fonction de l'utilisation mémoire. Moins courant que le [[CPU scaling]] car la mémoire est moins élastique — les pods ne libèrent pas facilement la mémoire.
 
 ---
 

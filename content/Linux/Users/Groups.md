@@ -6,14 +6,11 @@ tags:
 
 # Groups
 
-## Parent
-- [[Users]]
-
 ---
 
 ## Définition
 
-Les groupes Linux permettent de donner les mêmes permissions à plusieurs utilisateurs. Chaque utilisateur a un groupe primaire (dans /etc/passwd) et peut appartenir à plusieurs groupes secondaires.
+Les groupes [[Linux]] permettent de donner les mêmes [[Permissions]] à plusieurs utilisateurs. Chaque utilisateur a un groupe primaire (dans /etc/passwd) et peut appartenir à plusieurs groupes secondaires.
 
 ---
 
@@ -49,8 +46,8 @@ newgrp docker           # activer le groupe docker pour la session
 
 | Groupe | Accès |
 |---|---|
-| `sudo` / `wheel` | Commandes sudo |
-| `docker` | Gérer Docker sans sudo |
-| `www-data` | Fichiers web nginx/apache |
-| `ssh` | Connexion SSH (si configuré) |
+| `sudo` / `wheel` | Commandes [[sudo]] |
+| `docker` | Gérer [[Docker]] sans sudo |
+| `www-data` | Fichiers web [[Nginx]]/apache |
+| `ssh` | Connexion [[SSH]] (si configuré) |
 | `adm` | Lecture des logs système |

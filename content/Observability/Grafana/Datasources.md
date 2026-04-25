@@ -5,14 +5,11 @@ tags:
 ---
 # Datasources
 
-## Parent
-- [[Grafana]]
-
 ---
 
 ## Définition
 
-Les datasources Grafana sont les connexions aux systèmes de données externes (Prometheus, Loki, InfluxDB, Elasticsearch, CloudWatch). Chaque dashboard utilise une ou plusieurs datasources.
+Les datasources [[Grafana]] sont les connexions aux systèmes de données externes ([[Prometheus]], [[Loki]], InfluxDB, Elasticsearch, CloudWatch). Chaque dashboard utilise une ou plusieurs datasources.
 
 ---
 

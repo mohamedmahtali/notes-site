@@ -1,16 +1,18 @@
 ---
 title: Secret engines
-tags: [security, advanced]
+tags:
+  - security
+  - advanced
 ---
 
 # Secret engines
 
 ## Définition
 
-Les secret engines sont les backends de Vault qui stockent, génèrent ou chiffrent des données. Chaque engine a un comportement spécifique (KV statique, secrets dynamiques, PKI, chiffrement...).
+Les secret engines sont les backends de Vault qui stockent, génèrent ou chiffrent des données. Chaque engine a un comportement spécifique (KV statique, [[Secrets]] dynamiques, PKI, chiffrement...).
 
 > [!note] Engines principaux
-> KV (Key-Value), Database, AWS, PKI, Transit (chiffrement as a service), SSH, TOTP.
+> KV (Key-Value), Database, [[AWS]], PKI, Transit (chiffrement as a service), [[SSH]], TOTP.
 
 ## Secret engine KV v2
 

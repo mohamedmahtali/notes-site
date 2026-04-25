@@ -1,6 +1,8 @@
 ---
 title: DNS
-tags: [networking, beginner]
+tags:
+  - networking
+  - beginner
 ---
 
 # DNS (Domain Name System)
@@ -16,14 +18,14 @@ Le DNS est le système qui traduit les noms de domaine lisibles (example.com) en
 
 | Record | Usage | Exemple |
 |--------|-------|---------|
-| `A` | Domaine → IPv4 | example.com → 93.184.216.34 |
-| `AAAA` | Domaine → IPv6 | example.com → 2606:2800::1 |
+| `A` | Domaine → [[IPv4]] | example.com → 93.184.216.34 |
+| `AAAA` | Domaine → [[IPv6]] | example.com → 2606:2800::1 |
 | `CNAME` | Alias vers un autre domaine | www → example.com |
 | `MX` | Serveur mail | → mail.example.com |
 | `TXT` | Texte libre (SPF, DKIM...) | "v=spf1 include:..." |
 | `NS` | Serveurs de noms | → ns1.registrar.com |
 | `PTR` | IP → domaine (reverse DNS) | 34.216.184.93.in-addr.arpa |
-| `SRV` | Service locator | _https._tcp → host:443 |
+| `SRV` | Service locator | _https._tcp → [[Host]]:443 |
 
 ## Hiérarchie DNS
 

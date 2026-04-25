@@ -5,14 +5,11 @@ tags:
 ---
 # Playbooks
 
-## Parent
-- [[Ansible]]
-
 ---
 
 ## Définition
 
-Un playbook Ansible est un fichier YAML qui décrit une série de tâches à exécuter sur un groupe de serveurs. C'est le fichier principal d'orchestration d'Ansible.
+Un playbook [[Ansible]] est un fichier YAML qui décrit une série de tâches à exécuter sur un groupe de serveurs. C'est le fichier principal d'orchestration d'Ansible.
 
 ---
 

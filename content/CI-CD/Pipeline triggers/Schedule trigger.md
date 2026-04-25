@@ -5,21 +5,18 @@ tags:
 ---
 # Schedule trigger
 
-## Parent
-- [[Pipeline triggers]]
-
 ---
 
 ## Définition
 
-Le schedule trigger déclenche un pipeline selon une expression cron, indépendamment des pushs de code. Utile pour les nightly builds, les scans de sécurité périodiques, les tests de performance réguliers.
+Le schedule trigger déclenche un [[Pipeline]] selon une expression [[Cron]], indépendamment des pushs de code. Utile pour les nightly builds, les scans de sécurité périodiques, les tests de performance réguliers.
 
 ---
 
 ## Cas d'usage
 
 - **Nightly builds** : build + tests complets à 2h du matin
-- **Security scans** : scan de CVE quotidien sur les images en production
+- **[[Security]] scans** : scan de CVE quotidien sur les images en production
 - **Performance baselines** : benchmark hebdomadaire
 - **Cleanup** : purge des artefacts anciens chaque dimanche
 
@@ -62,4 +59,4 @@ nightly-test:
 ---
 
 > [!tip]
-> Utiliser des heures UTC décalées (3h, 4h) pour les scheduled builds. Éviter minuit et les heures rondes — beaucoup de services déclenchent leurs maintenances à ces heures.
+> Utiliser des heures UTC décalées (3h, 4h) pour les scheduled builds. Éviter minuit et les heures rondes — beaucoup de [[Services]] déclenchent leurs maintenances à ces heures.

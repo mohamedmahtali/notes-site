@@ -6,20 +6,11 @@ tags:
 
 # Containers
 
-## Parent
-- [[Docker]]
-
-## Enfants
-- [[Container lifecycle]]
-- [[Container logs]]
-- [[Exec into container]]
-- [[Resource limits]]
-
 ---
 
 ## Définition
 
-Un conteneur est une instance en cours d'exécution d'une image Docker. C'est un processus isolé sur le système hôte, avec son propre filesystem (via l'image), son propre namespace réseau, et ses propres processus — mais partageant le kernel de l'hôte.
+Un conteneur est une instance en cours d'exécution d'une image [[Docker]]. C'est un processus isolé sur le système hôte, avec son propre filesystem (via l'image), son propre namespace réseau, et ses propres processus — mais partageant le [[Kernel]] de l'hôte.
 
 ---
 

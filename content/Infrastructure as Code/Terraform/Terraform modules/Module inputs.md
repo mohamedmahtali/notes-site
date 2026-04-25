@@ -5,14 +5,11 @@ tags:
 ---
 # Module inputs
 
-## Parent
-- [[Terraform modules]]
-
 ---
 
 ## Définition
 
-Les inputs d'un module sont les variables définies dans `variables.tf` du module. Ils permettent à l'appelant de personnaliser le comportement du module.
+Les inputs d'un module sont les [[Variables]] définies dans `variables.tf` du module. Ils permettent à l'appelant de personnaliser le comportement du module.
 
 ---
 

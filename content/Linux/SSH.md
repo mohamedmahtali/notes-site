@@ -6,20 +6,11 @@ tags:
 
 # SSH
 
-## Parent
-- [[Linux]]
-
-## Enfants
-- [[SSH keys]]
-- [[SSH config]]
-- [[Port forwarding]]
-- [[SCP and SFTP]]
-
 ---
 
 ## Définition
 
-SSH (Secure Shell) est un protocole cryptographique pour accéder et administrer des serveurs à distance de manière sécurisée. Il remplace Telnet et FTP en chiffrant toutes les communications.
+SSH (Secure [[Shell]]) est un protocole cryptographique pour accéder et administrer des serveurs à distance de manière sécurisée. Il remplace Telnet et FTP en chiffrant toutes les communications.
 
 ---
 

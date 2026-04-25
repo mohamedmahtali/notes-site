@@ -5,14 +5,11 @@ tags:
 ---
 # Reusable modules
 
-## Parent
-- [[Terraform modules]]
-
 ---
 
 ## Définition
 
-Les modules réutilisables sont des modules génériques publiés dans un registry (Terraform Registry, GitHub) pour être partagés entre équipes ou projets. Les modules officiels AWS/GCP/Azure couvrent les patterns les plus courants.
+Les [[Modules]] réutilisables sont des modules génériques publiés dans un registry ([[Terraform]] Registry, GitHub) pour être partagés entre équipes ou projets. Les modules officiels [[AWS]]/GCP/[[Azure]] couvrent les patterns les plus courants.
 
 ---
 

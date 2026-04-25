@@ -5,9 +5,6 @@ tags:
 ---
 # Error budget
 
-## Parent
-- [[SLO SLA SLI]]
-
 ---
 
 ## Définition

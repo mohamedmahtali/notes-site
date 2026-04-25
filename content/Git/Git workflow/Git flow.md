@@ -6,22 +6,11 @@ tags:
 
 # Git flow
 
-## Parent
-- [[Git workflow]]
-
-## Concepts liés
-- [[Git workflow]]
-- [[GitHub flow]]
-- [[Trunk based development]]
-- [[Branch]]
-- [[Release branch]]
-- [[Hotfix branch]]
-
 ---
 
 ## Définition
 
-Git flow est un modèle de branching strict créé par Vincent Driessen en 2010. Il structure le développement autour de deux branches permanentes (`main` et `develop`) et trois types de branches temporaires (`feature`, `release`, `hotfix`). Conçu pour les logiciels avec des cycles de release définis.
+[[Git]] flow est un modèle de branching strict créé par Vincent Driessen en 2010. Il structure le développement autour de deux branches permanentes (`main` et `develop`) et trois [[Types]] de branches temporaires (`feature`, `release`, `hotfix`). Conçu pour les logiciels avec des cycles de release définis.
 
 ---
 
@@ -77,12 +66,12 @@ git checkout develop && git merge --no-ff hotfix/1.2.1
 
 ## Git flow vs GitHub flow
 
-| Critère | Git flow | GitHub flow |
+| Critère | Git flow | [[GitHub flow]] |
 |---|---|---|
 | Branches permanentes | main + develop | main uniquement |
 | Complexité | Élevée | Simple |
-| Idéal pour | Logiciel versionné | Web/SaaS CI/CD |
-| Releases | Planifiées | Continues |
+| Idéal pour | Logiciel versionné | Web/[[SaaS]] CI/CD |
+| [[Releases]] | Planifiées | Continues |
 
 > [!tip] Quand choisir Git flow ?
 > Projets avec plusieurs versions maintenues en parallèle (v1.x et v2.x), applications mobile (app stores imposent des cycles), ou logiciels avec processus de QA formels.

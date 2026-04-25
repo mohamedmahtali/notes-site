@@ -1,6 +1,8 @@
 ---
 title: CVE detection
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # CVE detection

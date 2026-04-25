@@ -5,14 +5,11 @@ tags:
 ---
 # Jinja2
 
-## Parent
-- [[Templates]]
-
 ---
 
 ## Définition
 
-Jinja2 est le moteur de templating utilisé par Ansible. Il permet d'insérer des variables, d'évaluer des conditions, et de boucler dans des fichiers texte pour générer des configurations dynamiques.
+Jinja2 est le moteur de templating utilisé par [[Ansible]]. Il permet d'insérer des [[Variables]], d'évaluer des [[Conditions]], et de boucler dans des fichiers texte pour générer des configurations dynamiques.
 
 ---
 

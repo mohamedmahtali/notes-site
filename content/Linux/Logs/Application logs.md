@@ -6,9 +6,6 @@ tags:
 
 # Application logs
 
-## Parent
-- [[Logs]]
-
 ---
 
 ## Définition
@@ -60,4 +57,4 @@ log.error("db_timeout", database="postgres", timeout=30, user_id=123)
 ---
 
 > [!tip] Standardiser les logs applicatifs
-> Logs JSON structurés + timestamps ISO 8601 + niveau de log → facilite le parsing par ELK, Loki, ou CloudWatch.
+> Logs JSON structurés + timestamps ISO 8601 + niveau de log → facilite le parsing par ELK, [[Loki]], ou CloudWatch.

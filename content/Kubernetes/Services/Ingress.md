@@ -5,19 +5,11 @@ tags:
 ---
 # Ingress
 
-## Parent
-- [[Services]]
-
-## Enfants
-- [[Ingress controller]]
-- [[Path based routing]]
-- [[Host based routing]]
-
 ---
 
 ## Définition
 
-Un Ingress est un objet Kubernetes qui gère l'accès HTTP/HTTPS externe à des services dans le cluster. Il permet le routing basé sur les paths et les hostnames, la terminaison TLS, et le virtual hosting — le tout via un seul load balancer.
+Un Ingress est un objet [[Kubernetes]] qui gère l'accès HTTP/HTTPS externe à des [[Services]] dans le [[Cluster]]. Il permet le [[Routing]] basé sur les paths et les hostnames, la terminaison [[TLS]], et le virtual hosting — le tout via un seul load balancer.
 
 ---
 
@@ -78,4 +70,4 @@ spec:
 ---
 
 > [!note]
-> L'Ingress nécessite un [[Ingress controller]] installé dans le cluster (nginx-ingress, Traefik, etc.) — sans lui, l'objet Ingress est ignoré.
+> L'Ingress nécessite un [[Ingress controller]] installé dans le cluster ([[Nginx]]-ingress, [[Traefik]], etc.) — sans lui, l'objet Ingress est ignoré.

@@ -5,32 +5,23 @@ tags:
 ---
 # Azure
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[Virtual Machines]]
-- [[AKS]]
-- [[Blob Storage]]
-- [[Azure AD]]
-
 ---
 
 ## Définition
 
-Microsoft Azure est le deuxième cloud provider mondial, particulièrement présent dans les entreprises grâce à son intégration avec les produits Microsoft (Active Directory, Office 365, Windows Server).
+Microsoft Azure est le deuxième [[Cloud]] provider mondial, particulièrement présent dans les entreprises grâce à son intégration avec les produits Microsoft (Active Directory, Office 365, Windows Server).
 
 ---
 
 ## Services fondamentaux
 
-| Catégorie | AWS équivalent | Azure |
+| Catégorie | [[AWS]] équivalent | Azure |
 |---|---|---|
-| VM | EC2 | Virtual Machines |
-| K8s | EKS | AKS |
-| Serverless | Lambda | Azure Functions |
-| Object storage | S3 | Blob Storage |
-| IAM | IAM | Azure Active Directory |
+| VM | [[EC2]] | [[Virtual Machines]] |
+| K8s | [[EKS]] | [[AKS]] |
+| Serverless | Lambda | Azure [[Functions]] |
+| [[Object storage]] | S3 | [[Blob Storage]] |
+| [[IAM]] | IAM | Azure Active Directory |
 | BDD | RDS | Azure SQL Database |
 
 ---

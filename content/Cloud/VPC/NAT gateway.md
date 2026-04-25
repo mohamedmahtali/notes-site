@@ -5,14 +5,11 @@ tags:
 ---
 # NAT gateway
 
-## Parent
-- [[VPC]]
-
 ---
 
 ## Définition
 
-Un NAT Gateway permet aux instances dans des subnets privés d'initier des connexions vers internet (mises à jour, téléchargements) sans être accessibles depuis internet. Le trafic entrant non-sollicité est bloqué.
+Un [[NAT]] [[Gateway]] permet aux instances dans des [[Subnets]] privés d'initier des connexions vers internet (mises à jour, téléchargements) sans être accessibles depuis internet. Le trafic entrant non-sollicité est bloqué.
 
 ---
 
@@ -38,11 +35,11 @@ aws ec2 create-route   --route-table-id rtb-private-abc123   --destination-cidr-
 ## Coût
 
 > [!warning] Le NAT Gateway coûte cher
-> NAT Gateway : ~$0.045/heure + $0.045/GB de données traitées. Pour réduire les coûts : utiliser des VPC Endpoints pour S3/DynamoDB (gratuits), et minimiser les données qui passent par le NAT.
+> NAT Gateway : ~$0.045/heure + $0.045/GB de données traitées. Pour réduire les coûts : utiliser des [[VPC]] Endpoints pour S3/DynamoDB (gratuits), et minimiser les données qui passent par le NAT.
 
 ## VPC Endpoints — alternative sans NAT pour les services AWS
 
-Pour accéder à S3, DynamoDB, SSM, Secrets Manager depuis un subnet privé, un **VPC Endpoint** est gratuit et plus rapide (trafic reste dans AWS).
+Pour accéder à S3, DynamoDB, SSM, [[Secrets]] Manager depuis un subnet privé, un **VPC Endpoint** est gratuit et plus rapide (trafic reste dans [[AWS]]).
 
 ```bash
 # Créer un Gateway Endpoint pour S3 (gratuit)

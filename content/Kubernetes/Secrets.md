@@ -5,19 +5,11 @@ tags:
 ---
 # Secrets
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[Opaque secrets]]
-- [[TLS secrets]]
-- [[External secrets]]
-
 ---
 
 ## Définition
 
-Les Secrets Kubernetes stockent des données sensibles (mots de passe, tokens, certificats) encodées en base64. Ils suivent les mêmes patterns d'injection que les ConfigMaps mais avec des protections supplémentaires (RBAC, chiffrement etcd).
+Les Secrets [[Kubernetes]] stockent des données sensibles (mots de passe, [[Tokens]], certificats) encodées en base64. Ils suivent les mêmes patterns d'injection que les [[ConfigMaps]] mais avec des protections supplémentaires ([[RBAC]], chiffrement [[etcd]]).
 
 ---
 
@@ -33,8 +25,8 @@ Les Secrets Kubernetes stockent des données sensibles (mots de passe, tokens, c
 | Type | Usage |
 |---|---|
 | `Opaque` | Données génériques (défaut) |
-| `kubernetes.io/tls` | Certificats TLS |
-| `kubernetes.io/dockerconfigjson` | Credentials registry Docker |
+| `kubernetes.io/tls` | Certificats [[TLS]] |
+| `kubernetes.io/dockerconfigjson` | Credentials registry [[Docker]] |
 | `kubernetes.io/service-account-token` | Tokens SA |
 
 ---
@@ -55,4 +47,4 @@ kubectl create secret tls myapp-tls   --cert=./cert.pem   --key=./key.pem
 ---
 
 > [!tip]
-> En production, utiliser [[External secrets]] (External Secrets Operator + AWS Secrets Manager / HashiCorp Vault) pour éviter de stocker les secrets dans le cluster ou dans git.
+> En production, utiliser [[External secrets]] (External Secrets Operator + [[AWS]] Secrets Manager / HashiCorp [[Vault]]) pour éviter de stocker les secrets dans le [[Cluster]] ou dans [[Git]].

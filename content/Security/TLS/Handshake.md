@@ -1,6 +1,8 @@
 ---
 title: TLS Handshake
-tags: [security, advanced]
+tags:
+  - security
+  - advanced
 ---
 
 # TLS Handshake
@@ -14,14 +16,20 @@ Le handshake TLS est la négociation initiale entre client et serveur pour étab
 
 ## Étapes TLS 1.3
 
-```
-Client                          Serveur
-  |                               |
-  |-- ClientHello --------------->|  (versions, ciphers, key_share)
-  |<-- ServerHello + Certificate -|  (cipher choisi, certificat)
-  |<-- Finished ------------------|
-  |-- Finished ------------------>|
-  |=== Données chiffrées ========>|
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant S as Serveur
+
+    C->>S: ClientHello (versions, ciphers, key_share)
+    S->>C: ServerHello (cipher choisi, key_share)
+    S->>C: Certificate + CertificateVerify
+    S->>C: Finished
+    C->>S: Finished
+    C->>S: Données chiffrées (application data)
+    S->>C: Données chiffrées (application data)
+
+    Note over C,S: 1 seul aller-retour (RTT) en TLS 1.3
 ```
 
 ## Déboguer un handshake

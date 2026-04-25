@@ -6,14 +6,11 @@ tags:
 
 # System calls
 
-## Parent
-- [[Kernel]]
-
 ---
 
 ## Définition
 
-Les appels système (syscalls) sont l'interface entre les applications user-space et le kernel. Quand une application veut lire un fichier, créer un processus, ou ouvrir une socket, elle passe par un syscall — le kernel effectue l'opération en kernel-space.
+Les appels système (syscalls) sont l'interface entre les applications user-space et le [[Kernel]]. Quand une application veut lire un fichier, créer un processus, ou ouvrir une socket, elle passe par un syscall — le kernel effectue l'opération en kernel-space.
 
 ---
 
@@ -27,7 +24,7 @@ Les appels système (syscalls) sont l'interface entre les applications user-spac
 | `exit` | Terminer un processus |
 | `socket` / `connect` | Réseau |
 | `mmap` | Mapper de la mémoire |
-| `clone` | Créer un thread/processus (namespaces) |
+| `clone` | Créer un thread/processus ([[Namespaces]]) |
 
 ---
 
@@ -63,4 +60,4 @@ docker info | grep seccomp
 ---
 
 > [!note]
-> En DevOps, la compréhension des syscalls est utile pour déboguer des problèmes de performance (`strace`), comprendre la sécurité des conteneurs (seccomp), et diagnostiquer des erreurs "permission denied" inattendues.
+> En [[DevOps]], la compréhension des syscalls est utile pour déboguer des problèmes de performance (`strace`), comprendre la sécurité des conteneurs ([[Seccomp]]), et diagnostiquer des erreurs "permission denied" inattendues.

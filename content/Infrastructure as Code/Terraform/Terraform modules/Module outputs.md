@@ -5,14 +5,11 @@ tags:
 ---
 # Module outputs
 
-## Parent
-- [[Terraform modules]]
-
 ---
 
 ## Définition
 
-Les outputs d'un module exposent des valeurs calculées (IDs, IPs, ARNs) que d'autres modules ou le module root peuvent utiliser. Ils sont définis dans `outputs.tf` du module.
+Les outputs d'un module exposent des valeurs calculées (IDs, IPs, ARNs) que d'autres [[Modules]] ou le module root peuvent utiliser. Ils sont définis dans `outputs.tf` du module.
 
 ---
 

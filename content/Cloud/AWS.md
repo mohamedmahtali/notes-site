@@ -5,21 +5,11 @@ tags:
 ---
 # AWS
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[EC2]]
-- [[S3]]
-- [[IAM]]
-- [[VPC]]
-- [[EKS]]
-
 ---
 
 ## Définition
 
-Amazon Web Services (AWS) est le leader mondial du cloud avec plus de 200 services. Lancé en 2006, il couvre compute, stockage, bases de données, réseau, ML, IoT, et plus encore.
+Amazon Web [[Services]] (AWS) est le leader mondial du [[Cloud]] avec plus de 200 services. Lancé en 2006, il couvre compute, stockage, bases de données, réseau, ML, IoT, et plus encore.
 
 ---
 
@@ -29,12 +19,12 @@ Amazon Web Services (AWS) est le leader mondial du cloud avec plus de 200 servic
 |---|---|---|
 | Compute | EC2 | Machines virtuelles |
 | Compute | Lambda | Fonctions serverless |
-| Stockage | S3 | Object storage |
+| Stockage | S3 | [[Object storage]] |
 | Stockage | EBS | Block storage pour EC2 |
 | BDD | RDS | Bases de données managées |
 | Réseau | VPC | Réseau privé virtuel |
 | IAM | IAM | Identité et accès |
-| Container | EKS | Kubernetes managé |
+| Container | EKS | [[Kubernetes]] managé |
 | Container | ECS | Container service AWS natif |
 
 ---

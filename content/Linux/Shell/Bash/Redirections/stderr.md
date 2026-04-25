@@ -6,14 +6,11 @@ tags:
 
 # stderr
 
-## Parent
-- [[Redirections]]
-
 ---
 
 ## Définition
 
-`stderr` (standard error, fd 2) est le flux de sortie d'erreur. Séparé de stdout, il permet de distinguer les messages d'erreur de la sortie normale. Les messages d'erreur d'un script bien écrit vont sur stderr.
+`stderr` (standard error, fd 2) est le [[Flux]] de sortie d'erreur. Séparé de [[stdout]], il permet de distinguer les messages d'erreur de la sortie normale. Les messages d'erreur d'un script bien écrit vont sur stderr.
 
 ---
 
@@ -43,7 +40,7 @@ find / -name "*.conf" 2>/dev/null
 
 > [!tip] Convention de scripting
 > Les messages d'usage et d'erreur doivent toujours aller sur stderr :
-> ```bash
+> ```[[Bash]]
 > echo "Usage: $0 <fichier>" >&2
 > exit 1
 > ```

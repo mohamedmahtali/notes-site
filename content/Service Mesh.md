@@ -1,6 +1,9 @@
 ---
 title: Service Mesh
-tags: [kubernetes, networking, advanced]
+tags:
+  - kubernetes
+  - networking
+  - advanced
 ---
 
 # Service Mesh
@@ -10,7 +13,7 @@ tags: [kubernetes, networking, advanced]
 Un service mesh est une couche d'infrastructure dédiée à la gestion de la communication entre microservices. Il prend en charge le chiffrement (mTLS), l'observabilité, le routage avancé et la résilience — sans modifier le code applicatif.
 
 > [!tip] Pourquoi c'est important
-> En microservices, chaque service communique avec des dizaines d'autres. Sans service mesh, chaque équipe doit implémenter retry, timeout, circuit breaker, TLS dans son propre code. Le service mesh externalise tout ça dans un proxy sidecar transparent.
+> En microservices, chaque service communique avec des dizaines d'autres. Sans service mesh, chaque équipe doit implémenter retry, timeout, circuit breaker, [[TLS]] dans son propre code. Le service mesh externalise tout ça dans un proxy sidecar transparent.
 
 ## Architecture : le pattern sidecar
 
@@ -34,8 +37,8 @@ Le sidecar intercepte tout le trafic entrant et sortant du pod. L'application ne
 
 | Fonctionnalité | Description |
 |---------------|-------------|
-| **[[mTLS]]** | Chiffrement et authentification mutuelle entre tous les services |
-| **[[Traffic management]]** | Canary releases, A/B testing, traffic splitting, retries |
+| **[[mTLS]]** | Chiffrement et authentification mutuelle entre tous les [[Services]] |
+| **[[Traffic management]]** | Canary [[Releases]], A/B testing, traffic splitting, retries |
 | **[[Circuit breaker]]** | Coupure automatique si un service répond trop lentement |
 | **Observabilité** | Métriques, traces distribuées et logs automatiques sans code |
 | **Fault injection** | Simuler des erreurs et latences pour tester la résilience |
@@ -48,10 +51,10 @@ Le sidecar intercepte tout le trafic entrant et sortant du pod. L'application ne
 | Complexité | Élevée | Faible |
 | Fonctionnalités | Complètes (WASM, ext-authz...) | Essentielles bien faites |
 | Performance | Overhead ~5-10ms | Overhead ~1-2ms |
-| Cas d'usage | Gros clusters, besoins avancés | Simplicité et performance |
+| Cas d'usage | Gros [[Cluster]], besoins avancés | Simplicité et performance |
 
 > [!note] Choisir son service mesh
-> Pour commencer : **Linkerd** (moins de configuration, mTLS automatique out-of-the-box). Pour des besoins avancés (traffic policies complexes, ext-authz, WASM) : **Istio**.
+> Pour commencer : **Linkerd** (moins de configuration, mTLS automatique out-of-the-box). Pour des besoins avancés (traffic [[Policies]] complexes, ext-authz, WASM) : **Istio**.
 
 ## Liens
 

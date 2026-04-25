@@ -6,14 +6,11 @@ tags:
 
 # Home directories
 
-## Parent
-- [[Users]]
-
 ---
 
 ## Définition
 
-Le home directory est le répertoire personnel de chaque utilisateur, généralement `/home/utilisateur`. C'est là où sont stockés les fichiers personnels, les configurations (dotfiles), et les clés SSH.
+Le home directory est le répertoire personnel de chaque utilisateur, généralement `/home/utilisateur`. C'est là où sont stockés les fichiers personnels, les configurations (dotfiles), et les clés [[SSH]].
 
 ---
 

@@ -6,14 +6,6 @@ tags:
 
 # Apply stash
 
-## Parent
-- [[Git stash]]
-
-## Concepts liés
-- [[Git stash]]
-- [[Save stash]]
-- [[Pop stash]]
-
 ---
 
 ## Définition

@@ -5,14 +5,11 @@ tags:
 ---
 # TLS secrets
 
-## Parent
-- [[Secrets]]
-
 ---
 
 ## Définition
 
-Les TLS secrets stockent les certificats et clés privées pour HTTPS. Ils sont utilisés par les Ingress controllers pour la terminaison SSL et peuvent être référencés dans les objets Ingress.
+Les [[TLS]] [[Secrets]] stockent les certificats et clés privées pour HTTPS. Ils sont utilisés par les [[Ingress]] controllers pour la terminaison SSL et peuvent être référencés dans les objets Ingress.
 
 ---
 

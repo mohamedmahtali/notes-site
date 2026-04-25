@@ -6,14 +6,11 @@ tags:
 
 # Audit logs
 
-## Parent
-- [[Logs]]
-
 ---
 
 ## Définition
 
-Les audit logs (via `auditd`) enregistrent les événements de sécurité au niveau kernel : accès aux fichiers, exécutions de commandes, modifications de permissions, appels système. Requis pour les certifications de sécurité (PCI-DSS, SOC2, ISO 27001).
+Les audit logs (via `auditd`) enregistrent les événements de sécurité au niveau [[Kernel]] : accès aux fichiers, exécutions de commandes, modifications de [[Permissions]], appels système. Requis pour les certifications de sécurité (PCI-DSS, SOC2, ISO 27001).
 
 ---
 

@@ -5,14 +5,11 @@ tags:
 ---
 # CPU scaling
 
-## Parent
-- [[HPA]]
-
 ---
 
 ## Définition
 
-Le CPU scaling avec HPA augmente le nombre de pods quand l'utilisation CPU moyenne dépasse un seuil cible, et les diminue quand elle redescend.
+Le CPU scaling avec [[HPA]] augmente le nombre de [[Pods]] quand l'utilisation CPU moyenne dépasse un seuil cible, et les diminue quand elle redescend.
 
 ---
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Host based routing
 
-## Parent
-- [[Ingress]]
-
 ---
 
 ## Définition
 
-Le host-based routing (virtual hosting) dirige les requêtes vers des services différents selon le hostname HTTP. `api.myapp.com` → service API, `admin.myapp.com` → service admin, `myapp.com` → frontend.
+Le [[Host]]-based [[Routing]] (virtual hosting) dirige les requêtes vers des [[Services]] différents selon le hostname HTTP. `api.myapp.com` → service API, `admin.myapp.com` → service admin, `myapp.com` → frontend.
 
 ---
 
@@ -80,4 +77,4 @@ spec:
 ---
 
 > [!tip]
-> Combiner host-based et path-based routing sur le même Ingress pour une architecture propre : un seul point d'entrée gère tous les services frontend, API, et admin.
+> Combiner host-based et path-based routing sur le même [[Ingress]] pour une architecture propre : un seul point d'entrée gère tous les services frontend, API, et admin.

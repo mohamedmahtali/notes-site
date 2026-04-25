@@ -1,6 +1,8 @@
 ---
 title: Self-signed certificate
-tags: [security, beginner]
+tags:
+  - security
+  - beginner
 ---
 
 # Self-signed certificate

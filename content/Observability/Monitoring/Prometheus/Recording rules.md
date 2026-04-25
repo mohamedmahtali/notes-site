@@ -5,14 +5,11 @@ tags:
 ---
 # Recording rules
 
-## Parent
-- [[Prometheus]]
-
 ---
 
 ## Définition
 
-Les recording rules pré-calculent des expressions PromQL complexes et stockent le résultat comme une nouvelle métrique. Elles accélèrent les dashboards Grafana et permettent de réutiliser des calculs coûteux.
+Les recording rules pré-calculent des expressions [[PromQL]] complexes et stockent le résultat comme une nouvelle métrique. Elles accélèrent les [[Dashboards]] [[Grafana]] et permettent de réutiliser des calculs coûteux.
 
 ---
 

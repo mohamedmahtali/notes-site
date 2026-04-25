@@ -5,14 +5,11 @@ tags:
 ---
 # PromQL
 
-## Parent
-- [[Prometheus]]
-
 ---
 
 ## Définition
 
-PromQL (Prometheus Query Language) est le langage de requête fonctionnel pour interroger les métriques stockées dans Prometheus. Il permet de calculer des taux, des agrégations, et des fonctions temporelles.
+PromQL ([[Prometheus]] Query Language) est le langage de requête fonctionnel pour interroger les métriques stockées dans Prometheus. Il permet de calculer des taux, des agrégations, et des fonctions temporelles.
 
 ---
 

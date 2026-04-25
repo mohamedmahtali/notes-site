@@ -5,14 +5,11 @@ tags:
 ---
 # ClusterRoles
 
-## Parent
-- [[RBAC]]
-
 ---
 
 ## Définition
 
-Un ClusterRole définit des permissions à l'échelle du cluster (non limité à un namespace). Il peut gérer des ressources cluster-scoped (nodes, PersistentVolumes, namespaces) ou être utilisé dans plusieurs namespaces via un ClusterRoleBinding.
+Un ClusterRole définit des [[Permissions]] à l'échelle du [[Cluster]] (non limité à un namespace). Il peut gérer des ressources cluster-scoped ([[Node]], PersistentVolumes, [[Namespaces]]) ou être utilisé dans plusieurs namespaces via un ClusterRoleBinding.
 
 ---
 
@@ -20,7 +17,7 @@ Un ClusterRole définit des permissions à l'échelle du cluster (non limité à
 
 > [!note] ClusterRole vs Role
 > - **Role** : permissions dans un namespace → pour les applications
-> - **ClusterRole** : permissions cluster-wide → pour les opérateurs, monitoring, ingress controllers
+> - **ClusterRole** : permissions cluster-wide → pour les opérateurs, [[Monitoring]], [[Ingress]] controllers
 
 ---
 

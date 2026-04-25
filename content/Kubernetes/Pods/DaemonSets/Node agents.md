@@ -5,14 +5,11 @@ tags:
 ---
 # Node agents
 
-## Parent
-- [[DaemonSets]]
-
 ---
 
 ## Définition
 
-Les node agents sont des processus qui doivent tourner sur chaque node pour collecter des métriques, des logs, ou appliquer des politiques de sécurité. Ils sont déployés via DaemonSets.
+Les [[Node]] agents sont des processus qui doivent tourner sur chaque node pour collecter des métriques, des logs, ou appliquer des politiques de sécurité. Ils sont déployés via [[DaemonSets]].
 
 ---
 

@@ -6,9 +6,6 @@ tags:
 
 # restart
 
-## Parent
-- [[Container lifecycle]]
-
 ---
 
 ## Définition

@@ -1,13 +1,15 @@
 ---
 title: App of Apps
-tags: [gitops, advanced]
+tags:
+  - gitops
+  - advanced
 ---
 
 # App of Apps
 
 ## Définition
 
-Le pattern "App of Apps" est une stratégie ArgoCD où une Application racine gère un ensemble d'autres Applications. Elle permet de bootstrapper tout un cluster à partir d'un seul objet Git.
+Le pattern "App of Apps" est une stratégie ArgoCD où une Application racine gère un ensemble d'autres Applications. Elle permet de bootstrapper tout un [[Cluster]] à partir d'un seul objet [[Git]].
 
 > [!tip] Pourquoi c'est utile
 > Au lieu de créer manuellement des dizaines d'Applications ArgoCD, une seule Application "root" les déploie toutes. Ajouter une nouvelle app = ajouter un fichier dans Git.

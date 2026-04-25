@@ -6,19 +6,11 @@ tags:
 
 # ufw
 
-## Parent
-- [[Firewall]]
-
-## Enfants
-- [[Allow rules]]
-- [[Deny rules]]
-- [[Status]]
-
 ---
 
 ## Définition
 
-UFW (Uncomplicated Firewall) est un frontend pour iptables conçu pour être simple à utiliser. C'est l'outil recommandé sur Ubuntu et Debian pour la gestion du firewall.
+UFW (Uncomplicated [[Firewall]]) est un frontend pour [[iptables]] conçu pour être simple à utiliser. C'est l'outil recommandé sur Ubuntu et Debian pour la gestion du firewall.
 
 ---
 

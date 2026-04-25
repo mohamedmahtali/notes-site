@@ -1,13 +1,15 @@
 ---
 title: Chaos engineering
-tags: [reliability, advanced]
+tags:
+  - reliability
+  - advanced
 ---
 
 # Chaos engineering
 
 ## Définition
 
-Le chaos engineering est la pratique d'injecter intentionnellement des défaillances dans un système en production (ou staging) pour tester sa résilience et identifier les faiblesses avant qu'un incident réel ne les révèle.
+Le chaos engineering est la pratique d'injecter intentionnellement des défaillances dans un système en production (ou [[Staging]]) pour tester sa résilience et identifier les faiblesses avant qu'un incident réel ne les révèle.
 
 > [!tip] Principe fondateur
 > "La meilleure façon de tester la résilience d'un système est de le casser intentionnellement dans un environnement contrôlé." — Netflix, créateurs de Chaos Monkey (2010).
@@ -29,7 +31,7 @@ Le chaos engineering est la pratique d'injecter intentionnellement des défailla
 |-----------|---------|
 | **Réseau** | Latence artificielle, perte de paquets, partition réseau |
 | **Ressources** | CPU spike, memory pressure, disk full |
-| **Processus** | Kill aléatoire de pods/containers, restart |
+| **Processus** | Kill aléatoire de [[Pods]]/[[Containers]], [[restart]] |
 | **Infrastructure** | Arrêt d'une VM, d'une AZ entière |
 | **Application** | Injection d'erreurs HTTP 500, timeouts |
 
@@ -76,8 +78,8 @@ spec:
 
 ## Checklist avant un test de chaos
 
-- [ ] Alertes Prometheus/Grafana actives et vérifiées
-- [ ] Runbook de rollback prêt
+- [ ] Alertes [[Prometheus]]/[[Grafana]] actives et vérifiées
+- [ ] Runbook de [[Rollback]] prêt
 - [ ] Équipe on-call notifiée
 - [ ] Fenêtre de maintenance hors heures de pointe
 - [ ] Démarrer en staging avant production

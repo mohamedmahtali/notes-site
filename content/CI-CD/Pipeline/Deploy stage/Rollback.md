@@ -5,21 +5,18 @@ tags:
 ---
 # Rollback
 
-## Parent
-- [[Deploy stage]]
-
 ---
 
 ## Définition
 
-Un rollback est le retour à une version précédente stable après un déploiement défaillant. En CI/CD, il doit être aussi simple et rapide que le déploiement lui-même — idéalement automatisé via monitoring.
+Un rollback est le retour à une version précédente stable après un déploiement défaillant. En CI/CD, il doit être aussi simple et rapide que le déploiement lui-même — idéalement automatisé via [[Monitoring]].
 
 ---
 
 ## Pourquoi c'est important
 
 > [!warning] Le rollback doit être instantané
-> Si un rollback prend 30 minutes, les utilisateurs subissent la panne pendant 30 minutes. L'objectif : rollback en moins de 2 minutes. C'est pour ça qu'on garde les images Docker taguées par SHA et les manifests Helm versionnés.
+> Si un rollback prend 30 minutes, les utilisateurs subissent la panne pendant 30 minutes. L'objectif : rollback en moins de 2 minutes. C'est pour ça qu'on garde les images [[Docker]] taguées par SHA et les manifests [[Helm]] versionnés.
 
 ---
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Resource isolation
 
-## Parent
-- [[Namespaces]]
-
 ---
 
 ## Définition
 
-L'isolation des ressources par namespace permet de limiter la consommation de CPU et mémoire d'une équipe ou d'un projet via des ResourceQuotas et LimitRanges, évitant qu'une application consomme toutes les ressources du cluster.
+L'isolation des ressources par namespace permet de limiter la consommation de CPU et mémoire d'une équipe ou d'un projet via des ResourceQuotas et LimitRanges, évitant qu'une application consomme toutes les ressources du [[Cluster]].
 
 ---
 
@@ -72,4 +69,4 @@ kubectl get limitrange -n production
 ---
 
 > [!tip]
-> Toujours configurer LimitRange sur les namespaces de dev/staging pour éviter qu'un développeur lance accidentellement un pod sans limits qui consomme tout le cluster.
+> Toujours configurer LimitRange sur les [[Namespaces]] de dev/[[Staging]] pour éviter qu'un développeur lance accidentellement un pod sans limits qui consomme tout le cluster.

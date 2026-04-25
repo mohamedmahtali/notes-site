@@ -6,15 +6,6 @@ tags:
 
 # Docker run
 
-## Parent
-- [[Docker]]
-
-## Enfants
-- [[Port mapping]]
-- [[Environment variables]]
-- [[Detached mode]]
-- [[Restart policy]]
-
 ---
 
 ## Définition

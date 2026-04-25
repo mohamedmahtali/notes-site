@@ -5,14 +5,11 @@ tags:
 ---
 # Workflows
 
-## Parent
-- [[GitHub actions]]
-
 ---
 
 ## Définition
 
-Un workflow GitHub Actions est un processus automatisé défini dans un fichier YAML sous `.github/workflows/`. Chaque repo peut avoir plusieurs workflows déclenchés par des événements différents.
+Un workflow [[GitHub actions]] est un processus automatisé défini dans un fichier YAML sous `.github/workflows/`. Chaque repo peut avoir plusieurs workflows déclenchés par des événements différents.
 
 ---
 
@@ -69,4 +66,4 @@ jobs:
 ---
 
 > [!tip]
-> Utiliser `paths` pour ne déclencher le workflow que si les fichiers pertinents changent — ça évite de tourner le pipeline complet pour une modification de README.
+> Utiliser `paths` pour ne déclencher le workflow que si les fichiers pertinents changent — ça évite de tourner le [[Pipeline]] complet pour une modification de README.

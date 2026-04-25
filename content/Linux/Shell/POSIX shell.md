@@ -6,14 +6,11 @@ tags:
 
 # POSIX shell
 
-## Parent
-- [[Shell]]
-
 ---
 
 ## Définition
 
-POSIX (Portable Operating System Interface) est un standard qui définit l'interface du shell. Un script POSIX-compatible fonctionne sur n'importe quel shell conforme (bash, dash, sh, ksh). Utile pour les scripts qui doivent tourner dans des environnements minimaux (conteneurs Alpine, /bin/sh).
+POSIX (Portable Operating System Interface) est un standard qui définit l'interface du [[Shell]]. Un script POSIX-compatible fonctionne sur n'importe quel shell conforme ([[Bash]], dash, sh, ksh). Utile pour les scripts qui doivent tourner dans des environnements minimaux (conteneurs Alpine, /bin/sh).
 
 ---
 
@@ -68,4 +65,4 @@ greet "monde"
 ---
 
 > [!tip]
-> Pour les scripts Docker (Alpine), utiliser `#!/bin/sh` et éviter les constructions Bash-spécifiques. Pour les scripts CI/CD sur des serveurs standard, `#!/bin/bash` est acceptable.
+> Pour les scripts [[Docker]] (Alpine), utiliser `#!/bin/sh` et éviter les constructions Bash-spécifiques. Pour les scripts CI/CD sur des serveurs standard, `#!/bin/bash` est acceptable.

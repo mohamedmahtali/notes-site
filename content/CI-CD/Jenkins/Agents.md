@@ -5,14 +5,11 @@ tags:
 ---
 # Agents
 
-## Parent
-- [[Jenkins]]
-
 ---
 
 ## Définition
 
-Les agents Jenkins (anciennement "slaves") sont les machines qui exécutent les builds. Le contrôleur Jenkins (master) distribue les jobs aux agents disponibles selon des labels et critères de capacité.
+Les agents [[Jenkins]] (anciennement "slaves") sont les machines qui exécutent les builds. Le contrôleur Jenkins (master) distribue les jobs aux agents disponibles selon des labels et critères de capacité.
 
 ---
 
@@ -77,4 +74,4 @@ pipeline {
 ---
 
 > [!tip]
-> Utiliser des agents Docker ou Kubernetes pour des builds reproductibles et des environnements propres. Les agents persistants accumulent les artefacts et créent des problèmes de flaky builds.
+> Utiliser des agents [[Docker]] ou [[Kubernetes]] pour des builds reproductibles et des environnements propres. Les agents persistants accumulent les artefacts et créent des problèmes de flaky builds.

@@ -6,14 +6,11 @@ tags:
 
 # Layers
 
-## Parent
-- [[Images]]
-
 ---
 
 ## Définition
 
-Une image Docker est composée de **couches (layers)** empilées, chacune représentant un diff filesystem par rapport à la couche précédente. Les layers sont immuables, partagés entre images, et mis en cache. Un conteneur ajoute une couche d'écriture temporaire au-dessus des layers de l'image.
+Une image [[Docker]] est composée de **couches (layers)** empilées, chacune représentant un diff filesystem par rapport à la couche précédente. Les layers sont immuables, partagés entre images, et mis en cache. Un conteneur ajoute une couche d'écriture temporaire au-dessus des layers de l'image.
 
 ---
 
@@ -65,4 +62,4 @@ nginx:alpine     python:alpine
 ```
 
 > [!tip]
-> Utiliser la même image de base pour plusieurs services maximise le partage des layers et réduit le stockage/transfert.
+> Utiliser la même image de base pour plusieurs [[Services]] maximise le partage des layers et réduit le stockage/transfert.

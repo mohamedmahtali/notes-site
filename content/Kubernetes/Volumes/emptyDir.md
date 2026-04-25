@@ -5,14 +5,11 @@ tags:
 ---
 # emptyDir
 
-## Parent
-- [[Volumes]]
-
 ---
 
 ## Définition
 
-`emptyDir` est un volume vide créé quand un pod démarre. Il est partagé entre tous les containers du pod et est supprimé quand le pod est supprimé. Utilisé pour le partage de données inter-containers et le cache temporaire.
+`emptyDir` est un volume vide créé quand un pod démarre. Il est partagé entre tous les [[Containers]] du pod et est supprimé quand le pod est supprimé. Utilisé pour le partage de données inter-containers et le cache temporaire.
 
 ---
 

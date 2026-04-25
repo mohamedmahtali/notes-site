@@ -5,32 +5,18 @@ tags:
 ---
 # Git hooks
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[pre-commit]]
-- [[pre-push]]
-- [[commit-msg]]
-
-## Concepts liés
-- [[pre-commit]]
-- [[pre-push]]
-- [[commit-msg]]
-- [[CI/CD]]
-
 ---
 
 ## Définition
 
-Les Git hooks sont des scripts exécutés automatiquement par Git lors d'événements spécifiques (commit, push, merge). Ils permettent d'automatiser des vérifications de qualité **directement dans le workflow de développement**, avant que le code atteigne la CI.
+Les [[Git]] hooks sont des scripts exécutés automatiquement par Git lors d'événements spécifiques ([[Commit]], push, [[Merge]]). Ils permettent d'automatiser des vérifications de qualité **directement dans le workflow de développement**, avant que le code atteigne la CI.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!tip] Feedback local immédiat
-> Un hook qui échoue en < 5 secondes vaut mieux qu'une CI qui échoue en 10 minutes. Les hooks détectent les problèmes au plus tôt, sans déclencher un pipeline coûteux.
+> Un hook qui échoue en < 5 secondes vaut mieux qu'une CI qui échoue en 10 minutes. Les hooks détectent les problèmes au plus tôt, sans déclencher un [[Pipeline]] coûteux.
 
 ---
 
@@ -38,7 +24,7 @@ Les Git hooks sont des scripts exécutés automatiquement par Git lors d'événe
 
 | Hook | Moment | Usage courant |
 |---|---|---|
-| [[pre-commit]] | Avant le commit | Lint, format, secrets |
+| [[pre-commit]] | Avant le commit | Lint, format, [[Secrets]] |
 | [[commit-msg]] | Validation du message | Conventional commits |
 | [[pre-push]] | Avant le push | Tests, protection de main |
 | `post-merge` | Après un merge | `npm install`, migrations |

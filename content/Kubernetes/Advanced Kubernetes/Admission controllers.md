@@ -5,14 +5,11 @@ tags:
 ---
 # Admission controllers
 
-## Parent
-- [[Advanced Kubernetes]]
-
 ---
 
 ## Définition
 
-Les Admission Controllers sont des plugins qui interceptent les requêtes API Kubernetes avant la persistance dans etcd. Ils peuvent valider (rejeter) ou muter (modifier) les ressources à la création/modification.
+Les Admission Controllers sont des plugins qui interceptent les requêtes API [[Kubernetes]] avant la persistance dans [[etcd]]. Ils peuvent valider (rejeter) ou muter (modifier) les ressources à la création/modification.
 
 ---
 

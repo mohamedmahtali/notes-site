@@ -6,14 +6,11 @@ tags:
 
 # CPU limits
 
-## Parent
-- [[Resource limits]]
-
 ---
 
 ## Définition
 
-Les CPU limits contrôlent la quantité de puissance CPU qu'un conteneur peut utiliser. Docker expose les cgroups Linux pour définir des quotas CPU précis.
+Les CPU limits contrôlent la quantité de puissance CPU qu'un conteneur peut utiliser. [[Docker]] [[EXPOSE]] les cgroups [[Linux]] pour définir des quotas CPU précis.
 
 ---
 

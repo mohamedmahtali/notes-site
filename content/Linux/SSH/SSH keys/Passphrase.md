@@ -6,14 +6,11 @@ tags:
 
 # Passphrase
 
-## Parent
-- [[SSH keys]]
-
 ---
 
 ## Définition
 
-La passphrase est un mot de passe qui chiffre la clé privée SSH sur disque. Sans passphrase, quiconque accède à ton fichier de clé privée peut se connecter à tous tes serveurs. Avec passphrase, la clé est chiffrée — elle est inutilisable sans le mot de passe.
+La passphrase est un mot de passe qui chiffre la clé privée [[SSH]] sur disque. Sans passphrase, quiconque accède à ton fichier de clé privée peut se connecter à tous tes serveurs. Avec passphrase, la clé est chiffrée — elle est inutilisable sans le mot de passe.
 
 ---
 
@@ -52,4 +49,4 @@ ssh user@serveur   # plus de demande de passphrase
 ---
 
 > [!tip]
-> Utilise une passphrase forte + ssh-agent. Tu as la sécurité (clé chiffrée sur disque) sans la friction (saisie à chaque connexion).
+> Utilise une passphrase forte + [[ssh-agent]]. Tu as la sécurité (clé chiffrée sur disque) sans la friction (saisie à chaque connexion).

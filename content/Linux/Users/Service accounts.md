@@ -6,14 +6,11 @@ tags:
 
 # Service accounts
 
-## Parent
-- [[Users]]
-
 ---
 
 ## Définition
 
-Un compte de service est un utilisateur système créé pour exécuter un service applicatif (nginx, postgres, app). Il n'a pas de shell interactif, pas de home directory réel, et ses permissions sont limitées au strict nécessaire — principe du moindre privilège.
+Un compte de service est un utilisateur système créé pour exécuter un service applicatif ([[Nginx]], postgres, app). Il n'a pas de [[Shell]] interactif, pas de home directory réel, et ses [[Permissions]] sont limitées au strict nécessaire — principe du moindre privilège.
 
 ---
 

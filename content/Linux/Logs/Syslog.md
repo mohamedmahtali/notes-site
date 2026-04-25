@@ -6,14 +6,11 @@ tags:
 
 # Syslog
 
-## Parent
-- [[Logs]]
-
 ---
 
 ## Définition
 
-Syslog est le protocole et le daemon standard de logging Unix/Linux. Il collecte les messages de toutes les applications et services, et les distribue vers des fichiers, serveurs distants, ou la console selon des règles de filtrage.
+Syslog est le protocole et le daemon standard de [[Logging]] Unix/[[Linux]]. Il collecte les messages de toutes les applications et [[Services]], et les distribue vers des fichiers, serveurs distants, ou la console selon des règles de filtrage.
 
 ---
 
@@ -23,7 +20,7 @@ Syslog est le protocole et le daemon standard de logging Unix/Linux. Il collecte
 |---|---|---|
 | rsyslog | Ubuntu, Debian, RHEL | Standard actuel |
 | syslog-ng | Option alternative | Plus de fonctionnalités |
-| journald | Tous (systemd) | Remplace progressivement syslog |
+| journald | Tous ([[systemd]]) | Remplace progressivement syslog |
 
 ---
 

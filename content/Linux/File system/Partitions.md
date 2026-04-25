@@ -6,14 +6,11 @@ tags:
 
 # Partitions
 
-## Parent
-- [[File system]]
-
 ---
 
 ## Définition
 
-Une partition est une division logique d'un disque physique. Chaque partition peut contenir un filesystem différent. Linux voit les disques comme `/dev/sda`, `/dev/sdb`, et les partitions comme `/dev/sda1`, `/dev/sda2`.
+Une partition est une division logique d'un disque physique. Chaque partition peut contenir un filesystem différent. [[Linux]] voit les disques comme `/dev/sda`, `/dev/sdb`, et les partitions comme `/dev/sda1`, `/dev/sda2`.
 
 ---
 
@@ -49,7 +46,7 @@ fsck /dev/sdb1       # arrêter de monter avant !
 | FS | Usage | Avantages |
 |---|---|---|
 | ext4 | Usage général | Stable, mature |
-| xfs | Gros volumes | Performance, scalabilité |
+| xfs | Gros [[Volumes]] | Performance, scalabilité |
 | btrfs | Stockage avancé | Snapshots, compression |
 | tmpfs | RAM | Ultra-rapide, temporaire |
 | nfs | Réseau | Partage de fichiers |

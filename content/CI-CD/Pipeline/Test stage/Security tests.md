@@ -5,14 +5,11 @@ tags:
 ---
 # Security tests
 
-## Parent
-- [[Test stage]]
-
 ---
 
 ## Définition
 
-Les security tests automatisés dans le pipeline détectent les vulnérabilités avant qu'elles n'atteignent la production : SAST (analyse statique), SCA (dépendances vulnérables), et scan d'images Docker.
+Les [[Security]] tests automatisés dans le [[Pipeline]] détectent les vulnérabilités avant qu'elles n'atteignent la production : [[SAST]] (analyse statique), SCA (dépendances vulnérables), et scan d'images [[Docker]].
 
 ---
 
@@ -23,7 +20,7 @@ Les security tests automatisés dans le pipeline détectent les vulnérabilités
 | SAST | Semgrep, CodeQL | Bugs de sécurité dans le code |
 | SCA | Trivy, Snyk, Dependabot | Dépendances vulnérables |
 | Image scan | Trivy, Grype | CVE dans les images Docker |
-| Secrets scan | TruffleHog, gitleaks | Secrets committés par erreur |
+| [[Secrets]] scan | TruffleHog, gitleaks | Secrets committés par erreur |
 
 ---
 

@@ -6,24 +6,17 @@ tags:
 
 # Links
 
-## Parent
-- [[File system]]
-
-## Enfants
-- [[Hard links]]
-- [[Symbolic links]]
-
 ---
 
 ## Définition
 
-Linux supporte deux types de liens : les **liens durs** (hard links) et les **liens symboliques** (symlinks). Les deux permettent d'accéder au même contenu via plusieurs noms/chemins.
+[[Linux]] supporte deux [[Types]] de liens : les **liens durs** ([[Hard links]]) et les **liens symboliques** (symlinks). Les deux permettent d'accéder au même contenu via plusieurs noms/chemins.
 
 ---
 
 ## Hard link vs Symbolic link
 
-| Critère | Hard link | Symbolic link |
+| Critère | [[hard]] link | Symbolic link |
 |---|---|---|
 | Pointe vers | Inode | Chemin |
 | Cross-filesystem | ❌ Non | ✅ Oui |

@@ -6,14 +6,11 @@ tags:
 
 # Zsh
 
-## Parent
-- [[Shell]]
-
 ---
 
 ## Définition
 
-Zsh (Z Shell) est un shell puissant et configurable, compatible POSIX, avec des fonctionnalités avancées d'autocomplétion, de correction d'erreurs, et de personnalisation. C'est le shell par défaut sur macOS depuis Catalina.
+Zsh (Z [[Shell]]) est un shell puissant et configurable, compatible POSIX, avec des fonctionnalités avancées d'autocomplétion, de correction d'erreurs, et de personnalisation. C'est le shell par défaut sur macOS depuis Catalina.
 
 ---
 

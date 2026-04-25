@@ -5,9 +5,6 @@ tags:
 ---
 # Inbound rules
 
-## Parent
-- [[Security groups]]
-
 ---
 
 ## Définition
@@ -85,7 +82,7 @@ sg-db           : TCP 5432 (PG) ← sg-app seulement
 
 ## Principe du moindre privilège
 
-> [!warning] Ne jamais exposer les ports admin
-> - Jamais `0.0.0.0/0` sur le port 22 (SSH), 3306 (MySQL), 5432 (PostgreSQL)
-> - Référencer des Security Groups plutôt que des CIDRs quand possible — les IPs changent, les SGs non
-> - Utiliser AWS Systems Manager Session Manager pour SSH sans port 22 exposé
+> [!warning] Ne jamais exposer les [[Ports]] admin
+> - Jamais `0.0.0.0/0` sur le port 22 ([[SSH]]), 3306 (MySQL), 5432 (PostgreSQL)
+> - Référencer des [[Security [[Groups]]]] plutôt que des [[CIDR]] quand possible — les IPs changent, les SGs non
+> - Utiliser [[AWS]] Systems Manager Session Manager pour SSH sans port 22 exposé

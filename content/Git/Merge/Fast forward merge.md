@@ -6,20 +6,11 @@ tags:
 
 # Fast forward merge
 
-## Parent
-- [[Merge]]
-
-## Concepts liés
-- [[Merge]]
-- [[Three way merge]]
-- [[Merge conflicts]]
-- [[Rebase]]
-
 ---
 
 ## Définition
 
-Un merge fast-forward se produit quand la branche cible (`main`) n'a pas avancé depuis la création de la branche source. Git peut simplement **déplacer le pointeur** de `main` vers le dernier commit de la branche — aucun commit de merge n'est créé.
+Un [[Merge]] fast-forward se produit quand la branche cible (`main`) n'a pas avancé depuis la création de la branche source. [[Git]] peut simplement **déplacer le pointeur** de `main` vers le dernier [[Commit]] de la branche — aucun commit de merge n'est créé.
 
 ---
 
@@ -73,4 +64,4 @@ git merge --ff-only feature/login
 | Quand possible | main n'a pas avancé | main a avancé |
 
 > [!tip] Choix selon le workflow
-> **GitHub flow** préfère souvent `--no-ff` pour garder la trace des PRs dans le log. **Trunk-based development** préfère le fast-forward pour un historique linéaire.
+> **[[GitHub flow]]** préfère souvent `--no-ff` pour garder la trace des PRs dans le log. **Trunk-based development** préfère le fast-forward pour un historique linéaire.

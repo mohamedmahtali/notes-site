@@ -5,14 +5,11 @@ tags:
 ---
 # Jobs
 
-## Parent
-- [[GitLab CI]]
-
 ---
 
 ## Définition
 
-Un job GitLab CI est l'unité d'exécution atomique : un script qui tourne sur un runner dans un stage donné. Chaque job a son environnement isolé (conteneur Docker ou VM).
+Un job GitLab CI est l'unité d'exécution atomique : un script qui tourne sur un runner dans un stage donné. Chaque job a son environnement isolé (conteneur [[Docker]] ou VM).
 
 ---
 

@@ -6,20 +6,11 @@ tags:
 
 # Feature branch
 
-## Parent
-- [[Branch]]
-
-## Concepts liés
-- [[Branch]]
-- [[Main branch]]
-- [[Pull request]]
-- [[GitHub flow]]
-
 ---
 
 ## Définition
 
-Une feature branch est une branche courte créée pour développer une fonctionnalité spécifique en isolation. Elle diverge de `main`, accueille les commits de la feature, puis est mergée via une Pull Request avant d'être supprimée.
+Une feature [[Branch]] est une branche courte créée pour développer une fonctionnalité spécifique en isolation. Elle diverge de `main`, accueille les [[Commit]] de la feature, puis est mergée via une [[Pull request]] avant d'être supprimée.
 
 ---
 
@@ -68,13 +59,13 @@ git push origin --delete feature/ajout-authentification
 ## Bonnes pratiques
 
 > [!tip]
-> - **Courte durée** : idéalement < 2-3 jours. Plus elle dure, plus le merge est difficile.
+> - **Courte durée** : idéalement < 2-3 jours. Plus elle dure, plus le [[Merge]] est difficile.
 > - **Focalisée** : 1 branche = 1 feature. Ne pas mélanger plusieurs changements.
 > - **Nommage descriptif** : lisible dans `git branch -a` et dans les notifications CI.
 
 > [!warning]
 > Puller régulièrement `main` dans ta feature branch pour rester synchronisé :
-> ```bash
-> git fetch origin
-> git rebase origin/main
+> ```[[Bash]]
+> [[Git]] fetch origin
+> git [[Rebase]] origin/main
 > ```

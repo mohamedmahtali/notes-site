@@ -5,14 +5,11 @@ tags:
 ---
 # Infrastructure metrics
 
-## Parent
-- [[Metrics]]
-
 ---
 
 ## Définition
 
-Les métriques d'infrastructure mesurent l'état des serveurs, containers, et clusters : CPU, mémoire, disque, réseau. Elles permettent de détecter les problèmes de capacité et de performance système.
+Les métriques d'infrastructure mesurent l'état des serveurs, [[Containers]], et [[Cluster]] : CPU, mémoire, disque, réseau. Elles permettent de détecter les problèmes de capacité et de performance système.
 
 ---
 

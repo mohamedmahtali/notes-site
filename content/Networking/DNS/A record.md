@@ -1,16 +1,18 @@
 ---
 title: A record
-tags: [networking, beginner]
+tags:
+  - networking
+  - beginner
 ---
 
 # A record
 
 ## Définition
 
-Un A record (Address record) est le type de record DNS le plus fondamental. Il mappe un nom de domaine vers une adresse IPv4.
+Un A record (Address record) est le type de record DNS le plus fondamental. Il mappe un nom de domaine vers une adresse [[IPv4]].
 
 > [!note] AAAA record
-> L'AAAA record fait la même chose mais pour IPv6. Un domaine peut avoir plusieurs A records pour du load balancing DNS (round-robin).
+> L'AAAA record fait la même chose mais pour [[IPv6]]. Un domaine peut avoir plusieurs A records pour du [[Load balancing]] DNS (round-robin).
 
 ## Exemples
 

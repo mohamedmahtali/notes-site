@@ -5,14 +5,11 @@ tags:
 ---
 # IAM
 
-## Parent
-- [[AWS]]
-
 ---
 
 ## Définition
 
-AWS IAM (Identity and Access Management) contrôle qui peut faire quoi sur quelles ressources AWS. Il gère les utilisateurs, groupes, rôles, et les politiques de permissions JSON.
+[[AWS]] IAM (Identity and Access Management) contrôle qui peut faire quoi sur quelles ressources AWS. Il gère les utilisateurs, groupes, rôles, et les politiques de [[Permissions]] JSON.
 
 ---
 
@@ -68,4 +65,4 @@ aws iam list-users --output table
 ---
 
 > [!warning]
-> Ne jamais utiliser le compte root AWS pour les opérations quotidiennes. Créer des users IAM avec le principe du moindre privilège. Activer MFA sur tous les comptes.
+> Ne jamais utiliser le compte root AWS pour les opérations quotidiennes. Créer des [[Users]] IAM avec le principe du moindre privilège. Activer MFA sur tous les comptes.

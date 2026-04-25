@@ -6,9 +6,6 @@ tags:
 
 # Foreground and background
 
-## Parent
-- [[Processes]]
-
 ---
 
 ## Définition

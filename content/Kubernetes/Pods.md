@@ -5,22 +5,11 @@ tags:
 ---
 # Pods
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[Pod lifecycle]]
-- [[Deployments]]
-- [[StatefulSets]]
-- [[DaemonSets]]
-- [[Init containers]]
-- [[Sidecar containers]]
-
 ---
 
 ## Définition
 
-Un pod est l'unité de déploiement la plus petite dans Kubernetes. Il encapsule un ou plusieurs containers qui partagent le même namespace réseau (même IP) et les mêmes volumes. Les pods sont éphémères — ils peuvent être recréés à tout moment.
+Un pod est l'unité de déploiement la plus petite dans [[Kubernetes]]. Il encapsule un ou plusieurs [[Containers]] qui partagent le même namespace réseau (même IP) et les mêmes [[Volumes]]. Les pods sont éphémères — ils peuvent être recréés à tout moment.
 
 ---
 
@@ -92,4 +81,4 @@ kubectl delete pod myapp
 ---
 
 > [!tip]
-> Toujours définir `resources.requests` pour aider le scheduler, et `resources.limits` pour éviter qu'un pod consomme toute la mémoire du node (OOM).
+> Toujours définir `resources.requests` pour aider le [[Scheduler]], et `resources.limits` pour éviter qu'un pod consomme toute la mémoire du [[Node]] (OOM).

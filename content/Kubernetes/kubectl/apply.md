@@ -5,9 +5,6 @@ tags:
 ---
 # apply
 
-## Parent
-- [[kubectl]]
-
 ---
 
 ## Définition

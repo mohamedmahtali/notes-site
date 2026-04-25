@@ -6,14 +6,11 @@ tags:
 
 # Networks
 
-## Parent
-- [[Docker compose]]
-
 ---
 
 ## Définition
 
-Docker Compose crée automatiquement un réseau bridge par défaut pour tous les services du fichier. Les services peuvent se contacter par leur nom de service. On peut définir des réseaux supplémentaires pour isoler les services.
+[[Docker compose]] crée automatiquement un réseau [[Bridge]] par défaut pour tous les [[Services]] du fichier. Les services peuvent se contacter par leur nom de service. On peut définir des réseaux supplémentaires pour isoler les services.
 
 ---
 

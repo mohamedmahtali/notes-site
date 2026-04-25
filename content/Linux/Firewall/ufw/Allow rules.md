@@ -6,14 +6,11 @@ tags:
 
 # Allow rules
 
-## Parent
-- [[ufw]]
-
 ---
 
 ## Définition
 
-Les règles `allow` dans UFW autorisent le trafic réseau qui serait sinon bloqué par la politique par défaut.
+Les règles `allow` dans [[ufw]] autorisent le trafic réseau qui serait sinon bloqué par la politique par défaut.
 
 ---
 

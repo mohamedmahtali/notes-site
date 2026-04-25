@@ -5,20 +5,11 @@ tags:
 ---
 # Terraform state
 
-## Parent
-- [[Terraform]]
-
-## Enfants
-- [[Local state]]
-- [[Remote state]]
-- [[State locking]]
-- [[Drift]]
-
 ---
 
 ## Définition
 
-Le state Terraform est un fichier JSON (`terraform.tfstate`) qui mappe les ressources définies dans le code aux ressources réelles dans le cloud. C'est la source de vérité pour Terraform — il sait ce qu'il gère et quel est l'état actuel.
+Le state [[Terraform]] est un fichier JSON (`terraform.tfstate`) qui mappe les ressources définies dans le code aux ressources réelles dans le [[Cloud]]. C'est la source de vérité pour Terraform — il sait ce qu'il gère et quel est l'état actuel.
 
 ---
 

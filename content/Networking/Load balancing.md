@@ -1,6 +1,8 @@
 ---
 title: Load balancing
-tags: [networking, intermediate]
+tags:
+  - networking
+  - intermediate
 ---
 
 # Load balancing
@@ -17,10 +19,10 @@ Le load balancing (équilibrage de charge) distribue le trafic réseau entrant s
 | | L4 (Transport) | L7 (Application) |
 |--|---------------|-----------------|
 | Niveau | TCP/UDP | HTTP/HTTPS |
-| Routing basé sur | IP + Port | URL, headers, cookies |
+| [[Routing]] basé sur | IP + Port | URL, headers, cookies |
 | Vitesse | Très rapide | Plus lent (parse HTTP) |
 | Flexibilité | Faible | Élevée |
-| Exemple | HAProxy TCP, AWS NLB | Nginx, Traefik, AWS ALB |
+| Exemple | HAProxy TCP, [[AWS]] NLB | Nginx, [[Traefik]], AWS ALB |
 
 ## Health checks
 
@@ -76,7 +78,7 @@ upstream backend {
 |------------|---------|-----------------|
 | Round Robin | Tour à tour | Serveurs homogènes, requêtes similaires |
 | Weighted Round Robin | Tour à tour avec poids | Serveurs de capacités différentes |
-| Least Connections | Serveur avec le moins de connexions actives | Requêtes de durées variables |
+| Least Connections | Serveur avec le moins de connexions actives | Requêtes de durées [[Variables]] |
 | Random | Aléatoire | Simple, performant sous haute charge |
 | IP Hash | Hash IP source | Affinité client, cache L7 |
 

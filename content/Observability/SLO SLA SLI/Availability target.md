@@ -5,9 +5,6 @@ tags:
 ---
 # Availability target
 
-## Parent
-- [[SLO SLA SLI]]
-
 ---
 
 ## Définition
@@ -43,4 +40,4 @@ Questions à se poser :
 ---
 
 > [!warning]
-> Ne pas viser une disponibilité plus haute que celle de tes dépendances. Si tu dépends d'AWS S3 (99.9% SLA) et de la DB (99.95% SLA), tu ne peux pas garantir plus de 99.85% (multiplication des indisponibilités).
+> Ne pas viser une disponibilité plus haute que celle de tes dépendances. Si tu dépends d'[[AWS]] S3 (99.9% SLA) et de la DB (99.95% SLA), tu ne peux pas garantir plus de 99.85% (multiplication des indisponibilités).

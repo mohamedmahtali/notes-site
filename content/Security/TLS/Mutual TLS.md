@@ -1,16 +1,18 @@
 ---
 title: Mutual TLS (mTLS)
-tags: [security, advanced]
+tags:
+  - security
+  - advanced
 ---
 
 # Mutual TLS (mTLS)
 
 ## Définition
 
-Le mTLS (Mutual TLS) est une extension de TLS où le client ET le serveur s'authentifient mutuellement via certificats. Contrairement au TLS standard, le serveur vérifie aussi l'identité du client.
+Le [[mTLS]] (Mutual TLS) est une extension de TLS où le client ET le serveur s'authentifient mutuellement via certificats. Contrairement au TLS standard, le serveur vérifie aussi l'identité du client.
 
 > [!tip] Pourquoi c'est important
-> mTLS est la base de la sécurité zero-trust entre services. Il est utilisé dans les service meshes (Istio, Linkerd) pour sécuriser les communications inter-services dans Kubernetes.
+> mTLS est la base de la sécurité zero-trust entre [[Services]]. Il est utilisé dans les service meshes ([[Istio]], [[Linkerd]]) pour sécuriser les communications inter-services dans [[Kubernetes]].
 
 ## Flux mTLS
 

@@ -6,9 +6,6 @@ tags:
 
 # chgrp
 
-## Parent
-- [[File permissions]]
-
 ---
 
 ## Définition

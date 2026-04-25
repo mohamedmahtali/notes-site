@@ -1,6 +1,8 @@
 ---
 title: Disaster Recovery
-tags: [reliability, intermediate]
+tags:
+  - reliability
+  - intermediate
 ---
 
 # Disaster Recovery (DR)

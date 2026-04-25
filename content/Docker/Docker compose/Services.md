@@ -6,14 +6,11 @@ tags:
 
 # Services
 
-## Parent
-- [[Docker compose]]
-
 ---
 
 ## Définition
 
-Dans Docker Compose, un service est la définition d'un conteneur — son image, sa configuration, ses ports, ses volumes. Plusieurs services forment une application. Compose peut lancer plusieurs réplicas du même service.
+Dans [[Docker compose]], un service est la définition d'un conteneur — son image, sa configuration, ses [[Ports]], ses [[Volumes]]. Plusieurs services forment une application. Compose peut lancer plusieurs réplicas du même service.
 
 ---
 

@@ -6,14 +6,11 @@ tags:
 
 # remove
 
-## Parent
-- [[Container lifecycle]]
-
 ---
 
 ## Définition
 
-`docker rm` supprime un ou plusieurs conteneurs arrêtés. Les données dans le filesystem du conteneur (hors volumes) sont perdues définitivement. Un conteneur en cours d'exécution doit d'abord être stoppé (ou `rm -f` pour forcer).
+`docker rm` supprime un ou plusieurs conteneurs arrêtés. Les données dans le filesystem du conteneur (hors [[Volumes]]) sont perdues définitivement. Un conteneur en cours d'exécution doit d'abord être stoppé (ou `rm -f` pour forcer).
 
 ---
 

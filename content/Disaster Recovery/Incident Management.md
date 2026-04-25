@@ -1,6 +1,8 @@
 ---
 title: Incident Management
-tags: [reliability, intermediate]
+tags:
+  - reliability
+  - intermediate
 ---
 
 # Incident Management
@@ -45,7 +47,7 @@ Post-mortem        → Analyser les causes, documenter les actions
 |------|---------------|
 | **Incident Commander (IC)** | Coordonne la réponse, prend les décisions, évite les silos |
 | **Tech Lead** | Dirige l'investigation technique |
-| **Communications** | Met à jour la status page, informe les stakeholders |
+| **Communications** | Met à jour la [[Status]] page, informe les stakeholders |
 | **Scribe** | Note la timeline, les actions prises, les décisions |
 
 > [!note] Incident Commander

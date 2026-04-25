@@ -6,14 +6,11 @@ tags:
 
 # ss
 
-## Parent
-- [[Troubleshooting]]
-
 ---
 
 ## Définition
 
-`ss` (socket statistics) est le successeur moderne de `netstat`. Plus rapide et avec plus d'informations, il affiche les connexions réseau actives, les ports en écoute, et les statistiques des sockets.
+`ss` (socket statistics) est le successeur moderne de `netstat`. Plus rapide et avec plus d'informations, il affiche les connexions réseau actives, les [[Ports]] en écoute, et les statistiques des sockets.
 
 ---
 

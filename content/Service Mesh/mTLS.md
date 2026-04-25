@@ -1,16 +1,19 @@
 ---
 title: mTLS (Mutual TLS)
-tags: [security, networking, advanced]
+tags:
+  - security
+  - networking
+  - advanced
 ---
 
 # mTLS (Mutual TLS)
 
 ## Définition
 
-mTLS (Mutual TLS) est une extension de TLS où **les deux parties** (client et serveur) s'authentifient mutuellement via des certificats. Contrairement au TLS standard (seul le serveur présente un certificat), mTLS garantit l'identité des deux côtés.
+mTLS ([[Mutual TLS]]) est une extension de TLS où **les deux parties** (client et serveur) s'authentifient mutuellement via des certificats. Contrairement au TLS standard (seul le serveur présente un certificat), mTLS garantit l'identité des deux côtés.
 
 > [!tip] mTLS en service mesh
-> Dans Istio ou Linkerd, mTLS est activé automatiquement entre tous les sidecars. Chaque pod reçoit un certificat SPIFFE (basé sur son ServiceAccount K8s). Aucun changement de code n'est nécessaire.
+> Dans Istio ou [[Linkerd]], mTLS est activé automatiquement entre tous les sidecars. Chaque pod reçoit un certificat SPIFFE (basé sur son ServiceAccount K8s). Aucun changement de code n'est nécessaire.
 
 ## TLS standard vs mTLS
 
@@ -29,7 +32,7 @@ Client ────── trafic chiffré ──────────→ Serv
 
 ## SPIFFE — identité des workloads
 
-Istio et Linkerd utilisent le standard **SPIFFE** (Secure Production Identity Framework For Everyone) pour identifier les services.
+Istio et Linkerd utilisent le standard **SPIFFE** (Secure Production Identity Framework For Everyone) pour identifier les [[Services]].
 
 ```
 Format SPIFFE URI : spiffe://<trust-domain>/<path>

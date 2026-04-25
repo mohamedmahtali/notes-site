@@ -1,16 +1,18 @@
 ---
 title: Secrets management
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Secrets management
 
 ## Définition
 
-La gestion des secrets consiste à stocker, distribuer et faire tourner les données sensibles (mots de passe, tokens, clés API, certificats) de façon sécurisée, sans les exposer dans le code ou les fichiers de configuration.
+La gestion des [[Secrets]] consiste à stocker, distribuer et faire tourner les données sensibles (mots de passe, [[Tokens]], clés API, certificats) de façon sécurisée, sans les exposer dans le code ou les fichiers de configuration.
 
 > [!warning] Secrets dans le code = faille critique
-> Ne jamais committer de secrets dans git. Utiliser gitleaks ou detect-secrets en pre-commit hook pour prévenir les fuites.
+> Ne jamais committer de secrets dans [[Git]]. Utiliser gitleaks ou detect-secrets en [[pre-[[Commit]]]] hook pour prévenir les fuites.
 
 ## Hiérarchie des solutions
 
@@ -109,7 +111,7 @@ aws secretsmanager rotate-secret \
 ```
 
 > [!tip] Bonne pratique : préférer les secrets dynamiques
-> Un secret dynamique (Vault, AWS RDS IAM auth) n'existe que le temps d'une session. Même s'il est intercepté, il expire automatiquement. Supérieur à une rotation périodique d'un secret statique.
+> Un secret dynamique (Vault, [[AWS]] RDS [[IAM]] auth) n'existe que le temps d'une session. Même s'il est intercepté, il expire automatiquement. Supérieur à une rotation périodique d'un secret statique.
 
 ## Liens
 

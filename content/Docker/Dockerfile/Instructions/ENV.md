@@ -6,14 +6,11 @@ tags:
 
 # ENV
 
-## Parent
-- [[Instructions]]
-
 ---
 
 ## Définition
 
-`ENV` définit des variables d'environnement persistantes dans l'image. Elles sont disponibles pendant le build (pour les instructions suivantes) ET dans les conteneurs lancés depuis l'image.
+`ENV` définit des [[Variables]] d'environnement persistantes dans l'image. Elles sont disponibles pendant le build (pour les [[Instructions]] suivantes) ET dans les conteneurs lancés depuis l'image.
 
 ---
 
@@ -54,5 +51,5 @@ docker run --env-file .env mon-app
 
 ---
 
-> [!warning] Ne jamais mettre des secrets dans ENV
-> Les variables ENV sont visibles dans l'image via `docker inspect`. Utilise les secrets Docker ou des variables injectées au runtime pour les données sensibles.
+> [!warning] Ne jamais mettre des [[Secrets]] dans ENV
+> Les variables ENV sont visibles dans l'image via `docker inspect`. Utilise les secrets [[Docker]] ou des variables injectées au runtime pour les données sensibles.

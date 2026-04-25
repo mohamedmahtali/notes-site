@@ -5,14 +5,11 @@ tags:
 ---
 # RoleBindings
 
-## Parent
-- [[RBAC]]
-
 ---
 
 ## Définition
 
-Un RoleBinding attribue un Role ou ClusterRole à un ou plusieurs sujets (User, Group, ServiceAccount) dans un namespace. C'est le lien entre "qui" et "quelles permissions".
+Un RoleBinding attribue un Role ou ClusterRole à un ou plusieurs sujets (User, Group, ServiceAccount) dans un namespace. C'est le lien entre "qui" et "quelles [[Permissions]]".
 
 ---
 

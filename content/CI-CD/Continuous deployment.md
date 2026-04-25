@@ -5,18 +5,11 @@ tags:
 ---
 # Continuous deployment
 
-## Parent
-- [[CI-CD]]
-
-## Enfants
-- [[Progressive rollout]]
-- [[Automated release]]
-
 ---
 
 ## Définition
 
-Le déploiement continu (CD) va plus loin que la livraison continue : chaque commit qui passe tous les tests est **automatiquement déployé en production**, sans approbation manuelle. Nécessite une confiance totale dans le pipeline de tests.
+Le déploiement continu (CD) va plus loin que la livraison continue : chaque [[Commit]] qui passe tous les tests est **automatiquement déployé en production**, sans approbation manuelle. Nécessite une confiance totale dans le [[Pipeline]] de tests.
 
 ---
 
@@ -31,8 +24,8 @@ Le déploiement continu (CD) va plus loin que la livraison continue : chaque com
 
 Avant de passer au déploiement continu :
 - ✅ Suite de tests automatisés complète et fiable
-- ✅ Monitoring et alerting en place
-- ✅ Rollback automatisé fonctionnel
+- ✅ [[Monitoring]] et alerting en place
+- ✅ [[Rollback]] automatisé fonctionnel
 - ✅ Feature flags pour désactiver du code sans redéployer
 - ✅ Déploiement progressif (canary/blue-green)
 

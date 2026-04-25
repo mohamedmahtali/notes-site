@@ -6,19 +6,11 @@ tags:
 
 # mixed
 
-## Parent
-- [[reset]]
-
-## Concepts liés
-- [[reset]]
-- [[soft]]
-- [[hard]]
-
 ---
 
 ## Définition
 
-`git reset --mixed` (mode par défaut) déplace HEAD et réinitialise le staging area, mais **laisse le working directory intact**. Les modifications des commits annulés reviennent à l'état "modifié non-stagé".
+`git reset --mixed` (mode par défaut) déplace HEAD et réinitialise le [[Staging]] area, mais **laisse le working directory intact**. Les modifications des [[Commit]] annulés reviennent à l'état "modifié non-stagé".
 
 ---
 

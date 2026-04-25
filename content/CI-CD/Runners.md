@@ -5,14 +5,11 @@ tags:
 ---
 # Runners
 
-## Parent
-- [[CI-CD]]
-
 ---
 
 ## Définition
 
-Les runners (ou agents) sont les machines qui exécutent physiquement les jobs du pipeline CI/CD. Chaque plateforme CI a son concept : GitHub Actions runners, GitLab Runners, Jenkins agents, CircleCI executors.
+Les runners (ou agents) sont les machines qui exécutent physiquement les jobs du [[Pipeline]] CI/CD. Chaque plateforme CI a son concept : [[GitHub actions]] runners, GitLab Runners, [[Jenkins]] agents, CircleCI executors.
 
 ---
 
@@ -64,4 +61,4 @@ pipeline {
 ---
 
 > [!tip]
-> Pour les builds Docker dans les runners, configurer le Docker socket mount ou utiliser Kaniko/Buildah pour des builds rootless sans Docker daemon.
+> Pour les builds [[Docker]] dans les runners, configurer le Docker socket mount ou utiliser Kaniko/Buildah pour des builds rootless sans Docker daemon.

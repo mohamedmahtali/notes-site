@@ -6,9 +6,6 @@ tags:
 
 # OCI
 
-## Parent
-- [[Container runtime]]
-
 ---
 
 ## Définition
@@ -21,7 +18,7 @@ L'OCI (Open Container Initiative) est une organisation qui maintient des **spéc
 
 | Spec | Description |
 |---|---|
-| `image-spec` | Format d'une image (layers, manifest, config) |
+| `image-spec` | Format d'une image ([[Layers]], manifest, config) |
 | `runtime-spec` | Interface pour créer et lancer un conteneur |
 | `distribution-spec` | API d'un registry (pull/push) |
 
@@ -30,7 +27,7 @@ L'OCI (Open Container Initiative) est une organisation qui maintient des **spéc
 ## Pourquoi c'est important
 
 > [!tip] Interopérabilité
-> Une image buildée avec Docker peut être lancée par containerd, Podman, ou kata-containers. Un registry compatible OCI (Docker Hub, GHCR, ECR) accepte les images de n'importe quel builder OCI-compliant.
+> Une image buildée avec [[Docker]] peut être lancée par [[containerd]], Podman, ou kata-[[Containers]]. Un registry compatible OCI ([[Docker hub]], GHCR, ECR) accepte les images de n'importe quel builder OCI-compliant.
 
 ---
 

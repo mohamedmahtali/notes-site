@@ -1,6 +1,8 @@
 ---
 title: GitOps principles
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # GitOps principles
@@ -17,7 +19,7 @@ Les 4 principes GitOps (formalisés par OpenGitOps/CNCF) définissent les caract
 | # | Principe | Description |
 |---|---------|-------------|
 | 1 | **Déclaratif** | L'état souhaité est décrit déclarativement (pas impérativement) |
-| 2 | **Versionné** | L'état est stocké dans Git avec historique immuable |
+| 2 | **Versionné** | L'état est stocké dans [[Git]] avec historique immuable |
 | 3 | **Appliqué automatiquement** | Les agents appliquent automatiquement les changements |
 | 4 | **Réconcilié en continu** | Les agents détectent et corrigent les dérives |
 

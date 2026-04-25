@@ -5,9 +5,6 @@ tags:
 ---
 # End to end tests
 
-## Parent
-- [[Test stage]]
-
 ---
 
 ## Définition
@@ -54,4 +51,4 @@ e2e:
 ---
 
 > [!tip]
-> Utiliser Playwright ou Cypress. Garder les e2e dans un stage séparé qui ne bloque pas le déploiement staging — ils peuvent tourner en parallèle sur l'env de staging déjà déployé.
+> Utiliser Playwright ou Cypress. Garder les e2e dans un stage séparé qui ne bloque pas le déploiement [[Staging]] — ils peuvent tourner en parallèle sur l'[[ENV]] de staging déjà déployé.

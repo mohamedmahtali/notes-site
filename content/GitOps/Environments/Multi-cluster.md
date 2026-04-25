@@ -1,16 +1,18 @@
 ---
 title: Multi-cluster
-tags: [gitops, advanced]
+tags:
+  - gitops
+  - advanced
 ---
 
 # Multi-cluster (GitOps)
 
 ## Définition
 
-La gestion multi-cluster GitOps permet de déployer et synchroniser plusieurs clusters Kubernetes (par région, par client, par environnement) depuis un seul repo Git, avec ArgoCD ou Flux.
+La gestion multi-[[Cluster]] [[GitOps]] permet de déployer et synchroniser plusieurs clusters [[Kubernetes]] (par région, par client, par environnement) depuis un seul repo [[Git]], avec ArgoCD ou Flux.
 
 > [!tip] Pourquoi c'est important
-> Les architectures enterprise ont souvent 10-100 clusters. GitOps permet de les gérer centralement avec les mêmes garanties (consistance, audit, rollback) que pour un seul cluster.
+> Les architectures enterprise ont souvent 10-100 clusters. GitOps permet de les gérer centralement avec les mêmes garanties (consistance, audit, [[Rollback]]) que pour un seul cluster.
 
 ## ArgoCD — Multi-cluster
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Charts
 
-## Parent
-- [[Helm]]
-
 ---
 
 ## Définition
 
-Un chart Helm est un répertoire contenant les templates YAML et la configuration nécessaires pour déployer une application Kubernetes. Il peut être publié dans un registry (Artifact Hub) et partagé entre équipes.
+Un chart [[Helm]] est un répertoire contenant les [[Templates]] YAML et la configuration nécessaires pour déployer une application [[Kubernetes]]. Il peut être publié dans un registry (Artifact Hub) et partagé entre équipes.
 
 ---
 

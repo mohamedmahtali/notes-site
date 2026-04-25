@@ -5,14 +5,11 @@ tags:
 ---
 # Tasks
 
-## Parent
-- [[Ansible]]
-
 ---
 
 ## Définition
 
-Les tasks sont les unités d'exécution dans Ansible. Chaque task appelle un module Ansible avec des paramètres pour effectuer une action spécifique (installer un package, copier un fichier, redémarrer un service).
+Les tasks sont les unités d'exécution dans [[Ansible]]. Chaque task appelle un module Ansible avec des paramètres pour effectuer une action spécifique (installer un [[Package]], copier un fichier, redémarrer un service).
 
 ---
 

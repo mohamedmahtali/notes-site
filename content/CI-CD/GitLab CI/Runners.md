@@ -5,9 +5,6 @@ tags:
 ---
 # Runners
 
-## Parent
-- [[GitLab CI]]
-
 ---
 
 ## Définition

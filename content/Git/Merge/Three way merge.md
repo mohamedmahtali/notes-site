@@ -6,19 +6,11 @@ tags:
 
 # Three way merge
 
-## Parent
-- [[Merge]]
-
-## Concepts liés
-- [[Merge]]
-- [[Fast forward merge]]
-- [[Merge conflicts]]
-
 ---
 
 ## Définition
 
-Un merge à trois points (three-way merge) est utilisé quand les deux branches ont avancé depuis leur point de divergence. Git compare **trois commits** : l'ancêtre commun, le dernier commit de la branche source, et le dernier commit de la branche cible — puis crée un nouveau **commit de merge**.
+Un [[Merge]] à trois points (three-way merge) est utilisé quand les deux branches ont avancé depuis leur point de divergence. [[Git]] compare **trois [[Commit]]** : l'ancêtre commun, le dernier commit de la branche source, et le dernier commit de la branche cible — puis crée un nouveau **commit de merge**.
 
 ---
 

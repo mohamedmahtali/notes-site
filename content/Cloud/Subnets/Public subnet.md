@@ -5,23 +5,20 @@ tags:
 ---
 # Public subnet
 
-## Parent
-- [[Subnets]]
-
 ---
 
 ## Définition
 
-Un subnet public est un sous-réseau dont la route table contient une route vers un Internet Gateway. Les ressources peuvent recevoir une IP publique et être accessibles depuis internet.
+Un subnet public est un sous-réseau dont la route table contient une route vers un [[Internet [[Gateway]]]]. Les ressources peuvent recevoir une IP publique et être accessibles depuis internet.
 
 ---
 
 ## Ressources dans un subnet public
 
-- **Load Balancers** — point d'entrée du trafic
-- **NAT Gateways** — pour donner accès internet aux subnets privés
-- **Bastion hosts** — point d'accès SSH vers les ressources privées
-- **WAF** — Web Application Firewall
+- **[[Load balancers]]** — point d'entrée du trafic
+- **[[NAT]] Gateways** — pour donner accès internet aux [[Subnets]] privés
+- **Bastion [[Host]]** — point d'accès [[SSH]] vers les ressources privées
+- **WAF** — Web Application [[Firewall]]
 
 ---
 

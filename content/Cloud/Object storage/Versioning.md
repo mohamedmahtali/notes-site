@@ -5,9 +5,6 @@ tags:
 ---
 # Versioning
 
-## Parent
-- [[Object storage]]
-
 ---
 
 ## Définition

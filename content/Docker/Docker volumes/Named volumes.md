@@ -6,14 +6,11 @@ tags:
 
 # Named volumes
 
-## Parent
-- [[Docker volumes]]
-
 ---
 
 ## Définition
 
-Un volume nommé est un volume créé et géré par Docker, stocké dans `/var/lib/docker/volumes/` sur l'hôte. Il est identifié par un nom, indépendant de tout conteneur, et persiste jusqu'à sa suppression explicite.
+Un volume nommé est un volume créé et géré par [[Docker]], stocké dans `/var/lib/docker/volumes/` sur l'hôte. Il est identifié par un nom, indépendant de tout conteneur, et persiste jusqu'à sa suppression explicite.
 
 ---
 
@@ -64,5 +61,5 @@ volumes:
 |---|---|---|
 | Géré par | Docker | OS/utilisateur |
 | Localisation | `/var/lib/docker/volumes/` | N'importe quel chemin |
-| Permissions | Docker les gère | Dépend du FS hôte |
+| [[Permissions]] | Docker les gère | Dépend du FS hôte |
 | Usage | Données persistantes | Dev (code source) |

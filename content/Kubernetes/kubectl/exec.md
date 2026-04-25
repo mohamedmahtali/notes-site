@@ -5,14 +5,11 @@ tags:
 ---
 # exec
 
-## Parent
-- [[kubectl]]
-
 ---
 
 ## Définition
 
-`kubectl exec` exécute une commande dans un container en cours d'exécution, similaire à `docker exec`. Permet d'obtenir un shell interactif pour déboguer un pod depuis l'intérieur.
+`kubectl exec` exécute une commande dans un container en cours d'exécution, similaire à `docker exec`. Permet d'obtenir un [[Shell]] interactif pour déboguer un pod depuis l'intérieur.
 
 ---
 

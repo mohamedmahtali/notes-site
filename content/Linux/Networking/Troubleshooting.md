@@ -6,15 +6,6 @@ tags:
 
 # Troubleshooting
 
-## Parent
-- [[Networking]]
-
-## Enfants
-- [[ping]]
-- [[traceroute]]
-- [[ss]]
-- [[netstat]]
-
 ---
 
 ## Définition

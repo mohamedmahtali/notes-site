@@ -6,14 +6,11 @@ tags:
 
 # DNS in Docker
 
-## Parent
-- [[Docker networks]]
-
 ---
 
 ## Définition
 
-Docker embarque un serveur DNS interne (127.0.0.11) qui résout automatiquement les noms des conteneurs et services. Sur les custom bridge networks et les réseaux overlay, les conteneurs peuvent se contacter par leur **nom de conteneur** ou leur **nom de service** Docker Compose.
+[[Docker]] embarque un serveur [[DNS]] interne (127.0.0.11) qui résout automatiquement les noms des conteneurs et [[Services]]. Sur les custom [[Bridge]] [[Networks]] et les réseaux [[Overlay]], les conteneurs peuvent se contacter par leur **nom de conteneur** ou leur **nom de service** [[Docker compose]].
 
 ---
 

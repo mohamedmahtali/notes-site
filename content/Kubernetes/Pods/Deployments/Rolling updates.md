@@ -5,14 +5,11 @@ tags:
 ---
 # Rolling updates
 
-## Parent
-- [[Deployments]]
-
 ---
 
 ## Définition
 
-Un rolling update remplace progressivement les pods de l'ancienne version par des pods de la nouvelle version, sans downtime. Le trafic continue d'être servi par les pods disponibles pendant la transition.
+Un rolling update remplace progressivement les [[Pods]] de l'ancienne version par des pods de la nouvelle version, sans downtime. Le trafic continue d'être servi par les pods disponibles pendant la transition.
 
 ---
 
@@ -67,4 +64,4 @@ kubectl rollout resume deployment/myapp
 ---
 
 > [!tip]
-> Configurer `minReadySeconds` dans le Deployment pour que le scheduler attende que le pod soit stable avant de continuer le rolling update. Évite de passer à la suite si le pod crashe immédiatement.
+> Configurer `minReadySeconds` dans le Deployment pour que le [[Scheduler]] attende que le pod soit stable avant de continuer le rolling update. Évite de passer à la suite si le pod crashe immédiatement.

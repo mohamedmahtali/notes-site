@@ -5,14 +5,11 @@ tags:
 ---
 # Affinity and anti-affinity
 
-## Parent
-- [[Advanced Kubernetes]]
-
 ---
 
 ## Définition
 
-L'affinity permet de scheduler des pods proches d'autres pods ou sur des nodes spécifiques. L'anti-affinity fait l'inverse : garantit que certains pods sont sur des nodes ou zones différents pour la haute disponibilité.
+L'affinity permet de [[Scheduler]] des [[Pods]] proches d'autres pods ou sur des [[Node]] spécifiques. L'anti-affinity fait l'inverse : garantit que certains pods sont sur des nodes ou zones différents pour la haute disponibilité.
 
 ---
 
@@ -68,4 +65,4 @@ spec:
 ---
 
 > [!tip]
-> Pour la HA en production : anti-affinity hard sur `kubernetes.io/hostname` (jamais 2 pods sur le même node) + soft sur `topology.kubernetes.io/zone` (préférer des zones différentes).
+> Pour la HA en production : anti-affinity [[hard]] sur `kubernetes.io/hostname` (jamais 2 pods sur le même node) + [[soft]] sur `topology.kubernetes.io/zone` (préférer des zones différentes).

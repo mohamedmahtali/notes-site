@@ -6,23 +6,11 @@ tags:
 
 # Bash
 
-## Parent
-- [[Shell]]
-
-## Enfants
-- [[Variables]]
-- [[Conditions]]
-- [[Loops]]
-- [[Functions]]
-- [[Pipes]]
-- [[Redirections]]
-- [[Exit codes]]
-
 ---
 
 ## Définition
 
-Bash (Bourne Again Shell) est le shell par défaut sur la majorité des distributions Linux. C'est le langage de scripting incontournable pour l'automatisation système, les pipelines CI/CD, et l'administration Linux.
+Bash (Bourne Again [[Shell]]) est le shell par défaut sur la majorité des distributions [[Linux]]. C'est le langage de scripting incontournable pour l'automatisation système, les [[Pipeline]] CI/CD, et l'administration Linux.
 
 ---
 

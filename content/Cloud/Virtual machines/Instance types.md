@@ -5,14 +5,11 @@ tags:
 ---
 # Instance types
 
-## Parent
-- [[Virtual machines]]
-
 ---
 
 ## Définition
 
-Les types d'instances définissent les ressources allouées à une VM : CPU, RAM, réseau, stockage. Chaque provider propose des dizaines de familles optimisées pour différents workloads.
+Les [[Types]] d'instances définissent les ressources allouées à une VM : CPU, RAM, réseau, stockage. Chaque provider propose des dizaines de familles optimisées pour différents workloads.
 
 ---
 

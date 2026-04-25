@@ -5,21 +5,18 @@ tags:
 ---
 # hostPath
 
-## Parent
-- [[Volumes]]
-
 ---
 
 ## Définition
 
-`hostPath` monte un fichier ou répertoire du système de fichiers du node hôte dans le pod. Donne accès direct au node — utile pour les agents système mais dangereux pour les applications ordinaires.
+`hostPath` monte un fichier ou répertoire du système de fichiers du [[Node]] hôte dans le pod. Donne accès direct au node — utile pour les agents système mais dangereux pour les applications ordinaires.
 
 ---
 
 ## Cas d'usage légitimes
 
-- DaemonSets d'agents (logs, métriques) qui lisent `/var/log` ou `/proc`
-- Accès au socket Docker `/var/run/docker.sock`
+- [[DaemonSets]] d'agents (logs, métriques) qui lisent `/var/log` ou `/proc`
+- Accès au socket [[Docker]] `/var/run/docker.sock`
 - Stockage local haute performance (avec node affinity)
 
 ---

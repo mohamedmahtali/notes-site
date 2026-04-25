@@ -5,21 +5,18 @@ tags:
 ---
 # Merge request trigger
 
-## Parent
-- [[Pipeline triggers]]
-
 ---
 
 ## Définition
 
-Le merge request trigger (ou pull request trigger) déclenche un pipeline chaque fois qu'une PR/MR est ouverte, mise à jour, ou rouverte. C'est le gate de qualité avant qu'un changement ne soit intégré dans la branche principale.
+Le [[Merge]] request trigger (ou [[Pull request]] trigger) déclenche un [[Pipeline]] chaque fois qu'une PR/MR est ouverte, mise à jour, ou rouverte. C'est le gate de qualité avant qu'un changement ne soit intégré dans la branche principale.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!tip] Valider avant de merger
-> Le pipeline PR est le dernier filet de sécurité avant l'intégration. Configurer des branch protection rules pour exiger que ce pipeline soit vert avant de permettre le merge.
+> Le pipeline PR est le dernier filet de sécurité avant l'intégration. Configurer des [[Branch]] protection rules pour exiger que ce pipeline soit vert avant de permettre le merge.
 
 ---
 
@@ -65,4 +62,4 @@ Status checks required: [CI / test, CI / build]
 ---
 
 > [!note]
-> Le pipeline PR peut être différent (plus léger) du pipeline post-merge. Exemple : lint + unit tests en PR, déploiement staging sur merge vers main.
+> Le pipeline PR peut être différent (plus léger) du pipeline post-merge. Exemple : lint + [[Unit tests]] en PR, déploiement [[Staging]] sur merge vers main.

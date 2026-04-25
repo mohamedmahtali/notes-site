@@ -1,16 +1,18 @@
 ---
 title: Reconciliation loop
-tags: [gitops, advanced]
+tags:
+  - gitops
+  - advanced
 ---
 
 # Reconciliation loop
 
 ## Définition
 
-La boucle de réconciliation est le mécanisme central des agents GitOps (ArgoCD, Flux). En continu, l'agent compare l'état désiré (Git) avec l'état réel (cluster) et corrige les dérives automatiquement.
+La boucle de réconciliation est le mécanisme central des agents [[GitOps]] (ArgoCD, Flux). En continu, l'agent compare l'état désiré ([[Git]]) avec l'état réel ([[Cluster]]) et corrige les dérives automatiquement.
 
-> [!note] Kubernetes natif
-> Kubernetes lui-même fonctionne sur ce principe : le controller-manager réconcilie en permanence l'état réel vers l'état désiré décrit dans l'API server.
+> [!note] [[Kubernetes]] natif
+> Kubernetes lui-même fonctionne sur ce principe : le controller-manager réconcilie en permanence l'état réel vers l'état désiré décrit dans l'[[API server]].
 
 ## Flux de réconciliation
 

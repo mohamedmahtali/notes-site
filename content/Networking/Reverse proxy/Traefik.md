@@ -1,16 +1,18 @@
 ---
 title: Traefik
-tags: [networking, intermediate]
+tags:
+  - networking
+  - intermediate
 ---
 
 # Traefik
 
 ## Définition
 
-Traefik est un reverse proxy et load balancer cloud-native qui se configure automatiquement en découvrant les services via Docker labels, Kubernetes Ingress/CRDs, ou Consul. Il gère automatiquement les certificats Let's Encrypt.
+Traefik est un reverse proxy et load balancer [[Cloud]]-native qui se configure automatiquement en découvrant les [[Services]] via [[Docker]] labels, [[Kubernetes]] [[Ingress]]/[[CRD]], ou Consul. Il gère automatiquement les certificats Let's Encrypt.
 
 > [!tip] Avantage clé
-> Avec Traefik, zéro configuration manuelle des routes : il détecte les conteneurs Docker ou pods Kubernetes et configure les routes automatiquement via des annotations ou labels.
+> Avec Traefik, zéro configuration manuelle des routes : il détecte les conteneurs Docker ou [[Pods]] Kubernetes et configure les routes automatiquement via des annotations ou labels.
 
 ## Avec Docker Compose
 

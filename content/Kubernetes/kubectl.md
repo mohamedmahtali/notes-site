@@ -5,21 +5,11 @@ tags:
 ---
 # kubectl
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[get]]
-- [[apply]]
-- [[describe]]
-- [[logs]]
-- [[exec]]
-
 ---
 
 ## Définition
 
-kubectl est l'outil CLI officiel pour interagir avec un cluster Kubernetes. Il communique avec l'API server et permet de gérer toutes les ressources Kubernetes : pods, services, deployments, etc.
+kubectl est l'outil CLI officiel pour interagir avec un [[Cluster]] [[Kubernetes]]. Il communique avec l'[[API server]] et permet de gérer toutes les ressources Kubernetes : [[Pods]], [[Services]], [[Deployments]], etc.
 
 ---
 

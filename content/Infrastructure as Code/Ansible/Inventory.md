@@ -5,14 +5,11 @@ tags:
 ---
 # Inventory
 
-## Parent
-- [[Ansible]]
-
 ---
 
 ## Définition
 
-L'inventory Ansible liste les hôtes (serveurs) à gérer et les organise en groupes. Il peut être statique (fichier INI ou YAML) ou dynamique (script qui interroge AWS/GCP pour lister les instances).
+L'inventory [[Ansible]] liste les hôtes (serveurs) à gérer et les organise en groupes. Il peut être statique (fichier INI ou YAML) ou dynamique (script qui interroge [[AWS]]/GCP pour lister les instances).
 
 ---
 

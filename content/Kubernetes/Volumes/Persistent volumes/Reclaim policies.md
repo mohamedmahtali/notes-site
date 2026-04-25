@@ -5,9 +5,6 @@ tags:
 ---
 # Reclaim policies
 
-## Parent
-- [[Persistent volumes]]
-
 ---
 
 ## Définition
@@ -21,7 +18,7 @@ La reclaim policy définit ce qui arrive au PersistentVolume quand le PVC qui l'
 | Politique | Description | Usage |
 |---|---|---|
 | `Delete` | PV et stockage sous-jacent supprimés | Environnements éphémères |
-| `Retain` | PV reste (status Released), données intactes | Production, données critiques |
+| `Retain` | PV reste ([[Status]] Released), données intactes | Production, données critiques |
 | `Recycle` | Efface les données et rend le PV disponible | Déprécié |
 
 ---

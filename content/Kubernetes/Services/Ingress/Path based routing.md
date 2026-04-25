@@ -5,14 +5,11 @@ tags:
 ---
 # Path based routing
 
-## Parent
-- [[Ingress]]
-
 ---
 
 ## Définition
 
-Le path-based routing dans un Ingress dirige les requêtes HTTP vers des services différents selon le chemin URL. `/api/*` → service API, `/` → frontend, `/admin/*` → service admin.
+Le path-based [[Routing]] dans un [[Ingress]] dirige les requêtes HTTP vers des [[Services]] différents selon le chemin URL. `/api/*` → service API, `/` → frontend, `/admin/*` → service admin.
 
 ---
 

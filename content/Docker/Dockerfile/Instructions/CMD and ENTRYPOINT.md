@@ -6,9 +6,6 @@ tags:
 
 # CMD and ENTRYPOINT
 
-## Parent
-- [[Instructions]]
-
 ---
 
 ## Définition

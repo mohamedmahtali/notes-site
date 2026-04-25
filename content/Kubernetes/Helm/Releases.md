@@ -5,14 +5,11 @@ tags:
 ---
 # Releases
 
-## Parent
-- [[Helm]]
-
 ---
 
 ## Définition
 
-Une release Helm est une instance d'un chart déployée dans un cluster Kubernetes. Le même chart peut être installé plusieurs fois sous différents noms de release (ex: `myapp-staging`, `myapp-production`). Helm garde l'historique de chaque release.
+Une release [[Helm]] est une instance d'un chart déployée dans un [[Cluster]] [[Kubernetes]]. Le même chart peut être installé plusieurs fois sous différents noms de release (ex: `myapp-staging`, `myapp-production`). Helm garde l'historique de chaque release.
 
 ---
 
@@ -53,4 +50,4 @@ helm uninstall myapp --keep-history  # garder l'historique
 ---
 
 > [!tip]
-> Utiliser `helm upgrade --install myapp ./chart` dans les pipelines CI/CD — crée la release si elle n'existe pas, ou la met à jour si elle existe. Idempotent et safe pour l'automatisation.
+> Utiliser `helm upgrade --install myapp ./chart` dans les [[Pipeline]] CI/CD — crée la release si elle n'existe pas, ou la met à jour si elle existe. Idempotent et safe pour l'automatisation.

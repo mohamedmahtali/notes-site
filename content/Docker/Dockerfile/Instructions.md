@@ -6,24 +6,11 @@ tags:
 
 # Instructions
 
-## Parent
-- [[Dockerfile]]
-
-## Enfants
-- [[FROM]]
-- [[RUN]]
-- [[COPY]]
-- [[ADD]]
-- [[ENV]]
-- [[EXPOSE]]
-- [[WORKDIR]]
-- [[CMD and ENTRYPOINT]]
-
 ---
 
 ## Définition
 
-Les instructions Dockerfile sont les commandes qui composent la recette de construction d'une image. Chaque instruction crée un layer dans l'image finale.
+Les instructions [[Dockerfile]] sont les commandes qui composent la recette de construction d'une image. Chaque instruction crée un layer dans l'image finale.
 
 ---
 
@@ -33,7 +20,7 @@ Les instructions Dockerfile sont les commandes qui composent la recette de const
 |---|---|
 | `FROM` | Image de base |
 | `WORKDIR` | Répertoire de travail courant |
-| `COPY` | Copier des fichiers depuis le host |
+| `COPY` | Copier des fichiers depuis le [[Host]] |
 | `ADD` | Copier + extraire archives + URL |
 | `RUN` | Exécuter une commande lors du build |
 | `ENV` | Définir une variable d'environnement |

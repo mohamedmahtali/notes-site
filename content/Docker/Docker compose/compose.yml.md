@@ -6,14 +6,11 @@ tags:
 
 # compose.yml
 
-## Parent
-- [[Docker compose]]
-
 ---
 
 ## Définition
 
-`compose.yml` (ou `docker-compose.yml`) est le fichier de configuration central de Docker Compose. Il définit les services, réseaux, volumes, et variables d'environnement de la stack applicative.
+`compose.yml` (ou `docker-compose.yml`) est le fichier de configuration central de [[Docker compose]]. Il définit les [[Services]], réseaux, [[Volumes]], et [[Variables]] d'environnement de la stack applicative.
 
 ---
 

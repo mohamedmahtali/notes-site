@@ -1,13 +1,15 @@
 ---
 title: DevSecOps
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # DevSecOps
 
 ## Définition
 
-DevSecOps intègre la sécurité dans chaque étape du cycle de développement (DevOps). Plutôt qu'un audit final, la sécurité devient une responsabilité partagée dès le début.
+DevSecOps intègre la sécurité dans chaque étape du cycle de développement ([[DevOps]]). Plutôt qu'un audit final, la sécurité devient une responsabilité partagée dès le début.
 
 > [!tip] Pourquoi c'est important
 > Les vulnérabilités détectées en production coûtent 30x plus à corriger qu'en phase de développement. DevSecOps réduit ce coût en détectant les problèmes tôt.

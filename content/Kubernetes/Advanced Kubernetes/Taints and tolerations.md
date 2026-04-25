@@ -5,14 +5,11 @@ tags:
 ---
 # Taints and tolerations
 
-## Parent
-- [[Advanced Kubernetes]]
-
 ---
 
 ## Définition
 
-Les taints sont des marqueurs sur les nodes qui repoussent les pods. Les tolerations sont des marqueurs sur les pods qui leur permettent d'être schedulés sur des nodes avec certains taints. Ensemble, ils permettent de réserver des nodes pour des workloads spécifiques.
+Les taints sont des marqueurs sur les [[Node]] qui repoussent les [[Pods]]. Les tolerations sont des marqueurs sur les pods qui leur permettent d'être schedulés sur des nodes avec certains taints. Ensemble, ils permettent de réserver des nodes pour des workloads spécifiques.
 
 ---
 
@@ -63,4 +60,4 @@ spec:
 ---
 
 > [!note]
-> Les taints `node-role.kubernetes.io/control-plane:NoSchedule` sont automatiquement ajoutés aux control plane nodes pour qu'aucun pod applicatif ne s'y place. Les DaemonSets système ont des tolerations pour tout.
+> Les taints `node-role.kubernetes.io/control-plane:NoSchedule` sont automatiquement ajoutés aux [[Control plane]] nodes pour qu'aucun pod applicatif ne s'y place. Les [[DaemonSets]] système ont des tolerations pour tout.

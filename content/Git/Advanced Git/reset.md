@@ -6,24 +6,11 @@ tags:
 
 # reset
 
-## Parent
-- [[Advanced Git]]
-
-## Enfants
-- [[soft]]
-- [[mixed]]
-- [[hard]]
-
-## Concepts liés
-- [[Advanced Git]]
-- [[reflog]]
-- [[Amend]]
-
 ---
 
 ## Définition
 
-`git reset` déplace le pointeur HEAD (et optionnellement la branche) vers un commit précédent. Selon le mode utilisé (`--soft`, `--mixed`, `--hard`), il affecte différemment le staging area et le working directory.
+`git reset` déplace le pointeur HEAD (et optionnellement la branche) vers un [[Commit]] précédent. Selon le mode utilisé (`--soft`, `--mixed`, `--hard`), il affecte différemment le [[Staging]] area et le working directory.
 
 ---
 

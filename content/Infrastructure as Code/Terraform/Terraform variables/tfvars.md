@@ -5,14 +5,11 @@ tags:
 ---
 # tfvars
 
-## Parent
-- [[Terraform variables]]
-
 ---
 
 ## Définition
 
-Les fichiers `.tfvars` contiennent les valeurs des variables Terraform pour un environnement donné. Ils permettent de séparer la définition des variables (code) de leurs valeurs (configuration).
+Les fichiers `.tfvars` contiennent les valeurs des [[Variables]] [[Terraform]] pour un environnement donné. Ils permettent de séparer la définition des variables (code) de leurs valeurs (configuration).
 
 ---
 
@@ -54,4 +51,4 @@ ls *.tfvars
 ---
 
 > [!warning]
-> Ne jamais committer les fichiers `.tfvars` contenant des secrets (mots de passe, access keys). Les ajouter au `.gitignore`. Utiliser des variables d'environnement `TF_VAR_*` ou un vault pour les secrets.
+> Ne jamais committer les fichiers `.tfvars` contenant des [[Secrets]] (mots de passe, access keys). Les ajouter au `.gitignore`. Utiliser des variables d'environnement `TF_VAR_*` ou un [[Vault]] pour les secrets.

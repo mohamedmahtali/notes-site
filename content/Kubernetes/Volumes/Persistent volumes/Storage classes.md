@@ -5,14 +5,11 @@ tags:
 ---
 # Storage classes
 
-## Parent
-- [[Persistent volumes]]
-
 ---
 
 ## Définition
 
-Une StorageClass décrit les "classes" de stockage disponibles dans un cluster (SSD, HDD, NFS, réplication...). Quand un PVC référence une StorageClass, le provisioner associé crée automatiquement le PV — c'est le provisionnement dynamique.
+Une StorageClass décrit les "classes" de stockage disponibles dans un [[Cluster]] (SSD, HDD, NFS, réplication...). Quand un PVC référence une StorageClass, le provisioner associé crée automatiquement le PV — c'est le provisionnement dynamique.
 
 ---
 

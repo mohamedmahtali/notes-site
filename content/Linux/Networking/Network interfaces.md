@@ -6,14 +6,11 @@ tags:
 
 # Network interfaces
 
-## Parent
-- [[Networking]]
-
 ---
 
 ## Définition
 
-Une interface réseau est le point de connexion entre le système Linux et un réseau. Elle peut être physique (eth0, ens3), virtuelle (lo, docker0, virbr0), ou un tunnel (tun0, wg0).
+Une interface réseau est le point de connexion entre le système [[Linux]] et un réseau. Elle peut être physique (eth0, ens3), virtuelle (lo, docker0, virbr0), ou un tunnel (tun0, wg0).
 
 ---
 

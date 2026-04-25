@@ -5,9 +5,6 @@ tags:
 ---
 # Staging
 
-## Parent
-- [[Deploy stage]]
-
 ---
 
 ## Définition
@@ -19,7 +16,7 @@ L'environnement de staging est une réplique de la production où les déploieme
 ## Pourquoi c'est important
 
 > [!tip] La dernière ligne de défense avant la prod
-> Staging est là pour attraper les problèmes qui passent à travers les tests automatisés : problèmes de configuration, de performance, d'intégration avec des services tiers, ou de comportement sous charge réelle.
+> Staging est là pour attraper les problèmes qui passent à travers les tests automatisés : problèmes de configuration, de performance, d'intégration avec des [[Services]] tiers, ou de comportement sous charge réelle.
 
 ---
 
@@ -52,4 +49,4 @@ deploy-staging:
 | Déploiement | Automatique | Manuel/protégé |
 | Données | Anonymisées | Réelles |
 | Réplicas | 1 | 3+ |
-| Monitoring | Basique | Complet |
+| [[Monitoring]] | Basique | Complet |

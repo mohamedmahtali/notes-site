@@ -5,14 +5,11 @@ tags:
 ---
 # Self hosted runners
 
-## Parent
-- [[GitHub actions]]
-
 ---
 
 ## Définition
 
-Les self-hosted runners sont des machines (VM, bare-metal, conteneur) que tu héberges toi-même pour exécuter les workflows GitHub Actions. Ils donnent accès à du matériel spécifique, des réseaux privés, et évitent les limitations des runners GitHub-hosted.
+Les self-hosted [[Runners]] sont des machines (VM, bare-metal, conteneur) que tu héberges toi-même pour exécuter les [[Workflows]] [[GitHub actions]]. Ils donnent accès à du matériel spécifique, des réseaux privés, et évitent les limitations des runners GitHub-hosted.
 
 ---
 

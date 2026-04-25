@@ -5,14 +5,11 @@ tags:
 ---
 # etcd
 
-## Parent
-- [[Control plane]]
-
 ---
 
 ## Définition
 
-etcd est la base de données clé-valeur distribuée qui stocke tout l'état du cluster Kubernetes : pods, services, ConfigMaps, secrets, etc. C'est le seul composant avec état dans le control plane — si etcd est perdu, le cluster est perdu.
+etcd est la base de données clé-valeur distribuée qui stocke tout l'état du [[Cluster]] [[Kubernetes]] : [[Pods]], [[Services]], [[ConfigMaps]], [[Secrets]], etc. C'est le seul composant avec état dans le [[Control plane]] — si etcd est perdu, le cluster est perdu.
 
 ---
 

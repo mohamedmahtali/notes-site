@@ -6,20 +6,11 @@ tags:
 
 # Commit history
 
-## Parent
-- [[Commit]]
-
-## Concepts liés
-- [[Commit]]
-- [[Commit message]]
-- [[Amend]]
-- [[Rebase]]
-
 ---
 
 ## Définition
 
-L'historique des commits (`git log`) est la liste chronologique de tous les commits d'un dépôt. Chaque entrée contient : le hash SHA-1, l'auteur, la date, et le message. C'est la mémoire du projet.
+L'historique des [[Commit]] (`git log`) est la liste chronologique de tous les commits d'un dépôt. Chaque entrée contient : le hash SHA-1, l'auteur, la date, et le message. C'est la mémoire du projet.
 
 ---
 

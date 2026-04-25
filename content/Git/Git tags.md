@@ -5,23 +5,11 @@ tags:
 ---
 # Git tags
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Lightweight tags]]
-- [[Annotated tags]]
-
-## Concepts liés
-- [[Lightweight tags]]
-- [[Annotated tags]]
-- [[Versioning]]
-
 ---
 
 ## Définition
 
-Un tag Git est un pointeur nommé et **immuable** vers un commit spécifique. Contrairement aux branches qui avancent à chaque commit, un tag reste fixé. Les tags servent principalement à marquer les **versions et releases** d'un projet.
+Un tag [[Git]] est un pointeur nommé et **immuable** vers un [[Commit]] spécifique. Contrairement aux branches qui avancent à chaque commit, un tag reste fixé. Les tags servent principalement à marquer les **versions et [[Releases]]** d'un projet.
 
 ---
 

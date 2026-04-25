@@ -5,14 +5,11 @@ tags:
 ---
 # Centralized logging
 
-## Parent
-- [[Logging]]
-
 ---
 
 ## Définition
 
-Le logging centralisé collecte les logs de tous les services et serveurs dans un système unique de stockage et de recherche. Sans centralisation, les logs sont dispersés sur des dizaines de pods/serveurs.
+Le [[Logging]] centralisé collecte les logs de tous les [[Services]] et serveurs dans un système unique de stockage et de recherche. Sans centralisation, les logs sont dispersés sur des dizaines de [[Pods]]/serveurs.
 
 ---
 
@@ -22,7 +19,7 @@ Le logging centralisé collecte les logs de tous les services et serveurs dans u
 |---|---|---|---|
 | ELK | Logstash/Filebeat | Elasticsearch | Kibana |
 | EFK | Fluentd/Fluent Bit | Elasticsearch | Kibana |
-| PLG | Promtail | Loki | Grafana |
+| PLG | Promtail | [[Loki]] | [[Grafana]] |
 | Datadog | Agent | Datadog | Datadog |
 
 ---

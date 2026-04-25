@@ -5,14 +5,11 @@ tags:
 ---
 # Artifact repositories
 
-## Parent
-- [[Artifacts]]
-
 ---
 
 ## Définition
 
-Les artifact repositories sont des systèmes de stockage dédiés aux artefacts de build : packages, images Docker, binaires. Ils gèrent le versioning, l'accès, la rétention, et la promotion entre environnements.
+Les artifact repositories sont des systèmes de stockage dédiés aux artefacts de build : [[Package]], images [[Docker]], binaires. Ils gèrent le [[Versioning]], l'accès, la rétention, et la promotion entre environnements.
 
 ---
 
@@ -20,10 +17,10 @@ Les artifact repositories sont des systèmes de stockage dédiés aux artefacts 
 
 | Solution | Type | Hébergement |
 |---|---|---|
-| JFrog Artifactory | Universal | Self-hosted / Cloud |
-| Nexus Repository | Universal | Self-hosted |
+| JFrog Artifactory | Universal | Self-hosted / [[Cloud]] |
+| Nexus [[Repository]] | Universal | Self-hosted |
 | GitHub Packages | npm, Docker, Maven | Cloud (GitHub) |
-| AWS ECR | Docker uniquement | AWS |
+| [[AWS]] ECR | Docker uniquement | AWS |
 | Google Artifact Registry | Docker, npm, Maven | GCP |
 
 ---

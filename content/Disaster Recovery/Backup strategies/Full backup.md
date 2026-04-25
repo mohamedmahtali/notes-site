@@ -1,6 +1,8 @@
 ---
 title: Full backup
-tags: [reliability, beginner]
+tags:
+  - reliability
+  - beginner
 ---
 
 # Full backup (Sauvegarde complète)

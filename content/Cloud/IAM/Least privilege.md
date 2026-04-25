@@ -5,9 +5,6 @@ tags:
 ---
 # Least privilege
 
-## Parent
-- [[IAM]]
-
 ---
 
 ## Définition
@@ -18,7 +15,7 @@ Le principe du moindre privilège stipule qu'une identité ne doit avoir accès 
 
 ## Pourquoi c'est important
 
-> [!warning] Les permissions excessives = surface d'attaque
+> [!warning] Les [[Permissions]] excessives = surface d'attaque
 > Si un service compromis a des droits admin, l'attaquant a des droits admin. Si le service a seulement `s3:GetObject` sur un bucket spécifique, l'impact est limité. Le moindre privilège contient le blast radius d'une compromission.
 
 ---

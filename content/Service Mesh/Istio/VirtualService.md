@@ -1,13 +1,16 @@
 ---
 title: VirtualService
-tags: [kubernetes, networking, advanced]
+tags:
+  - kubernetes
+  - networking
+  - advanced
 ---
 
 # VirtualService
 
 ## Définition
 
-Un `VirtualService` Istio définit les **règles de routage** du trafic vers un service. Il remplace le routage basique de Kubernetes (round-robin sur les pods) par un routage fin basé sur les headers, le poids, le chemin, etc.
+Un `VirtualService` Istio définit les **règles de routage** du trafic vers un service. Il remplace le routage basique de [[Kubernetes]] (round-robin sur les [[Pods]]) par un routage fin basé sur les headers, le poids, le chemin, etc.
 
 > [!note] VirtualService ≠ Service K8s
 > Le VirtualService est une couche au-dessus du Service Kubernetes. Il dit "comment router le trafic" ; le Service dit "où aller". Les deux coexistent.

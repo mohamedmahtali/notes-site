@@ -5,25 +5,11 @@ tags:
 ---
 # Merge
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Fast forward merge]]
-- [[Three way merge]]
-- [[Merge conflicts]]
-
-## Concepts liés
-- [[Fast forward merge]]
-- [[Three way merge]]
-- [[Merge conflicts]]
-- [[Pull request]]
-
 ---
 
 ## Définition
 
-`git merge` intègre les modifications d'une branche dans une autre. Selon si la branche cible a avancé ou non depuis la divergence, Git choisit automatiquement entre un [[Fast forward merge|fast-forward]] (sans commit de merge) ou un [[Three way merge|three-way merge]] (avec commit de merge).
+`git merge` intègre les modifications d'une branche dans une autre. Selon si la branche cible a avancé ou non depuis la divergence, [[Git]] choisit automatiquement entre un [[Fast forward merge|fast-forward]] (sans [[Commit]] de merge) ou un [[Three way merge|three-way merge]] (avec commit de merge).
 
 ---
 

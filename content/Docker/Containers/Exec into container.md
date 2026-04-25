@@ -6,9 +6,6 @@ tags:
 
 # Exec into container
 
-## Parent
-- [[Containers]]
-
 ---
 
 ## Définition

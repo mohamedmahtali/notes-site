@@ -5,9 +5,6 @@ tags:
 ---
 # Outbound rules
 
-## Parent
-- [[Security groups]]
-
 ---
 
 ## Définition
@@ -61,7 +58,7 @@ aws ec2 authorize-security-group-egress \
 | Workload standard | Laisser "tout autorisé" (valeur dans l'inbound) |
 | Traitement de données sensibles | Restreindre — éviter l'exfiltration |
 | Compliance (PCI-DSS, SOC2) | Souvent obligatoire de restreindre |
-| Instances dans subnet privé | Gérer via NAT Gateway + VPC Endpoints |
+| Instances dans subnet privé | Gérer via [[NAT [[Gateway]]]] + [[VPC]] Endpoints |
 
 > [!note]
 > Restreindre les règles outbound est une pratique de sécurité avancée (defense in depth). Pour la plupart des workloads, laisser les règles outbound par défaut (tout autorisé) est acceptable — la valeur est dans les règles inbound.

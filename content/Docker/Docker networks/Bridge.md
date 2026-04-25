@@ -6,14 +6,11 @@ tags:
 
 # Bridge
 
-## Parent
-- [[Docker networks]]
-
 ---
 
 ## Définition
 
-Le driver `bridge` crée un réseau privé virtuel sur l'hôte Docker. C'est le driver par défaut. Les conteneurs sur le même réseau bridge peuvent se contacter. La communication avec l'extérieur passe par NAT.
+Le driver `bridge` crée un réseau privé virtuel sur l'hôte [[Docker]]. C'est le driver par défaut. Les conteneurs sur le même réseau bridge peuvent se contacter. La communication avec l'extérieur passe par [[NAT]].
 
 ---
 
@@ -21,7 +18,7 @@ Le driver `bridge` crée un réseau privé virtuel sur l'hôte Docker. C'est le 
 
 | Critère | Bridge par défaut (`docker0`) | Custom bridge |
 |---|---|---|
-| DNS automatique | ❌ Non | ✅ Oui |
+| [[DNS]] automatique | ❌ Non | ✅ Oui |
 | Isolation | Partagé avec tous les conteneurs | Réseau dédié |
 | Recommandé | ❌ Non | ✅ Oui |
 
@@ -45,7 +42,7 @@ docker exec api ping db   # → résolution DNS automatique
 
 ## En Docker Compose
 
-Docker Compose crée automatiquement un réseau bridge custom pour chaque projet :
+[[Docker compose]] crée automatiquement un réseau bridge custom pour chaque projet :
 
 ```yaml
 services:
@@ -59,4 +56,4 @@ services:
 ---
 
 > [!tip]
-> Toujours utiliser des **custom bridge networks** plutôt que le bridge par défaut. Le bridge par défaut n'a pas de DNS automatique et met tous les conteneurs sur le même réseau.
+> Toujours utiliser des **custom bridge [[Networks]]** plutôt que le bridge par défaut. Le bridge par défaut n'a pas de DNS automatique et met tous les conteneurs sur le même réseau.

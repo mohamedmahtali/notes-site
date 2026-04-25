@@ -1,13 +1,15 @@
 ---
 title: Chaos Monkey
-tags: [reliability, advanced]
+tags:
+  - reliability
+  - advanced
 ---
 
 # Chaos Monkey
 
 ## Définition
 
-Chaos Monkey est l'outil de chaos engineering créé par Netflix. Il termine aléatoirement des instances EC2 en production pour forcer les équipes à construire des services résilients capables de survivre à la perte d'instances.
+Chaos Monkey est l'outil de chaos engineering créé par Netflix. Il termine aléatoirement des instances [[EC2]] en production pour forcer les équipes à construire des [[Services]] résilients capables de survivre à la perte d'instances.
 
 > [!note] La Simian Army
 > Netflix a étendu Chaos Monkey en une "Simian Army" : Chaos Gorilla (zone de disponibilité entière), Chaos Kong (région entière), Latency Monkey (latence artificielle), Conformity Monkey (non-conformités)...

@@ -5,21 +5,18 @@ tags:
 ---
 # API server
 
-## Parent
-- [[Control plane]]
-
 ---
 
 ## Définition
 
-Le kube-apiserver est le point d'entrée central du cluster Kubernetes. Il expose l'API REST Kubernetes et traite toutes les requêtes (kubectl, controllers, kubelet). Toutes les opérations passent par lui — c'est le seul composant qui parle directement à etcd.
+Le kube-apiserver est le point d'entrée central du [[Cluster]] [[Kubernetes]]. Il [[EXPOSE]] l'API REST Kubernetes et traite toutes les requêtes ([[kubectl]], controllers, [[kubelet]]). Toutes les opérations passent par lui — c'est le seul composant qui parle directement à [[etcd]].
 
 ---
 
 ## Pourquoi c'est important
 
 > [!note] Le cerveau du cluster
-> Tout passe par l'API server : création de pods, mise à jour de ConfigMaps, requêtes des controllers. Il authentifie, autorise (RBAC), et valide chaque requête avant de la persister dans etcd.
+> Tout passe par l'API server : création de [[Pods]], mise à jour de [[ConfigMaps]], requêtes des controllers. Il authentifie, autorise ([[RBAC]]), et valide chaque requête avant de la persister dans etcd.
 
 ---
 

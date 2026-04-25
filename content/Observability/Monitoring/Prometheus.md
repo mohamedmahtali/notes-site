@@ -5,20 +5,11 @@ tags:
 ---
 # Prometheus
 
-## Parent
-- [[Monitoring]]
-
-## Enfants
-- [[Scraping]]
-- [[PromQL]]
-- [[Recording rules]]
-- [[Exporters]]
-
 ---
 
 ## Définition
 
-Prometheus est la base de données de séries temporelles (TSDB) open-source standard pour le monitoring cloud-native. Il collecte les métriques en scraping des endpoints HTTP `/metrics` à intervalle régulier.
+Prometheus est la base de données de séries temporelles (TSDB) open-source standard pour le [[Monitoring]] [[Cloud]]-native. Il collecte les métriques en [[Scraping]] des endpoints HTTP `/metrics` à intervalle régulier.
 
 ---
 

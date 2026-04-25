@@ -5,15 +5,6 @@ tags:
 ---
 # Logging
 
-## Parent
-- [[Observability]]
-
-## Enfants
-- [[Structured logs]]
-- [[Centralized logging]]
-- [[Loki]]
-- [[Log retention]]
-
 ---
 
 ## Définition
@@ -37,7 +28,7 @@ Les logs sont des enregistrements textuels d'événements dans un système. Ils 
 ## Pourquoi c'est important
 
 > [!tip] Les logs pour le "pourquoi"
-> Quand Prometheus détecte une anomalie (spike d'erreurs), les logs permettent de comprendre pourquoi : quelle requête a échoué, quelle exception a été levée, quel utilisateur était concerné.
+> Quand [[Prometheus]] détecte une anomalie (spike d'erreurs), les logs permettent de comprendre pourquoi : quelle requête a échoué, quelle exception a été levée, quel utilisateur était concerné.
 
 ---
 
@@ -80,8 +71,8 @@ slog.Info("request received",
 |-------|-----------|-------|
 | **ELK** | Elasticsearch + Logstash + Kibana | Recherche full-text puissante |
 | **EFK** | Elasticsearch + Fluentd + Kibana | K8s natif (Fluentd DaemonSet) |
-| **Loki + Grafana** | Loki + Promtail + Grafana | Léger, orienté labels (comme Prometheus) |
-| **CloudWatch** | AWS natif | Simple si tout est sur AWS |
+| **Loki + [[Grafana]]** | Loki + Promtail + Grafana | Léger, orienté labels (comme Prometheus) |
+| **CloudWatch** | [[AWS]] natif | Simple si tout est sur AWS |
 
 ## Collecte dans Kubernetes (Promtail)
 

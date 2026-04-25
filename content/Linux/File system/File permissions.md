@@ -6,20 +6,11 @@ tags:
 
 # File permissions
 
-## Parent
-- [[File system]]
-
-## Enfants
-- [[chmod]]
-- [[chown]]
-- [[chgrp]]
-- [[umask]]
-
 ---
 
 ## Définition
 
-Chaque fichier Linux a des permissions pour trois entités : le propriétaire (user), le groupe (group), et les autres (others). Ces permissions (read/write/execute) contrôlent qui peut lire, modifier, ou exécuter un fichier.
+Chaque fichier [[Linux]] a des [[Permissions]] pour trois entités : le propriétaire (user), le groupe (group), et les autres (others). Ces permissions (read/write/execute) contrôlent qui peut lire, modifier, ou exécuter un fichier.
 
 ---
 

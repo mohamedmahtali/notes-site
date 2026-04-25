@@ -6,14 +6,11 @@ tags:
 
 # Volumes
 
-## Parent
-- [[Docker compose]]
-
 ---
 
 ## Définition
 
-Docker Compose permet de déclarer des volumes nommés dans la section `volumes` du fichier. Ces volumes sont créés automatiquement et persistent entre les redémarrages de la stack (`docker compose down` sans `-v`).
+[[Docker compose]] permet de déclarer des volumes nommés dans la section `volumes` du fichier. Ces volumes sont créés automatiquement et persistent entre les redémarrages de la stack (`docker compose down` sans `-v`).
 
 ---
 

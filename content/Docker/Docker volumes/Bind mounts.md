@@ -6,9 +6,6 @@ tags:
 
 # Bind mounts
 
-## Parent
-- [[Docker volumes]]
-
 ---
 
 ## Définition
@@ -52,10 +49,10 @@ services:
 
 | Critère | Bind mount | Named volume |
 |---|---|---|
-| Performance Linux | ✅ Native | ✅ Native |
+| Performance [[Linux]] | ✅ Native | ✅ Native |
 | Performance macOS | ⚠️ Lent | ✅ Rapide |
 | Cas d'usage | Dev local | Données persistantes |
 | Portabilité | ❌ Chemin absolu | ✅ Nommé |
 
 > [!warning] Macros
-> Sur macOS/Windows, les bind mounts sont plus lents à cause de la VM. Utiliser des named volumes pour les données de base de données sur ces OS.
+> Sur macOS/Windows, les bind mounts sont plus lents à cause de la VM. Utiliser des [[Named [[Volumes]]]] pour les données de base de données sur ces OS.

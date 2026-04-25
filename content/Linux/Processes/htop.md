@@ -6,9 +6,6 @@ tags:
 
 # htop
 
-## Parent
-- [[Processes]]
-
 ---
 
 ## Définition

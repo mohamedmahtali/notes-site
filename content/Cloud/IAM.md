@@ -5,20 +5,11 @@ tags:
 ---
 # IAM
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[Users]]
-- [[Roles]]
-- [[Policies]]
-- [[Least privilege]]
-
 ---
 
 ## Définition
 
-IAM (Identity and Access Management) est le système de contrôle d'accès du cloud. Commun à AWS, GCP, et Azure (sous des noms légèrement différents), il définit qui peut faire quoi sur quelles ressources.
+IAM (Identity and Access Management) est le système de contrôle d'accès du [[Cloud]]. Commun à [[AWS]], GCP, et [[Azure]] (sous des noms légèrement différents), il définit qui peut faire quoi sur quelles ressources.
 
 ---
 
@@ -45,10 +36,10 @@ Binding (association)
 | Concept | AWS | GCP | Azure |
 |---|---|---|---|
 | Identité service | IAM Role | Service Account | Managed Identity |
-| Politique | IAM Policy | IAM Policy | Azure Policy / RBAC |
-| Console | IAM | IAM | Azure AD |
+| Politique | IAM Policy | IAM Policy | Azure Policy / [[RBAC]] |
+| Console | IAM | IAM | [[Azure AD]] |
 
 ---
 
 > [!warning]
-> Le compte root/admin initial doit être sécurisé avec MFA et ne jamais être utilisé au quotidien. Créer des identités dédiées avec le minimum de permissions nécessaires.
+> Le compte root/admin initial doit être sécurisé avec MFA et ne jamais être utilisé au quotidien. Créer des identités dédiées avec le minimum de [[Permissions]] nécessaires.

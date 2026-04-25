@@ -6,14 +6,11 @@ tags:
 
 # IPv6
 
-## Parent
-- [[IP addressing]]
-
 ---
 
 ## Définition
 
-IPv6 est la version 6 du protocole IP, utilisant des adresses sur 128 bits notées en hexadécimal. Il résout l'épuisement des adresses IPv4 (3.4 × 10^38 adresses possibles vs 4.3 milliards).
+IPv6 est la version 6 du protocole IP, utilisant des adresses sur 128 bits notées en hexadécimal. Il résout l'épuisement des adresses [[IPv4]] (3.4 × 10^38 adresses possibles vs 4.3 milliards).
 
 ---
 

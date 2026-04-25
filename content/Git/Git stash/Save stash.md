@@ -6,19 +6,11 @@ tags:
 
 # Save stash
 
-## Parent
-- [[Git stash]]
-
-## Concepts liés
-- [[Git stash]]
-- [[Apply stash]]
-- [[Pop stash]]
-
 ---
 
 ## Définition
 
-`git stash push` (ou `git stash save` dans les anciennes versions) met de côté les modifications non committées — fichiers trackés modifiés et fichiers en staging — dans une pile de stash. Le working directory revient à l'état du dernier commit, propre.
+`git stash push` (ou `git stash save` dans les anciennes versions) met de côté les modifications non committées — fichiers trackés modifiés et fichiers en [[Staging]] — dans une pile de stash. Le working directory revient à l'état du dernier [[Commit]], propre.
 
 ---
 

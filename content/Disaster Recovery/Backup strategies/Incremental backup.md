@@ -1,6 +1,8 @@
 ---
 title: Incremental backup
-tags: [reliability, intermediate]
+tags:
+  - reliability
+  - intermediate
 ---
 
 # Incremental backup (Sauvegarde incrémentale)

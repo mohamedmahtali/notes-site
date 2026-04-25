@@ -5,14 +5,11 @@ tags:
 ---
 # Exporters
 
-## Parent
-- [[Prometheus]]
-
 ---
 
 ## Définition
 
-Les exporters sont des agents qui collectent des métriques depuis des systèmes qui n'exposent pas nativement le format Prometheus (serveurs Linux, bases de données, services tiers) et les convertissent en métriques Prometheus.
+Les exporters sont des agents qui collectent des métriques depuis des systèmes qui n'exposent pas nativement le format [[Prometheus]] (serveurs [[Linux]], bases de données, [[Services]] tiers) et les convertissent en métriques Prometheus.
 
 ---
 
@@ -21,12 +18,12 @@ Les exporters sont des agents qui collectent des métriques depuis des systèmes
 | Exporter | Cible | Port |
 |---|---|---|
 | node_exporter | Serveurs Linux | 9100 |
-| blackbox_exporter | URLs, DNS, TCP | 9115 |
+| blackbox_exporter | URLs, [[DNS]], TCP | 9115 |
 | postgres_exporter | PostgreSQL | 9187 |
 | redis_exporter | Redis | 9121 |
 | mysql_exporter | MySQL | 9104 |
-| nginx_exporter | Nginx | 9113 |
-| kube-state-metrics | Kubernetes objects | 8080 |
+| nginx_exporter | [[Nginx]] | 9113 |
+| kube-state-[[Metrics]] | [[Kubernetes]] objects | 8080 |
 
 ---
 

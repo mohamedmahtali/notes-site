@@ -1,16 +1,18 @@
 ---
 title: Namespace isolation
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Namespace isolation
 
 ## Définition
 
-Les namespaces Linux isolent les ressources entre processus : PID, réseau, système de fichiers, utilisateurs, etc. Les conteneurs reposent sur ces namespaces pour leur isolation.
+Les [[Namespaces]] [[Linux]] isolent les ressources entre processus : PID, réseau, système de fichiers, utilisateurs, etc. Les conteneurs reposent sur ces namespaces pour leur isolation.
 
 > [!note] Limite de l'isolation
-> Les conteneurs partagent le kernel. L'isolation par namespace n'est pas aussi forte que la virtualisation complète. Un exploit kernel peut briser cette isolation.
+> Les conteneurs partagent le [[Kernel]]. L'isolation par namespace n'est pas aussi forte que la virtualisation complète. Un exploit kernel peut briser cette isolation.
 
 ## Types de namespaces
 

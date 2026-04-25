@@ -5,14 +5,11 @@ tags:
 ---
 # Alerts
 
-## Parent
-- [[Grafana]]
-
 ---
 
 ## Définition
 
-Grafana Alerting permet de définir des règles d'alerte directement dans Grafana (sans passer par Prometheus Alertmanager) et de les router vers des canaux de notification. Depuis Grafana 8+, il centralise toutes les alertes.
+[[Grafana]] Alerting permet de définir des règles d'alerte directement dans Grafana (sans passer par [[Prometheus]] [[Alertmanager]]) et de les router vers des canaux de notification. Depuis Grafana 8+, il centralise toutes les alertes.
 
 ---
 

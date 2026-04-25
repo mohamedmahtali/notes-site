@@ -6,20 +6,11 @@ tags:
 
 # Squash
 
-## Parent
-- [[Rebase]]
-
-## Concepts liés
-- [[Rebase]]
-- [[Interactive rebase]]
-- [[Rewrite history]]
-- [[Pull request]]
-
 ---
 
 ## Définition
 
-Le squash consiste à **fusionner plusieurs commits en un seul**. Cela produit un historique plus propre sur `main` en remplaçant une série de commits de développement (WIP, fix typo, add test) par un commit unique et cohérent.
+Le squash consiste à **fusionner plusieurs [[Commit]] en un seul**. Cela produit un historique plus propre sur `main` en remplaçant une série de commits de développement (WIP, fix typo, add test) par un commit unique et cohérent.
 
 ---
 
@@ -39,10 +30,10 @@ squash c1f9a3b fix: handle edge case
 
 ### 2. Via GitHub (option "Squash and merge")
 
-Sur GitHub, au moment du merge d'une PR :
+Sur GitHub, au moment du [[Merge]] d'une PR :
 - **Merge commit** : conserve tous les commits + 1 commit de merge
 - **Squash and merge** : ✅ tous les commits → 1 seul commit dans `main`
-- **Rebase and merge** : rejoue les commits sans commit de merge
+- **[[Rebase]] and merge** : rejoue les commits sans commit de merge
 
 ### 3. En ligne de commande
 
@@ -58,7 +49,7 @@ git commit -m "feat: add user authentication"
 
 | Situation | Recommandation |
 |---|---|
-| Branch de feature | ✅ Squash before merge → 1 commit = 1 feature |
+| [[Branch]] de feature | ✅ Squash before merge → 1 commit = 1 feature |
 | Historique de debug | ✅ Squash les WIP/fix/typo |
 | Commits importants à tracer | ❌ Garder séparés pour le blame |
 

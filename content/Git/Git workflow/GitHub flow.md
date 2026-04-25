@@ -6,21 +6,11 @@ tags:
 
 # GitHub flow
 
-## Parent
-- [[Git workflow]]
-
-## Concepts liés
-- [[Git flow]]
-- [[Trunk based development]]
-- [[Pull request]]
-- [[Branch]]
-- [[CI-CD]]
-
 ---
 
 ## Définition
 
-GitHub flow est un workflow Git **simple et léger**, conçu pour des équipes qui déploient régulièrement (plusieurs fois par jour). Il repose sur une seule branche principale (`main`) toujours déployable, et des branches de feature courtes.
+GitHub flow est un workflow [[Git]] **simple et léger**, conçu pour des équipes qui déploient régulièrement (plusieurs fois par jour). Il repose sur une seule branche principale (`main`) toujours déployable, et des branches de feature courtes.
 
 C'est le workflow le plus répandu dans les projets modernes avec CI/CD.
 
@@ -29,7 +19,7 @@ C'est le workflow le plus répandu dans les projets modernes avec CI/CD.
 ## Pourquoi c'est important
 
 > [!tip] Idéal pour le CI/CD
-> GitHub flow est pensé pour s'intégrer naturellement avec les pipelines d'intégration continue. Chaque Pull Request déclenche des tests automatiques avant le merge.
+> GitHub flow est pensé pour s'intégrer naturellement avec les [[Pipeline]] d'intégration continue. Chaque [[Pull request]] déclenche des tests automatiques avant le [[Merge]].
 
 - **Simple** : une seule règle — `main` est toujours déployable
 - **Rapide** : cycles courts, feedback rapide
@@ -99,12 +89,12 @@ git branch -d feature/ajout-authentification
 
 ## Comparaison avec Git flow
 
-| Critère | GitHub flow | Git flow |
+| Critère | GitHub flow | [[Git flow]] |
 |---|---|---|
 | Complexité | Simple | Complexe |
 | Branches | 1 principale + features | main, develop, release, hotfix |
 | Déploiement | Continu | Par release |
-| Idéal pour | Web, SaaS, CI/CD | Logiciel versionné |
+| Idéal pour | Web, [[SaaS]], CI/CD | Logiciel versionné |
 
 > [!note] Quelle règle retenir ?
 > **`main` doit toujours être dans un état déployable.** Si ce n'est pas le cas, le workflow est cassé.

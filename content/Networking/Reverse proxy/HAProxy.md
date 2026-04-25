@@ -1,6 +1,8 @@
 ---
 title: HAProxy
-tags: [networking, advanced]
+tags:
+  - networking
+  - advanced
 ---
 
 # HAProxy
@@ -9,8 +11,8 @@ tags: [networking, advanced]
 
 HAProxy (High Availability Proxy) est un load balancer et proxy TCP/HTTP open-source, réputé pour ses performances extrêmes et sa fiabilité. Il est utilisé par des géants du web (GitHub, Stack Overflow, Reddit).
 
-> [!note] HAProxy vs Nginx
-> HAProxy excelle dans le load balancing pur (Layer 4 et 7), les health checks avancés, et les statistiques en temps réel. Nginx est plus polyvalent (fichiers statiques, PHP). Les deux se complètent souvent.
+> [!note] HAProxy vs [[Nginx]]
+> HAProxy excelle dans le load balancing pur ([[Layer 4]] et 7), les [[Health checks]] avancés, et les statistiques en temps réel. Nginx est plus polyvalent (fichiers statiques, PHP). Les deux se complètent souvent.
 
 ## Configuration de base
 

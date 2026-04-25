@@ -6,14 +6,11 @@ tags:
 
 # Variables
 
-## Parent
-- [[Bash]]
-
 ---
 
 ## Définition
 
-Les variables Bash stockent des valeurs (chaînes, nombres) pour les réutiliser dans un script. Elles sont non-typées par défaut — toute valeur est traitée comme une chaîne sauf si spécifié autrement.
+Les variables [[Bash]] stockent des valeurs (chaînes, nombres) pour les réutiliser dans un script. Elles sont non-typées par défaut — toute valeur est traitée comme une chaîne sauf si spécifié autrement.
 
 ---
 

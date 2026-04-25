@@ -6,9 +6,6 @@ tags:
 
 # NAT
 
-## Parent
-- [[iptables]]
-
 ---
 
 ## Définition

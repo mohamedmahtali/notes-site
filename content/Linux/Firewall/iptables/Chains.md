@@ -6,14 +6,11 @@ tags:
 
 # Chains
 
-## Parent
-- [[iptables]]
-
 ---
 
 ## Définition
 
-Les chains (chaînes) iptables sont des séquences ordonnées de règles. Chaque paquet traverse une ou plusieurs chains selon son type. Si aucune règle ne correspond, la politique par défaut de la chain s'applique.
+Les chains (chaînes) [[iptables]] sont des séquences ordonnées de règles. Chaque paquet traverse une ou plusieurs chains selon son type. Si aucune règle ne correspond, la politique par défaut de la chain s'applique.
 
 ---
 

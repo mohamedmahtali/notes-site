@@ -6,19 +6,11 @@ tags:
 
 # Docker registry
 
-## Parent
-- [[Docker]]
-
-## Enfants
-- [[Docker hub]]
-- [[Private registry]]
-- [[Image pull and push]]
-
 ---
 
 ## Définition
 
-Un registry Docker est un serveur de stockage et de distribution d'images Docker. Il fonctionne comme un dépôt de packages mais pour des images de conteneurs. Les images y sont poussées après le build et tirées lors du déploiement.
+Un registry [[Docker]] est un serveur de stockage et de distribution d'images Docker. Il fonctionne comme un dépôt de [[Package]] mais pour des images de conteneurs. Les images y sont poussées après le build et tirées lors du déploiement.
 
 ---
 
@@ -28,9 +20,9 @@ Un registry Docker est un serveur de stockage et de distribution d'images Docker
 |---|---|---|
 | [[Docker hub\|Docker Hub]] | Public/privé | Le plus connu, images officielles |
 | GitHub Container Registry (ghcr.io) | Public/privé | Intégré à GitHub |
-| AWS ECR | Privé cloud | Intégré à AWS IAM |
+| [[AWS]] ECR | Privé [[Cloud]] | Intégré à AWS [[IAM]] |
 | GCR (gcr.io) | Privé cloud | Intégré à GCP |
-| Azure Container Registry | Privé cloud | Intégré à Azure |
+| [[Azure]] Container Registry | Privé cloud | Intégré à Azure |
 | Harbor | Self-hosted | Open source, features avancées |
 
 ---

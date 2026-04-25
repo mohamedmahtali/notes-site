@@ -5,33 +5,24 @@ tags:
 ---
 # Google Cloud
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[Compute Engine]]
-- [[GKE]]
-- [[Cloud Storage]]
-- [[IAM]]
-
 ---
 
 ## Définition
 
-Google Cloud Platform (GCP) est le troisième cloud provider mondial. Il est reconnu pour ses capacités en data/ML (BigQuery, Vertex AI), son réseau mondial, et Kubernetes (GKE est le plus mature des K8s managés — c'est l'inventeur de K8s).
+Google [[Cloud]] Platform (GCP) est le troisième cloud provider mondial. Il est reconnu pour ses capacités en data/ML (BigQuery, Vertex AI), son réseau mondial, et [[Kubernetes]] ([[GKE]] est le plus mature des K8s managés — c'est l'inventeur de K8s).
 
 ---
 
 ## Services fondamentaux
 
-| Catégorie | Service AWS équivalent | GCP |
+| Catégorie | Service [[AWS]] équivalent | GCP |
 |---|---|---|
-| VM | EC2 | Compute Engine |
-| K8s | EKS | GKE |
-| Serverless | Lambda | Cloud Functions / Cloud Run |
-| Object storage | S3 | Cloud Storage |
+| VM | [[EC2]] | [[Compute Engine]] |
+| K8s | [[EKS]] | GKE |
+| Serverless | Lambda | Cloud [[Functions]] / Cloud Run |
+| [[Object storage]] | S3 | [[Cloud Storage]] |
 | BDD managée | RDS | Cloud SQL |
-| IAM | IAM | Cloud IAM |
+| [[IAM]] | IAM | Cloud IAM |
 
 ---
 

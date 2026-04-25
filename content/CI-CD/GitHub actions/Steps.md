@@ -5,14 +5,11 @@ tags:
 ---
 # Steps
 
-## Parent
-- [[GitHub actions]]
-
 ---
 
 ## Définition
 
-Les steps sont les instructions individuelles d'un job. Chaque step est soit une commande shell (`run`), soit une action réutilisable (`uses`). Ils s'exécutent séquentiellement sur le même runner et partagent le même filesystem.
+Les steps sont les [[Instructions]] individuelles d'un job. Chaque step est soit une commande [[Shell]] (`run`), soit une action réutilisable (`uses`). Ils s'exécutent séquentiellement sur le même runner et partagent le même filesystem.
 
 ---
 

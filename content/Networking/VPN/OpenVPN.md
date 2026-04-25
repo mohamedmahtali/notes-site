@@ -1,13 +1,15 @@
 ---
 title: OpenVPN
-tags: [networking, intermediate]
+tags:
+  - networking
+  - intermediate
 ---
 
 # OpenVPN
 
 ## Définition
 
-OpenVPN est un VPN open-source mature utilisant TLS pour chiffrer les communications. Il est très compatible (fonctionne sur tous les OS, traverse les firewalls via UDP/TCP sur n'importe quel port).
+OpenVPN est un VPN open-source mature utilisant TLS pour chiffrer les communications. Il est très compatible (fonctionne sur tous les OS, traverse les [[Firewall]] via UDP/TCP sur n'importe quel port).
 
 > [!note] OpenVPN vs WireGuard
 > OpenVPN est plus établi et compatible, mais WireGuard est plus rapide et simple. Pour les nouveaux déploiements, WireGuard est souvent préféré. OpenVPN reste pertinent pour les environnements legacy et certaines entreprises.

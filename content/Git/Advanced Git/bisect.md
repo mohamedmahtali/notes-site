@@ -6,19 +6,11 @@ tags:
 
 # bisect
 
-## Parent
-- [[Advanced Git]]
-
-## Concepts liés
-- [[Advanced Git]]
-- [[Commit history]]
-- [[reflog]]
-
 ---
 
 ## Définition
 
-`git bisect` est un outil de recherche binaire dans l'historique Git. Il permet de trouver **exactement quel commit a introduit un bug** en divisant l'historique en deux à chaque étape, réduisant exponentiellement le nombre de commits à inspecter.
+`git bisect` est un outil de recherche binaire dans l'historique [[Git]]. Il permet de trouver **exactement quel [[Commit]] a introduit un bug** en divisant l'historique en deux à chaque étape, réduisant exponentiellement le nombre de commits à inspecter.
 
 ---
 

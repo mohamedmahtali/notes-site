@@ -5,14 +5,11 @@ tags:
 ---
 # Docker layer cache
 
-## Parent
-- [[Pipeline caching]]
-
 ---
 
 ## Définition
 
-Le Docker layer cache réutilise les couches d'image Docker déjà construites pour accélérer les builds. Une couche est reconstruite seulement si elle ou ses dépendances ont changé.
+Le [[Docker]] layer cache réutilise les couches d'image Docker déjà construites pour accélérer les builds. Une couche est reconstruite seulement si elle ou ses dépendances ont changé.
 
 ---
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Stable identity
 
-## Parent
-- [[StatefulSets]]
-
 ---
 
 ## Définition
 
-L'identité stable d'un StatefulSet signifie que chaque pod conserve le même nom et la même adresse DNS, même après un redémarrage. `postgres-0` reste toujours `postgres-0` — contrairement aux pods de Deployment qui ont un nom aléatoire.
+L'identité stable d'un StatefulSet signifie que chaque pod conserve le même nom et la même adresse [[DNS]], même après un redémarrage. `postgres-0` reste toujours `postgres-0` — contrairement aux [[Pods]] de Deployment qui ont un nom aléatoire.
 
 ---
 
@@ -62,4 +59,4 @@ env:
 ---
 
 > [!tip]
-> Le DNS stable permet aux membres d'un cluster distribué (Kafka, Elasticsearch, PostgreSQL HA) de se localiser mutuellement de façon fiable. `postgres-0` est toujours le primary, `postgres-1` et `postgres-2` sont les replicas.
+> Le DNS stable permet aux membres d'un [[Cluster]] distribué (Kafka, Elasticsearch, PostgreSQL HA) de se localiser mutuellement de façon fiable. `postgres-0` est toujours le primary, `postgres-1` et `postgres-2` sont les replicas.

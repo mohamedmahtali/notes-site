@@ -5,23 +5,20 @@ tags:
 ---
 # Private subnet
 
-## Parent
-- [[Subnets]]
-
 ---
 
 ## Définition
 
-Un subnet privé n'a pas de route vers un Internet Gateway — les ressources sont inaccessibles directement depuis internet. Elles peuvent accéder à internet en sortie via un NAT Gateway dans le subnet public.
+Un subnet privé n'a pas de route vers un [[Internet [[Gateway]]]] — les ressources sont inaccessibles directement depuis internet. Elles peuvent accéder à internet en sortie via un [[NAT gateway]] dans le subnet public.
 
 ---
 
 ## Ressources dans un subnet privé
 
-- **Serveurs applicatifs** — EC2, EKS worker nodes
+- **Serveurs applicatifs** — [[EC2]], [[EKS]] worker [[Node]]
 - **Bases de données** — RDS, ElastiCache
-- **Services internes** — microservices sans exposition publique
-- **Lambdas avec accès VPC** — pour accéder aux ressources privées
+- **[[Services]] internes** — microservices sans exposition publique
+- **Lambdas avec accès [[VPC]]** — pour accéder aux ressources privées
 
 ---
 

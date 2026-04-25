@@ -5,25 +5,11 @@ tags:
 ---
 # Git workflow
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Git flow]]
-- [[GitHub flow]]
-- [[Trunk based development]]
-
-## Concepts liés
-- [[Git flow]]
-- [[GitHub flow]]
-- [[Trunk based development]]
-- [[CI/CD]]
-
 ---
 
 ## Définition
 
-Un workflow Git est un ensemble de conventions qui définit comment les développeurs créent des branches, committent, et mergent leur code. Le choix du workflow impacte directement la fréquence de déploiement, la complexité des merges, et la collaboration.
+Un workflow [[Git]] est un ensemble de conventions qui définit comment les développeurs créent des branches, committent, et mergent leur code. Le choix du workflow impacte directement la fréquence de déploiement, la complexité des [[Merge]], et la collaboration.
 
 ---
 
@@ -38,9 +24,9 @@ Un workflow Git est un ensemble de conventions qui définit comment les dévelop
 
 | Workflow | Complexité | Déploiement | Idéal pour |
 |---|---|---|---|
-| [[GitHub flow]] | Simple | Continu (plusieurs/jour) | Web, SaaS, CI/CD |
+| [[GitHub flow]] | Simple | Continu (plusieurs/jour) | Web, [[SaaS]], CI/CD |
 | [[Git flow]] | Complexe | Par release planifiée | Logiciel versionné |
-| [[Trunk based development\|Trunk Based Dev]] | Simple | Continu (très fréquent) | Grandes équipes, DevOps mature |
+| [[Trunk based development\|Trunk Based Dev]] | Simple | Continu (très fréquent) | Grandes équipes, [[DevOps]] mature |
 
 ---
 

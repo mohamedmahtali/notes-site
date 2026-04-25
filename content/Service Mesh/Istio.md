@@ -1,15 +1,18 @@
 ---
 title: Istio
-tags: [kubernetes, networking, advanced]
+tags:
+  - kubernetes
+  - networking
+  - advanced
 ---
 
 # Istio
 
 ## Définition
 
-Istio est le service mesh open-source le plus utilisé en production. Il s'appuie sur **Envoy** comme sidecar proxy et expose ses propres CRDs Kubernetes pour configurer le routage, la sécurité et l'observabilité des microservices.
+Istio est le service mesh open-source le plus utilisé en production. Il s'appuie sur **Envoy** comme sidecar proxy et [[EXPOSE]] ses propres [[CRD]] [[Kubernetes]] pour configurer le routage, la sécurité et l'observabilité des microservices.
 
-> [!tip] Istio = control plane + Envoy sidecars
+> [!tip] Istio = [[Control plane]] + Envoy sidecars
 > Istio ne touche pas ton code. Il injecte automatiquement un conteneur Envoy dans chaque pod (si le namespace est annoté), et expose des ressources Kubernetes (VirtualService, DestinationRule...) pour tout configurer.
 
 ## Installation
@@ -43,10 +46,10 @@ kubectl get pod payment-xxx -o jsonpath='{.spec.containers[*].name}'
 | Ressource | Rôle |
 |-----------|------|
 | **[[VirtualService]]** | Règles de routage (canary, retries, timeouts, fault injection) |
-| **[[DestinationRule]]** | Politique côté destination (circuit breaker, TLS, subsets) |
+| **[[DestinationRule]]** | Politique côté destination (circuit breaker, [[TLS]], subsets) |
 | **[[Gateway]]** | Point d'entrée du trafic externe vers le mesh |
 | **PeerAuthentication** | Politique mTLS par namespace |
-| **AuthorizationPolicy** | Contrôle d'accès entre services |
+| **AuthorizationPolicy** | Contrôle d'accès entre [[Services]] |
 
 ## Observabilité automatique
 

@@ -6,20 +6,11 @@ tags:
 
 # SSH keys
 
-## Parent
-- [[SSH]]
-
-## Enfants
-- [[Public key]]
-- [[Private key]]
-- [[Passphrase]]
-- [[ssh-agent]]
-
 ---
 
 ## Définition
 
-L'authentification par clé SSH utilise un mécanisme de cryptographie asymétrique : une **clé privée** (secrète, sur ta machine) et une **clé publique** (sur les serveurs). Le serveur chiffre un challenge avec la clé publique, seul celui qui a la clé privée peut le déchiffrer.
+L'authentification par clé [[SSH]] utilise un mécanisme de cryptographie asymétrique : une **clé privée** (secrète, sur ta machine) et une **clé publique** (sur les serveurs). Le serveur chiffre un challenge avec la clé publique, seul celui qui a la clé privée peut le déchiffrer.
 
 ---
 

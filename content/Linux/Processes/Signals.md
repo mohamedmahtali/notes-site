@@ -5,14 +5,6 @@ tags:
 ---
 # Signals
 
-## Parent
-- [[Processes]]
-
-## Enfants
-- [[SIGTERM]]
-- [[SIGKILL]]
-- [[SIGHUP]]
-
 ---
 
 ## Définition
@@ -25,9 +17,9 @@ Les signaux sont des notifications asynchrones envoyées à un processus pour lu
 
 | Signal | Numéro | Comportement par défaut | Capturable |
 |--------|--------|------------------------|------------|
-| SIGTERM | 15 | Arrêt propre | ✅ Oui |
-| SIGKILL | 9 | Arrêt immédiat | ❌ Non |
-| SIGHUP | 1 | Rechargement de config | ✅ Oui |
+| [[SIGTERM]] | 15 | Arrêt propre | ✅ Oui |
+| [[SIGKILL]] | 9 | Arrêt immédiat | ❌ Non |
+| [[SIGHUP]] | 1 | Rechargement de config | ✅ Oui |
 | SIGINT | 2 | Interruption (Ctrl+C) | ✅ Oui |
 | SIGSTOP | 19 | Pause du processus | ❌ Non |
 | SIGCONT | 18 | Reprendre après pause | ✅ Oui |

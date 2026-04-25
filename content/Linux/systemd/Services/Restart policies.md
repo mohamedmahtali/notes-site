@@ -6,14 +6,11 @@ tags:
 
 # Restart policies
 
-## Parent
-- [[Services]]
-
 ---
 
 ## Définition
 
-La restart policy d'un service systemd définit dans quels cas le service est automatiquement redémarré après un arrêt.
+La [[Restart policy]] d'un service [[systemd]] définit dans quels cas le service est automatiquement redémarré après un arrêt.
 
 ---
 
@@ -67,4 +64,4 @@ StartLimitBurst=5
 ---
 
 > [!tip]
-> `Restart=on-failure` est le choix standard pour les services de production. Il redémarre sur crash (exit non-zero) mais pas sur arrêt propre (systemctl stop), évitant les boucles infinies lors des maintenances.
+> `Restart=on-failure` est le choix standard pour les [[Services]] de production. Il redémarre sur crash (exit non-zero) mais pas sur arrêt propre (systemctl [[stop]]), évitant les boucles infinies lors des maintenances.

@@ -1,16 +1,18 @@
 ---
 title: Secret rotation
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Secret rotation
 
 ## Définition
 
-La rotation des secrets consiste à renouveler régulièrement les credentials (mots de passe, tokens, clés) pour limiter la fenêtre d'exposition en cas de compromission.
+La rotation des [[Secrets]] consiste à renouveler régulièrement les credentials (mots de passe, [[Tokens]], clés) pour limiter la fenêtre d'exposition en cas de compromission.
 
 > [!tip] Rotation automatique
-> La rotation manuelle est oubliée. Automatiser la rotation avec Vault Dynamic Secrets ou AWS Secrets Manager pour des credentials toujours frais.
+> La rotation manuelle est oubliée. Automatiser la rotation avec Vault [[Dynamic secrets]] ou [[AWS]] Secrets Manager pour des credentials toujours frais.
 
 ## Rotation avec Vault
 

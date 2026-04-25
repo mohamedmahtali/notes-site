@@ -5,14 +5,11 @@ tags:
 ---
 # Azure AD
 
-## Parent
-- [[Azure]]
-
 ---
 
 ## Définition
 
-Azure Active Directory (Microsoft Entra ID) est le service d'identité et d'accès d'Azure. Il gère l'authentification des utilisateurs, les groupes, les applications, et les Managed Identities pour les services Azure.
+[[Azure]] Active Directory (Microsoft Entra ID) est le service d'identité et d'accès d'Azure. Il gère l'authentification des utilisateurs, les groupes, les applications, et les Managed Identities pour les [[Services]] Azure.
 
 ---
 

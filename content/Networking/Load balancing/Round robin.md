@@ -1,6 +1,8 @@
 ---
 title: Round robin
-tags: [networking, beginner]
+tags:
+  - networking
+  - beginner
 ---
 
 # Round robin

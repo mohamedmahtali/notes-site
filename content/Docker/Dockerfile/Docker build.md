@@ -6,19 +6,11 @@ tags:
 
 # Docker build
 
-## Parent
-- [[Dockerfile]]
-
-## Enfants
-- [[Build cache]]
-- [[Build arguments]]
-- [[Build context]]
-
 ---
 
 ## Définition
 
-`docker build` est la commande qui lit un Dockerfile et construit une image Docker. Elle envoie le contexte de build au daemon Docker, exécute chaque instruction, et produit une image immutable taguée.
+`docker build` est la commande qui lit un [[Dockerfile]] et construit une image [[Docker]]. Elle envoie le contexte de build au daemon Docker, exécute chaque instruction, et produit une image immutable taguée.
 
 ---
 
@@ -64,5 +56,5 @@ docker build -t mon-app:1.0 .
 
 ## Optimiser le build
 
-> [!tip] Ordre des instructions = ordre du cache
+> [!tip] Ordre des [[Instructions]] = ordre du cache
 > Mettre les instructions qui changent rarement en haut, celles qui changent souvent en bas. Un cache miss invalide tout ce qui suit.

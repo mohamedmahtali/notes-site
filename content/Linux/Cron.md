@@ -6,19 +6,11 @@ tags:
 
 # Cron
 
-## Parent
-- [[Linux]]
-
-## Enfants
-- [[Crontab syntax]]
-- [[Scheduled jobs]]
-- [[Cron logs]]
-
 ---
 
 ## Définition
 
-Cron est le daemon de planification de tâches Linux. Il exécute des commandes ou scripts à des moments définis (périodiquement ou à des horaires précis). Chaque utilisateur peut avoir sa propre crontab.
+Cron est le daemon de planification de tâches [[Linux]]. Il exécute des commandes ou scripts à des moments définis (périodiquement ou à des horaires précis). Chaque utilisateur peut avoir sa propre crontab.
 
 ---
 

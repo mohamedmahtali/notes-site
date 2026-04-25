@@ -5,14 +5,11 @@ tags:
 ---
 # Multi tenancy
 
-## Parent
-- [[Namespaces]]
-
 ---
 
 ## Définition
 
-Le multi-tenancy Kubernetes permet à plusieurs équipes ou clients de partager un même cluster en toute isolation. Les namespaces combinés avec RBAC, NetworkPolicies, et ResourceQuotas constituent les briques de base de cette isolation.
+Le multi-tenancy [[Kubernetes]] permet à plusieurs équipes ou clients de partager un même [[Cluster]] en toute isolation. Les [[Namespaces]] combinés avec [[RBAC]], NetworkPolicies, et ResourceQuotas constituent les briques de base de cette isolation.
 
 ---
 
@@ -70,4 +67,4 @@ spec:
 ---
 
 > [!note]
-> Pour une isolation forte (multi-tenant SaaS), envisager des outils comme Loft, Capsule, ou vCluster qui ajoutent une couche de virtualisation au-dessus des namespaces.
+> Pour une isolation forte (multi-tenant [[SaaS]]), envisager des outils comme Loft, Capsule, ou vCluster qui ajoutent une couche de virtualisation au-dessus des namespaces.

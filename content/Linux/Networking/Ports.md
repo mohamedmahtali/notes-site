@@ -6,14 +6,6 @@ tags:
 
 # Ports
 
-## Parent
-- [[Networking]]
-
-## Enfants
-- [[Well known ports]]
-- [[Ephemeral ports]]
-- [[Port scanning]]
-
 ---
 
 ## Définition
@@ -26,9 +18,9 @@ Un port est un numéro (0-65535) qui identifie un service spécifique sur une ma
 
 | Plage | Nom | Usage |
 |---|---|---|
-| 0-1023 | Well-known ports | Services standards (root requis) |
+| 0-1023 | Well-known ports | [[Services]] standards (root requis) |
 | 1024-49151 | Registered ports | Services utilisateurs enregistrés |
-| 49152-65535 | Ephemeral ports | Ports temporaires clients |
+| 49152-65535 | [[Ephemeral ports]] | Ports temporaires clients |
 
 ---
 

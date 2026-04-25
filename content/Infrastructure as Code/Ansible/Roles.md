@@ -5,14 +5,11 @@ tags:
 ---
 # Roles
 
-## Parent
-- [[Ansible]]
-
 ---
 
 ## Définition
 
-Les rôles Ansible sont des unités réutilisables qui encapsulent tasks, handlers, templates, fichiers, et variables pour une fonctionnalité spécifique (nginx, postgresql, docker). Ils structurent les playbooks complexes.
+Les rôles [[Ansible]] sont des unités réutilisables qui encapsulent [[Tasks]], [[Handlers]], [[Templates]], fichiers, et [[Variables]] pour une fonctionnalité spécifique ([[Nginx]], postgresql, [[Docker]]). Ils structurent les [[Playbooks]] complexes.
 
 ---
 

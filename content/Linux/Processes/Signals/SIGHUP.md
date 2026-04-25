@@ -5,9 +5,6 @@ tags:
 ---
 # SIGHUP
 
-## Parent
-- [[Signals]]
-
 ---
 
 ## Définition
@@ -19,7 +16,7 @@ SIGHUP (signal 1, "Hang Up") était historiquement envoyé quand un terminal se 
 ## Pourquoi c'est important
 
 > [!tip] Reload sans downtime
-> Envoyer SIGHUP à nginx, Apache, ou sshd recharge la configuration à chaud — zéro connexion perdue, zéro temps d'arrêt. C'est la façon standard de mettre à jour la config d'un service en production.
+> Envoyer SIGHUP à [[Nginx]], Apache, ou sshd recharge la configuration à chaud — zéro connexion perdue, zéro temps d'arrêt. C'est la façon standard de mettre à jour la config d'un service en production.
 
 ---
 

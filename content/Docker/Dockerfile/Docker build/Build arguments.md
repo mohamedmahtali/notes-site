@@ -6,14 +6,11 @@ tags:
 
 # Build arguments
 
-## Parent
-- [[Docker build]]
-
 ---
 
 ## Définition
 
-Les build arguments (`ARG`) sont des variables disponibles uniquement pendant la construction de l'image (phase build). Contrairement à `ENV`, ils ne sont pas persistés dans l'image finale ni disponibles dans les conteneurs.
+Les build arguments (`ARG`) sont des [[Variables]] disponibles uniquement pendant la construction de l'image (phase build). Contrairement à `ENV`, ils ne sont pas persistés dans l'image finale ni disponibles dans les conteneurs.
 
 ---
 
@@ -57,4 +54,4 @@ FROM python:${PYTHON_VERSION}-slim
 | `ENV` | ✅ | ✅ | ❌ Visible dans inspect |
 
 > [!warning]
-> `ARG` n'est pas sécurisé pour les secrets — visible dans `docker history`. Utiliser les secrets de build : `docker build --secret`.
+> `ARG` n'est pas sécurisé pour les [[Secrets]] — visible dans `docker history`. Utiliser les secrets de build : `docker build --secret`.

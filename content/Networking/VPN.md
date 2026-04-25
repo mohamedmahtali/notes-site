@@ -1,6 +1,8 @@
 ---
 title: VPN
-tags: [networking, intermediate]
+tags:
+  - networking
+  - intermediate
 ---
 
 # VPN (Virtual Private Network)
@@ -9,15 +11,15 @@ tags: [networking, intermediate]
 
 Un VPN crée un tunnel chiffré entre deux points sur un réseau public (Internet). Il est utilisé pour sécuriser l'accès aux ressources internes, relier des sites distants, ou protéger des communications.
 
-> [!tip] VPN en DevOps
-> Les VPNs sont utilisés pour accéder aux environnements de production (bastion + VPN), connecter des cloud privés à l'on-premise (site-to-site VPN), et sécuriser les communications inter-datacenter.
+> [!tip] VPN en [[DevOps]]
+> Les VPNs sont utilisés pour accéder aux environnements de production (bastion + VPN), connecter des [[Cloud]] privés à l'on-premise (site-to-site VPN), et sécuriser les communications inter-datacenter.
 
 ## Types de VPN
 
 | Type | Usage | Exemple |
 |------|-------|---------|
 | Remote access | Accès utilisateurs individuels | WireGuard, OpenVPN client |
-| Site-to-site | Relier deux réseaux | AWS VPN, IPSec |
+| Site-to-site | Relier deux réseaux | [[AWS]] VPN, IPSec |
 | Mesh | Tous les noeuds connectés entre eux | WireGuard mesh, Tailscale |
 
 ## Protocoles
@@ -68,7 +70,7 @@ PersistentKeepalive = 25
 
 ## VPN Site-to-site (Cloud)
 
-Connecte un réseau on-premise à un VPC cloud.
+Connecte un réseau on-premise à un [[VPC]] cloud.
 
 ```
 On-premise                    Cloud (AWS/Azure/GCP)
@@ -81,17 +83,17 @@ On-premise                    Cloud (AWS/Azure/GCP)
 | Provider | Service | Protocole |
 |----------|---------|-----------|
 | AWS | Site-to-Site VPN | IPSec IKEv2 |
-| Azure | VPN Gateway | IPSec / OpenVPN |
+| [[Azure]] | VPN [[Gateway]] | IPSec / OpenVPN |
 | GCP | Cloud VPN | IPSec IKEv2 |
 
 > [!tip] Alternatives modernes
-> **Tailscale** et **Cloudflare Tunnel** simplifient drastiquement la mise en place d'un mesh VPN sans exposer de port public. Idéal pour les équipes DevOps qui accèdent aux environnements de dev/staging.
+> **Tailscale** et **Cloudflare Tunnel** simplifient drastiquement la mise en place d'un mesh VPN sans exposer de port public. Idéal pour les équipes DevOps qui accèdent aux environnements de dev/[[Staging]].
 
 ## Bonnes pratiques DevOps
 
-- Toujours passer par un VPN pour accéder aux environnements de production (pas de SSH direct)
-- Préférer des accès par rôle (VPN + RBAC) plutôt qu'un tunnel "tout-en-un"
-- Activer le logging des connexions VPN pour l'audit
+- Toujours passer par un VPN pour accéder aux environnements de production (pas de [[SSH]] direct)
+- Préférer des accès par rôle (VPN + [[RBAC]]) plutôt qu'un tunnel "tout-en-un"
+- Activer le [[Logging]] des connexions VPN pour l'audit
 - Utiliser un `AllowedIPs` restrictif (split tunneling) pour ne pas router tout le trafic
 
 ## Liens

@@ -5,9 +5,6 @@ tags:
 ---
 # Public key
 
-## Parent
-- [[SSH keys]]
-
 ---
 
 ## Définition
@@ -42,9 +39,9 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAA... user@machine
 
 ## Sur GitHub / GitLab
 
-Aller dans **Settings → SSH Keys**, coller le contenu de `~/.ssh/id_ed25519.pub`. GitHub utilise ta clé publique pour vérifier ton identité lors des push/pull SSH.
+Aller dans **Settings → [[SSH keys]]**, coller le contenu de `~/.ssh/id_ed25519.pub`. GitHub utilise ta clé publique pour vérifier ton identité lors des push/pull [[SSH]].
 
 ---
 
 > [!note]
-> Voir [[Private key]] pour la clé privée et [[ssh-agent]] pour éviter de retaper la passphrase.
+> Voir [[Private key]] pour la clé privée et [[ssh-agent]] pour éviter de retaper la [[Passphrase]].

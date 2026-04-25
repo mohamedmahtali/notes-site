@@ -6,20 +6,11 @@ tags:
 
 # iptables
 
-## Parent
-- [[Firewall]]
-
-## Enfants
-- [[Chains]]
-- [[Rules]]
-- [[NAT]]
-- [[Forwarding]]
-
 ---
 
 ## Définition
 
-iptables est l'interface classique pour configurer Netfilter, le framework de filtrage du kernel Linux. Bien que remplacé progressivement par nftables, iptables reste très répandu et sa compréhension est essentielle.
+iptables est l'interface classique pour configurer Netfilter, le framework de filtrage du [[Kernel]] [[Linux]]. Bien que remplacé progressivement par [[nftables]], iptables reste très répandu et sa compréhension est essentielle.
 
 ---
 

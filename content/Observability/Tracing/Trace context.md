@@ -5,14 +5,11 @@ tags:
 ---
 # Trace context
 
-## Parent
-- [[Tracing]]
-
 ---
 
 ## Définition
 
-Le trace context est l'ensemble des informations propagées de service en service pour relier les spans d'une même requête distribuée. Il contient le trace ID (unique par requête) et le span ID (unique par opération).
+Le trace context est l'ensemble des informations propagées de service en service pour relier les [[Spans]] d'une même requête distribuée. Il contient le trace ID (unique par requête) et le span ID (unique par opération).
 
 ---
 
@@ -21,7 +18,7 @@ Le trace context est l'ensemble des informations propagées de service en servic
 | Standard | Header | Usage |
 |---|---|---|
 | W3C TraceContext | `traceparent`, `tracestate` | Standard moderne (recommandé) |
-| B3 Propagation | `X-B3-TraceId`, `X-B3-SpanId` | Zipkin, Istio |
+| B3 Propagation | `X-B3-TraceId`, `X-B3-SpanId` | Zipkin, [[Istio]] |
 | Jaeger | `uber-trace-id` | Jaeger natif |
 
 ---

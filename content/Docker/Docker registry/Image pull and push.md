@@ -6,14 +6,11 @@ tags:
 
 # Image pull and push
 
-## Parent
-- [[Docker registry]]
-
 ---
 
 ## Définition
 
-`docker pull` télécharge une image depuis un registry vers le cache local. `docker push` envoie une image locale vers un registry. Ces opérations transfèrent uniquement les layers manquants grâce au contenu adressé par hash.
+`docker pull` télécharge une image depuis un registry vers le cache local. `docker push` envoie une image locale vers un registry. Ces opérations transfèrent uniquement les [[Layers]] manquants grâce au contenu adressé par hash.
 
 ---
 
@@ -65,4 +62,4 @@ docker push ghcr.io/org/app:1.0
 ```
 
 > [!tip]
-> Les layers déjà présents dans le registry ne sont pas retransférés. Si tu partages la même image de base entre services, les layers communs ne sont uploadés qu'une fois.
+> Les layers déjà présents dans le registry ne sont pas retransférés. Si tu partages la même image de base entre [[Services]], les layers communs ne sont uploadés qu'une fois.

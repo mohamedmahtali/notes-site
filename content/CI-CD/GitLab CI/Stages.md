@@ -5,9 +5,6 @@ tags:
 ---
 # Stages
 
-## Parent
-- [[GitLab CI]]
-
 ---
 
 ## Définition

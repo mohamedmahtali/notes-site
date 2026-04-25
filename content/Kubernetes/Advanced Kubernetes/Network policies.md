@@ -5,21 +5,18 @@ tags:
 ---
 # Network policies
 
-## Parent
-- [[Advanced Kubernetes]]
-
 ---
 
 ## Définition
 
-Les NetworkPolicies définissent des règles de pare-feu au niveau des pods Kubernetes. Par défaut, tous les pods peuvent communiquer entre eux. Les NetworkPolicies permettent de restreindre ce trafic (micro-segmentation).
+Les NetworkPolicies définissent des règles de pare-feu au niveau des [[Pods]] [[Kubernetes]]. Par défaut, tous les pods peuvent communiquer entre eux. Les NetworkPolicies permettent de restreindre ce trafic (micro-segmentation).
 
 ---
 
 ## Pourquoi c'est important
 
 > [!warning] Par défaut, tout est ouvert
-> Sans NetworkPolicy, un pod compromis peut contacter n'importe quel autre pod du cluster. Les NetworkPolicies implémentent le principe du moindre privilège au niveau réseau.
+> Sans NetworkPolicy, un pod compromis peut contacter n'importe quel autre pod du [[Cluster]]. Les NetworkPolicies implémentent le principe du moindre privilège au niveau réseau.
 
 ---
 

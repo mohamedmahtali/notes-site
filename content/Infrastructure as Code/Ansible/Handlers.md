@@ -5,14 +5,11 @@ tags:
 ---
 # Handlers
 
-## Parent
-- [[Ansible]]
-
 ---
 
 ## Définition
 
-Les handlers sont des tasks spéciales déclenchées par `notify`. Ils s'exécutent une seule fois à la fin du playbook, même si plusieurs tasks les ont notifiés. Utilisés pour les redémarrages de services après une modification de configuration.
+Les handlers sont des [[Tasks]] spéciales déclenchées par `notify`. Ils s'exécutent une seule fois à la fin du playbook, même si plusieurs tasks les ont notifiés. Utilisés pour les redémarrages de [[Services]] après une modification de configuration.
 
 ---
 
@@ -68,4 +65,4 @@ handlers:
 ---
 
 > [!tip]
-> Utiliser `state: reloaded` plutôt que `restarted` pour nginx — il recharge la configuration sans couper les connexions existantes (zero-downtime config update).
+> Utiliser `state: reloaded` plutôt que `restarted` pour [[Nginx]] — il recharge la configuration sans couper les connexions existantes (zero-downtime config update).

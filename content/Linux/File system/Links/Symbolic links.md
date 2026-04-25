@@ -6,9 +6,6 @@ tags:
 
 # Symbolic links
 
-## Parent
-- [[Links]]
-
 ---
 
 ## Définition

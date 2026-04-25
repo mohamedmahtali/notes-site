@@ -1,13 +1,15 @@
 ---
 title: WireGuard
-tags: [networking, intermediate]
+tags:
+  - networking
+  - intermediate
 ---
 
 # WireGuard
 
 ## Définition
 
-WireGuard est un protocole VPN moderne, minimaliste (4000 lignes de code vs 600 000 pour OpenVPN), extrêmement rapide et sécurisé. Il est intégré au kernel Linux depuis la version 5.6.
+WireGuard est un protocole VPN moderne, minimaliste (4000 lignes de code vs 600 000 pour OpenVPN), extrêmement rapide et sécurisé. Il est intégré au [[Kernel]] [[Linux]] depuis la version 5.6.
 
 > [!tip] Pourquoi WireGuard ?
 > WireGuard est 3-4x plus rapide qu'OpenVPN, beaucoup plus simple à configurer, et sa petite base de code réduit la surface d'attaque. Il est devenu le standard moderne pour les VPNs.

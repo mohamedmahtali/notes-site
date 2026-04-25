@@ -6,14 +6,11 @@ tags:
 
 # Volume drivers
 
-## Parent
-- [[Docker volumes]]
-
 ---
 
 ## Définition
 
-Les volume drivers (ou volume plugins) permettent à Docker de stocker des volumes sur des backends autres que le filesystem local : NFS, AWS EBS, Azure Disk, Ceph, etc. Ils sont utilisés pour le stockage partagé entre plusieurs hôtes Docker.
+Les volume drivers (ou volume plugins) permettent à [[Docker]] de stocker des [[Volumes]] sur des backends autres que le filesystem local : NFS, [[AWS]] EBS, [[Azure]] Disk, Ceph, etc. Ils sont utilisés pour le stockage partagé entre plusieurs hôtes Docker.
 
 ---
 
@@ -21,11 +18,11 @@ Les volume drivers (ou volume plugins) permettent à Docker de stocker des volum
 
 | Driver | Backend | Usage |
 |---|---|---|
-| `local` (défaut) | Filesystem local | Développement, single-node |
-| `nfs` | NFS | Stockage partagé multi-hosts |
+| `local` (défaut) | Filesystem local | Développement, single-[[Node]] |
+| `nfs` | NFS | Stockage partagé multi-[[Host]] |
 | `rexray/ebs` | AWS EBS | Stockage persistant AWS |
 | `rexray/s3fs` | AWS S3 | Stockage objet |
-| `vieux/sshfs` | SSH | Stockage via SSH |
+| `vieux/sshfs` | [[SSH]] | Stockage via SSH |
 
 ---
 
@@ -55,4 +52,4 @@ volumes:
 ---
 
 > [!note]
-> Pour le stockage partagé en production, Kubernetes avec des PersistentVolumes est généralement préféré à Docker standalone. Les volume drivers Docker sont plus courants en Swarm ou dans des setups Docker simples multi-hosts.
+> Pour le stockage partagé en production, [[Kubernetes]] avec des PersistentVolumes est généralement préféré à Docker standalone. Les volume drivers Docker sont plus courants en Swarm ou dans des setups Docker simples multi-hosts.

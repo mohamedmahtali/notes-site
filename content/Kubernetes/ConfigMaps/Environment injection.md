@@ -5,14 +5,11 @@ tags:
 ---
 # Environment injection
 
-## Parent
-- [[ConfigMaps]]
-
 ---
 
 ## Définition
 
-L'injection d'environnement permet d'utiliser les valeurs d'un ConfigMap comme variables d'environnement dans les containers. Pratique pour les applications qui lisent leur config depuis les variables d'env.
+L'injection d'environnement permet d'utiliser les valeurs d'un ConfigMap comme [[Variables]] d'environnement dans les [[Containers]]. Pratique pour les applications qui lisent leur config depuis les variables d'[[ENV]].
 
 ---
 
@@ -54,4 +51,4 @@ spec:
 
 > [!warning]
 > Les variables d'environnement injectées depuis un ConfigMap ne sont **pas mises à jour automatiquement** si le ConfigMap change. Le pod doit être redémarré pour prendre en compte les nouvelles valeurs.
-> Pour les mises à jour dynamiques, utiliser les volumes montés ([[Mounted configuration]]).
+> Pour les mises à jour dynamiques, utiliser les [[Volumes]] montés ([[Mounted configuration]]).

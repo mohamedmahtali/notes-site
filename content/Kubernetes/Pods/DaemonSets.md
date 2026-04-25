@@ -5,24 +5,18 @@ tags:
 ---
 # DaemonSets
 
-## Parent
-- [[Pods]]
-
-## Enfants
-- [[Node agents]]
-
 ---
 
 ## Définition
 
-Un DaemonSet garantit qu'une copie d'un pod tourne sur chaque node du cluster (ou sur un sous-ensemble de nodes). Quand un node rejoint le cluster, le pod est automatiquement ajouté. Utilisé pour les agents système.
+Un DaemonSet garantit qu'une copie d'un pod tourne sur chaque [[Node]] du [[Cluster]] (ou sur un sous-ensemble de nodes). Quand un node rejoint le cluster, le pod est automatiquement ajouté. Utilisé pour les agents système.
 
 ---
 
 ## Cas d'usage
 
 > [!tip] Pour les agents système
-> Les DaemonSets sont faits pour les composants qui doivent exister sur chaque node : agents de logging (Fluentd, Filebeat), agents de monitoring (Prometheus Node Exporter, Datadog), plugins réseau (Cilium, Calico), agents de sécurité.
+> Les DaemonSets sont faits pour les composants qui doivent exister sur chaque node : agents de [[Logging]] (Fluentd, Filebeat), agents de [[Monitoring]] ([[Prometheus]] Node Exporter, Datadog), plugins réseau (Cilium, Calico), agents de sécurité.
 
 ---
 

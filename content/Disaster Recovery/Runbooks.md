@@ -1,6 +1,8 @@
 ---
 title: Runbooks
-tags: [reliability, intermediate]
+tags:
+  - reliability
+  - intermediate
 ---
 
 # Runbooks

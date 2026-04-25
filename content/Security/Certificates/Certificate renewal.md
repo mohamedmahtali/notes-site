@@ -1,6 +1,8 @@
 ---
 title: Certificate renewal
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Certificate renewal

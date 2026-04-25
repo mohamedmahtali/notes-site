@@ -6,20 +6,11 @@ tags:
 
 # Services
 
-## Parent
-- [[systemd]]
-
-## Enfants
-- [[Unit files]]
-- [[Restart policies]]
-- [[Dependencies]]
-- [[Targets]]
-
 ---
 
 ## Définition
 
-Un service systemd est une unité (unit) de type `.service` qui définit comment démarrer, arrêter, et gérer un processus. systemd gère le cycle de vie complet : démarrage automatique, surveillance, redémarrage en cas d'échec, et logging.
+Un service [[systemd]] est une unité (unit) de type `.service` qui définit comment démarrer, arrêter, et gérer un processus. systemd gère le cycle de vie complet : démarrage automatique, surveillance, redémarrage en cas d'échec, et [[Logging]].
 
 ---
 

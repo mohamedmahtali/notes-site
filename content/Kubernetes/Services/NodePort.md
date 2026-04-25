@@ -5,14 +5,11 @@ tags:
 ---
 # NodePort
 
-## Parent
-- [[Services]]
-
 ---
 
 ## Définition
 
-NodePort expose le service sur un port statique (30000-32767) de chaque node du cluster. Toute requête vers `<node-IP>:<nodePort>` est routée vers le service. Accessible depuis l'extérieur du cluster sans load balancer cloud.
+NodePort [[EXPOSE]] le service sur un port statique (30000-32767) de chaque [[Node]] du [[Cluster]]. Toute requête vers `<node-IP>:<nodePort>` est routée vers le service. Accessible depuis l'extérieur du cluster sans load balancer [[Cloud]].
 
 ---
 

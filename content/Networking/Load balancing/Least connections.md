@@ -1,6 +1,8 @@
 ---
 title: Least connections
-tags: [networking, intermediate]
+tags:
+  - networking
+  - intermediate
 ---
 
 # Least connections
@@ -37,7 +39,7 @@ backend app_servers
 | Algo | Idéal pour |
 |------|-----------|
 | Round robin | Requêtes courtes et uniformes |
-| Least conn | Durées variables (WebSockets, API) |
+| Least conn | Durées [[Variables]] (WebSockets, API) |
 | IP hash | Sessions sticky (sans cookie de session) |
 | Random | Simplicité + bonne distribution statistique |
 

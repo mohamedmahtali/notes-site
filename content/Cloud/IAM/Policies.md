@@ -5,14 +5,11 @@ tags:
 ---
 # Policies
 
-## Parent
-- [[IAM]]
-
 ---
 
 ## Définition
 
-Les politiques IAM sont des documents JSON qui définissent les permissions. Elles spécifient quelles actions (Effect: Allow/Deny), sur quelles ressources (Resource), sous quelles conditions (Condition).
+Les politiques [[IAM]] sont des documents JSON qui définissent les [[Permissions]]. Elles spécifient quelles actions (Effect: Allow/Deny), sur quelles ressources (Resource), sous quelles [[Conditions]] (Condition).
 
 ---
 
@@ -57,7 +54,7 @@ Les politiques IAM sont des documents JSON qui définissent les permissions. Ell
 
 | Type | Description |
 |---|---|
-| AWS managed | Politiques prédéfinies AWS (ReadOnlyAccess, etc.) |
+| [[AWS]] managed | Politiques prédéfinies AWS (ReadOnlyAccess, etc.) |
 | Customer managed | Politiques personnalisées |
 | Inline | Attachées directement à une identité |
 | Resource-based | Attachées à la ressource (S3 bucket policy) |

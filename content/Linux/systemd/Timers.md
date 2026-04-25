@@ -6,14 +6,11 @@ tags:
 
 # Timers
 
-## Parent
-- [[systemd]]
-
 ---
 
 ## Définition
 
-Les timers systemd sont une alternative aux crons. Ils permettent de planifier l'exécution de services (`.service`) à des moments précis ou à intervalles réguliers. Avantage sur cron : logs dans journald, gestion des dépendances, et rattrapage des exécutions manquées.
+Les timers [[systemd]] sont une alternative aux [[Cron]]. Ils permettent de planifier l'exécution de [[Services]] (`.service`) à des moments précis ou à intervalles réguliers. Avantage sur cron : logs dans journald, gestion des dépendances, et rattrapage des exécutions manquées.
 
 ---
 

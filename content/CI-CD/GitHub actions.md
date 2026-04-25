@@ -5,28 +5,18 @@ tags:
 ---
 # GitHub actions
 
-## Parent
-- [[CI-CD]]
-
-## Enfants
-- [[Workflows]]
-- [[Jobs]]
-- [[Steps]]
-- [[Actions marketplace]]
-- [[Self hosted runners]]
-
 ---
 
 ## Définition
 
-GitHub Actions est la plateforme CI/CD intégrée à GitHub. Les workflows sont définis en YAML dans `.github/workflows/` et déclenchés par des événements Git (push, PR, schedule). Elle est gratuite pour les repos publics, et inclut des minutes pour les repos privés.
+GitHub Actions est la plateforme CI/CD intégrée à GitHub. Les workflows sont définis en YAML dans `.github/workflows/` et déclenchés par des événements [[Git]] (push, PR, schedule). Elle est gratuite pour les repos publics, et inclut des minutes pour les repos privés.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!tip] CI/CD sans infrastructure à gérer
-> GitHub Actions élimine le besoin d'héberger Jenkins ou un serveur CI. Les runners GitHub-hosted (ubuntu-latest, windows-latest, macos-latest) sont provisionnés automatiquement pour chaque job.
+> GitHub Actions élimine le besoin d'héberger [[Jenkins]] ou un serveur CI. Les [[Runners]] GitHub-hosted (ubuntu-latest, windows-latest, macos-latest) sont provisionnés automatiquement pour chaque job.
 
 ---
 

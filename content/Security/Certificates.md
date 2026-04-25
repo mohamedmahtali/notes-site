@@ -1,6 +1,8 @@
 ---
 title: Certificates
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Certificates

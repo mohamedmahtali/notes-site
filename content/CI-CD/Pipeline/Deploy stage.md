@@ -5,26 +5,18 @@ tags:
 ---
 # Deploy stage
 
-## Parent
-- [[Pipeline]]
-
-## Enfants
-- [[Staging]]
-- [[Production]]
-- [[Rollback]]
-
 ---
 
 ## Définition
 
-Le deploy stage prend l'artefact validé par les tests et le déploie dans un ou plusieurs environnements. Un pipeline typique déploie d'abord en staging (automatiquement) puis en production (avec approbation manuelle ou automatique).
+Le deploy stage prend l'artefact validé par les tests et le déploie dans un ou plusieurs environnements. Un [[Pipeline]] typique déploie d'abord en [[Staging]] (automatiquement) puis en production (avec approbation manuelle ou automatique).
 
 ---
 
 ## Pourquoi c'est important
 
 > [!tip] Déploiement = procédure codifiée
-> Le deploy stage remplace les runbooks manuels par du code versionné. Chaque déploiement est identique, auditabl, et reproductible — plus de "ça marche sur mon poste".
+> Le deploy stage remplace les [[Runbooks]] manuels par du code versionné. Chaque déploiement est identique, auditabl, et reproductible — plus de "ça marche sur mon poste".
 
 ---
 
@@ -55,4 +47,4 @@ deploy-production:
 ---
 
 > [!note]
-> L'environnement `production` dans GitHub Actions peut nécessiter une approbation manuelle via les **environment protection rules**.
+> L'environnement `production` dans [[GitHub actions]] peut nécessiter une approbation manuelle via les **environment protection rules**.

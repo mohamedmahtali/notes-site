@@ -5,14 +5,11 @@ tags:
 ---
 # VPC
 
-## Parent
-- [[AWS]]
-
 ---
 
 ## Définition
 
-Un AWS VPC (Virtual Private Cloud) est un réseau virtuel isolé dans AWS. Il permet de contrôler complètement l'environnement réseau : plage IP, sous-réseaux, tables de routage, passerelles.
+Un [[AWS]] VPC (Virtual Private [[Cloud]]) est un réseau virtuel isolé dans AWS. Il permet de contrôler complètement l'environnement réseau : plage IP, sous-réseaux, tables de routage, passerelles.
 
 ---
 
@@ -49,4 +46,4 @@ aws ec2 attach-internet-gateway   --internet-gateway-id igw-abc123   --vpc-id vp
 ---
 
 > [!tip]
-> Toujours déployer dans au moins 2 AZ pour la haute disponibilité. Les instances dans les subnets privés accèdent à internet via un NAT Gateway dans le subnet public.
+> Toujours déployer dans au moins 2 AZ pour la haute disponibilité. Les instances dans les [[Subnets]] privés accèdent à internet via un [[NAT [[Gateway]]]] dans le subnet public.

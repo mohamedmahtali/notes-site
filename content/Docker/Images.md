@@ -6,20 +6,11 @@ tags:
 
 # Images
 
-## Parent
-- [[Docker]]
-
-## Enfants
-- [[Layers]]
-- [[Base images]]
-- [[Image tagging]]
-- [[Image caching]]
-
 ---
 
 ## Définition
 
-Une image Docker est un **template immuable en lecture seule** composé de couches (layers) superposées. Chaque couche représente un ensemble de modifications filesystem. Une image est le plan de construction d'un conteneur.
+Une image [[Docker]] est un **template immuable en lecture seule** composé de couches ([[Layers]]) superposées. Chaque couche représente un ensemble de modifications filesystem. Une image est le plan de construction d'un conteneur.
 
 ---
 

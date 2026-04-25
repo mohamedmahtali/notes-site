@@ -6,16 +6,6 @@ tags:
 
 # Trunk based development
 
-## Parent
-- [[Git workflow]]
-
-## Concepts liés
-- [[Git workflow]]
-- [[GitHub flow]]
-- [[Git flow]]
-- [[CI-CD]]
-- [[Feature branch]]
-
 ---
 
 ## Définition
@@ -27,7 +17,7 @@ Le Trunk Based Development (TBD) est un modèle où tous les développeurs intè
 ## Pourquoi c'est important
 
 > [!tip] Le modèle des grandes équipes tech
-> Google, Facebook, et la plupart des équipes pratiquant le vrai CI/CD utilisent le TBD. Il élimine l'enfer des merges de longues branches et force une intégration continue réelle.
+> Google, Facebook, et la plupart des équipes pratiquant le vrai CI/CD utilisent le TBD. Il élimine l'enfer des [[Merge]] de longues branches et force une intégration continue réelle.
 
 ---
 
@@ -70,7 +60,7 @@ Les feature flags permettent de merger du code non terminé dans `main` sans l'e
 
 ## Comparaison
 
-| Critère | TBD | GitHub flow | Git flow |
+| Critère | TBD | [[GitHub flow]] | [[Git flow]] |
 |---|---|---|---|
 | Durée des branches | < 2 jours | Quelques jours | Semaines |
 | Intégration | Continue | PR-based | Par release |

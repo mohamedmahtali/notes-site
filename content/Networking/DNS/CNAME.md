@@ -1,6 +1,8 @@
 ---
 title: CNAME
-tags: [networking, beginner]
+tags:
+  - networking
+  - beginner
 ---
 
 # CNAME (Canonical Name)

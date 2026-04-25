@@ -6,14 +6,11 @@ tags:
 
 # Best practices
 
-## Parent
-- [[Dockerfile]]
-
 ---
 
 ## Définition
 
-Les bonnes pratiques Dockerfile visent trois objectifs : images **légères** (moins de surface d'attaque, transferts rapides), builds **rapides** (cache optimisé), et images **sécurisées** (principe du moindre privilège).
+Les bonnes pratiques [[Dockerfile]] visent trois objectifs : images **légères** (moins de surface d'attaque, transferts rapides), builds **rapides** (cache optimisé), et images **sécurisées** (principe du moindre privilège).
 
 ---
 
@@ -65,7 +62,7 @@ trivy image mon-app:latest
 
 | Image | Taille recommandée |
 |---|---|
-| API Node.js | < 100MB |
+| API [[Node]].js | < 100MB |
 | API Python | < 200MB |
 | Binaire Go | < 20MB |
-| App React buildée | < 30MB (nginx:alpine) |
+| App React buildée | < 30MB ([[Nginx]]:alpine) |

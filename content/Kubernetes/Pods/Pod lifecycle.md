@@ -5,14 +5,11 @@ tags:
 ---
 # Pod lifecycle
 
-## Parent
-- [[Pods]]
-
 ---
 
 ## Définition
 
-Le cycle de vie d'un pod suit plusieurs phases, de la création à la terminaison. Comprendre ces phases est essentiel pour déboguer les pods bloqués et configurer correctement les probes et les politiques de restart.
+Le cycle de vie d'un pod suit plusieurs phases, de la création à la terminaison. Comprendre ces phases est essentiel pour déboguer les [[Pods]] bloqués et configurer correctement les probes et les politiques de [[restart]].
 
 ---
 
@@ -20,11 +17,11 @@ Le cycle de vie d'un pod suit plusieurs phases, de la création à la terminaiso
 
 | Phase | Description |
 |---|---|
-| `Pending` | Pod accepté mais containers pas encore démarrés (scheduling en cours, image en pull) |
+| `Pending` | Pod accepté mais [[Containers]] pas encore démarrés (scheduling en cours, image en pull) |
 | `Running` | Au moins un container tourne |
 | `Succeeded` | Tous les containers ont terminé avec code 0 (Jobs) |
 | `Failed` | Au moins un container a terminé avec code non-0 |
-| `Unknown` | État du pod non connu (problème communication node/API server) |
+| `Unknown` | État du pod non connu (problème communication [[Node]]/[[API server]]) |
 
 ---
 

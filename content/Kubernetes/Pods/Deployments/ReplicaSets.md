@@ -5,14 +5,11 @@ tags:
 ---
 # ReplicaSets
 
-## Parent
-- [[Deployments]]
-
 ---
 
 ## Définition
 
-Un ReplicaSet garantit qu'un nombre spécifié de réplicas d'un pod tourne en permanence. Les Deployments créent et gèrent les ReplicaSets automatiquement — on n'utilise généralement pas les ReplicaSets directement.
+Un ReplicaSet garantit qu'un nombre spécifié de réplicas d'un pod tourne en permanence. Les [[Deployments]] créent et gèrent les ReplicaSets automatiquement — on n'utilise généralement pas les ReplicaSets directement.
 
 ---
 
@@ -67,4 +64,4 @@ EOF
 ---
 
 > [!note]
-> Kubernetes conserve les anciens ReplicaSets (avec 0 réplicas) pour permettre le rollback. Le nombre de revisions conservées est contrôlé par `.spec.revisionHistoryLimit` dans le Deployment.
+> [[Kubernetes]] conserve les anciens ReplicaSets (avec 0 réplicas) pour permettre le [[Rollback]]. Le nombre de revisions conservées est contrôlé par `.spec.revisionHistoryLimit` dans le Deployment.

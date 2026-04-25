@@ -6,14 +6,11 @@ tags:
 
 # Detached mode
 
-## Parent
-- [[Docker run]]
-
 ---
 
 ## Définition
 
-Le mode détaché (`-d` / `--detach`) lance le conteneur en arrière-plan et retourne immédiatement à la ligne de commande. C'est le mode standard pour les services (web servers, bases de données, etc.).
+Le mode détaché (`-d` / `--detach`) lance le conteneur en arrière-plan et retourne immédiatement à la ligne de commande. C'est le mode standard pour les [[Services]] (web servers, bases de données, etc.).
 
 ---
 

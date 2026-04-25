@@ -5,9 +5,6 @@ tags:
 ---
 # Reliability indicators
 
-## Parent
-- [[SLO SLA SLI]]
-
 ---
 
 ## Définition

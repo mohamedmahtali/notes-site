@@ -5,9 +5,6 @@ tags:
 ---
 # On demand resources
 
-## Parent
-- [[Cloud computing]]
-
 ---
 
 ## Définition
@@ -19,7 +16,7 @@ Les ressources à la demande sont provisionnées en quelques secondes/minutes et
 ## Pourquoi c'est important
 
 > [!tip] De 0 à 1000 serveurs en minutes
-> Le provisionnement traditionnel prend des semaines (commande, livraison, rack, câblage). Le cloud : une API call, et la ressource est prête en 30 secondes. C'est ce qui rend les architectures élastiques possibles.
+> Le provisionnement traditionnel prend des semaines (commande, livraison, rack, câblage). Le [[Cloud]] : une API call, et la ressource est prête en 30 secondes. C'est ce qui rend les architectures élastiques possibles.
 
 ---
 

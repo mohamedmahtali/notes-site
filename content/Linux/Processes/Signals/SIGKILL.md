@@ -6,14 +6,11 @@ tags:
 
 # SIGKILL
 
-## Parent
-- [[Signals]]
-
 ---
 
 ## Définition
 
-SIGKILL (signal 9) est le signal d'arrêt immédiat et forcé. Il **ne peut pas être intercepté, ignoré, ou bloqué** par le processus. Le kernel tue le processus instantanément sans lui laisser faire de nettoyage.
+SIGKILL (signal 9) est le signal d'arrêt immédiat et forcé. Il **ne peut pas être intercepté, ignoré, ou bloqué** par le processus. Le [[Kernel]] tue le processus instantanément sans lui laisser faire de nettoyage.
 
 ---
 
@@ -37,7 +34,7 @@ kill -9 PID 2>/dev/null || true
 
 ## SIGTERM vs SIGKILL
 
-| | SIGTERM | SIGKILL |
+| | [[SIGTERM]] | SIGKILL |
 |---|---|---|
 | Peut être intercepté | ✅ Oui | ❌ Non |
 | Nettoyage possible | ✅ Oui | ❌ Non |

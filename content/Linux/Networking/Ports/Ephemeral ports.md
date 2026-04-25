@@ -6,14 +6,11 @@ tags:
 
 # Ephemeral ports
 
-## Parent
-- [[Ports]]
-
 ---
 
 ## Définition
 
-Les ports éphémères (49152-65535) sont des ports temporaires attribués automatiquement par le kernel à un client lors d'une connexion sortante. Ils permettent d'identifier la connexion côté client.
+Les [[Ports]] éphémères (49152-65535) sont des ports temporaires attribués automatiquement par le [[Kernel]] à un client lors d'une connexion sortante. Ils permettent d'identifier la connexion côté client.
 
 ---
 

@@ -4,19 +4,19 @@ title: À propos
 
 # Mohamed Mahtali
 
-**DevOps Engineer · 3 ans d'expérience**
+**[[DevOps]] Engineer · 3 ans d'expérience**
 
-Passionné par l'automatisation, l'infrastructure cloud et les pratiques modernes du DevOps. Ce site est à la fois ma base de connaissances personnelle et un espace de partage pour la communauté — qu'on débute ou qu'on cherche à approfondir.
+Passionné par l'automatisation, l'infrastructure [[Cloud]] et les pratiques modernes du DevOps. Ce site est à la fois ma base de connaissances personnelle et un espace de partage pour la communauté — qu'on débute ou qu'on cherche à approfondir.
 
 ---
 
 ## Certifications
 
-> [!success] AWS Certified Cloud Practitioner
-> Amazon Web Services · Janv. 2025 → Juin 2028
+> [!success] [[AWS]] Certified Cloud Practitioner
+> Amazon Web [[Services]] · Janv. 2025 → Juin 2028
 > `fe97d1c1c160400f9a775967e2baca2f`
 
-> [!success] OCI Certified Architect Associate
+> [!success] [[OCI]] Certified Architect Associate
 > Oracle Cloud Infrastructure · Oct. 2025
 > `OCT7427880`
 
@@ -31,13 +31,13 @@ Passionné par l'automatisation, l'infrastructure cloud et les pratiques moderne
 | Domaine | Outils |
 |---|---|
 | **Cloud** | AWS · Oracle Cloud |
-| **Conteneurs** | Docker · Kubernetes |
-| **CI/CD** | GitHub Actions · GitLab CI · Jenkins |
-| **IaC** | Terraform · Ansible |
-| **Observabilité** | Prometheus · Grafana |
-| **Sécurité** | Vault · gestion des secrets |
-| **OS & Réseau** | Linux · Bash · DNS · Nginx |
-| **Versioning** | Git · GitHub · GitLab |
+| **Conteneurs** | [[Docker]] · [[Kubernetes]] |
+| **CI/CD** | [[GitHub actions]] · GitLab CI · [[Jenkins]] |
+| **IaC** | [[Terraform]] · [[Ansible]] |
+| **Observabilité** | [[Prometheus]] · [[Grafana]] |
+| **Sécurité** | [[Vault]] · gestion des [[Secrets]] |
+| **OS & Réseau** | [[Linux]] · [[Bash]] · [[DNS]] · [[Nginx]] |
+| **[[Versioning]]** | [[Git]] · GitHub · GitLab |
 
 ---
 

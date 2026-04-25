@@ -5,15 +5,6 @@ tags:
 ---
 # Metrics
 
-## Parent
-- [[Observability]]
-
-## Enfants
-- [[USE method]]
-- [[RED method]]
-- [[Infrastructure metrics]]
-- [[Application metrics]]
-
 ---
 
 ## Définition

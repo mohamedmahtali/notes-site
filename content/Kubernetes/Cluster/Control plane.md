@@ -5,28 +5,11 @@ tags:
 ---
 # Control plane
 
-## Parent
-- [[Cluster]]
-
-## Enfants
-- [[API server]]
-- [[Scheduler]]
-- [[etcd]]
-- [[Controller manager]]
-- [[Cloud controller manager]]
-
-## Concepts liés
-- [[API server]]
-- [[Scheduler]]
-- [[etcd]]
-- [[Controller manager]]
-- [[Cloud controller manager]]
-
 ---
 
 ## Définition
 
-Le **Control Plane** est la partie du cluster Kubernetes qui **contrôle et orchestre l’ensemble du système**.
+Le **Control Plane** est la partie du [[Cluster]] [[Kubernetes]] qui **contrôle et orchestre l’ensemble du système**.
 
 Il agit comme le **cerveau du cluster**.
 
@@ -35,10 +18,10 @@ Son rôle est de :
 - gérer l’état du cluster
 - planifier les workloads
 - maintenir l’état désiré
-- coordonner les nodes
+- coordonner les [[Node]]
 
 Le Control Plane ne fait **pas tourner les applications**.  
-Ce sont les **Nodes** qui exécutent les **Pods**.
+Ce sont les **Nodes** qui exécutent les **[[Pods]]**.
 
 ---
 
@@ -46,28 +29,43 @@ Ce sont les **Nodes** qui exécutent les **Pods**.
 
 Le Control Plane est composé de plusieurs composants :
 
-```bash
-Control Plane  
-│  
-├── API Server  
-├── Scheduler  
-├── Controller Manager  
-├── Cloud Controller Manager  
-└── etcd
-```
+```mermaid
+graph TB
+    subgraph CP["Control Plane"]
+        API["🔵 API Server\n(point d'entrée)"]
+        SCH["Scheduler\n(placement des pods)"]
+        CM["Controller Manager\n(état désiré)"]
+        ETCD["etcd\n(base de données)"]
+        CCM["Cloud Controller\n(intégration cloud)"]
+    end
 
+    subgraph Nodes["Worker Nodes"]
+        N1["Node 1\nkubelet + pods"]
+        N2["Node 2\nkubelet + pods"]
+    end
+
+    kubectl["👤 kubectl"] -->|"HTTPS"| API
+    API <-->|"lecture/écriture"| ETCD
+    API --> SCH
+    API --> CM
+    API --> CCM
+    SCH -->|"schedule pods"| N1
+    SCH -->|"schedule pods"| N2
+    CM -->|"surveille"| N1
+    CM -->|"surveille"| N2
+```
 
 ---
 
 ## API Server
 
-Le **API Server** est le **point d’entrée du cluster Kubernetes**.
+Le **[[API server]]** est le **point d’entrée du cluster Kubernetes**.
 
 Tous les composants communiquent avec Kubernetes via l’API.
 
 Il permet :
 
-- de recevoir les commandes (kubectl)
+- de recevoir les commandes ([[kubectl]])
 - de valider les requêtes
 - de mettre à jour l’état du cluster
 
@@ -82,7 +80,7 @@ Cette commande parle au **API Server**.
 
 ## Scheduler
 
-Le **Scheduler** décide **sur quel node un pod doit être exécuté**.
+Le **[[Scheduler]]** décide **sur quel node un pod doit être exécuté**.
 
 Il analyse :
 
@@ -97,7 +95,7 @@ Puis il assigne le pod au node le plus approprié.
 
 ## Controller Manager
 
-Le **Controller Manager** maintient l’état désiré du cluster.
+Le **[[Controller manager]]** maintient l’état désiré du cluster.
 
 Il exécute plusieurs contrôleurs :
 
@@ -120,34 +118,34 @@ Le controller recrée automatiquement un pod.
 
 ## Cloud Controller Manager
 
-Le **Cloud Controller Manager** permet à Kubernetes d’interagir avec le **cloud provider**.
+Le **[[Cloud controller manager]]** permet à Kubernetes d’interagir avec le **[[Cloud]] provider**.
 
 Il gère par exemple :
 
-- les load balancers
+- les [[Load balancers]]
 - les nodes cloud
 - les routes réseau
-- les volumes cloud
+- les [[Volumes]] cloud
 
 Utilisé avec :
 
-- AWS
+- [[AWS]]
 - GCP
-- Azure
+- [[Azure]]
 
 ---
 
 ## etcd
 
-**etcd** est la **base de données du cluster Kubernetes**.
+**[[etcd]]** est la **base de données du cluster Kubernetes**.
 
 Il stocke :
 
 - la configuration du cluster
 - l’état des ressources
 - les informations sur les pods
-- les secrets
-- les services
+- les [[Secrets]]
+- les [[Services]]
 
 etcd est une **base clé-valeur distribuée**.
 

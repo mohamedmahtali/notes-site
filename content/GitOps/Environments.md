@@ -1,13 +1,15 @@
 ---
 title: Environments
-tags: [gitops, intermediate]
+tags:
+  - gitops
+  - intermediate
 ---
 
 # Environments (GitOps)
 
 ## Définition
 
-Dans une architecture GitOps, les environnements (dev, staging, production) sont représentés comme des dossiers ou branches dans le repo Git. La promotion d'une version d'un environnement à l'autre se fait via Git (PR, merge, tag).
+Dans une architecture GitOps, les environnements (dev, [[Staging]], production) sont représentés comme des dossiers ou branches dans le repo [[Git]]. La promotion d'une version d'un environnement à l'autre se fait via Git (PR, [[Merge]], tag).
 
 > [!tip] Pourquoi c'est important
 > Représenter les environnements dans Git garantit que dev, staging et prod sont identiques en termes de configuration, et que les promotions sont traçables et réversibles.
@@ -42,7 +44,7 @@ infra-prod/      → branche main → cluster production
 ```
 
 > [!note] Mono-repo vs Multi-repo
-> Mono-repo = visibilité globale + diffs cross-env faciles. Multi-repo = permissions fines (dev n'a pas accès à prod), blast radius limité. En pratique, le mono-repo avec CODEOWNERS est la solution la plus courante.
+> Mono-repo = visibilité globale + diffs cross-[[ENV]] faciles. Multi-repo = [[Permissions]] fines (dev n'a pas accès à prod), blast radius limité. En pratique, le mono-repo avec CODEOWNERS est la solution la plus courante.
 
 ## Promotion via Kustomize
 

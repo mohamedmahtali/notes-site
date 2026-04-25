@@ -5,26 +5,11 @@ tags:
 ---
 # Advanced Git
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[cherry-pick]]
-- [[bisect]]
-- [[reflog]]
-- [[reset]]
-
-## Concepts liés
-- [[cherry-pick]]
-- [[bisect]]
-- [[reflog]]
-- [[reset]]
-
 ---
 
 ## Définition
 
-Au-delà des commandes quotidiennes (`add`, `commit`, `push`), Git offre des outils puissants pour manipuler l'historique, déboguer, et récupérer des états perdus. Ces commandes avancées sont utilisées pour résoudre des situations complexes.
+Au-delà des commandes quotidiennes (`add`, `commit`, `push`), [[Git]] offre des outils puissants pour manipuler l'historique, déboguer, et récupérer des états perdus. Ces commandes avancées sont utilisées pour résoudre des situations complexes.
 
 ---
 
@@ -32,10 +17,10 @@ Au-delà des commandes quotidiennes (`add`, `commit`, `push`), Git offre des out
 
 | Commande | Usage |
 |---|---|
-| [[cherry-pick]] | Copier un commit précis vers une autre branche |
+| [[cherry-pick]] | Copier un [[Commit]] précis vers une autre branche |
 | [[bisect]] | Trouver le commit qui a introduit un bug (recherche binaire) |
 | [[reflog]] | Journal de tous les mouvements de HEAD — filet de sécurité |
-| [[reset]] | Déplacer HEAD et modifier staging/working dir |
+| [[reset]] | Déplacer HEAD et modifier [[Staging]]/working dir |
 
 ---
 
@@ -48,7 +33,7 @@ Au-delà des commandes quotidiennes (`add`, `commit`, `push`), Git offre des out
 > Identifier en quelques minutes quel commit parmi 1000 a cassé un comportement.
 
 > [!tip] reflog
-> Récupérer des commits perdus après un `reset --hard` ou un rebase raté.
+> Récupérer des commits perdus après un `reset --hard` ou un [[Rebase]] raté.
 
 > [!tip] reset
 > Défaire des commits locaux, désindexer des fichiers, nettoyer le working directory.

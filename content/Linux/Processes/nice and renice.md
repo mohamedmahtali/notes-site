@@ -6,9 +6,6 @@ tags:
 
 # nice and renice
 
-## Parent
-- [[Processes]]
-
 ---
 
 ## Définition
@@ -42,7 +39,7 @@ top   # colonne NI
 
 | Usage | Nice value |
 |---|---|
-| Services critiques | 0 (défaut) ou négatif (root) |
+| [[Services]] critiques | 0 (défaut) ou négatif (root) |
 | Services normaux | 0 |
 | Jobs batch, backup | +10 à +15 |
 | Tâches très basses priorité | +19 |

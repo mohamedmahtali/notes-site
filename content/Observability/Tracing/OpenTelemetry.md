@@ -5,9 +5,6 @@ tags:
 ---
 # OpenTelemetry
 
-## Parent
-- [[Tracing]]
-
 ---
 
 ## Définition

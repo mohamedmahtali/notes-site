@@ -5,20 +5,6 @@ tags:
 ---
 # Commit
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Commit message]]
-- [[Amend]]
-- [[Commit history]]
-
-## Concepts liés
-- [[Commit message]]
-- [[Amend]]
-- [[Commit history]]
-- [[Branch]]
-
 ---
 
 ## Définition
@@ -29,7 +15,7 @@ Un commit est un instantané (snapshot) de l'état du dépôt à un moment préc
 
 ## Pourquoi c'est important
 
-> [!tip] L'unité atomique de Git
+> [!tip] L'unité atomique de [[Git]]
 > Un commit doit représenter **une seule intention logique**. "Ajouter la page de connexion" est bon. "Diverses modifications" est mauvais. Des commits propres facilitent les reviews, les reverts, et le git log.
 
 ---

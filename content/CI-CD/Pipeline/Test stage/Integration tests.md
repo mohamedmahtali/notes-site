@@ -5,14 +5,11 @@ tags:
 ---
 # Integration tests
 
-## Parent
-- [[Test stage]]
-
 ---
 
 ## Définition
 
-Les tests d'intégration vérifient que plusieurs composants fonctionnent correctement ensemble : application + base de données, API + service tiers, microservices entre eux. Plus lents que les unit tests, ils détectent les problèmes d'interface.
+Les tests d'intégration vérifient que plusieurs composants fonctionnent correctement ensemble : application + base de données, API + service tiers, microservices entre eux. Plus lents que les [[Unit tests]], ils détectent les problèmes d'interface.
 
 ---
 

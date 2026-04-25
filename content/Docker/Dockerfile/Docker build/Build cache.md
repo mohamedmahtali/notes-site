@@ -6,14 +6,11 @@ tags:
 
 # Build cache
 
-## Parent
-- [[Docker build]]
-
 ---
 
 ## Définition
 
-Le build cache de Docker évite de réexécuter les instructions Dockerfile dont les inputs n'ont pas changé. Chaque layer est identifié par un hash basé sur l'instruction et le contenu des fichiers copiés. Un cache hit accélère les builds de quelques secondes à quelques minutes.
+Le build cache de [[Docker]] évite de réexécuter les [[Instructions]] [[Dockerfile]] dont les inputs n'ont pas changé. Chaque layer est identifié par un hash basé sur l'instruction et le contenu des fichiers copiés. Un cache hit accélère les builds de quelques secondes à quelques minutes.
 
 ---
 

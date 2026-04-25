@@ -6,18 +6,11 @@ tags:
 
 # Resource limits
 
-## Parent
-- [[Containers]]
-
-## Enfants
-- [[CPU limits]]
-- [[Memory limits]]
-
 ---
 
 ## Définition
 
-Par défaut, un conteneur Docker peut utiliser toutes les ressources CPU et mémoire de l'hôte. Les resource limits définissent des plafonds qui protègent les autres conteneurs et l'hôte d'un conteneur défaillant ou malveillant.
+Par défaut, un conteneur [[Docker]] peut utiliser toutes les ressources CPU et mémoire de l'hôte. Les resource limits définissent des plafonds qui protègent les autres conteneurs et l'hôte d'un conteneur défaillant ou malveillant.
 
 ---
 
@@ -41,7 +34,7 @@ docker inspect mon-app | grep -A5 '"HostConfig"'
 | Option | Description |
 |---|---|
 | `--memory=512m` | Limite RAM à 512 Mo |
-| `--memory-swap=512m` | = mémoire → pas de swap |
+| `--memory-swap=512m` | = mémoire → pas de [[Swap]] |
 | `--cpus=1.5` | Limite à 1.5 CPUs |
 | `--cpu-shares=512` | Poids relatif (512 = 50% vs 1024 par défaut) |
 | `--pids-limit=100` | Limite le nombre de processus |
@@ -49,8 +42,8 @@ docker inspect mon-app | grep -A5 '"HostConfig"'
 ---
 
 > [!warning] OOMKilled
-> Quand un conteneur dépasse sa limite mémoire, le kernel le tue avec le signal OOMKill. Visible dans `docker inspect` :
-> ```bash
+> Quand un conteneur dépasse sa limite mémoire, le [[Kernel]] le tue avec le signal OOMKill. Visible dans `docker inspect` :
+> ```[[Bash]]
 > docker inspect mon-app | grep OOMKilled
 > # "OOMKilled": true
 > ```

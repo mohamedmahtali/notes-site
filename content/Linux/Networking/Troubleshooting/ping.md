@@ -6,9 +6,6 @@ tags:
 
 # ping
 
-## Parent
-- [[Troubleshooting]]
-
 ---
 
 ## Définition
@@ -62,4 +59,4 @@ round-trip min/avg/max = 11.8/12.0/12.3 ms
 ---
 
 > [!note]
-> Un ping qui échoue ne signifie pas toujours que la machine est down — ICMP est souvent bloqué par les firewalls en production. Utiliser `nc -zv` ou `curl` pour tester au niveau applicatif.
+> Un ping qui échoue ne signifie pas toujours que la machine est down — ICMP est souvent bloqué par les [[Firewall]] en production. Utiliser `nc -zv` ou `curl` pour tester au niveau applicatif.

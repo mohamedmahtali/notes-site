@@ -5,21 +5,18 @@ tags:
 ---
 # Jenkinsfile
 
-## Parent
-- [[Jenkins]]
-
 ---
 
 ## Définition
 
-Un Jenkinsfile est un fichier texte (Groovy DSL) à la racine du repo qui définit le pipeline Jenkins. Il versionne la configuration CI avec le code — "Pipeline as Code".
+Un Jenkinsfile est un fichier texte (Groovy DSL) à la racine du repo qui définit le [[Pipeline]] [[Jenkins]]. Il versionne la configuration CI avec le code — "Pipeline as Code".
 
 ---
 
 ## Avantages
 
 > [!tip] Pipeline as Code
-> Le Jenkinsfile est versionné avec le code : historique des changements de pipeline, review via PR, rollback possible. Remplace les configurations Jenkins manuelles dans l'interface web.
+> Le Jenkinsfile est versionné avec le code : historique des changements de pipeline, review via PR, [[Rollback]] possible. Remplace les configurations Jenkins manuelles dans l'interface web.
 
 ---
 

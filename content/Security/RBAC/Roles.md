@@ -1,13 +1,15 @@
 ---
 title: Roles
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Roles
 
 ## Définition
 
-Un rôle est un ensemble nommé de permissions. Dans Kubernetes, il en existe deux types : `Role` (namespace-scoped) et `ClusterRole` (cluster-wide). Dans AWS IAM, les rôles peuvent être assumés par des services ou utilisateurs.
+Un rôle est un ensemble nommé de permissions. Dans [[Kubernetes]], il en existe deux [[Types]] : `Role` (namespace-scoped) et `ClusterRole` ([[Cluster]]-wide). Dans [[AWS]] [[IAM]], les rôles peuvent être assumés par des [[Services]] ou utilisateurs.
 
 > [!note] Role vs ClusterRole
 > Un `Role` ne s'applique qu'à un namespace. Un `ClusterRole` s'applique à tout le cluster (ou peut être bindé à un namespace via RoleBinding).

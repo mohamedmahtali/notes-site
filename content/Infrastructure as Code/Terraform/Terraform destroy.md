@@ -5,14 +5,11 @@ tags:
 ---
 # Terraform destroy
 
-## Parent
-- [[Terraform]]
-
 ---
 
 ## Définition
 
-`terraform destroy` supprime toutes les ressources gérées par Terraform dans le workspace courant. Opération destructive et irréversible — à utiliser avec précaution.
+`terraform destroy` supprime toutes les ressources gérées par [[Terraform]] dans le workspace courant. Opération destructive et irréversible — à utiliser avec précaution.
 
 ---
 

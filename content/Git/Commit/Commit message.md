@@ -6,19 +6,11 @@ tags:
 
 # Commit message
 
-## Parent
-- [[Commit]]
-
-## Concepts liés
-- [[Commit]]
-- [[commit-msg]]
-- [[Code review]]
-
 ---
 
 ## Définition
 
-Un commit message est la description textuelle associée à un commit Git. Il documente **pourquoi** une modification a été faite, et non ce qui a été changé (le diff le montre déjà).
+Un [[Commit]] message est la description textuelle associée à un commit [[Git]]. Il documente **pourquoi** une modification a été faite, et non ce qui a été changé (le diff le montre déjà).
 
 Un bon message de commit est une forme de documentation qui aide les coéquipiers — et toi dans 6 mois — à comprendre l'historique du projet.
 
@@ -33,7 +25,7 @@ Un bon message de commit est une forme de documentation qui aide les coéquipier
 
 ## Convention : Conventional Commits
 
-Le standard le plus adopté en DevOps et open source :
+Le standard le plus adopté en [[DevOps]] et open source :
 
 ```
 <type>(<scope>): <description courte>
@@ -52,7 +44,7 @@ Le standard le plus adopté en DevOps et open source :
 | `docs` | Documentation uniquement |
 | `chore` | Tâches de maintenance (deps, config) |
 | `refactor` | Refactoring sans changement de comportement |
-| `ci` | Modifications des pipelines CI/CD |
+| `ci` | Modifications des [[Pipeline]] CI/CD |
 | `test` | Ajout ou correction de tests |
 | `perf` | Amélioration des performances |
 

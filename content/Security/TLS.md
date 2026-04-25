@@ -1,6 +1,8 @@
 ---
 title: TLS
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # TLS (Transport Layer Security)

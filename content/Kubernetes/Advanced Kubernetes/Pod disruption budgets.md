@@ -5,14 +5,11 @@ tags:
 ---
 # Pod disruption budgets
 
-## Parent
-- [[Advanced Kubernetes]]
-
 ---
 
 ## Définition
 
-Un PodDisruptionBudget (PDB) limite le nombre de pods simultanément indisponibles lors d'opérations de maintenance (drain d'un node, rolling update, cluster upgrade). Il garantit la disponibilité minimale de l'application.
+Un PodDisruptionBudget (PDB) limite le nombre de [[Pods]] simultanément indisponibles lors d'opérations de maintenance (drain d'un [[Node]], rolling update, [[Cluster]] upgrade). Il garantit la disponibilité minimale de l'application.
 
 ---
 

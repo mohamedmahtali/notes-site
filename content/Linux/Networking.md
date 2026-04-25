@@ -6,23 +6,11 @@ tags:
 
 # Networking
 
-## Parent
-- [[Linux]]
-
-## Enfants
-- [[IP addressing]]
-- [[DNS]]
-- [[Ports]]
-- [[TCP and UDP]]
-- [[Network interfaces]]
-- [[Routing]]
-- [[Troubleshooting]]
-
 ---
 
 ## Définition
 
-Le réseau Linux couvre la configuration des interfaces réseau, l'adressage IP, le routage, et les outils de diagnostic. C'est une compétence fondamentale pour l'administration serveur et le DevOps.
+Le réseau [[Linux]] couvre la configuration des interfaces réseau, l'adressage IP, le routage, et les outils de diagnostic. C'est une compétence fondamentale pour l'administration serveur et le [[DevOps]].
 
 ---
 

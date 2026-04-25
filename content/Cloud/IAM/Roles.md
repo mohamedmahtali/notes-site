@@ -5,14 +5,11 @@ tags:
 ---
 # Roles
 
-## Parent
-- [[IAM]]
-
 ---
 
 ## Définition
 
-Les IAM roles sont des identités assumables par des services, instances EC2, fonctions Lambda, ou des utilisateurs d'autres comptes. Ils utilisent des credentials temporaires (STS) — plus sécurisés que les access keys permanentes.
+Les [[IAM]] roles sont des identités assumables par des [[Services]], instances [[EC2]], fonctions Lambda, ou des utilisateurs d'autres comptes. Ils utilisent des credentials temporaires (STS) — plus sécurisés que les access keys permanentes.
 
 ---
 
@@ -20,8 +17,8 @@ Les IAM roles sont des identités assumables par des services, instances EC2, fo
 
 - EC2 accède à S3 sans access keys hardcodées
 - Lambda lit/écrit dans DynamoDB
-- Cross-account access entre comptes AWS
-- OIDC federated access (GitHub Actions → AWS)
+- Cross-account access entre comptes [[AWS]]
+- OIDC federated access ([[GitHub actions]] → AWS)
 
 ---
 

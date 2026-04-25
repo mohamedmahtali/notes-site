@@ -5,14 +5,11 @@ tags:
 ---
 # Buckets
 
-## Parent
-- [[Object storage]]
-
 ---
 
 ## Définition
 
-Un bucket est un conteneur de premier niveau pour les objets dans un service d'object storage. Les noms de buckets sont uniques globalement (S3) ou par projet (GCP). Chaque objet dans un bucket a une clé unique.
+Un bucket est un conteneur de premier niveau pour les objets dans un service d'[[Object storage]]. Les noms de buckets sont uniques globalement (S3) ou par projet (GCP). Chaque objet dans un bucket a une clé unique.
 
 ---
 

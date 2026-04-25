@@ -1,6 +1,8 @@
 ---
 title: Image scanning
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Image scanning
@@ -10,7 +12,7 @@ tags: [security, intermediate]
 L'image scanning analyse les images de conteneurs pour détecter les vulnérabilités CVE dans les paquets OS et les dépendances applicatives avant le déploiement.
 
 > [!tip] Pourquoi c'est important
-> Une image Docker peut embarquer des centaines de paquets avec des vulnérabilités connues. Scanner en CI/CD permet de bloquer les images dangereuses avant qu'elles n'atteignent la production.
+> Une image [[Docker]] peut embarquer des centaines de paquets avec des vulnérabilités connues. Scanner en CI/CD permet de bloquer les images dangereuses avant qu'elles n'atteignent la production.
 
 ## Trivy (outil recommandé)
 

@@ -5,14 +5,11 @@ tags:
 ---
 # Scheduler
 
-## Parent
-- [[Control plane]]
-
 ---
 
 ## Définition
 
-Le kube-scheduler est le composant qui décide sur quel node placer chaque pod. Il observe les pods non schedulés et sélectionne le node optimal selon des contraintes (ressources, affinité, taints, topologie).
+Le kube-scheduler est le composant qui décide sur quel [[Node]] placer chaque pod. Il observe les [[Pods]] non schedulés et sélectionne le node optimal selon des contraintes (ressources, affinité, taints, topologie).
 
 ---
 

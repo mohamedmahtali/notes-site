@@ -5,9 +5,6 @@ tags:
 ---
 # Google provider
 
-## Parent
-- [[Terraform providers]]
-
 ---
 
 ## Définition

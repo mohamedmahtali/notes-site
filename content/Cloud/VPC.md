@@ -5,19 +5,11 @@ tags:
 ---
 # VPC
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[Internet gateway]]
-- [[NAT gateway]]
-- [[Routing tables]]
-
 ---
 
 ## Définition
 
-Un VPC (Virtual Private Cloud) est un réseau privé virtuel isolé dans le cloud. Il permet de définir sa propre topologie réseau : plages IP, sous-réseaux, règles de routage, et contrôle d'accès. Chaque cloud provider a son équivalent (AWS VPC, GCP VPC, Azure VNet).
+Un VPC (Virtual Private [[Cloud]]) est un réseau privé virtuel isolé dans le cloud. Il permet de définir sa propre topologie réseau : plages IP, sous-réseaux, règles de routage, et contrôle d'accès. Chaque cloud provider a son équivalent ([[AWS]] VPC, GCP VPC, [[Azure]] VNet).
 
 ---
 
@@ -37,7 +29,7 @@ VPC (10.0.0.0/16)
 
 ## Security Groups vs NACLs
 
-| | Security Groups | NACLs |
+| | [[Security [[Groups]]]] | NACLs |
 |---|---|---|
 | Niveau | Instance | Subnet |
 | Statefull | ✅ Oui | ❌ Non |

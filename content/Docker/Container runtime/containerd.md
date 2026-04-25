@@ -6,14 +6,11 @@ tags:
 
 # containerd
 
-## Parent
-- [[Container runtime]]
-
 ---
 
 ## Définition
 
-containerd est un high-level container runtime, maintenu par la CNCF. Il gère le cycle de vie complet des conteneurs : pull des images, création des snapshots filesystem, exécution via runc, et gestion du réseau. C'est le runtime standard utilisé par Docker et Kubernetes.
+containerd est un high-level [[Container runtime]], maintenu par la CNCF. Il gère le cycle de vie complet des conteneurs : pull des images, création des snapshots filesystem, exécution via [[runc]], et gestion du réseau. C'est le runtime standard utilisé par [[Docker]] et [[Kubernetes]].
 
 ---
 
@@ -57,4 +54,4 @@ nerdctl ps
 ---
 
 > [!note]
-> En production Kubernetes, containerd est configuré et géré par le cluster. Tu n'interagis généralement pas directement avec lui sauf pour le débogage bas niveau.
+> En production Kubernetes, containerd est configuré et géré par le [[Cluster]]. Tu n'interagis généralement pas directement avec lui sauf pour le débogage bas niveau.

@@ -6,14 +6,11 @@ tags:
 
 # Profiles
 
-## Parent
-- [[Docker compose]]
-
 ---
 
 ## Définition
 
-Les profiles Docker Compose permettent de regrouper des services sous des étiquettes optionnelles. Un service sans profile est toujours démarré. Un service avec profile n'est démarré que si le profile est activé. Utile pour séparer les services de dev/debug des services de production.
+Les profiles [[Docker compose]] permettent de regrouper des [[Services]] sous des étiquettes optionnelles. Un service sans profile est toujours démarré. Un service avec profile n'est démarré que si le profile est activé. Utile pour séparer les services de dev/debug des services de production.
 
 ---
 

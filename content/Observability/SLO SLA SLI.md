@@ -5,14 +5,6 @@ tags:
 ---
 # SLO SLA SLI
 
-## Parent
-- [[Observability]]
-
-## Enfants
-- [[Reliability indicators]]
-- [[Availability target]]
-- [[Error budget]]
-
 ---
 
 ## Définition

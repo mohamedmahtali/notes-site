@@ -6,19 +6,11 @@ tags:
 
 # Bare repository
 
-## Parent
-- [[Repository]]
-
-## Concepts liés
-- [[Repository]]
-- [[Local repository]]
-- [[Remote repository]]
-
 ---
 
 ## Définition
 
-Un dépôt bare est un dépôt Git **sans working directory** — il ne contient que le contenu du répertoire `.git/`. C'est le format utilisé par les serveurs Git (GitHub, GitLab). Les développeurs ne travaillent pas directement dedans : ils poussent/tirent depuis leur dépôt local.
+Un dépôt bare est un dépôt [[Git]] **sans working directory** — il ne contient que le contenu du répertoire `.git/`. C'est le format utilisé par les serveurs Git (GitHub, GitLab). Les développeurs ne travaillent pas directement dedans : ils poussent/tirent depuis leur dépôt local.
 
 ---
 

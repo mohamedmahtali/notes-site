@@ -1,6 +1,8 @@
 ---
 title: Assume breach
-tags: [security, advanced]
+tags:
+  - security
+  - advanced
 ---
 
 # Assume breach

@@ -6,14 +6,11 @@ tags:
 
 # A record
 
-## Parent
-- [[DNS]]
-
 ---
 
 ## Définition
 
-Un enregistrement A (Address record) mappe un nom de domaine vers une adresse IPv4. C'est l'enregistrement DNS le plus fondamental.
+Un enregistrement A (Address record) mappe un nom de domaine vers une adresse [[IPv4]]. C'est l'enregistrement [[DNS]] le plus fondamental.
 
 ---
 
@@ -51,4 +48,4 @@ vpn       → serveur VPN
 ```
 
 > [!note]
-> Pour IPv6, l'équivalent est l'enregistrement `AAAA` qui pointe vers une adresse IPv6.
+> Pour [[IPv6]], l'équivalent est l'enregistrement `AAAA` qui pointe vers une adresse IPv6.

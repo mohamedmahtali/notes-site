@@ -5,14 +5,11 @@ tags:
 ---
 # Controller manager
 
-## Parent
-- [[Control plane]]
-
 ---
 
 ## Définition
 
-Le kube-controller-manager exécute une collection de controllers en boucle continue. Chaque controller surveille l'état du cluster via l'API server et prend des actions pour aligner l'état réel sur l'état désiré.
+Le kube-controller-manager exécute une collection de controllers en boucle continue. Chaque controller surveille l'état du [[Cluster]] via l'[[API server]] et prend des actions pour aligner l'état réel sur l'état désiré.
 
 ---
 
@@ -20,9 +17,9 @@ Le kube-controller-manager exécute une collection de controllers en boucle cont
 
 | Controller | Rôle |
 |---|---|
-| Node controller | Détecte et gère les nodes défaillants |
-| ReplicaSet controller | Maintient le nombre de pods requis |
-| Deployment controller | Orchestre les rolling updates |
+| [[Node]] controller | Détecte et gère les nodes défaillants |
+| ReplicaSet controller | Maintient le nombre de [[Pods]] requis |
+| Deployment controller | Orchestre les [[Rolling updates]] |
 | Service Account controller | Crée les SA par défaut |
 | Namespace controller | Nettoie les ressources quand un NS est supprimé |
 | Job controller | Gère les jobs run-to-completion |
@@ -57,4 +54,4 @@ kubectl get pods -w
 ---
 
 > [!note]
-> Le controller manager incarne le pattern "reconciliation loop" — la philosophie fondamentale de Kubernetes : déclarer l'état désiré et laisser les controllers le réaliser.
+> Le controller manager incarne le pattern "[[Reconciliation loop]]" — la philosophie fondamentale de [[Kubernetes]] : déclarer l'état désiré et laisser les controllers le réaliser.

@@ -6,19 +6,11 @@ tags:
 
 # Container runtime
 
-## Parent
-- [[Docker]]
-
-## Enfants
-- [[containerd]]
-- [[runc]]
-- [[OCI]]
-
 ---
 
 ## Définition
 
-Un container runtime est le logiciel qui exécute concrètement les conteneurs sur le système d'exploitation hôte. Docker n'est pas le runtime — il délègue l'exécution à des runtimes sous-jacents : containerd (high-level) et runc (low-level).
+Un container runtime est le logiciel qui exécute concrètement les conteneurs sur le système d'exploitation hôte. [[Docker]] n'est pas le runtime — il délègue l'exécution à des runtimes sous-jacents : [[containerd]] (high-level) et [[runc]] (low-level).
 
 ---
 
@@ -43,8 +35,8 @@ Linux kernel (namespaces, cgroups)
 | Couche | Outil | Rôle |
 |---|---|---|
 | High-level runtime | containerd | Gestion images, snapshots, réseau |
-| Low-level runtime | runc | Création des conteneurs (namespaces/cgroups) |
-| Spécification | OCI | Standard d'interopérabilité |
+| Low-level runtime | runc | Création des conteneurs ([[Namespaces]]/cgroups) |
+| Spécification | [[OCI]] | Standard d'interopérabilité |
 
 ---
 
@@ -54,10 +46,10 @@ Linux kernel (namespaces, cgroups)
 |---|---|
 | `runc` | Standard, utilisé par défaut |
 | `crun` | Plus léger, compatible OCI |
-| `gVisor` (runsc) | Sécurité renforcée (kernel virtuel) |
+| `gVisor` (runsc) | Sécurité renforcée ([[Kernel]] virtuel) |
 | `kata-containers` | VM légère = isolation maximale |
 
 ---
 
 > [!note]
-> Kubernetes utilise directement `containerd` (ou CRI-O) — le daemon Docker n'est plus nécessaire depuis Kubernetes 1.24 (dockershim supprimé).
+> [[Kubernetes]] utilise directement `containerd` (ou CRI-O) — le daemon Docker n'est plus nécessaire depuis Kubernetes 1.24 (dockershim supprimé).

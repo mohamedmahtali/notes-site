@@ -6,9 +6,6 @@ tags:
 
 # CNAME
 
-## Parent
-- [[DNS]]
-
 ---
 
 ## Définition
@@ -44,5 +41,5 @@ dig blog.example.com
 
 > [!warning]
 > - Un CNAME ne peut pas coexister avec d'autres records sur le même nom (sauf DNSSEC)
-> - La racine d'un domaine (`example.com`) ne peut pas être un CNAME → utiliser un ALIAS/ANAME ou un A record
+> - La racine d'un domaine (`example.com`) ne peut pas être un CNAME → utiliser un ALIAS/ANAME ou un [[A record]]
 > - Les CNAME peuvent chaîner : `a → b → c → IP` (mais éviter les chaînes longues)

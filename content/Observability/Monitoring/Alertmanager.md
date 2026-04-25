@@ -5,19 +5,11 @@ tags:
 ---
 # Alertmanager
 
-## Parent
-- [[Monitoring]]
-
-## Enfants
-- [[Alert routing]]
-- [[Notification channels]]
-- [[Silences]]
-
 ---
 
 ## Définition
 
-Alertmanager reçoit les alertes de Prometheus et les achemine vers les bons canaux de notification (Slack, PagerDuty, email) en gérant le groupement, le throttling, et la déduplication.
+Alertmanager reçoit les alertes de [[Prometheus]] et les achemine vers les bons canaux de notification (Slack, PagerDuty, email) en gérant le groupement, le throttling, et la déduplication.
 
 ---
 

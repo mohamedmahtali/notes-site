@@ -6,20 +6,11 @@ tags:
 
 # Local repository
 
-## Parent
-- [[Repository]]
-
-## Concepts liés
-- [[Repository]]
-- [[Remote repository]]
-- [[Commit]]
-- [[Branch]]
-
 ---
 
 ## Définition
 
-Un dépôt local est la copie complète du dépôt Git sur ta machine. Il contient tout l'historique des commits, toutes les branches, et le répertoire `.git/` qui stocke les métadonnées Git. Tu travailles toujours en local, même sans connexion internet.
+Un dépôt local est la copie complète du dépôt [[Git]] sur ta machine. Il contient tout l'historique des [[Commit]], toutes les branches, et le répertoire `.git/` qui stocke les métadonnées Git. Tu travailles toujours en local, même sans connexion internet.
 
 ---
 

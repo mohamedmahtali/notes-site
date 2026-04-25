@@ -1,6 +1,8 @@
 ---
 title: CA (Certificate Authority)
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # CA (Certificate Authority)

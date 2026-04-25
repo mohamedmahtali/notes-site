@@ -6,14 +6,11 @@ tags:
 
 # Container logs
 
-## Parent
-- [[Containers]]
-
 ---
 
 ## Définition
 
-Docker capture automatiquement la sortie standard (`stdout`) et l'erreur standard (`stderr`) de chaque conteneur. `docker logs` permet d'inspecter ces logs. Les logs sont par défaut stockés en JSON sur le filesystem de l'hôte.
+[[Docker]] capture automatiquement la sortie standard (`stdout`) et l'erreur standard (`stderr`) de chaque conteneur. `docker logs` permet d'inspecter ces logs. Les logs sont par défaut stockés en JSON sur le filesystem de l'hôte.
 
 ---
 
@@ -57,7 +54,7 @@ docker run --log-driver=awslogs mon-app
 | Driver | Usage |
 |---|---|
 | `json-file` (défaut) | Fichiers JSON sur l'hôte |
-| `journald` | Systemd journal |
+| `journald` | [[systemd]] journal |
 | `fluentd` | Centralisation Fluentd |
 | `awslogs` | CloudWatch Logs |
 | `none` | Désactiver les logs |
@@ -65,4 +62,4 @@ docker run --log-driver=awslogs mon-app
 ---
 
 > [!tip] En production
-> Configurer un log driver centralisé (ELK, CloudWatch, Loki) plutôt que de lire les logs par `docker logs` sur chaque hôte.
+> Configurer un log driver centralisé (ELK, CloudWatch, [[Loki]]) plutôt que de lire les logs par `docker logs` sur chaque hôte.

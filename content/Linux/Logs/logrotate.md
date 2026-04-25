@@ -6,9 +6,6 @@ tags:
 
 # logrotate
 
-## Parent
-- [[Logs]]
-
 ---
 
 ## Définition

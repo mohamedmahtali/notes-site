@@ -6,9 +6,6 @@ tags:
 
 # Subnetting
 
-## Parent
-- [[IP addressing]]
-
 ---
 
 ## Définition

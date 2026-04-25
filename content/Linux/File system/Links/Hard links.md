@@ -6,14 +6,11 @@ tags:
 
 # Hard links
 
-## Parent
-- [[Links]]
-
 ---
 
 ## Définition
 
-Un hard link est une entrée de répertoire qui pointe directement vers le même inode qu'un autre fichier. Les deux noms sont équivalents — modifier ou supprimer l'un n'affecte pas l'autre tant qu'au moins un lien existe.
+Un [[hard]] link est une entrée de répertoire qui pointe directement vers le même inode qu'un autre fichier. Les deux noms sont équivalents — modifier ou supprimer l'un n'affecte pas l'autre tant qu'au moins un lien existe.
 
 ---
 

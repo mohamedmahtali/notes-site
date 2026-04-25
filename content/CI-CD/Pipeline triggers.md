@@ -5,20 +5,11 @@ tags:
 ---
 # Pipeline triggers
 
-## Parent
-- [[CI-CD]]
-
-## Enfants
-- [[Push trigger]]
-- [[Merge request trigger]]
-- [[Schedule trigger]]
-- [[Manual trigger]]
-
 ---
 
 ## Définition
 
-Les pipeline triggers définissent les événements qui déclenchent l'exécution d'un pipeline CI/CD. Un même repo peut avoir plusieurs triggers pour différents pipelines (CI rapide sur chaque PR, déploiement complet sur merge, nightly build le soir).
+Les [[Pipeline]] triggers définissent les événements qui déclenchent l'exécution d'un pipeline CI/CD. Un même repo peut avoir plusieurs triggers pour différents pipelines (CI rapide sur chaque PR, déploiement complet sur [[Merge]], nightly build le soir).
 
 ---
 
@@ -26,12 +17,12 @@ Les pipeline triggers définissent les événements qui déclenchent l'exécutio
 
 | Trigger | Événement | Usage typique |
 |---|---|---|
-| Push | Commit poussé | CI sur chaque branche |
+| Push | [[Commit]] poussé | CI sur chaque branche |
 | Pull/Merge Request | PR ouverte/mise à jour | Validation avant merge |
-| Schedule | Cron expression | Nightly builds, scans |
+| Schedule | [[Cron]] expression | Nightly builds, scans |
 | Manual | Clic humain | Déploiements prod |
 | Webhook | Événement externe | Intégrations tierces |
-| Tag | Tag Git créé | Release officielle |
+| Tag | Tag [[Git]] créé | Release officielle |
 
 ---
 
@@ -54,4 +45,4 @@ on:
 ---
 
 > [!tip]
-> Configurer des pipelines différents selon le trigger : pipeline léger (lint + unit tests) sur chaque push, pipeline complet (e2e + deploy staging) sur merge vers main seulement.
+> Configurer des pipelines différents selon le trigger : pipeline léger (lint + [[Unit tests]]) sur chaque push, pipeline complet (e2e + deploy [[Staging]]) sur merge vers main seulement.

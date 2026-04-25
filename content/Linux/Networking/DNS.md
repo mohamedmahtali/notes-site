@@ -6,17 +6,6 @@ tags:
 
 # DNS
 
-## Parent
-- [[Networking]]
-
-## Enfants
-- [[A record]]
-- [[CNAME]]
-- [[MX]]
-- [[TTL]]
-- [[DNS Glossaire]]
-- [[DNS Implémentation]]
-
 ---
 
 ## Définition

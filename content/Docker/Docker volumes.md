@@ -6,19 +6,11 @@ tags:
 
 # Docker volumes
 
-## Parent
-- [[Docker]]
-
-## Enfants
-- [[Named volumes]]
-- [[Bind mounts]]
-- [[Volume drivers]]
-
 ---
 
 ## Définition
 
-Par défaut, le filesystem d'un conteneur est **éphémère** — les données sont perdues à la suppression du conteneur. Les volumes Docker fournissent du stockage **persistant** et indépendant du cycle de vie du conteneur.
+Par défaut, le filesystem d'un conteneur est **éphémère** — les données sont perdues à la suppression du conteneur. Les [[Volumes]] [[Docker]] fournissent du stockage **persistant** et indépendant du cycle de vie du conteneur.
 
 ---
 

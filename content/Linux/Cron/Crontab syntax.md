@@ -6,9 +6,6 @@ tags:
 
 # Crontab syntax
 
-## Parent
-- [[Cron]]
-
 ---
 
 ## Définition
@@ -73,4 +70,4 @@ MIN  HEURE  JOUR_MOIS  MOIS  JOUR_SEMAINE  COMMANDE
 ---
 
 > [!tip]
-> Utiliser [crontab.guru](https://crontab.guru) pour valider et visualiser une expression cron.
+> Utiliser [crontab.guru](https://crontab.guru) pour valider et visualiser une expression [[Cron]].

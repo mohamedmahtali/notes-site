@@ -6,14 +6,11 @@ tags:
 
 # chmod
 
-## Parent
-- [[File permissions]]
-
 ---
 
 ## Définition
 
-`chmod` (change mode) modifie les permissions d'un fichier ou répertoire. Deux syntaxes : numérique (octal) ou symbolique (u/g/o + r/w/x).
+`chmod` (change mode) modifie les [[Permissions]] d'un fichier ou répertoire. Deux syntaxes : numérique (octal) ou symbolique (u/g/o + r/w/x).
 
 ---
 
@@ -46,6 +43,6 @@ chmod -R 755 /var/www/html/
 |---|---|---|
 | `rwxr-xr-x` | 755 | Scripts, binaires, dossiers web |
 | `rw-r--r--` | 644 | Fichiers de config, HTML |
-| `rw-------` | 600 | Clés SSH, fichiers secrets |
+| `rw-------` | 600 | Clés [[SSH]], fichiers [[Secrets]] |
 | `rwx------` | 700 | Répertoires privés |
 | `rwxrwxr-x` | 775 | Dossiers partagés dans un groupe |

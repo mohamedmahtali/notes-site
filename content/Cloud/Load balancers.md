@@ -5,14 +5,6 @@ tags:
 ---
 # Load balancers
 
-## Parent
-- [[Cloud]]
-
-## Enfants
-- [[Layer 4]]
-- [[Layer 7]]
-- [[Health checks]]
-
 ---
 
 ## Définition
@@ -26,7 +18,7 @@ Un load balancer distribue le trafic réseau entrant entre plusieurs instances b
 | LB | Niveau | Protocoles | Usage |
 |---|---|---|---|
 | ALB | L7 (HTTP/HTTPS) | HTTP, WebSocket, gRPC | Apps web, microservices |
-| NLB | L4 (TCP/UDP) | TCP, UDP, TLS | Haute performance, IP statique |
+| NLB | L4 (TCP/UDP) | TCP, UDP, [[TLS]] | Haute performance, IP statique |
 | CLB | L4/L7 | Legacy | Anciens projets |
 
 ---

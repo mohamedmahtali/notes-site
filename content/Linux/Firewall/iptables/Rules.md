@@ -6,14 +6,11 @@ tags:
 
 # Rules
 
-## Parent
-- [[iptables]]
-
 ---
 
 ## Définition
 
-Les règles iptables définissent les conditions de filtrage et les actions (ACCEPT, DROP, REJECT, LOG). Elles sont évaluées dans l'ordre — la première règle qui correspond s'applique.
+Les règles [[iptables]] définissent les [[Conditions]] de filtrage et les actions (ACCEPT, DROP, REJECT, LOG). Elles sont évaluées dans l'ordre — la première règle qui correspond s'applique.
 
 ---
 

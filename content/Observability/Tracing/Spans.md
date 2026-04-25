@@ -5,14 +5,11 @@ tags:
 ---
 # Spans
 
-## Parent
-- [[Tracing]]
-
 ---
 
 ## Définition
 
-Un span est l'unité de base du tracing distribué. Il représente une opération unique (requête HTTP, requête DB, appel de fonction) avec un début, une fin, des attributs, et des événements.
+Un span est l'unité de base du [[Tracing]] distribué. Il représente une opération unique (requête HTTP, requête DB, appel de fonction) avec un début, une fin, des attributs, et des événements.
 
 ---
 

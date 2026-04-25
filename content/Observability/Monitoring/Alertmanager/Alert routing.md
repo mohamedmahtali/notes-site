@@ -5,14 +5,11 @@ tags:
 ---
 # Alert routing
 
-## Parent
-- [[Alertmanager]]
-
 ---
 
 ## Définition
 
-Le routing des alertes définit comment chaque alerte est acheminée vers le bon receiver basé sur les labels (severity, team, service). Il utilise un arbre de routes avec des matchers.
+Le [[Routing]] des alertes définit comment chaque alerte est acheminée vers le bon receiver basé sur les labels (severity, team, service). Il utilise un arbre de routes avec des matchers.
 
 ---
 

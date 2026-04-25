@@ -6,14 +6,11 @@ tags:
 
 # Targets
 
-## Parent
-- [[Services]]
-
 ---
 
 ## Définition
 
-Les targets systemd sont des unités spéciales qui représentent des états système — analogues aux runlevels de SysV. Elles regroupent des services et permettent d'atteindre un état système cohérent (réseau disponible, multi-utilisateur, GUI…).
+Les targets [[systemd]] sont des unités spéciales qui représentent des états système — analogues aux runlevels de SysV. Elles regroupent des [[Services]] et permettent d'atteindre un état système cohérent (réseau disponible, multi-utilisateur, GUI…).
 
 ---
 
@@ -26,7 +23,7 @@ Les targets systemd sont des unités spéciales qui représentent des états sys
 | `multi-user.target` | 3 | Multi-utilisateur sans GUI |
 | `graphical.target` | 5 | Multi-utilisateur avec GUI |
 | `reboot.target` | 6 | Redémarrage |
-| `emergency.target` | — | Shell minimal en urgence |
+| `emergency.target` | — | [[Shell]] minimal en urgence |
 
 ---
 

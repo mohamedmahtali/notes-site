@@ -5,9 +5,6 @@ tags:
 ---
 # Jobs
 
-## Parent
-- [[GitHub actions]]
-
 ---
 
 ## Définition

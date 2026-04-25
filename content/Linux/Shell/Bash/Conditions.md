@@ -6,14 +6,11 @@ tags:
 
 # Conditions
 
-## Parent
-- [[Bash]]
-
 ---
 
 ## Définition
 
-Les conditions Bash permettent d'exécuter du code selon des critères : existence de fichiers, comparaisons de chaînes, comparaisons numériques, codes de sortie.
+Les conditions [[Bash]] permettent d'exécuter du code selon des critères : existence de fichiers, comparaisons de chaînes, comparaisons numériques, codes de sortie.
 
 ---
 

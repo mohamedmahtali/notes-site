@@ -6,14 +6,11 @@ tags:
 
 # Port scanning
 
-## Parent
-- [[Ports]]
-
 ---
 
 ## Définition
 
-Le port scanning consiste à sonder une machine pour déterminer quels ports sont ouverts (services en écoute). Indispensable pour l'audit de sécurité, le diagnostic réseau, et l'administration système.
+Le port scanning consiste à sonder une machine pour déterminer quels [[Ports]] sont ouverts ([[Services]] en écoute). Indispensable pour l'audit de sécurité, le diagnostic réseau, et l'administration système.
 
 ---
 

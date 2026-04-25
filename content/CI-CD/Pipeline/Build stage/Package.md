@@ -5,14 +5,11 @@ tags:
 ---
 # Package
 
-## Parent
-- [[Build stage]]
-
 ---
 
 ## Définition
 
-Le packaging produit une archive distribuable (`.tar.gz`, `.zip`, `.deb`, `.rpm`, `.whl`, `.jar`) qui peut être publiée dans un artifact repository ou déployée directement.
+Le packaging produit une archive distribuable (`.tar.gz`, `.zip`, `.deb`, `.rpm`, `.whl`, `.jar`) qui peut être publiée dans un artifact [[Repository]] ou déployée directement.
 
 ---
 

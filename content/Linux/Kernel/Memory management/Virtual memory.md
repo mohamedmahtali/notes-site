@@ -6,14 +6,11 @@ tags:
 
 # Virtual memory
 
-## Parent
-- [[Memory management]]
-
 ---
 
 ## Définition
 
-La mémoire virtuelle donne à chaque processus l'illusion d'avoir un espace d'adressage privé et continu, quelle que soit la RAM physique disponible. Le kernel mappe les adresses virtuelles vers des adresses physiques via les tables de pages.
+La mémoire virtuelle donne à chaque processus l'illusion d'avoir un espace d'adressage privé et continu, quelle que soit la RAM physique disponible. Le [[Kernel]] mappe les adresses virtuelles vers des adresses physiques via les tables de pages.
 
 ---
 

@@ -6,14 +6,11 @@ tags:
 
 # runc
 
-## Parent
-- [[Container runtime]]
-
 ---
 
 ## Définition
 
-runc est le low-level container runtime de référence, conforme à la spécification OCI. Il est responsable de la création effective des conteneurs via les primitives Linux : namespaces (isolation), cgroups (ressources), et seccomp (filtrage des syscalls).
+runc est le low-level [[Container runtime]] de référence, conforme à la spécification [[OCI]]. Il est responsable de la création effective des conteneurs via les primitives [[Linux]] : [[Namespaces]] (isolation), cgroups (ressources), et [[Seccomp]] (filtrage des syscalls).
 
 ---
 
@@ -48,4 +45,4 @@ runc run mycontainer
 ---
 
 > [!note]
-> En tant que développeur ou DevOps, tu n'interagis jamais directement avec runc. Comprendre son rôle aide à déboguer des problèmes bas niveau (permissions, cgroups, seccomp profiles) mais Docker/containerd l'abstrait complètement.
+> En tant que développeur ou [[DevOps]], tu n'interagis jamais directement avec runc. Comprendre son rôle aide à déboguer des problèmes bas niveau ([[Permissions]], cgroups, seccomp [[Profiles]]) mais [[Docker]]/[[containerd]] l'abstrait complètement.

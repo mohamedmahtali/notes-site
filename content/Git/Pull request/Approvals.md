@@ -6,19 +6,11 @@ tags:
 
 # Approvals
 
-## Parent
-- [[Pull request]]
-
-## Concepts liés
-- [[Pull request]]
-- [[Code review]]
-- [[Merge checks]]
-
 ---
 
 ## Définition
 
-Une approval est la validation formelle d'un reviewer sur une Pull Request. Sur GitHub/GitLab, un reviewer peut **approuver**, **commenter** (sans bloquer), ou **demander des changements** (bloquant). Le nombre d'approvals requis est configurable par branche.
+Une approval est la validation formelle d'un reviewer sur une [[Pull request]]. Sur GitHub/GitLab, un reviewer peut **approuver**, **commenter** (sans bloquer), ou **demander des changements** (bloquant). Le nombre d'approvals requis est configurable par branche.
 
 ---
 
@@ -26,7 +18,7 @@ Une approval est la validation formelle d'un reviewer sur une Pull Request. Sur 
 
 | État | Icône | Signification |
 |---|---|---|
-| Approved | ✅ | Le reviewer valide le merge |
+| Approved | ✅ | Le reviewer valide le [[Merge]] |
 | Changes requested | 🔄 | Modifications nécessaires avant merge |
 | Commented | 💬 | Feedback sans avis formel |
 

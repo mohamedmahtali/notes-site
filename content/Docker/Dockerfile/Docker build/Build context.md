@@ -6,14 +6,11 @@ tags:
 
 # Build context
 
-## Parent
-- [[Docker build]]
-
 ---
 
 ## Définition
 
-Le contexte de build est l'ensemble des fichiers envoyés au daemon Docker lors d'un `docker build`. Par défaut, c'est le répertoire passé en argument (`.`). Tout fichier dans ce répertoire est potentiellement accessible dans le Dockerfile via `COPY` ou `ADD`.
+Le contexte de build est l'ensemble des fichiers envoyés au daemon [[Docker]] lors d'un `docker build`. Par défaut, c'est le répertoire passé en argument (`.`). Tout fichier dans ce répertoire est potentiellement accessible dans le [[Dockerfile]] via `COPY` ou `ADD`.
 
 ---
 

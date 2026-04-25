@@ -5,19 +5,11 @@ tags:
 ---
 # Operators
 
-## Parent
-- [[Kubernetes]]
-
-## Enfants
-- [[CRD]]
-- [[Custom controllers]]
-- [[Reconciliation loop]]
-
 ---
 
 ## Définition
 
-Un Operator Kubernetes est une application qui étend l'API Kubernetes pour gérer des applications complexes. Il combine des Custom Resource Definitions (CRDs) avec un controller qui automatise les opérations (deployment, backup, failover, scaling) spécifiques à une application.
+Un Operator [[Kubernetes]] est une application qui étend l'API Kubernetes pour gérer des applications complexes. Il combine des Custom Resource Definitions (CRDs) avec un controller qui automatise les opérations (deployment, backup, failover, scaling) spécifiques à une application.
 
 ---
 
@@ -34,10 +26,10 @@ Un Operator Kubernetes est une application qui étend l'API Kubernetes pour gér
 |---|---|
 | CloudNative PG | PostgreSQL |
 | Strimzi | Apache Kafka |
-| Prometheus Operator | Prometheus + AlertManager |
-| cert-manager | Gestion de certificats TLS |
-| Argo CD | GitOps CD |
-| Vault Operator | HashiCorp Vault |
+| [[Prometheus]] Operator | Prometheus + [[Alertmanager]] |
+| cert-manager | Gestion de certificats [[TLS]] |
+| Argo CD | [[GitOps]] CD |
+| [[Vault]] Operator | HashiCorp Vault |
 
 ---
 
@@ -66,4 +58,4 @@ spec:
 ---
 
 > [!note]
-> Voir [[CRD]] pour les types custom, [[Custom controllers]] pour implémenter un Operator, [[Reconciliation loop]] pour le pattern de base.
+> Voir [[CRD]] pour les [[Types]] custom, [[Custom controllers]] pour implémenter un Operator, [[Reconciliation loop]] pour le pattern de base.

@@ -5,19 +5,11 @@ tags:
 ---
 # Terraform modules
 
-## Parent
-- [[Terraform]]
-
-## Enfants
-- [[Module inputs]]
-- [[Module outputs]]
-- [[Reusable modules]]
-
 ---
 
 ## Définition
 
-Les modules Terraform sont des groupes de ressources réutilisables encapsulées dans un répertoire. Ils permettent de factoriser l'infrastructure commune (VPC, EKS cluster, RDS) et de la partager entre projets.
+Les [[Modules]] [[Terraform]] sont des groupes de ressources réutilisables encapsulées dans un répertoire. Ils permettent de factoriser l'infrastructure commune ([[VPC]], [[EKS]] [[Cluster]], RDS) et de la partager entre projets.
 
 ---
 

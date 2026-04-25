@@ -5,14 +5,11 @@ tags:
 ---
 # Progressive rollout
 
-## Parent
-- [[Continuous deployment]]
-
 ---
 
 ## Définition
 
-Le progressive rollout déploie une nouvelle version graduellement : d'abord à 1% des utilisateurs, puis 10%, 25%, 100%. Si des métriques dégradent à n'importe quelle étape, le rollback est automatique.
+Le progressive rollout déploie une nouvelle version graduellement : d'abord à 1% des utilisateurs, puis 10%, 25%, 100%. Si des métriques dégradent à n'importe quelle étape, le [[Rollback]] est automatique.
 
 ---
 

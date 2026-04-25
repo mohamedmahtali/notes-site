@@ -5,14 +5,11 @@ tags:
 ---
 # Terraform workspaces
 
-## Parent
-- [[Terraform]]
-
 ---
 
 ## Définition
 
-Les workspaces Terraform permettent de gérer plusieurs instances d'une même configuration avec des states séparés. Pratique pour gérer staging/production depuis le même code.
+Les workspaces [[Terraform]] permettent de gérer plusieurs instances d'une même configuration avec des states séparés. Pratique pour gérer [[Staging]]/production depuis le même code.
 
 ---
 
@@ -68,4 +65,4 @@ resource "aws_instance" "web" {
 ---
 
 > [!warning]
-> Les workspaces partagent les providers et modules mais ont des states séparés. Pour des environnements vraiment isolés (comptes AWS séparés, projets GCP séparés), préférer des répertoires séparés avec des backends séparés.
+> Les workspaces partagent les providers et [[Modules]] mais ont des states séparés. Pour des environnements vraiment isolés (comptes [[AWS]] séparés, projets GCP séparés), préférer des répertoires séparés avec des backends séparés.

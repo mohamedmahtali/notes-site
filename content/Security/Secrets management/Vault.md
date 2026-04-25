@@ -1,16 +1,18 @@
 ---
 title: HashiCorp Vault
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # HashiCorp Vault
 
 ## Définition
 
-HashiCorp Vault est une solution de gestion de secrets qui stocke, distribue et fait tourner les secrets de façon sécurisée. Il centralise tous les credentials et fournit un audit trail complet.
+HashiCorp Vault est une solution de gestion de [[Secrets]] qui stocke, distribue et fait tourner les secrets de façon sécurisée. Il centralise tous les credentials et fournit un audit trail complet.
 
 > [!tip] Pourquoi c'est important
-> Vault est le standard de l'industrie pour la gestion des secrets en production. Il supporte des secrets dynamiques (credentials générés à la demande avec TTL), évitant le partage de mots de passe statiques.
+> Vault est le standard de l'industrie pour la gestion des secrets en production. Il supporte des secrets dynamiques (credentials générés à la demande avec [[TTL]]), évitant le partage de mots de passe statiques.
 
 ## Démarrage rapide
 
@@ -36,7 +38,7 @@ Vault ne stocke pas les identités — il délègue à des auth backends.
 |--------|-------|
 | `token` | Par défaut, pour les scripts et tests |
 | `approle` | Pour les applications machines (CI/CD) |
-| `kubernetes` | Pods K8s s'authentifient via leur ServiceAccount |
+| `kubernetes` | [[Pods]] K8s s'authentifient via leur ServiceAccount |
 | `github` | Développeurs s'authentifient via leur token GitHub |
 | `ldap` / `oidc` | Auth entreprise |
 
@@ -57,7 +59,7 @@ vault write auth/kubernetes/role/myapp \
 
 ## Policies
 
-Les policies définissent les permissions sur les chemins secrets.
+Les policies définissent les [[Permissions]] sur les chemins secrets.
 
 ```hcl
 # myapp-policy.hcl

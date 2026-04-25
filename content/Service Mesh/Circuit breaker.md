@@ -1,6 +1,9 @@
 ---
 title: Circuit breaker
-tags: [reliability, networking, advanced]
+tags:
+  - reliability
+  - networking
+  - advanced
 ---
 
 # Circuit breaker

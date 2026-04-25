@@ -1,13 +1,15 @@
 ---
 title: Vault Policies
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Vault Policies
 
 ## Définition
 
-Les policies Vault définissent les permissions d'accès aux paths de secrets. Elles suivent le principe de moindre privilège et sont écrites en HCL (HashiCorp Configuration Language).
+Les policies Vault définissent les [[Permissions]] d'accès aux paths de [[Secrets]]. Elles suivent le principe de moindre privilège et sont écrites en HCL (HashiCorp Configuration Language).
 
 > [!tip] Default deny
 > Vault suit un modèle default-deny. Si une policy ne mentionne pas un path, l'accès est refusé. Les policies doivent explicitement autoriser chaque opération.

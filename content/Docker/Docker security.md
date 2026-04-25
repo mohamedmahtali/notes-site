@@ -6,27 +6,18 @@ tags:
 
 # Docker security
 
-## Parent
-- [[Docker]]
-
-## Enfants
-- [[Non root user]]
-- [[Capability dropping]]
-- [[Secrets handling]]
-- [[Image signing]]
-
 ---
 
 ## Définition
 
-La sécurité Docker couvre l'ensemble des pratiques qui réduisent la surface d'attaque des conteneurs et de l'hôte Docker. Les conteneurs ne sont pas des VMs — une mauvaise configuration peut exposer l'hôte.
+La sécurité [[Docker]] couvre l'ensemble des pratiques qui réduisent la surface d'attaque des conteneurs et de l'hôte Docker. Les conteneurs ne sont pas des VMs — une mauvaise configuration peut exposer l'hôte.
 
 ---
 
 ## Pourquoi c'est important
 
 > [!warning] Un conteneur root ≠ sécurité
-> Un processus root dans un conteneur peut potentiellement compromettre l'hôte si des volumes ou le socket Docker sont montés. Le principe du moindre privilège s'applique.
+> Un processus root dans un conteneur peut potentiellement compromettre l'hôte si des [[Volumes]] ou le socket Docker sont montés. Le principe du moindre privilège s'applique.
 
 ---
 

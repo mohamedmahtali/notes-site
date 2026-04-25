@@ -6,19 +6,11 @@ tags:
 
 # Merge conflicts
 
-## Parent
-- [[Merge]]
-
-## Concepts liés
-- [[Merge]]
-- [[Rebase]]
-- [[Code review]]
-
 ---
 
 ## Définition
 
-Un conflit de merge survient quand Git ne peut pas fusionner automatiquement deux branches parce que **les deux ont modifié le même endroit dans un même fichier**. Git marque les zones conflictuelles et demande à l'utilisateur de décider quelle version conserver.
+Un conflit de [[Merge]] survient quand [[Git]] ne peut pas fusionner automatiquement deux branches parce que **les deux ont modifié le même endroit dans un même fichier**. Git marque les zones conflictuelles et demande à l'utilisateur de décider quelle version conserver.
 
 ---
 
@@ -120,7 +112,7 @@ git mergetool
 > [!tip] Bonnes pratiques
 > - **Puller souvent** : `git pull origin main` régulièrement pour rester à jour
 > - **Branches courtes** : moins une branche vit longtemps, moins elle diverge
-> - **Petits commits** : des changements ciblés conflictent moins souvent
+> - **Petits [[Commit]]** : des changements ciblés conflictent moins souvent
 > - **Communiquer** : si deux personnes touchent au même fichier, se coordonner
 
 > [!warning] Ne jamais forcer un merge sans comprendre

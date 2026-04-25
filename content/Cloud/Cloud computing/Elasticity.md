@@ -5,14 +5,11 @@ tags:
 ---
 # Elasticity
 
-## Parent
-- [[Cloud computing]]
-
 ---
 
 ## Définition
 
-L'élasticité est la capacité d'un système cloud à augmenter ou diminuer automatiquement ses ressources en réponse à la demande, sans intervention manuelle. Scale out lors des pics, scale in quand la demande baisse.
+L'élasticité est la capacité d'un système [[Cloud]] à augmenter ou diminuer automatiquement ses ressources en réponse à la demande, sans intervention manuelle. Scale out lors des pics, scale in quand la demande baisse.
 
 ---
 
@@ -20,7 +17,7 @@ L'élasticité est la capacité d'un système cloud à augmenter ou diminuer aut
 
 | Type | Description | Cloud |
 |---|---|---|
-| Scale out (horizontal) | Ajouter plus d'instances | Auto Scaling Groups |
+| Scale out (horizontal) | Ajouter plus d'instances | Auto Scaling [[Groups]] |
 | Scale in | Retirer des instances | Auto Scaling Groups |
 | Scale up (vertical) | Instances plus puissantes | Resize d'instance |
 | Scale down | Instances moins puissantes | Resize d'instance |

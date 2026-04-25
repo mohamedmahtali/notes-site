@@ -6,14 +6,11 @@ tags:
 
 # Exit codes
 
-## Parent
-- [[Bash]]
-
 ---
 
 ## Définition
 
-Chaque commande Linux retourne un code de sortie (exit code) entre 0 et 255. **0 = succès**, toute autre valeur = erreur. Les scripts CI/CD et les outils de monitoring se basent sur ces codes pour détecter les échecs.
+Chaque commande [[Linux]] retourne un code de sortie (exit code) entre 0 et 255. **0 = succès**, toute autre valeur = erreur. Les scripts CI/CD et les outils de [[Monitoring]] se basent sur ces codes pour détecter les échecs.
 
 ---
 
@@ -28,7 +25,7 @@ Chaque commande Linux retourne un code de sortie (exit code) entre 0 et 255. **0
 | `127` | Commande introuvable |
 | `128+N` | Terminé par le signal N (ex: 130 = Ctrl+C) |
 | `130` | SIGINT (Ctrl+C) |
-| `137` | SIGKILL (kill -9) |
+| `137` | [[SIGKILL]] (kill -9) |
 
 ---
 

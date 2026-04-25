@@ -5,14 +5,11 @@ tags:
 ---
 # Local state
 
-## Parent
-- [[Terraform state]]
-
 ---
 
 ## Définition
 
-Par défaut, Terraform stocke le state localement dans `terraform.tfstate`. Simple pour le développement, mais dangereux en équipe — chaque développeur a son propre state, les conflits sont fréquents.
+Par défaut, [[Terraform]] stocke le state localement dans `terraform.tfstate`. Simple pour le développement, mais dangereux en équipe — chaque développeur a son propre state, les conflits sont fréquents.
 
 ---
 
@@ -61,4 +58,4 @@ Développeur B : terraform apply → state local B
 ---
 
 > [!warning]
-> Ne jamais committer `terraform.tfstate` dans git — il peut contenir des données sensibles (IPs, ARNs, parfois des valeurs de variables). L'ajouter au `.gitignore`.
+> Ne jamais committer `terraform.tfstate` dans [[Git]] — il peut contenir des données sensibles (IPs, ARNs, parfois des valeurs de [[Variables]]). L'ajouter au `.gitignore`.

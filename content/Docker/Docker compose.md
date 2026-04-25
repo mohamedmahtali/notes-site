@@ -6,21 +6,11 @@ tags:
 
 # Docker compose
 
-## Parent
-- [[Docker]]
-
-## Enfants
-- [[compose.yml]]
-- [[Services]]
-- [[Networks]]
-- [[Volumes]]
-- [[Profiles]]
-
 ---
 
 ## Définition
 
-Docker Compose est un outil pour définir et gérer des applications multi-conteneurs via un fichier YAML (`compose.yml` ou `docker-compose.yml`). Il orchestre le lancement, la mise en réseau, et le cycle de vie de plusieurs conteneurs en une seule commande.
+[[Docker]] Compose est un outil pour définir et gérer des applications multi-conteneurs via un fichier YAML (`compose.yml` ou `docker-compose.yml`). Il orchestre le lancement, la mise en réseau, et le cycle de vie de plusieurs conteneurs en une seule commande.
 
 ---
 

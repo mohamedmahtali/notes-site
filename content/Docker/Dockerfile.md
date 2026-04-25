@@ -6,20 +6,11 @@ tags:
 
 # Dockerfile
 
-## Parent
-- [[Docker]]
-
-## Enfants
-- [[Instructions]]
-- [[Docker build]]
-- [[Multi stage builds]]
-- [[Best practices]]
-
 ---
 
 ## Définition
 
-Un Dockerfile est un fichier texte contenant une série d'instructions qui définissent comment construire une image Docker. Chaque instruction crée une nouvelle couche dans l'image finale. C'est la "recette" de ton environnement applicatif.
+Un Dockerfile est un fichier texte contenant une série d'[[Instructions]] qui définissent comment construire une image [[Docker]]. Chaque instruction crée une nouvelle couche dans l'image finale. C'est la "recette" de ton environnement applicatif.
 
 ---
 
@@ -55,7 +46,7 @@ CMD ["node", "server.js"]
 
 ## Ordre des instructions = ordre des layers
 
-> [!tip] Les layers stables en premier
+> [!tip] Les [[Layers]] stables en premier
 > Docker met en cache chaque layer. Si une instruction change, toutes les instructions suivantes sont recalculées. Mettre les choses qui changent rarement en haut (`FROM`, `RUN apt-get`), les choses qui changent souvent en bas (`COPY . .`).
 
 ---

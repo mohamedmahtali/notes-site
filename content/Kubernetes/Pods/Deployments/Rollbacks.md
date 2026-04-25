@@ -5,20 +5,17 @@ tags:
 ---
 # Rollbacks
 
-## Parent
-- [[Deployments]]
-
 ---
 
 ## Définition
 
-Un rollback Kubernetes revient à une version précédente d'un Deployment en restaurant un ancien ReplicaSet. C'est instantané — les pods de l'ancienne version sont disponibles sans rebuild.
+Un [[Rollback]] [[Kubernetes]] revient à une version précédente d'un Deployment en restaurant un ancien ReplicaSet. C'est instantané — les [[Pods]] de l'ancienne version sont disponibles sans rebuild.
 
 ---
 
 ## Pourquoi c'est rapide
 
-Les anciens ReplicaSets sont conservés (à 0 réplicas) après chaque update. Un rollback consiste simplement à remettre l'ancien RS à 3 réplicas et descendre le nouveau à 0 — aucun pull d'image nécessaire si elle est déjà sur les nodes.
+Les anciens [[ReplicaSets]] sont conservés (à 0 réplicas) après chaque update. Un rollback consiste simplement à remettre l'ancien RS à 3 réplicas et descendre le nouveau à 0 — aucun pull d'image nécessaire si elle est déjà sur les [[Node]].
 
 ---
 

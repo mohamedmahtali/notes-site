@@ -6,14 +6,11 @@ tags:
 
 # ps
 
-## Parent
-- [[Processes]]
-
 ---
 
 ## Définition
 
-`ps` (process status) affiche un snapshot des processus actifs. C'est la commande de base pour voir quels processus tournent, leur PID, leur état, et leur consommation.
+`ps` (process [[Status]]) affiche un snapshot des processus actifs. C'est la commande de base pour voir quels processus tournent, leur PID, leur état, et leur consommation.
 
 ---
 

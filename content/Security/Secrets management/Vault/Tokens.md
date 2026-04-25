@@ -1,13 +1,15 @@
 ---
 title: Vault Tokens
-tags: [security, intermediate]
+tags:
+  - security
+  - intermediate
 ---
 
 # Vault Tokens
 
 ## Définition
 
-Les tokens Vault sont les credentials d'authentification utilisés pour accéder à Vault. Chaque token a des policies attachées qui définissent ses permissions, ainsi qu'un TTL (Time To Live).
+Les tokens Vault sont les credentials d'authentification utilisés pour accéder à Vault. Chaque token a des policies attachées qui définissent ses [[Permissions]], ainsi qu'un [[TTL]] (Time To Live).
 
 > [!note] Token root
 > Le token root a tous les droits. Il doit être révoqué après l'initialisation de Vault et recréé uniquement si nécessaire.

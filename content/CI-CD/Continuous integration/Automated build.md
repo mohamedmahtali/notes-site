@@ -5,14 +5,11 @@ tags:
 ---
 # Automated build
 
-## Parent
-- [[Continuous integration]]
-
 ---
 
 ## Définition
 
-Un automated build compile automatiquement le code source à chaque commit ou pull request, sans intervention humaine. Il valide que le code compile et produit un artefact utilisable.
+Un automated build compile automatiquement le code source à chaque [[Commit]] ou [[Pull request]], sans intervention humaine. Il valide que le code compile et produit un artefact utilisable.
 
 ---
 

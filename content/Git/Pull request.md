@@ -5,26 +5,11 @@ tags:
 ---
 # Pull request
 
-## Parent
-- [[Git]]
-
-## Enfants
-- [[Code review]]
-- [[Approvals]]
-- [[Merge checks]]
-
-## Concepts liés
-- [[Code review]]
-- [[Approvals]]
-- [[Merge checks]]
-- [[Branch]]
-- [[Merge]]
-
 ---
 
 ## Définition
 
-Une Pull Request (PR) — ou Merge Request (MR) sur GitLab — est une demande formelle d'intégrer les modifications d'une branche dans une autre. C'est le point central de la collaboration : code review, CI automatique, discussions, et merge s'y déroulent.
+Une Pull Request (PR) — ou [[Merge]] Request (MR) sur GitLab — est une demande formelle d'intégrer les modifications d'une branche dans une autre. C'est le point central de la collaboration : code review, CI automatique, discussions, et merge s'y déroulent.
 
 ---
 

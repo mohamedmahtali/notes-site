@@ -6,14 +6,11 @@ tags:
 
 # Functions
 
-## Parent
-- [[Bash]]
-
 ---
 
 ## Définition
 
-Les fonctions Bash permettent de regrouper du code réutilisable. Elles acceptent des arguments positionnels ($1, $2…) et peuvent retourner un code de sortie (0-255).
+Les fonctions [[Bash]] permettent de regrouper du code réutilisable. Elles acceptent des arguments positionnels ($1, $2…) et peuvent retourner un code de sortie (0-255).
 
 ---
 

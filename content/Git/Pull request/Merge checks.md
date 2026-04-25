@@ -6,20 +6,11 @@ tags:
 
 # Merge checks
 
-## Parent
-- [[Pull request]]
-
-## Concepts liés
-- [[Pull request]]
-- [[Code review]]
-- [[Approvals]]
-- [[CI-CD]]
-
 ---
 
 ## Définition
 
-Les merge checks sont des conditions automatiques ou manuelles qu'une Pull Request doit satisfaire avant d'autoriser le merge dans la branche cible. Sur GitHub, on les appelle **branch protection rules** + **required status checks**.
+Les [[Merge]] checks sont des [[Conditions]] automatiques ou manuelles qu'une [[Pull request]] doit satisfaire avant d'autoriser le merge dans la branche cible. Sur GitHub, on les appelle **[[Branch]] protection rules** + **required [[Status]] checks**.
 
 ---
 
@@ -32,7 +23,7 @@ Les merge checks sont des conditions automatiques ou manuelles qu'une Pull Reque
 | Conversations resolved | Manuel | Tous les commentaires doivent être répondus |
 | Up-to-date | Automatique | La branche doit être à jour avec `main` |
 | No conflicts | Automatique | Pas de conflits de merge |
-| Signed commits | Automatique | Commits signés GPG |
+| Signed [[Commit]] | Automatique | Commits signés GPG |
 
 ---
 

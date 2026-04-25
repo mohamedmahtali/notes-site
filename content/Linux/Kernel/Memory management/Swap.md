@@ -6,14 +6,11 @@ tags:
 
 # Swap
 
-## Parent
-- [[Memory management]]
-
 ---
 
 ## Définition
 
-Le swap est un espace disque utilisé comme extension de la RAM. Quand la RAM est pleine, le kernel déplace des pages mémoire rarement utilisées vers le swap. C'est une sécurité — pas un remplacement de la RAM.
+Le swap est un espace disque utilisé comme extension de la RAM. Quand la RAM est pleine, le [[Kernel]] déplace des pages mémoire rarement utilisées vers le swap. C'est une sécurité — pas un remplacement de la RAM.
 
 ---
 
@@ -62,4 +59,4 @@ echo "vm.swappiness=10" >> /etc/sysctl.conf
 ---
 
 > [!warning]
-> Pour les bases de données (PostgreSQL, MySQL, Redis) et Kubernetes, désactiver le swap ou le réduire au minimum. Le swap cause des latences imprévisibles incompatibles avec les SLA de ces systèmes.
+> Pour les bases de données (PostgreSQL, MySQL, Redis) et [[Kubernetes]], désactiver le swap ou le réduire au minimum. Le swap cause des latences imprévisibles incompatibles avec les SLA de ces systèmes.

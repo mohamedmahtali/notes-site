@@ -6,14 +6,11 @@ tags:
 
 # Docker hub
 
-## Parent
-- [[Docker registry]]
-
 ---
 
 ## Définition
 
-Docker Hub est le registry public officiel de Docker. Il héberge les **images officielles** (nginx, postgres, python, node…), les images vérifiées des éditeurs, et les images publiques de la communauté. Chaque compte gratuit peut avoir un repository privé.
+[[Docker]] Hub est le registry public officiel de Docker. Il héberge les **images officielles** ([[Nginx]], postgres, python, [[Node]]…), les images vérifiées des éditeurs, et les images publiques de la communauté. Chaque compte gratuit peut avoir un [[Repository]] privé.
 
 ---
 
@@ -55,4 +52,4 @@ docker.io/mohamedmahtali/mon-app:1.0 ← image utilisateur
 ---
 
 > [!tip]
-> Pour les projets open source ou les images publiques, Docker Hub est idéal. Pour les images privées en production, préférer GitHub Container Registry (gratuit et intégré à GitHub Actions) ou le registry du cloud provider.
+> Pour les projets open source ou les images publiques, Docker Hub est idéal. Pour les images privées en production, préférer GitHub Container Registry (gratuit et intégré à [[GitHub actions]]) ou le registry du [[Cloud]] provider.

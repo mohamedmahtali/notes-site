@@ -6,14 +6,11 @@ tags:
 
 # netstat
 
-## Parent
-- [[Troubleshooting]]
-
 ---
 
 ## Définition
 
-`netstat` est l'outil historique de diagnostic réseau. Il affiche les connexions, les ports en écoute, les tables de routage, et les statistiques. Remplacé par `ss` et `ip` sur les systèmes modernes, mais encore très présent dans la documentation.
+`netstat` est l'outil historique de diagnostic réseau. Il affiche les connexions, les [[Ports]] en écoute, les tables de routage, et les statistiques. Remplacé par `ss` et `ip` sur les systèmes modernes, mais encore très présent dans la documentation.
 
 ---
 

@@ -5,9 +5,6 @@ tags:
 ---
 # SaaS
 
-## Parent
-- [[Cloud]]
-
 ---
 
 ## Définition
@@ -21,11 +18,11 @@ Software as a Service : le provider gère tout — infra, OS, runtime, applicati
 | Produit | Usage |
 |---|---|
 | GitHub / GitLab.com | Code hosting, CI/CD |
-| Datadog | Monitoring |
+| Datadog | [[Monitoring]] |
 | PagerDuty | Alerting/on-call |
-| Snyk | Security scanning |
-| Terraform Cloud | IaC state management |
-| Grafana Cloud | Observability |
+| Snyk | [[Security]] scanning |
+| [[Terraform]] [[Cloud]] | IaC state management |
+| [[Grafana]] Cloud | [[Observability]] |
 | Slack | Communication |
 
 ---
@@ -49,4 +46,4 @@ Le provider est responsable de :
 ---
 
 > [!tip]
-> Pour les outils DevOps internes, évaluer SaaS vs self-hosted (ex: GitHub vs GitLab self-hosted, Datadog vs stack ELK). SaaS = moins de maintenance, plus cher ; self-hosted = contrôle total, overhead opérationnel.
+> Pour les outils [[DevOps]] internes, évaluer SaaS vs self-hosted (ex: GitHub vs GitLab self-hosted, Datadog vs stack ELK). SaaS = moins de maintenance, plus cher ; self-hosted = contrôle total, overhead opérationnel.
