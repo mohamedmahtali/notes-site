@@ -49,3 +49,6 @@ Avant GitOps, maîtriser : [[Kubernetes]] (déploiements, manifests YAML), [[Git
 - **[[ArgoCD]]** — UI riche, Application CRD, health checks, sync policies
 - **[[Flux]]** — natif CNCF, Kustomize/Helm intégrés, plus léger
 - **[[Environments]]** — stratégies multi-environnements (dev/staging/prod)
+
+> [!note] Connexion
+> → [[IaC + GitOps]] — combiner Terraform (infra) et ArgoCD/Flux (apps) dans un workflow unifié

@@ -94,3 +94,7 @@ Control Plane                    Worker Nodes
 
 > [!tip] Lab pratique
 > → [[Lab Kubernetes — App avec HPA et Ingress]]
+
+> [!note] Connexions
+> → [[Docker → Kubernetes]] — images Docker comme unité de déploiement K8s
+> → [[Kubernetes + Observability]] — surveiller et alerter sur le cluster

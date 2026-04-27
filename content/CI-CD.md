@@ -78,3 +78,6 @@ Avant CI/CD, avoir de bonnes bases en : [[Git]] (branches, merge, pull requests)
 
 > [!tip] Lab pratique
 > → [[Lab CI-CD — Pipeline GitHub Actions complet]]
+
+> [!note] Connexion
+> → [[Git → CI-CD]] — du commit git au déploiement automatique

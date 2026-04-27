@@ -105,3 +105,6 @@ docker stop mon-app && docker rm mon-app
 
 > [!tip] Lab pratique
 > → [[Lab Docker — App Python conteneurisée]]
+
+> [!note] Connexion
+> → [[Docker → Kubernetes]] — du conteneur local à l'orchestration en cluster

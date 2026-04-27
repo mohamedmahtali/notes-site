@@ -63,3 +63,6 @@ Avant IaC, avoir des bases en : [[Cloud]] (ressources, providers), [[Linux]] (SS
 
 > [!tip] Lab pratique
 > → [[Lab IaC — Provisionner un serveur]]
+
+> [!note] Connexion
+> → [[IaC + GitOps]] — Terraform pour l'infra, ArgoCD/Flux pour les apps — une séparation claire

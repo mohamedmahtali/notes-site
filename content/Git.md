@@ -117,3 +117,6 @@ Git est le point de départ — pas de prérequis stricts. Savoir utiliser un te
 
 > [!tip] Lab pratique
 > → [[Cheat sheet Git]]
+
+> [!note] Connexion
+> → [[Git → CI-CD]] — comment un commit déclenche tout le pipeline de déploiement

@@ -66,3 +66,6 @@ Avant Observabilité, avoir des bases en : [[Kubernetes]] ou [[Cloud]] (où tour
 
 > [!tip] Lab pratique
 > → [[Lab Observability — Stack Prometheus Grafana]]
+
+> [!note] Connexion
+> → [[Kubernetes + Observability]] — métriques, logs et traces sur un cluster K8s
