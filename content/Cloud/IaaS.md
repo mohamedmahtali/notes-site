@@ -48,3 +48,10 @@ sudo apt update && sudo apt upgrade -y
 
 > [!note]
 > Avec IaaS, tu es responsable de patcher l'OS, configurer le [[Firewall]], gérer les utilisateurs, etc. Pour moins de gestion, envisager [[PaaS]] ou [[Containers]].
+
+## Explorer
+
+- **[[Cloud computing]]** — modèles IaaS/PaaS/SaaS comparés
+- **[[EC2]]** — VM AWS, familles d'instances, Spot
+- **[[VPC]]** — réseau privé virtuel dans le cloud
+- **[[PaaS]]** — alternative avec moins de gestion OS

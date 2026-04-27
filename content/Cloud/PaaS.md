@@ -46,3 +46,10 @@ gcloud run deploy myapp   --image gcr.io/my-project/myapp:latest   --platform ma
 
 > [!tip]
 > Le PaaS est idéal pour les applications stateless. Pour les applications stateful ou avec des dépendances système spécifiques, IaaS ou [[Containers]] sont préférables.
+
+## Explorer
+
+- **[[Cloud computing]]** — modèles IaaS/PaaS/SaaS comparés
+- **[[IaaS]]** — contrôle total de l'OS, cas d'usage legacy
+- **[[AWS]]** — Elastic Beanstalk, Lambda, RDS
+- **[[Azure]]** — App Service, Azure Functions
