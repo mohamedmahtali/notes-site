@@ -36,9 +36,9 @@ dig example.com A
 dig @8.8.8.8 example.com A
 ```
 
-## Liens
+## Explorer
 
-- [[DNS]]
-- [[A record]]
-- [[CNAME]]
-- [[Resolution]]
+- **[[DNS]]** — fonctionnement complet de la résolution DNS
+- **[[A record]]** — enregistrement IPv4, principal impacté par le TTL
+- **[[CNAME]]** — alias de domaine, TTL affecte la propagation
+- **[[Resolution]]** — chaîne de résolution resolver → authoritative

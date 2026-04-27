@@ -48,3 +48,10 @@ Ctrl+Z               # SIGTSTP (suspend)
 
 > [!tip]
 > Toujours essayer SIGTERM avant SIGKILL. SIGTERM laisse le processus se terminer proprement (flush des buffers, fermeture des connexions). SIGKILL ne peut pas être ignoré mais laisse les ressources dans un état sale.
+
+## Explorer
+
+- **[[SIGTERM]]** — arrêt graceful, gestion dans les applications
+- **[[SIGKILL]]** — arrêt forcé non capturable, dernier recours
+- **[[SIGHUP]]** — rechargement de config (nginx, sshd...)
+- **[[Processes]]** — gestion des processus Linux, ps, top, kill

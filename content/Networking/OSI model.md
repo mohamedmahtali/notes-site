@@ -43,8 +43,9 @@ L3 — Réseau       : IP routing, VPC, security groups
 L2 — Liaison      : VLANs, MAC addresses
 ```
 
-## Liens
+## Explorer
 
-- [[TCP IP]]
-- [[DNS]]
-- [[Networking]]
+- **[[TCP IP]]** — protocoles L3/L4, TCP vs UDP, handshake
+- **[[DNS]]** — résolution de noms, couche Application (L7)
+- **[[Networking]]** — hub page avec tous les sous-thèmes réseau
+- **[[Load balancing]]** — L4 (TCP) vs L7 (HTTP) load balancing
