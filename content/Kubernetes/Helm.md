@@ -58,3 +58,10 @@ helm uninstall myapp
 
 > [!note]
 > Voir [[Charts]] pour la structure d'un chart, [[Templates]] pour la syntaxe Go template, [[Values]] pour la configuration.
+
+## Explorer
+
+- **[[Helm/Releases]]** — releases, révisions, rollback
+- **[[Charts]]** — structure d'un chart, Chart.yaml, templates/
+- **[[Kubernetes]]** — contexte Kubernetes, déploiements sans Helm
+- **[[GitOps]]** — ArgoCD/Flux qui synchronisent des charts Helm depuis Git

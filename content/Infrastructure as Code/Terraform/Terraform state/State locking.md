@@ -51,3 +51,9 @@ aws dynamodb scan --table-name terraform-state-lock
 
 > [!warning]
 > Ne jamais `force-unlock` si un autre apply tourne vraiment. Vérifier d'abord qu'il n'y a pas d'opération en cours. Un force-unlock d'un apply actif peut corrompre le state.
+
+## Explorer
+
+- **[[Terraform state]]** — rôle du state, backend distant S3+DynamoDB
+- **[[Remote state]]** — configuration complète du backend
+- **[[Drift]]** — détecter les divergences entre state et cloud réel

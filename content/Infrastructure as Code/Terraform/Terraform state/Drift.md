@@ -50,3 +50,9 @@ terraform apply    # remet l'instance en t3.medium
 
 > [!tip]
 > Configurer une alerte CI qui tourne `terraform plan` toutes les nuits pour détecter le drift. Un drift non détecté peut mener à des surprises lors du prochain apply.
+
+## Explorer
+
+- **[[Terraform state]]** — rôle du state dans le cycle plan/apply
+- **[[State locking]]** — éviter les applies concurrents
+- **[[Remote state]]** — backend S3/GCS pour la production
