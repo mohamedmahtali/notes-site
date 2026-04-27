@@ -89,3 +89,11 @@ container_memory_working_set_bytes / container_spec_memory_limit_bytes
 
 > [!note]
 > Voir [[USE method]] pour les métriques d'infra, [[RED method]] pour les métriques applicatives, [[Monitoring/Prometheus]] pour la collecte.
+
+## Explorer
+
+- **[[Monitoring/Prometheus|Prometheus]]** — collecte de métriques, scraping, alerting
+- **[[Grafana]]** — dashboards, visualisation des métriques
+- **[[Logging]]** — logs pour le "pourquoi", complément des métriques
+- **[[Tracing]]** — traces distribuées pour identifier les goulots
+- **[[SLO SLA SLI]]** — définir des objectifs de fiabilité mesurables

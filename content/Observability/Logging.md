@@ -124,3 +124,10 @@ topk(10, sum by (path) (rate({app="myapp"} | json | status_code >= 500 [5m])))
 
 > [!note]
 > Voir [[Structured logs]] pour le format JSON, [[Centralized logging]] pour la collecte, [[Loki]] pour la stack Grafana.
+
+## Explorer
+
+- **[[Logging/Loki|Loki]]** — stockage et indexation des logs, intégration Grafana
+- **[[Grafana]]** — visualisation des logs avec Explore + LogQL
+- **[[Metrics]]** — métriques pour le "combien", complément des logs
+- **[[Tracing]]** — traces distribuées corrélées via trace_id dans les logs

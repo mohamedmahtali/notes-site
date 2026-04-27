@@ -49,3 +49,9 @@ kubectl debug -it myapp-abc12   --image=nicolaka/netshoot   --target=app
 
 > [!warning]
 > `kubectl exec` en production doit être une opération exceptionnelle et auditée. Préférer les logs et les métriques pour le débogage quotidien. L'accès exec contourne les contrôles de l'application.
+
+## Explorer
+
+- **[[kubectl]]** — commandes kubectl essentielles (logs, describe, port-forward)
+- **[[Pods]]** — cycle de vie, statuts, pourquoi un pod crashe
+- **[[Logging]]** — `kubectl logs` pour le débogage sans exec
