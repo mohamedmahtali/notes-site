@@ -47,3 +47,10 @@ build:
 
 > [!note]
 > Voir [[Compile]] pour les langages compilés, [[Containerize]] pour Docker, [[Package]] pour npm/pip/maven.
+
+## Explorer
+
+- **[[Pipeline]]** — structure complète du pipeline CI/CD
+- **[[Pipeline caching]]** — cache des dépendances et layers Docker entre runs
+- **[[Pipeline triggers]]** — événements qui déclenchent le build
+- **[[Image scanning]]** — scanner l'image produite avant le push

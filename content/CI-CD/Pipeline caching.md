@@ -53,3 +53,9 @@ key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
 
 > [!note]
 > Voir [[Dependency cache]] pour les détails par gestionnaire de [[Package]], [[Docker layer cache]] pour le cache des builds [[Docker]].
+
+## Explorer
+
+- **[[Pipeline]]** — structure complète du pipeline CI/CD
+- **[[Build stage]]** — étape de build où le cache est le plus utile
+- **[[Pipeline triggers]]** — déclencheurs qui créent de nouveaux runs
